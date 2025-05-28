@@ -1,5 +1,15 @@
 /* DM Sans Font */
 @font-face {
+    font-family: 'DM Sans ExtraLight';
+    src: url('../fonts/DMSans-ExtraLight.woff2') format('woff2'),
+        url('../fonts/DMSans-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
     font-family: 'DM Sans Light';
     src: url('../fonts/DMSans-Light.woff2') format('woff2'),
         url('../fonts/DMSans-Light.woff') format('woff');
@@ -116,18 +126,16 @@ h2 {
 }
 
 h3 {
-    font-size: 32px;
-    /* based on 24px */
+     font-size: clamp(24px, 2.5vw, 32px); /* base 24px → max 32px */
 }
 
 h5 {
-    font-size: 20px;
-    /* based on 16px */
+   font-size: clamp(16px, 1.8vw, 20px); /* base 16px → max 20px */
 }
 
 p {
-    font-size: 26px;
-    /* based on 20px */
+    font-size: clamp(16px, 1.8vw, 20px); /* base 16px → max 20px */
+    color: #2B2B2B;
 }
 
 .dm_light {
