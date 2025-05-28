@@ -1,7 +1,7 @@
      @media(max-width:1600px) {
-          .vision-title {
+          /* .vision-title {
                width: 70%;
-          }
+          } */
      }
      
      @media(max-width:1440px) {
@@ -23,5 +23,11 @@
           }
           .vision-desc {
                margin-top: 30px;
+          }
+     }
+     
+     @media(max-width:575px) {
+          .btn-text {
+               font-size: 14px;
           }
      }
