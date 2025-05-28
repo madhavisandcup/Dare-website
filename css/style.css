@@ -278,3 +278,24 @@ body.navbar-open {
     gap: 40px;
     padding: 24px 0 0;
 }
+
+.button_green .main-btn {
+    background-color: #fff;
+}
+
+.button_green .btn-text {
+    color: #008751;
+}
+
+.button_green .main-btn:hover .btn-text {
+    color: #fff;
+}
+
+.button_green .arrw-btn {
+    border: 1px solid #fff;
+    background-color: #008751;
+}
+
+.button_green .icon-Vector-Strokearrow:before {
+    color: #fff;
+}
