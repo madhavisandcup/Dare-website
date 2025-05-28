@@ -32,51 +32,51 @@
                 <div class="collapse navbar-collapse container" id="navbarNav">
                     <div class="row">
                         <div class="col-lg-4">
-                            <ul class="navbar-nav">
+                            <ul class="navbar-nav mb_2">
                                 <li class="nav-item">
                                     <h3 class="text_green">About</h3>
-                                    <a class="nav-link" href="">The Leader’s Story</a>
-                                    <a class="nav-link" href="">Mission & Vision</a>
-                                    <a class="nav-link" href="">APC Team</a>
-                                    <a class="nav-link" href="">Community Roots</a>
+                                    <a class="nav-link px-0" href=""><span>The Leader’s Story</span></a>
+                                    <a class="nav-link px-0" href=""><span>Mission & Vision</span></a>
+                                    <a class="nav-link px-0" href=""><span>APC Team</span></a>
+                                    <a class="nav-link px-0" href=""><span>Community Roots</span></a>
                                 </li>
                             </ul>
                              <ul class="navbar-nav">
                                 <li class="nav-item">
                                     <h3 class="text_green">Vision & Mission</h3>
-                                    <a class="nav-link" href="">Pillars of Progress</a>
-                                    <a class="nav-link" href="">Track Record</a>
-                                    <a class="nav-link" href="">Policy Priorities</a>
-                                    <a class="nav-link" href="">Our Vision</a>
+                                    <a class="nav-link px-0" href=""><span>Pillars of Progress</span></a>
+                                    <a class="nav-link px-0" href=""><span>Track Record</span></a>
+                                    <a class="nav-link px-0" href=""><span>Policy Priorities</span></a>
+                                    <a class="nav-link px-0" href=""><span>Our Vision</span></a>
                                 </li>
                             </ul>
                         </div>
                         <div class="col-lg-4">
-                            <ul class="navbar-nav">
+                            <ul class="navbar-nav mb_2">
                                 <li class="nav-item">
                                     <h3 class="text_green">Be Part of the Change</h3>
-                                    <a class="nav-link" href="">Ongoing Initiatives</a>
-                                    <a class="nav-link" href="">Events & Rallies</a>
-                                    <a class="nav-link" href="">Volunteer with Us</a>
-                                    <a class="nav-link" href="">Join the Movement</a>
+                                    <a class="nav-link px-0" href=""><span>Ongoing Initiatives</span></a>
+                                    <a class="nav-link px-0" href=""><span>Events & Rallies</span></a>
+                                    <a class="nav-link px-0" href=""><span>Volunteer with Us</span></a>
+                                    <a class="nav-link px-0" href=""><span>Join the Movement</span></a>
                                 </li>
                             </ul>
                              <ul class="navbar-nav">
                                 <li class="nav-item">
                                     <h3 class="text_green">Updates</h3>
-                                    <a class="nav-link" href="">News & Announcements</a>
-                                    <a class="nav-link" href="">Monthly Highlights</a>
-                                    <a class="nav-link" href="">Impact Stories</a>
-                                    <a class="nav-link" href="">Social Media Highlights</a>
+                                    <a class="nav-link px-0" href=""><span>News & Announcements</span></a>
+                                    <a class="nav-link px-0" href=""><span>Monthly Highlights</span></a>
+                                    <a class="nav-link px-0" href=""><span>Impact Stories</span></a>
+                                    <a class="nav-link px-0" href=""><span>Social Media Highlights</span></a>
                                 </li>
                             </ul>
                         </div>
                         <div class="col-lg-4">
-                            <ul class="navbar-nav">
+                            <ul class="navbar-nav mb_2">
                                 <li class="nav-item">
                                     <h3 class="text_green">Join Us</h3>
-                                    <a class="nav-link" href="">Sign Up - For newsletter, volunteering, etc</a>
-                                    <a class="nav-link" href="">Donate - Support the mission financially</a>
+                                    <a class="nav-link px-0" href=""><span>Sign Up - For newsletter, volunteering, etc</span></a>
+                                    <a class="nav-link px-0" href=""><span>Donate - Support the mission financially</span></a>
                                 </li>
                             </ul>
                             <ul class="navbar-nav">

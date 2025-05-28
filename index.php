@@ -1,16 +1,8 @@
-<body class="homepage">
+<body>
+    
     <?php include 'header.php'; ?>
+    <div class="homepage">
 
-
-    
-    
-    
-    <div class="main home"></div>
-
-
-
-
-
-    
-<?php include 'footer.php'; ?>
+    </div>
+    <?php include 'footer.php'; ?>
 </body>
