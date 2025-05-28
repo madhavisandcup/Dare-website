@@ -58,7 +58,7 @@
     animation-delay: 0.6s;
 }
 
-.navbar-toggler {
+.navbar-expand-lg .navbar-toggler {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -120,6 +120,24 @@ body.navbar-open {
     align-items: center;
     justify-content: space-between;
     padding: 50px 0;
+    width: 100%;
+}
+
+.navbar-nav ul h3 {
+    font-family: 'Lato Bold';
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    font-family: 'DM Sans Light';
+    color: #fff;
+    font-size: 26px;
+}
+
+.header-social-icons {
+    display: flex;
+    align-items: center;
+    gap: 50px;
 }
 
 /* homepage */

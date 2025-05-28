@@ -81,6 +81,15 @@
     font-display: swap;
 }
 
+/* Lato font */
+@font-face {
+    font-family: 'Lato Bold';
+    src: url('../fonts/Lato-Bold.woff2') format('woff2'),
+        url('../fonts/Lato-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
 
 body {
     font-family: 'DM Sans Regular';
@@ -107,15 +116,18 @@ h2 {
 }
 
 h3 {
-    font-size: 32px; /* based on 24px */
+    font-size: 32px;
+    /* based on 24px */
 }
 
 h5 {
-    font-size: 20px; /* based on 16px */
+    font-size: 20px;
+    /* based on 16px */
 }
 
 p {
-    font-size: 26px; /* based on 20px */
+    font-size: 26px;
+    /* based on 20px */
 }
 
 .dm_light {
@@ -148,6 +160,10 @@ p {
 
 .pd_regular {
     font-family: 'Playfair Display Regular';
+}
+
+.lato_bold {
+    font-family: 'Lato Bold';
 }
 
 .text_green {
