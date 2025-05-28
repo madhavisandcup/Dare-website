@@ -1,5 +1,4 @@
 /* header */
-
 header {
     position: fixed;
     top: 0;
@@ -68,7 +67,7 @@ header {
     animation-delay: 0.6s;
 }
 
-.navbar-toggler {
+.navbar-expand-lg .navbar-toggler {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -138,10 +137,7 @@ body.navbar-open {
     align-items: center;
     justify-content: space-between;
     padding: 50px 0;
-}
-
-.sec-space {
-    margin-top: 140px;
+    width: 100%;
 }
 
 .nav-item h3 {
@@ -209,6 +205,9 @@ body.navbar-open {
 }
 
 /* homepage */
+.sec-space {
+    margin-top: 140px;
+}
 
 .container {
     width: 100%;
@@ -216,10 +215,6 @@ body.navbar-open {
     margin: 0 auto;
 }
 
-.sec-space {
-     margin-top: 140px;
-    }
-    
 .homepage {
     position: relative;
     background-image: url(../images/hero-banner.webp);
