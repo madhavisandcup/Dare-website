@@ -119,10 +119,11 @@ a:hover {
 
 h1 {
     font-size: clamp(36px, 5.56vw, 106px); /* 80px on figma */
+    line-height: 1;
 }
 
 h2 {
-    font-size: clamp(36px, 4.44vw, 85px); /* 64px on figma */
+    font-size: clamp(28px, 4.44vw, 85px); /* 64px on figma */
 }
 
 h3 {
@@ -136,6 +137,7 @@ h5 {
 p {
     font-size: clamp(16px, 1.39vw, 27px); /* 20px on figma */
     color: #2B2B2B;
+    line-height: 1.5;
 }
 
 .dm_light {

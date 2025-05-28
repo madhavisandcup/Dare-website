@@ -6,6 +6,8 @@ header {
     left: 0;
     width: 100%;
     z-index: 9;
+    background-color: #000;
+    overflow: hidden;
 }
 
 .navbar-mobile .navbar-toggler span {
@@ -144,7 +146,7 @@ body.navbar-open {
 .navbar-right {
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 30px;
     z-index: 99;
 }
 
@@ -157,7 +159,7 @@ body.navbar-open {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 50px 0;
+    padding: 40px 0;
     width: 100%;
 }
 
@@ -242,7 +244,7 @@ body.navbar-open {
 
 .homepage {
     position: relative;
-    background-image: url(../images/hero-banner.webp);
+    background: url(../images/hero-banner.webp), #000;
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
@@ -259,17 +261,22 @@ body.navbar-open {
 }
 
 .hero-banner {
-    padding: 0 0 100px;
+    padding: 144px 0 100px;
     height: 100%;
     display: flex;
     align-items: start;
     flex-direction: column;
-    justify-content: center;
+    height: 100%;
+    position: relative;
 }
 
 .hero-title p {
-    width: 45vw;
+    width: 42vw;
     padding: 24px 0 0;
+}
+
+.hero-layout {
+    margin-top: 60px;
 }
 
 .hero-banner .connect-btn {
@@ -314,4 +321,47 @@ body.navbar-open {
     -moz-transform: scale(1.2);
     -ms-transform: scale(1.2);
     -o-transform: scale(1.2);
+}
+
+.inner-down-arrow {
+    border: 2px solid #fff;
+    background: transparent;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.5s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    -webkit-transition: background 0.5s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    -moz-transition: background 0.5s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    -ms-transition: background 0.5s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    -o-transition: background 0.5s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.inner-down-arrow .down_arrow_size {
+    transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    -webkit-transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    -moz-transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    -ms-transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    -o-transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.inner-down-arrow:hover .down_arrow_size {
+    transform: rotate(90deg);
+}
+
+.inner-down-arrow:hover {
+    background: #008751;
+    border-color: #008751;
+}
+
+.down-arrow {
+    position: absolute;
+    right: 0;
+    bottom: 100px;
+}
+
+.mobile-view-img {
+    display: none;
 }

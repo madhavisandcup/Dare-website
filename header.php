@@ -18,7 +18,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg container">
+        <nav class="navbar navbar-expand-lg container py-0">
             <div class="navbar-mobile">
                 <a class="navbar-brand p-0" href="index"><img src="./images/main-logo.svg" alt="main-logo" class="img-fluid" /></a>
                 <div class="navbar-right">

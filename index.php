@@ -4,29 +4,42 @@
     <div class="homepage">
         <section class="container">
             <div class="hero-banner">
-                <div class="hero-title">
-                    <h1 class="text-white mb-0">
-                        <span class="">
-                            <span class="">Hope in</span>
-                            <span class="pd_italic"><em>Motion</em><span class="text_green">,</span></span>
-                        </span>
-                        <span class="d-block">
-                            <span class="pd_italic"><em>Leadership</em></span>
-                            <span class="">in Action<span class="text_green">.</span>
+                <div class="hero-layout">
+                    <div class="hero-title">
+                        <h1 class="text-white mb-0">
+                            <span class="">
+                                <span class="">Hope in</span>
+                                <span class="pd_italic"><em>Motion</em><span class="text_green">,</span></span>
                             </span>
-                    </h1>
-                    <p class="text-white">Oluwadare Owolabi leads with vision, compassion, and a promise to serve the people not power.</p>
-                </div>
-                <div class="connect-btn">
-                    <div class="main-btn-inner button_green">
-                        <a href="#" class="main-btn position-relative"><span class="btn-text">Let's discuss an idea</span><span class="arrw-btn">
-                            <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
-                        </a>
+                            <span class="d-block">
+                                <span class="pd_italic"><em>Leadership</em></span>
+                                <span class="">in Action<span class="text_green">.</span>
+                                </span>
+                        </h1>
+                        <p class="text-white mb-0">Oluwadare Owolabi leads with vision, compassion, and a promise to serve the people not power.</p>
                     </div>
-                    <div class="hero-apc">
-                        <a href=""><img src="./images/apc-logo.svg" class="apc-logo" alt="apc-logo"></a>
+                    <div class="connect-btn">
+                        <div class="main-btn-inner button_green">
+                            <a href="#" class="main-btn position-relative"><span class="btn-text">Let's discuss an idea</span><span class="arrw-btn">
+                                    <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
+                            </a>
+                        </div>
+                        <div class="hero-apc">
+                            <a href=""><img src="./images/apc-logo.svg" class="apc-logo" alt="apc-logo"></a>
+                        </div>
+                    </div>
+                    <div class="mobile-view-img">
+                        <div class="m-hero-img">
+                            <img src="./images/hero-img-mobile.webp" alt="hero-img-mobile" class="img-fluid">
+                        </div>
                     </div>
                 </div>
+                <div class="down-arrow">
+                    <a class="inner-down-arrow" href="">
+                        <img src="./images/down-arrow.svg" alt="down-arrow" class="img-fluid down_arrow_size">
+                    </a>
+                </div>
+
             </div>
         </section>
 
