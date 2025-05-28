@@ -1,5 +1,14 @@
 /* header */
 
+header {
+     position: fixed;
+     top: 0;
+     right: 0;
+     left: 0;
+     width: 100%;
+     z-index: 9;
+}
+
 .navbar-mobile .navbar-toggler span {
      display: block;
      width: 30px;
@@ -113,6 +122,10 @@ body.navbar-open {
      align-items: center;
      gap: 50px;
      z-index: 99;
+}
+
+.navbar-expand-lg .navbar-collapse {
+     display: block !important;
 }
 
 .navbar .navbar-mobile {

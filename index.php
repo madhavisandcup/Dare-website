@@ -1,5 +1,7 @@
-<body class="homepage">
+<body>
+    
     <?php include 'header.php'; ?>
+    <div class="homepage">
 
 
     
@@ -15,7 +17,8 @@
         </div>
     </section>
 
-
+</div>
 
 <?php include 'footer.php'; ?>
+
 </body>
