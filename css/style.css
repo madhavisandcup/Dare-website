@@ -97,8 +97,9 @@ header {
 .navbar-expand-lg .navbar-toggler:hover {
     background: rgba(0, 52, 31, 0.76);
 }
-.navbar-expand-lg .navbar-toggler:hover span{
-       background: #86BFA8; 
+
+.navbar-expand-lg .navbar-toggler:hover span {
+    background: #86BFA8;
 }
 
 .navbar-toggler:focus,
@@ -256,9 +257,24 @@ body.navbar-open {
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
 }
+
 .hero-banner {
     padding: 0 0 100px;
     height: 100%;
     display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-title p {
+    width: 45vw;
+    padding: 24px 0 0;
+}
+
+.hero-banner .connect-btn {
+    display: flex;
     align-items: center;
+    gap: 40px;
+    padding: 24px 0 0;
 }
