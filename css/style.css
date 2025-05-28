@@ -56,6 +56,7 @@ header {
 }
 
 .main-menu-wrapper .navbar-nav {
+    height: 38vh;
     -webkit-animation: fadeOut 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
     animation: fadeOut 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
     animation-delay: 0s;
@@ -74,11 +75,30 @@ header {
     align-items: end;
     gap: 6px;
     border: none;
-    padding: 0;
+    padding: 0 18px 0 0;
     position: relative;
     z-index: 999;
     cursor: pointer;
     background: transparent;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    transition: background-color 0.2s ease, border-radius 0.2s ease;
+    -webkit-transition: background-color 0.2s ease, border-radius 0.2s ease;
+    -moz-transition: background-color 0.2s ease, border-radius 0.2s ease;
+    -ms-transition: background-color 0.2s ease, border-radius 0.2s ease;
+    -o-transition: background-color 0.2s ease, border-radius 0.2s ease;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.navbar-expand-lg .navbar-toggler:hover {
+    background: rgba(0, 52, 31, 0.76);
+}
+.navbar-expand-lg .navbar-toggler:hover span{
+       background: #86BFA8; 
 }
 
 .navbar-toggler:focus,
@@ -202,6 +222,10 @@ body.navbar-open {
 
 .mb_2 {
     margin-bottom: 32px;
+}
+
+.nav-itemlist.join-us {
+    width: 20em;
 }
 
 /* homepage */

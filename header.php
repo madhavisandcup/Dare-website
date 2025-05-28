@@ -83,7 +83,7 @@
                             <ul class="navbar-nav mb_2">
                                 <li class="nav-item">
                                     <h3 class="text_green">Join Us</h3>
-                                    <div class="nav-itemlist">
+                                    <div class="nav-itemlist join-us">
                                         <a class="nav-link px-0" href=""><span>Sign Up - For newsletter, volunteering, etc</span></a>
                                         <a class="nav-link px-0" href=""><span>Donate - Support the mission financially</span></a>
                                     </div>
