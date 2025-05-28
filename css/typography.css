@@ -118,23 +118,23 @@ a:hover {
 }
 
 h1 {
-    font-size: clamp(36px, 5vw, 80px);
+    font-size: clamp(36px, 5.56vw, 106px); /* 80px on figma */
 }
 
 h2 {
-    font-size: clamp(24px, 5vw, 64px);
+    font-size: clamp(36px, 4.44vw, 85px); /* 64px on figma */
 }
 
 h3 {
-     font-size: clamp(24px, 2.5vw, 32px); /* base 24px → max 32px */
+     font-size: clamp(18px, 1.67vw, 32px); /* 24px on figma */
 }
 
 h5 {
-   font-size: clamp(16px, 1.8vw, 20px); /* base 16px → max 20px */
+   font-size: clamp(14px, 1.11vw, 21px); /* 16px on figma */
 }
 
 p {
-    font-size: clamp(20px, 2.2vw, 26px); /* base 16px → max 20px */
+    font-size: clamp(16px, 1.39vw, 27px); /* 20px on figma */
     color: #2B2B2B;
 }
 
