@@ -11,6 +11,7 @@
     <link href="css/typography.css" rel="stylesheet" type="text/css" />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     <link href="css/style-02.css" rel="stylesheet" type="text/css" />
+    <link href="css/res-02.css" rel="stylesheet" type="text/css" />
     <link href="css/responsive.css" rel="stylesheet" type="text/css" />
 
 </head>
