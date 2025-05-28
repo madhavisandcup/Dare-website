@@ -23,8 +23,8 @@
                             <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
                         </a>
                     </div>
-                    <div class="apc">
-                        <img src="./images/apc-logo.svg" class="apc-logo" alt="apc-logo">
+                    <div class="hero-apc">
+                        <a href=""><img src="./images/apc-logo.svg" class="apc-logo" alt="apc-logo"></a>
                     </div>
                 </div>
             </div>
