@@ -6,6 +6,31 @@ document.addEventListener("DOMContentLoaded", function() {
                document.body.classList.toggle("navbar-open");
           });
      }
+
+     //Initiative interactions
+     // document.querySelectorAll('.in-key.width-sm').forEach(function(elem) {
+     //      elem.addEventListener('mouseenter', function() {
+     //           const container = elem.closest('.initiative-item');
+     //           if (container) container.classList.add('key-sm-hover');
+     //      });
+
+     //      elem.addEventListener('mouseleave', function() {
+     //           const container = elem.closest('.initiative-item');
+     //           if (container) container.classList.remove('key-sm-hover');
+     //      });
+     // });
+
+     // document.querySelectorAll('.in-key.width-lg').forEach(function(elem) {
+     //      elem.addEventListener('mouseenter', function() {
+     //           const container = elem.closest('.initiative-item');
+     //           if (container) container.classList.add('key-lg-hover');
+     //      });
+
+     //      elem.addEventListener('mouseleave', function() {
+     //           const container = elem.closest('.initiative-item');
+     //           if (container) container.classList.remove('key-lg-hover');
+     //      });
+     // });
 });
 
 

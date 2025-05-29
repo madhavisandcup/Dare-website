@@ -61,14 +61,14 @@
             </div>
 
             <div class="initiative-main">
-                <div class="initiative-item radius-16">
-                    <div class="in-key width-lg">
+                <div class="initiative-item">
+                    <div class="in-key width-lg radius-16">
                         <div class="in-key-content">
                             <div>
                                 <h3 class="text_green dm_medium">Security</h3>
                                 <div class="in-key-desc">
                                     <p>Ensuring safe public spaces through targeted lighting, community patrols, and a dignity-first approach to local security.</p>
-                                    <p>Increased banditry, terrorism, and kidnappings have left communities in fear and disrupted livelihoods. State security forces are often overstretched or under-resourced.</p>
+                                    <p class="key-desc-two">Increased banditry, terrorism, and kidnappings have left communities in fear and disrupted livelihoods. State security forces are often overstretched or under-resourced.</p>
                                 </div>
                             </div>
                             <div class="main-btn-inner">
@@ -81,7 +81,105 @@
                             <img src="images/initiatives/i-01.jpg" class="img-fluid radius-16" alt="security" />
                         </div>
                     </div>
-                    <div class="in-key width-sm"></div>
+                    <div class="in-key width-sm radius-16">
+                         <div class="in-key-img">
+                            <img src="images/initiatives/i-01.jpg" class="img-fluid radius-16" alt="infrastructure" />
+                        </div>
+                        <div class="in-key-content">
+                            <div>
+                                <h3 class="text_green dm_medium">Infrastructure</h3>
+                                <div class="in-key-desc">
+                                    <p class="mb-0">Reconnecting rural communities through road rehabilitation, improved transit access, and investments in everyday mobility.</p>
+                                    <p class="key-desc-two">Increased banditry, terrorism, and kidnappings have left communities in fear and disrupted livelihoods. State security forces are often overstretched or under-resourced.</p>
+                                </div>
+                            </div>
+                             <div class="main-btn-inner">
+                                <a href="#" class="main-btn position-relative"><span class="btn-text">Know his vision</span><span class="arrw-btn">
+                                    <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="initiative-item">
+                     <div class="in-key width-sm radius-16">
+                         <div class="in-key-img">
+                            <img src="images/initiatives/i-01.jpg" class="img-fluid radius-16" alt="infrastructure" />
+                        </div>
+                        <div class="in-key-content">
+                            <div>
+                                <h3 class="text_green dm_medium">Water Access</h3>
+                                <div class="in-key-desc">
+                                    <p class="mb-0">Delivering clean, reliable water to underserved wards by investing in solar-powered infrastructure and accessible public points.</p>
+                                    <p class="key-desc-two">Millions of Nigerians still lack clean drinking water. Rural areas suffer most, leading to diseases and school absenteeism.</p>
+                                </div>
+                            </div>
+                             <div class="main-btn-inner">
+                                <a href="#" class="main-btn position-relative"><span class="btn-text">Know his vision</span><span class="arrw-btn">
+                                    <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="in-key width-lg radius-16">
+                        <div class="in-key-content">
+                            <div>
+                                <h3 class="text_green dm_medium">Education & Youth Development</h3>
+                                <div class="in-key-desc">
+                                    <p>Reviving public schools with structural repairs, learning materials, and environments that support quality, equitable education.</p>
+                                    <p  class="key-desc-two">Dilapidated schools, outdated curricula, and a lack of alignment between education & employment have left millions of youth behind.</p>
+                                </div>
+                            </div>
+                            <div class="main-btn-inner">
+                                <a href="#" class="main-btn position-relative"><span class="btn-text">Know his vision</span><span class="arrw-btn">
+                                    <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="in-key-img">
+                            <img src="images/initiatives/i-01.jpg" class="img-fluid radius-16" alt="security" />
+                        </div>
+                    </div>                   
+                </div>
+                <div class="initiative-item">
+                    <div class="in-key width-lg radius-16">
+                        <div class="in-key-content">
+                            <div>
+                                <h3 class="text_green dm_medium">Employment & Economic Access</h3>
+                                <div class="in-key-desc">
+                                    <p>Enabling local livelihoods through micro-enterprise support, youth training, and grassroots job-creation initiatives.</p>
+                                    <p class="key-desc-two">Nigeria’s growing youth population lacks stable employment. The informal sector is large but unsupported.</p>
+                                </div>
+                            </div>
+                            <div class="main-btn-inner">
+                                <a href="#" class="main-btn position-relative"><span class="btn-text">Know his vision</span><span class="arrw-btn">
+                                    <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="in-key-img">
+                            <img src="images/initiatives/i-01.jpg" class="img-fluid radius-16" alt="security" />
+                        </div>
+                    </div>
+                    <div class="in-key width-sm radius-16">
+                         <div class="in-key-img">
+                            <img src="images/initiatives/i-01.jpg" class="img-fluid radius-16" alt="infrastructure" />
+                        </div>
+                        <div class="in-key-content">
+                            <div>
+                                <h3 class="text_green dm_medium">Digital Empowerment</h3>
+                                <div class="in-key-desc">
+                                    <p class="mb-0">Creating opportunities through public tech labs, digital skill training, and access to tools that prepare young people for tomorrow.</p>
+                                    <p class="key-desc-two">Many young people and communities across Nigeria struggle with poor internet access, limited digital literacy, and little exposure to technology.</p>
+                                </div>
+                            </div>
+                             <div class="main-btn-inner">
+                                <a href="#" class="main-btn position-relative"><span class="btn-text">Know his vision</span><span class="arrw-btn">
+                                    <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
