@@ -365,6 +365,27 @@
           margin-top: 24px;
      }
      
+     .capture-img.one img {
+          width: 26.4vw;
+          height: 15.6vw;
+     }
+     
+     .capture-img.two img {
+          width: clamp(150px, 13.13vw, 252px);
+          height: clamp(220px, 20.78vw, 399px);
+     }
+     
+     .capture-img.three img {
+          width: clamp(200px, 17.08vw, 328px);
+          height: clamp(280px, 25.36vw, 487px);
+          margin-left: 150px;
+     }
+     
+     .capture-images {
+          display: flex;
+          gap: 48px;
+     }
+     
      @-moz-keyframes spin {
           100% {
                -moz-transform: rotate(360deg);

@@ -308,6 +308,29 @@
         </div>
     </section>
 
+    <section class="voice-wrapper capture-mm sec-space">
+        <div class="container">
+            <div class="center-heading text-center">
+                <h2 class="main-title text-white w-100">Captured Moments of<i class="pd_italic">Impact</i><span class="dor-anima ted text_green">.</span></h2>
+                <p class="vision-desc text-white p-0">A visual journey of change, hope, and community in motion.</p>
+            </div>
+
+            <div class="initiative-main voices-inner">
+                <div class="capture-images">
+                    <div class="capture-img one">
+                         <img src="images/captures/cap-01.jpg" class="img-fluid radius-8" alt="user" />
+                    </div>
+                    <div class="capture-img two">
+                         <img src="images/captures/cap-02.jpg" class="img-fluid radius-8" alt="user" />
+                    </div>
+                    <div class="capture-img three">
+                         <img src="images/captures/cap-03.jpg" class="img-fluid radius-8" alt="user" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 <?php include 'footer.php'; ?>
 
 </body>
