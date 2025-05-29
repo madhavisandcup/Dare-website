@@ -396,6 +396,9 @@ body.navbar-open {
     justify-content: center;
     align-items: center;
     border: none;
+    width: 100%;
+    max-width: clamp(320px, 88.8vw, 1707px);
+    margin: 0 auto;
 }
 
 .tabs-name.nav-link {
@@ -415,6 +418,54 @@ body.navbar-open {
     color: #fff;
     font-family: 'DM Sans Medium';
 }
-.event-tabs-wrapper .tab-content{
+
+.event-tabs-wrapper .tab-content {
     padding: 60px 0 0;
+    overflow: hidden;
+}
+
+.event-card {
+    width: 28.5vw;
+    overflow: hidden;
+}
+
+.event_card_img {
+    position: relative;
+    width: fit-content;
+}
+
+.card_img_size {
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    width: clamp(410px, 28.54vw, 547px);
+    height: clamp(280px, 19.375vw, 373px);
+}
+
+.card_arrow.down-arrow {
+    right: 26px;
+    bottom: 20px;
+}
+
+.card_arrow .inner-down-arrow {
+    height: 50px;
+    width: 50px;
+}
+
+.card_arrow .inner-down-arrow .down_arrow_size {
+    width: 20px;
+}
+
+.card_title {
+    margin-top: 40px;
+}
+
+.card_title h5 {
+    margin-bottom: 22px;
+}
+
+.event-tabs-wrapper .swiper {
+    overflow: hidden;
 }
