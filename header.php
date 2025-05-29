@@ -18,7 +18,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg container">
+        <nav class="navbar navbar-expand-lg container py-0">
             <div class="navbar-mobile">
                 <a class="navbar-brand p-0" href="index"><img src="./images/main-logo.svg" alt="main-logo" class="img-fluid" /></a>
                 <div class="navbar-right">
@@ -35,7 +35,7 @@
             <div class="main-menu-wrapper">
                 <div class="collapse navbar-collapse container" id="navbarNav">
                     <div class="row">
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-md-6">
                             <ul class="navbar-nav mb_2">
                                 <li class="nav-item">
                                     <h3 class="text_green">About</h3>
@@ -59,7 +59,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-md-6">
                             <ul class="navbar-nav mb_2">
                                 <li class="nav-item">
                                     <h3 class="text_green">Be Part of the Change</h3>
@@ -83,7 +83,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-md-6">
                             <ul class="navbar-nav mb_2">
                                 <li class="nav-item">
                                     <h3 class="text_green">Join Us</h3>
@@ -97,16 +97,16 @@
                                 <li class="nav-item">
                                     <h3 class="text_green">Contact Us</h3>
                                     <div class="header-social-icons">
-                                        <a href="">
+                                        <a href="" class="scale_effect">
                                             <img src="./images/twitter.svg" alt="twitter" class="img-fluid social_v">
                                         </a>
-                                        <a href="">
+                                        <a href="" class="scale_effect">
                                             <img src="./images/linkedin.svg" alt="linkedin" class="img-fluid social_v">
                                         </a>
-                                        <a href="">
+                                        <a href="" class="scale_effect">
                                             <img src="./images/instagram.svg" alt="instagram" class="img-fluid social_v">
                                         </a>
-                                        <a href="">
+                                        <a href="" class="scale_effect">
                                             <img src="./images/facebook.svg" alt="facebook" class="img-fluid social_v">
                                         </a>
                                     </div>
