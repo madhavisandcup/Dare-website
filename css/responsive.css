@@ -226,12 +226,34 @@
     }
 
     .down-arrow {
-        bottom: 30px;
+        position: relative;
+        margin-left: auto;
+        bottom: 100px;
+        right: 16px;
+        left: auto;
+    }
+
+    .hero-img-mobile {
+        object-position: top;
+        height: 460px;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 479px) {
+    .hero-img-mobile {
+        height: auto;
     }
 }
 
 @media (max-width: 380px) {
     .hero-title p {
         width: 100%;
+    }
+
+    .down-arrow {
+        right: 8px;
+        bottom: 80px;
     }
 }
