@@ -19,7 +19,7 @@
                         <p class="text-white mb-0">Oluwadare Owolabi leads with vision, compassion, and a promise to serve the people not power.</p>
                     </div>
                     <div class="connect-btn">
-                        <div class="main-btn-inner button_green">
+                        <div class="main-btn-inner button_green m-0">
                             <a href="#" class="main-btn position-relative"><span class="btn-text">Let's discuss an idea</span><span class="arrw-btn">
                                     <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
                             </a>
@@ -47,7 +47,7 @@
     <section class="events-wrapper sec-space overflow-hidden">
         <div class="container">
             <div class="center-heading text-center">
-                <h2 class="vision-title w-100">Be Part of the <i class="pd_italic">Movement</i><span class="dor-anima ted text_green">.</span></h2>
+                <h2 class="main-title w-100">Be Part of the <i class="pd_italic">Movement</i><span class="dor-anima ted text_green">.</span></h2>
                 <p class="vision-desc p-0">See where we’ll be next rallies, town halls, and moments that matter.</p>
             </div>
         </div>
@@ -95,15 +95,21 @@
                 <div class="tab-pane fade show active" id="nav-jan" role="tabpanel" aria-labelledby="nav-jan-tab" tabindex="0">
                     <!-- Swiper -->
                     <div class="swiper EventSlider">
-                        <div class="swiper-wrapper">
+                        <div class="swiper-wrapper h-auto">
                             <!-- Slides -->
                             <div class="swiper-slide">
-                                <div class="event-card lg">
+                                <a class="event-card lg hover_card" href="">
                                     <div class="event_card_img">
+                                        <div class="overlay_date_time">
+                                            <div class="inner-date-time">
+                                                <img src="./images/clock-icon.svg" alt="clock-icon" class="clock_size">
+                                                <span class="dt-text">Feb 8, 10:00 AM</span>
+                                            </div>
+                                        </div>
                                         <img src="./images/events-image/culture-center.webp" alt="culture-center" class="card_img_size">
                                         <div class="card_arrow down-arrow">
                                             <div class="inner-down-arrow">
-                                                <img src="./images/down-arrow.svg" alt="down-arrow" class="img-fluid down_arrow_size">
+                                                <img src="./images/event_down_arrow.svg" alt="down-arrow" class="img-fluid down_arrow_size">
                                             </div>
                                         </div>
                                     </div>
@@ -111,15 +117,21 @@
                                         <h5 class="text-black">Cultural Centre, <i class="pd_italic">Ibadan</i></h5>
                                         <h3 class="mb-0">Grassroots Rising – Empowering Local Talent</h3>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                             <div class="swiper-slide">
-                                <div class="event-card lg">
+                                <a class="event-card lg hover_card" href="">
                                     <div class="event_card_img">
+                                        <div class="overlay_date_time">
+                                            <div class="inner-date-time">
+                                                <img src="./images/clock-icon.svg" alt="clock-icon" class="clock_size">
+                                                <span class="dt-text">Feb 8, 10:00 AM</span>
+                                            </div>
+                                        </div>
                                         <img src="./images/events-image/civic-hive.webp" alt="civic-hive" class="card_img_size">
                                         <div class="card_arrow down-arrow">
                                             <div class="inner-down-arrow">
-                                                <img src="./images/down-arrow.svg" alt="down-arrow" class="img-fluid down_arrow_size">
+                                                <img src="./images/event_down_arrow.svg" alt="down-arrow" class="img-fluid down_arrow_size">
                                             </div>
                                         </div>
                                     </div>
@@ -127,15 +139,21 @@
                                         <h5 class="text-black">Civic Hive, <i class="pd_italic">Lagos</i></h5>
                                         <h3 class="mb-0">Naija NextGen Meetup Digital morrow</h3>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                             <div class="swiper-slide">
-                                <div class="event-card lg">
+                                <a class="event-card lg hover_card" href="">
                                     <div class="event_card_img">
+                                        <div class="overlay_date_time">
+                                            <div class="inner-date-time">
+                                                <img src="./images/clock-icon.svg" alt="clock-icon" class="clock_size">
+                                                <span class="dt-text">Feb 8, 10:00 AM</span>
+                                            </div>
+                                        </div>
                                         <img src="./images/events-image/culture-center.webp" alt="culture-center" class="card_img_size">
                                         <div class="card_arrow down-arrow">
                                             <div class="inner-down-arrow">
-                                                <img src="./images/down-arrow.svg" alt="down-arrow" class="img-fluid down_arrow_size">
+                                                <img src="./images/event_down_arrow.svg" alt="down-arrow" class="img-fluid down_arrow_size">
                                             </div>
                                         </div>
                                     </div>
@@ -143,15 +161,21 @@
                                         <h5 class="text-black">Cultural Centre, <i class="pd_italic">Ibadan</i></h5>
                                         <h3 class="mb-0">Grassroots Rising – Empowering Local Talent</h3>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                             <div class="swiper-slide">
-                                <div class="event-card lg">
+                                <a class="event-card lg hover_card" href="">
                                     <div class="event_card_img">
+                                        <div class="overlay_date_time">
+                                            <div class="inner-date-time">
+                                                <img src="./images/clock-icon.svg" alt="clock-icon" class="clock_size">
+                                                <span class="dt-text">Feb 8, 10:00 AM</span>
+                                            </div>
+                                        </div>
                                         <img src="./images/events-image/civic-hive.webp" alt="civic-hive" class="card_img_size">
                                         <div class="card_arrow down-arrow">
                                             <div class="inner-down-arrow">
-                                                <img src="./images/down-arrow.svg" alt="down-arrow" class="img-fluid down_arrow_size">
+                                                <img src="./images/event_down_arrow.svg" alt="down-arrow" class="img-fluid down_arrow_size">
                                             </div>
                                         </div>
                                     </div>
@@ -159,7 +183,51 @@
                                         <h5 class="text-black">Civic Hive, <i class="pd_italic">Lagos</i></h5>
                                         <h3 class="mb-0">Naija NextGen Meetup Digital morrow</h3>
                                     </div>
-                                </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="event-card lg hover_card" href="">
+                                    <div class="event_card_img">
+                                        <div class="overlay_date_time">
+                                            <div class="inner-date-time">
+                                                <img src="./images/clock-icon.svg" alt="clock-icon" class="clock_size">
+                                                <span class="dt-text">Feb 8, 10:00 AM</span>
+                                            </div>
+                                        </div>
+                                        <img src="./images/events-image/civic-hive.webp" alt="civic-hive" class="card_img_size">
+                                        <div class="card_arrow down-arrow">
+                                            <div class="inner-down-arrow">
+                                                <img src="./images/event_down_arrow.svg" alt="down-arrow" class="img-fluid down_arrow_size">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card_title">
+                                        <h5 class="text-black">Civic Hive, <i class="pd_italic">Lagos</i></h5>
+                                        <h3 class="mb-0">Naija NextGen Meetup Digital morrow</h3>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="event-card lg hover_card" href="">
+                                    <div class="event_card_img">
+                                        <div class="overlay_date_time">
+                                            <div class="inner-date-time">
+                                                <img src="./images/clock-icon.svg" alt="clock-icon" class="clock_size">
+                                                <span class="dt-text">Feb 8, 10:00 AM</span>
+                                            </div>
+                                        </div>
+                                        <img src="./images/events-image/civic-hive.webp" alt="civic-hive" class="card_img_size">
+                                        <div class="card_arrow down-arrow">
+                                            <div class="inner-down-arrow">
+                                                <img src="./images/event_down_arrow.svg" alt="down-arrow" class="img-fluid down_arrow_size">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card_title">
+                                        <h5 class="text-black">Civic Hive, <i class="pd_italic">Lagos</i></h5>
+                                        <h3 class="mb-0">Naija NextGen Meetup Digital morrow</h3>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -187,6 +255,12 @@
 
                 <div class="tab-pane fade" id="nav-dec" role="tabpanel" aria-labelledby="nav-dec-tab" tabindex="0">...</div>
 
+            </div>
+
+            <div class="events_btn main-btn-inner">
+                <a href="#" class="main-btn position-relative"><span class="btn-text">Explore more</span><span class="arrw-btn">
+                        <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
+                </a>
             </div>
         </div>
     </section>
