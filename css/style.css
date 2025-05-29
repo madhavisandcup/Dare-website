@@ -323,6 +323,22 @@ body.navbar-open {
     -o-transform: scale(1.2);
 }
 
+.scale_effect {
+    transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    -webkit-transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    -moz-transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    -ms-transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    -o-transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.scale_effect:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
 .inner-down-arrow {
     border: 2px solid #fff;
     background: transparent;
