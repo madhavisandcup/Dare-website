@@ -381,3 +381,40 @@ body.navbar-open {
 .mobile-view-img {
     display: none;
 }
+
+/* events-section */
+.center-heading h2 {
+    margin-bottom: 10px;
+}
+
+.event-tabs-wrapper {
+    padding: 50px 0 60px;
+}
+
+.event-tabs-wrapper .nav-tabs {
+    gap: 14px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.tabs-name.nav-link {
+    color: #767676;
+    padding: 12px 34px;
+    border: transparent;
+    border-radius: 999px;
+}
+
+.tabs-name.nav-link h5 {
+    margin-bottom: 0;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    background-color: #008751;
+    color: #fff;
+    font-family: 'DM Sans Medium';
+}
+.event-tabs-wrapper .tab-content{
+    padding: 60px 0 0;
+}
