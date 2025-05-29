@@ -7,7 +7,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <h2 class="vision-title">Familiar <i class="pd_italic">Faces<span class="text_green">,</span></i> Rising <i class="pd_italic">Vision</i><span class="dor-animated text_green">.</span></h2>
+                    <h2 class="main-title">Familiar <i class="pd_italic">Faces<span class="text_green">,</span></i> Rising <i class="pd_italic">Vision</i><span class="dor-animated text_green">.</span></h2>
                     <div class="main-btn-inner">
                         <a href="#" class="main-btn position-relative"><span class="btn-text">The Heart Behind All</span><span class="arrw-btn">
                             <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
@@ -39,7 +39,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-7">
-                    <h2 class="vision-title">Backed by<span class="apc-img-animate d-inline-block"><img src="images/apc-lg.svg" alt="apc"></span><i class="pd_italic">Vision<span class="text_green">,</span></i> Driven by <i class="pd_italic">Purpose</i><span class="dor-animated text_green">.</span></h2>
+                    <h2 class="main-title">Backed by<span class="apc-img-animate d-inline-block"><img src="images/apc-lg.svg" alt="apc"></span><i class="pd_italic">Vision<span class="text_green">,</span></i> Driven by <i class="pd_italic">Purpose</i><span class="dor-animated text_green">.</span></h2>
                 </div>
                  <div class="col-md-5">
                     <p class="vision-desc">Oluwadare is not on this journey alone - he's backed by the All Progressives Congress (APC), a driving force for national progress.</p>
@@ -53,7 +53,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <h2 class="vision-title">Our Key <i class="pd_italic">Initiatives</i><span class="dor-animated text_green">.</span></h2>
+                    <h2 class="main-title">Our Key <i class="pd_italic">Initiatives</i><span class="dor-animated text_green">.</span></h2>
                 </div>
                  <div class="col-md-6">
                     <p class="vision-desc">At the heart of his mission lies a deep, unshakable hope — for people, for progress, for Nigeria. He stands for a future shaped by vision and built on trust. Born and raised in Lagos, Oluwadare understands the everyday struggles of Nigerians unreliable transport, rising costs, and families doing everything they could to get by.</p>
@@ -178,6 +178,129 @@
                                     <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
                                 </a>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="voice-wrapper sec-space">
+        <div class="container">
+            <div class="center-heading text-center">
+                <h2 class="main-title text-white w-100">Voices that <i class="pd_italic">Believe</i><span class="dor-anima ted text_green">.</span></h2>
+                <p class="vision-desc text-white p-0">Real words from real people stories of impact, trust, and shared vision.</p>
+            </div>
+
+            <div class="initiative-main voices-inner">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="voice-item radius-16 lg">
+                                <div class="voice-profile">
+                                    <div class="voice-p-img">
+                                         <img src="images/voices/v-p-01.png" class="img-fluid radius-50" alt="user" />
+                                    </div>
+                                    <div class="voice-p-content">
+                                        <h3 class="text-white dm_medium">Ify Okeke</h3>
+                                        <h5 class="mb-0">Senior Lecturer</h5>
+                                    </div>
+                                </div>
+                                <div class="voice-content">
+                                    <p class="voice-highlight-text">Lagos State University</p>
+                                    <p class="extra_light_grey mb-0">"A statesman of substance and strategy. His speeches are not just words—they're a call to action and unity. Truly inspiring on a global platform. he listens, understands, and acts"</p>
+                                </div>
+                                <div class="voice-img">
+                                     <img src="images/voices/v-01.jpg" class="img-fluid radius-8" alt="user" />
+                                </div>
+                        </div>
+                        <div class="voice-item radius-16 sm">
+                            <div class="voice-profile">
+                                <div class="voice-p-img">
+                                        <img src="images/voices/v-p-01.png" class="img-fluid radius-50" alt="user" />
+                                </div>
+                                <div class="voice-p-content">
+                                    <h3 class="text-white dm_medium">Tunde Adebayo</h3>
+                                    <h5 class="mb-0">Founder & Director</h5>
+                                </div>
+                            </div>
+                            <div class="voice-content">
+                                <p class="voice-highlight-text">NextGen Leaders Foundation</p>
+                                <p class="extra_light_grey mb-0">"His policies have directly uplifted marginalized voices, giving hope to many. What sets him apart is his empathy—he listens, understands, and acts."</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                         <div class="voice-item radius-16 sm">
+                            <div class="voice-profile">
+                                <div class="voice-p-img">
+                                        <img src="images/voices/v-p-01.png" class="img-fluid radius-50" alt="user" />
+                                </div>
+                                <div class="voice-p-content">
+                                    <h3 class="text-white dm_medium">Tunde Adebayo</h3>
+                                    <h5 class="mb-0">Founder & Director</h5>
+                                </div>
+                            </div>
+                            <div class="voice-content">
+                                <p class="voice-highlight-text">NextGen Leaders Foundation</p>
+                                <p class="extra_light_grey mb-0">"His policies have directly uplifted marginalized voices, giving hope to many. What sets him apart is his empathy—he listens, understands, and acts."</p>
+                            </div>
+                        </div>
+                        <div class="voice-item radius-16 md">
+                            <div class="voice-profile">
+                                <div class="voice-p-img">
+                                        <img src="images/voices/v-p-01.png" class="img-fluid radius-50" alt="user" />
+                                </div>
+                                <div class="voice-p-content">
+                                    <h3 class="text-white dm_medium">Ify Okeke</h3>
+                                    <h5 class="mb-0">Senior Lecturer</h5>
+                                </div>
+                            </div>
+                            <div class="voice-content">
+                                <p class="voice-highlight-text">Lagos State University</p>
+                                <p class="extra_light_grey mb-0">"A statesman of substance and strategy. His speeches are not just words—they're a call to action and unity. Truly inspiring on a global platform. he listens, understands, and acts"</p>
+                            </div>
+                            <div class="voice-img">
+                                    <img src="images/voices/v-02-md.jpg" class="img-fluid radius-8" alt="user" />
+                            </div>
+                        </div>
+                       
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="voice-item radius-16 sm">
+                                <div class="voice-profile">
+                                    <div class="voice-p-img">
+                                         <img src="images/voices/v-p-01.png" class="img-fluid radius-50" alt="user" />
+                                    </div>
+                                    <div class="voice-p-content">
+                                        <h3 class="text-white dm_medium">Ify Okeke</h3>
+                                        <h5 class="mb-0">Senior Lecturer</h5>
+                                    </div>
+                                </div>
+                                <div class="voice-content">
+                                    <p class="voice-highlight-text">Lagos State University</p>
+                                    <p class="extra_light_grey mb-0">"A statesman of substance and strategy. His speeches are not just words—they're a call to action and unity. Truly inspiring on a global platform. he listens, understands, and acts"</p>
+                                </div>
+                                <div class="voice-img">
+                                     <img src="images/voices/v-03-sm.jpg" class="img-fluid radius-8" alt="user" />
+                                </div>
+                        </div>
+                        <div class="voice-item radius-16 xs">
+                            <div class="voice-profile">
+                                <div class="voice-p-img">
+                                        <img src="images/voices/v-p-01.png" class="img-fluid radius-50" alt="user" />
+                                </div>
+                                <div class="voice-p-content">
+                                    <h3 class="text-white dm_medium">Tunde Adebayo</h3>
+                                    <h5 class="mb-0">Founder & Director</h5>
+                                </div>
+                            </div>
+                            <div class="voice-content">
+                                <p class="voice-highlight-text">NextGen Leaders Foundation</p>
+                                <p class="extra_light_grey mb-0">"His policies have directly uplifted marginalized voices, giving hope to many. What sets him apart is his empathy—he listens, understands, and acts."</p>
+                            </div>
+                             <div class="voice-img">
+                                     <img src="images/voices/v-04-xs.jpg" class="img-fluid radius-8" alt="user" />
+                                </div>
                         </div>
                     </div>
                 </div>

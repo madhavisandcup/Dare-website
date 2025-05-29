@@ -1,11 +1,11 @@
           @media(max-width:1600px) {
-               /* .vision-title {
+               /* .main-title {
                width: 70%;
           } */
           }
           
           @media(max-width:1440px) {
-               .vision-title {
+               .main-title {
                     width: 80%;
                }
           }
@@ -52,13 +52,13 @@
           }
           
           @media(max-width:991px) {
-               .vision-wrapper.purpose .vision-title {
+               .vision-wrapper.purpose .main-title {
                     width: 100%;
                }
           }
           
           @media(max-width:767px) {
-               .vision-title {
+               .main-title {
                     width: 100%;
                     margin-bottom: 24px;
                }
@@ -75,7 +75,7 @@
                .v-play-ic {
                     width: 32px;
                }
-               .vision-wrapper.purpose .vision-title {
+               .vision-wrapper.purpose .main-title {
                     width: 80%;
                     margin-bottom: 0;
                }
@@ -104,7 +104,7 @@
           }
           
           @media(max-width:500px) {
-               .vision-wrapper.purpose .vision-title {
+               .vision-wrapper.purpose .main-title {
                     width: 90%;
                }
           }
@@ -117,7 +117,7 @@
                     width: 68px;
                     height: 68px;
                }
-               .vision-wrapper.purpose .vision-title {
+               .vision-wrapper.purpose .main-title {
                     width: 100%;
                }
           }
