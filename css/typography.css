@@ -101,6 +101,10 @@
     font-display: swap;
 }
 
+html {
+    scrollbar-gutter: stable;
+}
+
 body {
     font-family: 'DM Sans Regular';
     font-weight: 300;
@@ -118,25 +122,30 @@ a:hover {
 }
 
 h1 {
-    font-size: clamp(36px, 5.56vw, 106px); /* 80px on figma */
+    font-size: clamp(36px, 5.56vw, 106px);
+    /* 80px on figma */
     line-height: 1;
 }
 
 h2 {
-    font-size: clamp(28px, 4.44vw, 85px); /* 64px on figma */
+    font-size: clamp(28px, 4.44vw, 85px);
+    /* 64px on figma */
     line-height: 1;
 }
 
 h3 {
-     font-size: clamp(18px, 1.67vw, 32px); /* 24px on figma */
+    font-size: clamp(18px, 1.67vw, 32px);
+    /* 24px on figma */
 }
 
 h5 {
-   font-size: clamp(14px, 1.11vw, 21px); /* 16px on figma */
+    font-size: clamp(14px, 1.11vw, 21px);
+    /* 16px on figma */
 }
 
 p {
-    font-size: clamp(16px, 1.39vw, 27px); /* 20px on figma */
+    font-size: clamp(16px, 1.39vw, 27px);
+    /* 20px on figma */
     color: #2B2B2B;
     line-height: 1.5;
 }
