@@ -20,6 +20,12 @@
                .initiative-item.key-sm-hover .in-key.width-sm .in-key-img {
                     width: 50%;
                }
+               .voice-content {
+                    margin-top: 26px;
+               }
+               .voice-highlight-text {
+                    margin-bottom: 20px;
+               }
           }
           
           @media(max-width:1280px) {
@@ -48,6 +54,15 @@
                }
                .v-play-ic {
                     width: 42px;
+               }
+               .voice-item {
+                    padding: 18px;
+               }
+               .voice-wrapper {
+                    padding: 95px 0;
+               }
+               .initiative-main {
+                    margin-top: 50px;
                }
           }
           
