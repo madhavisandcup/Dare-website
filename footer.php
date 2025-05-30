@@ -44,19 +44,48 @@
             <div class="row">
                 <div class="col-md-8">
                     <div class="footer-left">
-                        <div class="subscription-box">
-                            <h5 class="text-white">Stay informed about our latest news</h5>
-                            <form action="" class="subscribe-form">
-                                <div class="form-group position-relative col-md-12">
-                                    <input type="email" class="form-control" name="email" placeholder="hello@gmail.com">
-                                   <button class="subscribe-btn"><i class="icon-Vector-Strokearrow arrw-icon one"></i></button>
-                                </div>
-                            </form>
+                        <div>
+                            <div class="subscription-box">
+                                <h5 class="text-white">Stay informed about our latest news</h5>
+                                <form action="" class="subscribe-form">
+                                    <div class="form-group position-relative col-md-12">
+                                        <input type="email" class="form-control" name="email" placeholder="hello@gmail.com">
+                                    <button class="subscribe-btn"><span class="arrws-inner d-block"><i class="icon-Vector-Strokearrow arrw-icon one"></i></span></button>
+                                    </div>
+                                </form>
+                            </div>
+                            <ul class="f-links list-unstyled">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About him</a></li>
+                                <li><a href="#">News & articles</a></li>
+                                <li><a href="#">Join APC</a></li>
+                                <li><a href="#">Job opportunities</a></li>
+                            </ul>
+                            <ul class="f-socials list-unstyled">
+                               <li><a href="#"><img src="images/twitter-01.svg" alt="twitter" /></a></li>
+                                <li><a href="#"><img src="images/linkedin.svg" alt="linkedin" /></a></li>
+                                <li><a href="#"><img src="images/instagram.svg" alt="instagram" /></a></li>
+                                <li><a href="#"><img src="images/facebook.svg" alt="facebook" /></a></li>
+                                <li><a href="#"><img src="images/apc.svg" alt="apc"></a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <img src="images/dare-img.png" class="img-fluid" alt="dare">
+                </div>
+            </div>
+            <div class="f-copyright">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h5 class="text-white mb-0">© 2025 Oluwadare Owulabi. All Rights Reserved.</h5>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="c-logo d-flex align-items-center justify-content-end">
+                            <img src="images/logo-white.svg" class="img-fluid" alt="sandcup">
+                            <h5 class="text-white mb-0">Crafted by Sandcup Design</h5>
+                        </div>                        
+                    </div>
                 </div>
             </div>
         </div>

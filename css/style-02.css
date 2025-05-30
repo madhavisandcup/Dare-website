@@ -57,6 +57,18 @@
      .subscribe-btn {
           background-color: #008751;
           border-color: #008751;
+          z-index: 1;
+          right: 10px;
+          width: 45px;
+          height: 45px;
+     }
+     
+     .subscribe-btn .icon-Vector-Strokearrow:before {
+          color: #fff;
+     }
+     
+     .subscribe-btn .arrws-inner {
+          right: 16px;
      }
      
      .btn-text {
@@ -375,8 +387,182 @@
      .capture-mm {
           padding: 105px 56px;
      }
+     /****with grid template*****/
      
-     .capture-img {
+     .capture-images {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          /* grid-auto-rows: 160px; */
+          gap: 2.5rem;
+     }
+     
+     .capture-img.one {
+          grid-column: 1 /-1;
+          grid-row: 1;
+     }
+     /* Row 2 */
+     
+     .capture-img.two {
+          grid-column: 1 / 2;
+          grid-row: 2 / span 1;
+     }
+     
+     .capture-img.three {
+          grid-column: 2 / 4;
+          grid-row: 2 / span 1;
+     }
+     
+     .capture-img.four {
+          grid-column: 4 / 4;
+          grid-row: 1 / span 2;
+          top: 20%;
+     }
+     /* Row 3 */
+     
+     .capture-img.five {
+          grid-column: 1 / 3;
+          grid-row: 3 / span 2;
+     }
+     
+     .capture-img.six {
+          grid-column: 2 / 4;
+          grid-row: 3 / span 1;
+          top: -8rem;
+          left: 9rem;
+     }
+     
+     .capture-img.seven {
+          grid-column: 4 / 4;
+          grid-row: 3 / span 1;
+          top: -3rem;
+          text-align: right;
+     }
+     
+     .capture-img.eight {
+          grid-column: 1 / 4;
+          grid-row: 4 / span 1;
+          top: 3rem;
+     }
+     /* Row 4+ */
+     
+     .capture-img.nine {
+          grid-column: 2 / 4;
+          grid-row: 4 / span 1;
+          top: -6rem;
+          left: 9rem;
+     }
+     
+     .capture-img.ten {
+          grid-column: 3 / 4;
+          grid-row: 4 / span 1;
+          text-align: right;
+          top: -6rem;
+          right: -3rem;
+     }
+     
+     .capture-img.eleven {
+          grid-column: 4 / 4;
+          grid-row: 4 / span 2;
+          text-align: right;
+          top: -2rem;
+     }
+     
+     .capture-img.twelve {
+          grid-column: 1 / 4;
+          grid-row: 5 / span 1;
+     }
+     
+     .capture-img.thirdteen {
+          grid-column: 2 / 4;
+          grid-row: 5 / span 1;
+          top: -8rem;
+     }
+     
+     .capture-img.fortheen {
+          grid-column: 3 / 4;
+          grid-row: 5 / span 1;
+          top: -5rem;
+     }
+     
+     .capture-img.fifteen {
+          grid-column: 4 / 4;
+          grid-row: 5 / span 1;
+     }
+     /* .capture-img.one {
+          grid-column: 1 / 2;
+          grid-row: 1 / 3;
+     }
+     
+     .capture-img.two {
+          grid-column: 1 / 4;
+          grid-row: 1;
+     }
+     
+     .capture-img.three {
+          grid-column: 4 / 5;
+          grid-row: 1 / 3;
+     }
+     
+     .capture-img.four {
+          grid-column: 1 / 2;
+          grid-row: 3 / 5;
+     }
+     
+     .capture-img.five {
+          grid-column: 2 / 4;
+          grid-row: 2 / 4;
+     }
+     
+     .capture-img.six {
+          grid-column: 4 / 5;
+          grid-row: 3 / 4;
+     }
+     
+     .capture-img.seven {
+          grid-column: 5 / 7;
+          grid-row: 1 / 3;
+     }
+     
+     .capture-img.eight {
+          grid-column: 5 / 6;
+          grid-row: 3 / 4;
+     }
+     
+     .capture-img.nine {
+          grid-column: 2 / 3;
+          grid-row: 4 / 5;
+     }
+     
+     .capture-img.ten {
+          grid-column: 3 / 5;
+          grid-row: 4 / 5;
+     }
+     
+     .capture-img.eleven {
+          grid-column: 6 / 7;
+          grid-row: 3 / 5;
+     }
+     
+     .capture-img.twelve {
+          grid-column: 1 / 3;
+          grid-row: 5 / 6;
+     }
+     
+     .capture-img.thirdteen {
+          grid-column: 3 / 4;
+          grid-row: 5 / 6;
+     }
+     
+     .capture-img.fortheen {
+          grid-column: 4 / 5;
+          grid-row: 5 / 6;
+     }
+     
+     .capture-img.fifteen {
+          grid-column: 5 / 7;
+          grid-row: 5 / 6;
+     } */
+     /* .capture-img {
           margin-bottom: 65px;
      }
      
@@ -419,7 +605,7 @@
      
      .capture-img.fortheen {
           margin-top: -120px;
-     }
+     } */
      /* .capture-img.one img {
           width: clamp(300px, 52.81vw, 1014px);
           height: clamp(200px, 31.15vw, 598px);
@@ -434,11 +620,10 @@
           height: clamp(280px, 25.36vw, 974px);
           margin-left: 150px;
      } */
-     
-     .capture-images {
+     /* .capture-images {
           display: flex;
           gap: 48px;
-     }
+     } */
      /****footer****/
      
      .footer-main {
@@ -480,6 +665,15 @@
           align-items: center;
           justify-content: center;
      }
+     
+     .form-control {
+          height: 60px;
+     }
+     
+     .subscribe-form {
+          width: 38%;
+          margin-top: 15px;
+     }
      /* footer .marquee-block .marquee-inner .marquee-text {
           -webkit-animation: tickerRight 30s linear infinite;
           animation: tickerRight 30s linear infinite;
@@ -499,6 +693,16 @@
           font-size: clamp(36px, 5.56vw, 106px);
      }
      
+     .f-links li a {
+          font-size: clamp(16px, 1.39vw, 27px);
+          color: #ffffff;
+          transition: all 0.5s ease-in-out;
+     }
+     
+     .f-links li a:hover {
+          color: #008751;
+     }
+     
      .marquee-block .marquee-inner .marquee-text .m-item.m-dot span {
           width: 20px;
           height: 20px;
@@ -512,6 +716,33 @@
      
      .footer-left {
           padding-top: 100px;
+          display: flex;
+          align-self: flex-end;
+          flex-direction: column;
+          height: 100%;
+     }
+     
+     .f-links,
+     .f-socials {
+          display: flex;
+          gap: 44px;
+     }
+     
+     .f-socials {
+          gap: 30px;
+     }
+     
+     .f-links {
+          margin: 48px 0;
+     }
+     
+     .f-copyright {
+          border-top: 1px solid #B0B0B0;
+          padding: 20px 0;
+     }
+     
+     .c-logo {
+          gap: 12px;
      }
      
      @-moz-keyframes spin {
