@@ -6,7 +6,7 @@ header {
     left: 0;
     width: 100%;
     z-index: 9;
-    background-color: #000;
+    background-color: rgba(0, 3, 3, 0.85);
     overflow: hidden;
 }
 
@@ -136,6 +136,7 @@ body.navbar-open {
 
 .navbar-brand {
     display: inline-block;
+    margin-bottom: 6px;
     z-index: 99;
 }
 
@@ -159,7 +160,7 @@ body.navbar-open {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 40px 0;
+    padding: 30px 0;
     width: 100%;
 }
 
@@ -396,20 +397,24 @@ body.navbar-open {
     justify-content: center;
     align-items: center;
     border: none;
-    width: 100%;
-    max-width: clamp(320px, 88.8vw, 1707px);
-    margin: 0 auto;
 }
 
 .tabs-name.nav-link {
     color: #767676;
     padding: 12px 34px;
     border: transparent;
-    border-radius: 999px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
 
 .tabs-name.nav-link h5 {
     margin-bottom: 0;
+    line-height: normal;
+    font-family: 'DM Sans Medium';
+    letter-spacing: 0;
 }
 
 .nav-tabs .nav-item.show .nav-link,
@@ -528,7 +533,7 @@ body.navbar-open {
 }
 
 .event-tabs-wrapper .swiper-slide {
-    height: 61vh;
+    height: 58vh;
 }
 
 .events_btn.main-btn-inner {
@@ -537,7 +542,7 @@ body.navbar-open {
 }
 
 .overlay_date_time {
-     backdrop-filter: blur(430px); 
+    backdrop-filter: blur(430px);
     -webkit-backdrop-filter: blur(430px);
     padding: 8px 16px;
     border-radius: 6px;
@@ -573,4 +578,57 @@ body.navbar-open {
 
 .hover_card:hover .overlay_date_time {
     opacity: 1;
+}
+
+.year-dropdown {
+    position: relative;
+    display: inline-block;
+    width: fit-content;
+}
+
+.main-flex-tabs {
+    width: 100%;
+    max-width: clamp(320px, 88.8vw, 1707px);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 38px;
+}
+
+.year-dropdown .year_text {
+    font-size: 26px;
+    font-family: 'DM Sans Medium';
+    color: #000;
+}
+
+.form-select {
+    background: transparent;
+    border: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    font-size: 26px;
+    width: fit-content;
+}
+
+.year-dropdown::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    transform: translateY(-50%);
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+    pointer-events: none;
+}
+
+.form-select:focus,
+.form-select:focus-visible {
+    box-shadow: none;
+    border-color: none;
+    outline-offset: 0;
+    outline: none;
 }

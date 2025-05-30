@@ -44,53 +44,63 @@
         </section>
     </div>
 
-    <section class="events-wrapper sec-space overflow-hidden">
+    <section class="events-wrapper sec-space overflow-hidden sm-events">
         <div class="container">
             <div class="center-heading text-center">
                 <h2 class="main-title w-100">Be Part of the <i class="pd_italic">Movement</i><span class="dor-anima ted text_green">.</span></h2>
-                <p class="vision-desc p-0">See where we’ll be next rallies, town halls, and moments that matter.</p>
+                <p class="vision-desc m-0">See where we’ll be next rallies, town halls, and moments that matter.</p>
             </div>
         </div>
         <div class="event-tabs-wrapper">
-            <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                <button class="tabs-name nav-link active" id="nav-jan-tab" data-bs-toggle="tab" data-bs-target="#nav-jan" type="button" role="tab" aria-controls="nav-jan" aria-selected="true">
-                    <h5>Jan</h5>
-                </button>
-                <button class="tabs-name nav-link" id="nav-fab-tab" data-bs-toggle="tab" data-bs-target="#nav-fab" type="button" role="tab" aria-controls="nav-fab" aria-selected="false">
-                    <h5>Feb</h5>
-                </button>
-                <button class="tabs-name nav-link" id="nav-march-tab" data-bs-toggle="tab" data-bs-target="#nav-march" type="button" role="tab" aria-controls="nav-march" aria-selected="false">
-                    <h5>Mar</h5>
-                </button>
-                <button class="tabs-name nav-link" id="nav-apr-tab" data-bs-toggle="tab" data-bs-target="#nav-apr" type="button" role="tab" aria-controls="nav-apr" aria-selected="false">
-                    <h5>Apr</h5>
-                </button>
-                <button class="tabs-name nav-link" id="nav-may-tab" data-bs-toggle="tab" data-bs-target="#nav-may" type="button" role="tab" aria-controls="nav-may" aria-selected="false">
-                    <h5>May</h5>
-                </button>
-                <button class="tabs-name nav-link" id="nav-jun-tab" data-bs-toggle="tab" data-bs-target="#nav-jun" type="button" role="tab" aria-controls="nav-jun" aria-selected="false">
-                    <h5>Jun</h5>
-                </button>
-                <button class="tabs-name nav-link" id="nav-july-tab" data-bs-toggle="tab" data-bs-target="#nav-july" type="button" role="tab" aria-controls="nav-july" aria-selected="false">
-                    <h5>Jul</h5>
-                </button>
-                <button class="tabs-name nav-link" id="nav-aug-tab" data-bs-toggle="tab" data-bs-target="#nav-aug" type="button" role="tab" aria-controls="nav-aug" aria-selected="false">
-                    <h5>Aug</h5>
-                </button>
-                <button class="tabs-name nav-link" id="nav-sep-tab" data-bs-toggle="tab" data-bs-target="#nav-sep" type="button" role="tab" aria-controls="nav-sep" aria-selected="false">
-                    <h5>Sep</h5>
-                </button>
-                <button class="tabs-name nav-link" id="nav-oct-tab" data-bs-toggle="tab" data-bs-target="#nav-oct" type="button" role="tab" aria-controls="nav-oct" aria-selected="false">
-                    <h5>Oct</h5>
-                </button>
-                <button class="tabs-name nav-link" id="nav-nov-tab" data-bs-toggle="tab" data-bs-target="#nav-nov" type="button" role="tab" aria-controls="nav-nov" aria-selected="false">
-                    <h5>Nov</h5>
-                </button>
-                <button class="tabs-name nav-link" id="nav-dec-tab" data-bs-toggle="tab" data-bs-target="#nav-dec" type="button" role="tab" aria-controls="nav-dec" aria-selected="false">
-                    <h5>Dec</h5>
-                </button>
-            </div>
+            <div class="main-flex-tabs">
+                <div class="year-dropdown">
+                    <select class="form-select sm year_text" aria-label="select year">
+                        <option selected class="">2025</option>
+                        <option value="1" class="">2024</option>
+                        <option value="2" class="">2023</option>
+                        <option value="3" class="">2022</option>
+                    </select>
+                </div>
 
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                    <button class="tabs-name nav-link active" id="nav-jan-tab" data-bs-toggle="tab" data-bs-target="#nav-jan" type="button" role="tab" aria-controls="nav-jan" aria-selected="true">
+                        <h5>Jan</h5>
+                    </button>
+                    <button class="tabs-name nav-link" id="nav-fab-tab" data-bs-toggle="tab" data-bs-target="#nav-fab" type="button" role="tab" aria-controls="nav-fab" aria-selected="false">
+                        <h5>Feb</h5>
+                    </button>
+                    <button class="tabs-name nav-link" id="nav-march-tab" data-bs-toggle="tab" data-bs-target="#nav-march" type="button" role="tab" aria-controls="nav-march" aria-selected="false">
+                        <h5>Mar</h5>
+                    </button>
+                    <button class="tabs-name nav-link" id="nav-apr-tab" data-bs-toggle="tab" data-bs-target="#nav-apr" type="button" role="tab" aria-controls="nav-apr" aria-selected="false">
+                        <h5>Apr</h5>
+                    </button>
+                    <button class="tabs-name nav-link" id="nav-may-tab" data-bs-toggle="tab" data-bs-target="#nav-may" type="button" role="tab" aria-controls="nav-may" aria-selected="false">
+                        <h5>May</h5>
+                    </button>
+                    <button class="tabs-name nav-link" id="nav-jun-tab" data-bs-toggle="tab" data-bs-target="#nav-jun" type="button" role="tab" aria-controls="nav-jun" aria-selected="false">
+                        <h5>Jun</h5>
+                    </button>
+                    <button class="tabs-name nav-link" id="nav-july-tab" data-bs-toggle="tab" data-bs-target="#nav-july" type="button" role="tab" aria-controls="nav-july" aria-selected="false">
+                        <h5>Jul</h5>
+                    </button>
+                    <button class="tabs-name nav-link" id="nav-aug-tab" data-bs-toggle="tab" data-bs-target="#nav-aug" type="button" role="tab" aria-controls="nav-aug" aria-selected="false">
+                        <h5>Aug</h5>
+                    </button>
+                    <button class="tabs-name nav-link" id="nav-sep-tab" data-bs-toggle="tab" data-bs-target="#nav-sep" type="button" role="tab" aria-controls="nav-sep" aria-selected="false">
+                        <h5>Sep</h5>
+                    </button>
+                    <button class="tabs-name nav-link" id="nav-oct-tab" data-bs-toggle="tab" data-bs-target="#nav-oct" type="button" role="tab" aria-controls="nav-oct" aria-selected="false">
+                        <h5>Oct</h5>
+                    </button>
+                    <button class="tabs-name nav-link" id="nav-nov-tab" data-bs-toggle="tab" data-bs-target="#nav-nov" type="button" role="tab" aria-controls="nav-nov" aria-selected="false">
+                        <h5>Nov</h5>
+                    </button>
+                    <button class="tabs-name nav-link" id="nav-dec-tab" data-bs-toggle="tab" data-bs-target="#nav-dec" type="button" role="tab" aria-controls="nav-dec" aria-selected="false">
+                        <h5>Dec</h5>
+                    </button>
+                </div>
+            </div>
             <div class="tab-content" id="nav-tabContent">
                 <div class="tab-pane fade show active" id="nav-jan" role="tabpanel" aria-labelledby="nav-jan-tab" tabindex="0">
                     <!-- Swiper -->

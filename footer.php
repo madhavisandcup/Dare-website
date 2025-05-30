@@ -1,5 +1,7 @@
 <footer>
     <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/bootstrap.bundle.min"></script>
+    <!-- <script src="https://unpkg.com/@popperjs/core@2"></script> -->
     <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
     <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
