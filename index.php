@@ -61,8 +61,48 @@
                         <option value="3" class="">2022</option>
                     </select>
                 </div>
+                <div class="month-dropdown position-relative mobile-tabs">
+                    <select class="nav nav-tabs select-style-tabs tabs-name nav-link" id="tabSelector" role="tablist">
+                        <option value="nav-jan" selected>
+                            <h5>Jan</h5>
+                        </option>
+                        <option value="nav-fab">
+                            <h5>Feb</h5>
+                        </option>
+                        <option value="nav-march">
+                            <h5>Mar</h5>
+                        </option>
+                        <option value="nav-apr">
+                            <h5>Apr</h5>
+                        </option>
+                        <option value="nav-may">
+                            <h5>May</h5>
+                        </option>
+                        <option value="nav-jun">
+                            <h5>Jun</h5>
+                        </option>
+                        <option value="nav-july">
+                            <h5>Jul</h5>
+                        </option>
+                        <option value="nav-aug">
+                            <h5>Aug</h5>
+                        </option>
+                        <option value="nav-sep">
+                            <h5>Sep</h5>
+                        </option>
+                        <option value="nav-oct">
+                            <h5>Oct</h5>
+                        </option>
+                        <option value="nav-nov">
+                            <h5>Nov</h5>
+                        </option>
+                        <option value="nav-dec">
+                            <h5>Dec</h5>
+                        </option>
 
-                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                    </select>
+                </div>
+                <div class="nav nav-tabs desktop-tabs" id="nav-tab" role="tablist">
                     <button class="tabs-name nav-link active" id="nav-jan-tab" data-bs-toggle="tab" data-bs-target="#nav-jan" type="button" role="tab" aria-controls="nav-jan" aria-selected="true">
                         <h5>Jan</h5>
                     </button>

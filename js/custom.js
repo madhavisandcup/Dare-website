@@ -159,3 +159,20 @@ const UpdatesFeed = new Swiper(".UpdateFeeds", {
           },
      },
 });
+
+/******************* TabSelector with Dropdown js ******************/
+document.getElementById("tabSelector").addEventListener("change", function () {
+     var targetId = this.value;
+
+     // Remove active classes from all panes
+     document.querySelectorAll(".tab-pane").forEach(function (pane) {
+          pane.classList.remove("show", "active");
+     });
+
+     // Add active class to selected tab content
+     var targetPane = document.getElementById(targetId);
+     if (targetPane) {
+          targetPane.classList.add("show", "active");
+     }
+});
+

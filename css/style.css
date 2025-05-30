@@ -681,6 +681,14 @@ body.navbar-open {
     display: none;
 }
 
+.desktop-tabs {
+    display: block;
+}
+
+.mobile-tabs {
+    display: none;
+}
+
 .radius-12 {
     border-radius: 12px;
     -webkit-border-radius: 12px;
