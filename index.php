@@ -274,6 +274,145 @@
             </div>
         </div>
     </section>
+
+    <section class="updates-feed sec-space overflow-hidden sm-feeds">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="main_heading">
+                        <h2 class="main-title w-100 mb-0">Updates from the <i class="pd_italic">Front Lines</i> of Change<span class="dor-animated text_green">.</span>
+                        </h2>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="main_heading">
+                        <p class="vision-desc">Follow the journey, explore the latest updates, and see how the movement is growing—online and on the ground.</p>
+                        <div class="main-btn-inner m-0">
+                            <a href="#" class="main-btn position-relative"><span class="btn-text">Read more</span><span class="arrw-btn">
+                                    <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="nav nav-tabs main-flex-tabs justify-content-start px-3" id="updates-feed-tab" role="tablist">
+            <button class="tabs-name nav-link active" id="nav-latest-tab" data-bs-toggle="tab" data-bs-target="#nav-latest" type="button" role="tab" aria-controls="nav-latest" aria-selected="true">
+                <h5>Latest</h5>
+            </button>
+            <button class="tabs-name nav-link" id="nav-news-tab" data-bs-toggle="tab" data-bs-target="#nav-news" type="button" role="tab" aria-controls="nav-news" aria-selected="false">
+                <h5>News</h5>
+            </button>
+            <button class="tabs-name nav-link" id="nav-blogs-tab" data-bs-toggle="tab" data-bs-target="#nav-blogs" type="button" role="tab" aria-controls="nav-blogs" aria-selected="false">
+                <h5>Blog</h5>
+            </button>
+            <button class="tabs-name nav-link" id="nav-socials-tab" data-bs-toggle="tab" data-bs-target="#nav-socials" type="button" role="tab" aria-controls="nav-socials" aria-selected="false">
+                <h5>Socials</h5>
+            </button>
+        </div>
+
+        <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-latest" role="tabpanel" aria-labelledby="nav-latest-tab" tabindex="0">
+                <!-- Swiper -->
+                <div class="swiper UpdateFeeds">
+                    <div class="swiper-wrapper h-auto">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <a class="update-feed-card">
+                                <div class="event_card_img">
+                                    <div class="overlay_date_time feed_name">
+                                        <div class="inner-feed-name">
+                                            <span class="dt-text">Blog</span>
+                                        </div>
+                                    </div>
+                                    <img src="./images/latest-feeds/hope-in-motion.jpg" alt="" class="portrait_size radius-12">
+                                </div>
+                                <div class="card_title feed_disc">
+                                    <div class="linebar"></div>
+                                    <p class="mb-0">Hope in Motion: Inside Oluwadare Owolabi’s Grassroots Tour</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a class="update-feed-card">
+                                <div class="event_card_img">
+                                    <div class="overlay_date_time feed_name">
+                                        <div class="inner-feed-name">
+                                            <span class="dt-text">Blog</span>
+                                        </div>
+                                    </div>
+                                    <img src="./images/latest-feeds/arise-news-exclusive.jpg" alt="" class="ladscap_size radius-12">
+                                </div>
+                                <div class="card_title feed_disc">
+                                    <p class="mb-0">Arise News Exclusive: Oluwadare Owolabi on Reclaiming Nigeria’s Future</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a class="update-feed-card">
+                                <div class="event_card_img">
+                                    <div class="overlay_date_time feed_name">
+                                        <div class="inner-feed-name">
+                                            <span class="dt-text">Blog</span>
+                                        </div>
+                                    </div>
+                                    <img src="./images/latest-feeds/1million-lives-touched.jpg" alt="" class="portrait_size radius-12">
+                                </div>
+                                <div class="card_title feed_disc">
+                                    <p class="mb-0">Over 1 Million Lives Touched: Party’s Grassroots Programs Create Waves Across Nigeria</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a class="update-feed-card">
+                                <div class="event_card_img">
+                                    <div class="overlay_date_time feed_name">
+                                        <div class="inner-feed-name">
+                                            <span class="dt-text">Blog</span>
+                                        </div>
+                                    </div>
+                                    <img src="./images/latest-feeds/not-just-politics.jpg" alt="" class="ladscap_size radius-12">
+                                </div>
+                                <div class="card_title feed_disc">
+                                    <p class="mb-0">Not Just Politics: How Local Initiatives Are Changing Lives</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a class="update-feed-card">
+                                <div class="event_card_img">
+                                    <div class="overlay_date_time feed_name">
+                                        <div class="inner-feed-name">
+                                            <span class="dt-text">Blog</span>
+                                        </div>
+                                    </div>
+                                    <img src="./images/latest-feeds/hope-in-motion.jpg" alt="" class="portrait_size radius-12">
+                                </div>
+                                <div class="card_title feed_disc">
+                                    <p class="mb-0">Hope in Motion: Inside Oluwadare Owolabi’s Grassroots Tour</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="nav-news" role="tabpanel" aria-labelledby="nav-news-tab" tabindex="0"></div>
+            <div class="tab-pane fade" id="nav-blogs" role="tabpanel" aria-labelledby="nav-blogs-tab" tabindex="0"></div>
+            <div class="tab-pane fade" id="nav-socials" role="tabpanel" aria-labelledby="nav-socials-tab" tabindex="0"></div>
+
+        </div>
+    </section>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
     <?php include 'footer.php'; ?>
 
 </body>

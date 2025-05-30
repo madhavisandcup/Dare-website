@@ -124,6 +124,7 @@ h1 {
 
 h2 {
     font-size: clamp(28px, 4.44vw, 85px); /* 64px on figma */
+    line-height: 1;
 }
 
 h3 {

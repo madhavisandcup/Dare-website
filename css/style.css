@@ -403,11 +403,11 @@ body.navbar-open {
     color: #767676;
     padding: 12px 34px;
     border: transparent;
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
+    border-radius: 28px;
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    -ms-border-radius: 28px;
+    -o-border-radius: 28px;
 }
 
 .tabs-name.nav-link h5 {
@@ -631,4 +631,42 @@ body.navbar-open {
     border-color: none;
     outline-offset: 0;
     outline: none;
+}
+
+/* update-feeds-section */
+.main_heading p {
+    margin-bottom: 30px;
+}
+
+.updates-feed .nav-tabs {
+    border: none;
+    margin: 50px auto 70px;
+}
+
+.radius-12 {
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.ladscap_size {
+    width: clamp(200px, 19.86vw, 381px);
+    /* 286 / 1440 × 100 = 19.86vw */
+    height: clamp(180px, 18.4vw, 353px);
+    /* 265 / 1440 × 100 = 18.4vw */
+    object-fit: cover;
+}
+
+.portrait_size {
+    width: clamp(200px, 19.72vw, 378px);
+    height: clamp(250px, 25.2vw, 484px);
+    object-fit: cover;
+}
+
+.linebar {
+    width: 8px;
+    height: 30px;
+    background-color: #767676;
 }
