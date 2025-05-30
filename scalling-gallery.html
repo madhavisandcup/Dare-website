@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <title>Captured Moments</title>
+     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+     <style>
+          * {
+               box-sizing: border-box;
+          }
+          
+          body {
+               margin: 0;
+               background-color: #111;
+               font-family: 'Segoe UI', sans-serif;
+               color: #fff;
+          }
+          
+          .container {
+               max-width: 1400px;
+               margin: 0 auto;
+               padding: 2rem 1rem;
+          }
+          
+          .heading {
+               text-align: center;
+               margin-bottom: 4rem;
+          }
+          
+          .heading h1 {
+               font-size: 2.8rem;
+               font-weight: 500;
+               line-height: 1.2;
+          }
+          
+          .heading em {
+               font-style: italic;
+               color: #82f3c9;
+          }
+          
+          .heading p {
+               font-size: 0.95rem;
+               color: #ccc;
+               margin-top: 0.5rem;
+          }
+          
+          .grid {
+               display: grid;
+               grid-template-columns: repeat(6, 1fr);
+               grid-auto-rows: 160px;
+               gap: 3rem;
+          }
+          
+          .item {
+               overflow: hidden;
+               border-radius: 6px;
+               /* will-change: transform;
+               transition: transform 0.5s ease; */
+          }
+          
+          .item img {
+               width: 100%;
+               height: 100%;
+               object-fit: cover;
+               display: block;
+          }
+          /* Exact manual placement based on your image */
+          
+          .item1 {
+               grid-column: 1 / 2;
+               grid-row: 1 / 3;
+          }
+          
+          .item2 {
+               grid-column: 2 / 4;
+               grid-row: 1 / 2;
+          }
+          
+          .item3 {
+               grid-column: 4 / 5;
+               grid-row: 1 / 3;
+          }
+          
+          .item4 {
+               grid-column: 1 / 2;
+               grid-row: 3 / 5;
+          }
+          
+          .item5 {
+               grid-column: 2 / 4;
+               grid-row: 2 / 4;
+          }
+          
+          .item6 {
+               grid-column: 4 / 5;
+               grid-row: 3 / 4;
+          }
+          
+          .item7 {
+               grid-column: 5 / 7;
+               grid-row: 1 / 3;
+          }
+          
+          .item8 {
+               grid-column: 5 / 6;
+               grid-row: 3 / 4;
+          }
+          
+          .item9 {
+               grid-column: 2 / 3;
+               grid-row: 4 / 5;
+          }
+          
+          .item10 {
+               grid-column: 3 / 5;
+               grid-row: 4 / 5;
+          }
+          
+          .item11 {
+               grid-column: 6 / 7;
+               grid-row: 3 / 5;
+          }
+          
+          .item12 {
+               grid-column: 1 / 3;
+               grid-row: 5 / 6;
+          }
+          
+          .item13 {
+               grid-column: 3 / 4;
+               grid-row: 5 / 6;
+          }
+          
+          .item14 {
+               grid-column: 4 / 5;
+               grid-row: 5 / 6;
+          }
+          
+          .item15 {
+               grid-column: 5 / 7;
+               grid-row: 5 / 6;
+          }
+          
+          @media (max-width: 1024px) {
+               .grid {
+                    grid-template-columns: repeat(3, 1fr);
+                    grid-auto-rows: 180px;
+               }
+               .item {
+                    grid-column: auto !important;
+                    grid-row: auto !important;
+               }
+          }
+          
+          @media (max-width: 600px) {
+               .grid {
+                    grid-template-columns: repeat(2, 1fr);
+                    grid-auto-rows: 180px;
+               }
+          }
+     </style>
+</head>
+
+<body>
+     <div class="container">
+          <div class="heading">
+               <h1>Captured Moments<br><em>of Impact</em><span>.</span></h1>
+               <p>A visual journey of change, hope, and community in motion.</p>
+          </div>
+
+          <div class="grid">
+               <div class="item item1"><img src="https://picsum.photos/id/1011/400/600" alt="img1"></div>
+               <div class="item item2"><img src="https://picsum.photos/id/1012/800/400" alt="img2"></div>
+               <div class="item item3"><img src="https://picsum.photos/id/1013/400/600" alt="img3"></div>
+               <div class="item item4"><img src="https://picsum.photos/id/1014/400/600" alt="img4"></div>
+               <div class="item item5"><img src="https://picsum.photos/id/1015/800/600" alt="img5"></div>
+               <div class="item item6"><img src="https://picsum.photos/id/1016/400/400" alt="img6"></div>
+               <div class="item item7"><img src="https://picsum.photos/id/1017/800/600" alt="img7"></div>
+               <div class="item item8"><img src="https://picsum.photos/id/1018/400/400" alt="img8"></div>
+               <div class="item item9"><img src="https://picsum.photos/id/1019/400/400" alt="img9"></div>
+               <div class="item item10"><img src="https://picsum.photos/id/1020/800/400" alt="img10"></div>
+               <div class="item item11"><img src="https://picsum.photos/id/1021/400/600" alt="img11"></div>
+               <div class="item item12"><img src="https://picsum.photos/id/1022/800/400" alt="img12"></div>
+               <div class="item item13"><img src="https://picsum.photos/id/1023/400/400" alt="img13"></div>
+               <div class="item item14"><img src="https://picsum.photos/id/1024/400/400" alt="img14"></div>
+               <div class="item item15"><img src="https://picsum.photos/id/1025/800/400" alt="img15"></div>
+          </div>
+     </div>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+     <script>
+          let lastScrollTop = 0;
+          const items = document.querySelectorAll(".item");
+
+          function getRandomOffset() {
+               return Math.floor(Math.random() * 20) + 10; // Between 10 and 30px
+          }
+
+          window.addEventListener("scroll", () => {
+               const st = window.pageYOffset || document.documentElement.scrollTop;
+               const direction = st > lastScrollTop ? "down" : "up";
+
+               items.forEach((item, index) => {
+                    const offset = getRandomOffset() * (direction === "down" ? -1 : 1);
+
+                    gsap.to(item, {
+                         y: offset,
+                         duration: 1.2,
+                         ease: "power3.out",
+                         overwrite: "auto",
+                         delay: index * 0.02
+                    });
+               });
+
+               lastScrollTop = st <= 0 ? 0 : st;
+          }, false);
+     </script>
+
+
+</body>
+
+</html>

@@ -49,7 +49,7 @@
         </div>
     </section>
 
-    <section class="key-initiative-wrapper sec-space">
+    <section class="key-initiative-wrapper overflow-hidden sec-space">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -308,69 +308,121 @@
         </div>
     </section>
 
-    <section class="voice-wrapper capture-mm sec-space">
+    <section class="voice-wrapper capture-mm position-relative sec-space">
       
             <div class="center-heading text-center">
-                <h2 class="main-title text-white w-100">Captured Moments of<i class="pd_italic">Impact</i><span class="dor-anima ted text_green">.</span></h2>
-                <p class="vision-desc text-white p-0">A visual journey of change, hope, and community in motion.</p>
+                <h2 class="main-title text-white">Captured Moments of <i class="pd_italic">Impact</i><span class="dor-anima ted text_green">.</span></h2>
+                <p class="vision-desc text-white">A visual journey of change, hope, and community in motion.</p>
             </div>
 
-            <div class="initiative-main voices-inner">
-                <!-- <div class="capture-images">
-                    <div class="capture-img position-relative one">
-                         <img src="images/captures/cap-01.jpg" class="img-fluid radius-8" alt="user" />
-                    </div>
-                </div> -->
+            <div class="initiative-main voices-inner overflow-hidden">
+                 <div class="initiative-main voices-inner">
                 <div class="capture-images">
-                     <div class="capture-img position-relative one">
-                         <img src="images/captures/cap-01.jpg" class="img-fluid radius-8" alt="user" />
-                    </div>
-                    <div class="capture-img position-relative two">
-                         <img src="images/captures/cap-02.jpg" class="img-fluid radius-8" alt="user" />
-                    </div>
-                    <div class="capture-img position-relative three">
-                         <img src="images/captures/cap-03.jpg" class="img-fluid radius-8" alt="user" />
-                    </div>
-                     <div class="capture-img position-relative four">
-                         <img src="images/captures/cap-04.jpg" class="img-fluid radius-8" alt="user" />
-                    </div>
-                    <div class="capture-img position-relative five">
-                            <img src="images/captures/cap-05.jpg" class="img-fluid radius-8" alt="user" />
-                    </div>
-                    <div class="capture-img position-relative six">
-                            <img src="images/captures/cap-06.jpg" class="img-fluid radius-8" alt="user" />
-                    </div>
-                        <div class="capture-img position-relative seven">
-                            <img src="images/captures/cap-07.jpg" class="img-fluid radius-8" alt="user" />
-                    </div>
-                    <div class="capture-img position-relative eight">
-                            <img src="images/captures/cap-08.jpg" class="img-fluid radius-8" alt="user" />
-                    </div>
-                    <div class="capture-img position-relative nine">
-                            <img src="images/captures/cap-09.jpg" class="img-fluid radius-8" alt="user" />
-                    </div>
-                        <div class="capture-img position-relative ten">
-                            <img src="images/captures/cap-10.jpg" class="img-fluid radius-8" alt="user" />
-                    </div>
-                        <div class="capture-img position-relative eleven">
-                            <img src="images/captures/cap-11.jpg" class="img-fluid radius-8" alt="user" />
-                    </div>
-                    <div class="capture-img position-relative twelve">
-                            <img src="images/captures/cap-12.jpg" class="img-fluid radius-8" alt="user" />
-                    </div>
-                    <div class="capture-img position-relative thirdteen">
-                            <img src="images/captures/cap-13.jpg" class="img-fluid radius-8" alt="user" />
-                    </div>
-                        <div class="capture-img position-relative fortheen">
-                            <img src="images/captures/cap-14.jpg" class="img-fluid radius-8" alt="user" />
-                    </div>
-                        <div class="capture-img position-relative fifteen">
-                            <img src="images/captures/cap-15.jpg" class="img-fluid radius-8" alt="user" />
+                    <div class="capture-img position-relative one">
+                         <img src="images/captures/cap-01.png" class="img-fluid radius-8" alt="user" />
                     </div>
                 </div>
-      
+                <div class="capture-images">
+                    <div class="capture-img position-relative two">
+                         <img src="images/captures/cap-02.png" class="img-fluid radius-8" alt="user" />
+                    </div>
+                    <div class="capture-img position-relative three">
+                         <img src="images/captures/cap-03.png" class="img-fluid radius-8" alt="user" />
+                    </div>
+                     <div class="capture-img position-relative four">
+                         <img src="images/captures/cap-04.png" class="img-fluid radius-8" alt="user" />
+                    </div>
+                </div>
+                 <div class="capture-images">
+                    <div class="capture-img position-relative five">
+                         <img src="images/captures/cap-05.png" class="img-fluid radius-8" alt="user" />
+                    </div>
+                    <div class="capture-img position-relative six">
+                         <img src="images/captures/cap-06.png" class="img-fluid radius-8" alt="user" />
+                    </div>
+                     <div class="capture-img position-relative seven">
+                         <img src="images/captures/cap-07.png" class="img-fluid radius-8" alt="user" />
+                    </div>
+                </div>
+                <div class="capture-images">
+                    <div class="capture-img position-relative eight">
+                         <img src="images/captures/cap-08.png" class="img-fluid radius-8" alt="user" />
+                    </div>
+                    <div class="capture-img position-relative nine">
+                         <img src="images/captures/cap-09.png" class="img-fluid radius-8" alt="user" />
+                    </div>
+                     <div class="capture-img position-relative ten">
+                         <img src="images/captures/cap-10.png" class="img-fluid radius-8" alt="user" />
+                    </div>
+                     <div class="capture-img position-relative eleven">
+                         <img src="images/captures/cap-11.png" class="img-fluid radius-8" alt="user" />
+                    </div>
+                </div>
+                <div class="capture-images">
+                    <div class="capture-img position-relative twelve">
+                         <img src="images/captures/cap-12.png" class="img-fluid radius-8" alt="user" />
+                    </div>
+                    <div class="capture-img position-relative thirdteen">
+                         <img src="images/captures/cap-13.png" class="img-fluid radius-8" alt="user" />
+                    </div>
+                     <div class="capture-img position-relative fortheen">
+                         <img src="images/captures/cap-14.png" class="img-fluid radius-8" alt="user" />
+                    </div>
+                     <div class="capture-img position-relative fifteen">
+                         <img src="images/captures/cap-15.png" class="img-fluid radius-8" alt="user" />
+                    </div>
+                </div>
+            </div>
+            </div>
     </section>
 
 <?php include 'footer.php'; ?>
+<!-- <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var grid = document.querySelector('.js-masonry');
+    if (grid) {
+      // Wait for all images to load
+      imagesLoaded(grid, function () {
+        new Masonry(grid, {
+          itemSelector: '.capture-img',
+          gutter: 16,
+          percentPosition: true
+        });
+      });
+    }
+  });
+</script> -->
+<script>
+  let lastScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+  const items = document.querySelectorAll(".capture-img");
+
+  function getRandomOffset() {
+    return Math.floor(Math.random() * 15) + 5; // Between 4 and 12px
+  }
+
+  window.addEventListener("scroll", () => {
+    const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+    const direction = currentScroll > lastScrollTop ? "down" : "up";
+
+    items.forEach((item, index) => {
+      const offset = getRandomOffset();
+
+      // Scroll down = move image up, Scroll up = move image down
+      const translateY = direction === "down" ? -offset : offset;
+
+      gsap.to(item, {
+        y: `+=${translateY}`,       // incremental smooth movement
+        duration: 1.5,
+        ease: "sine.out",
+        overwrite: "auto",
+        delay: index * 0.01
+      });
+    });
+
+    lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
+  }, false);
+</script>
 
 </body>

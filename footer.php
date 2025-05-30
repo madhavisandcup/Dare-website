@@ -42,13 +42,13 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-lg-8">
                     <div class="footer-left">
                         <div>
                             <div class="subscription-box">
                                 <h5 class="text-white">Stay informed about our latest news</h5>
                                 <form action="" class="subscribe-form">
-                                    <div class="form-group position-relative col-md-12">
+                                    <div class="form-group position-relative">
                                         <input type="email" class="form-control" name="email" placeholder="hello@gmail.com">
                                     <button class="subscribe-btn"><span class="arrws-inner d-block"><i class="icon-Vector-Strokearrow arrw-icon one"></i></span></button>
                                     </div>
@@ -71,7 +71,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-4 f-right">
                     <img src="images/dare-img.png" class="img-fluid" alt="dare">
                 </div>
             </div>
