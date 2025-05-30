@@ -286,8 +286,8 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="main_heading">
-                        <p class="vision-desc">Follow the journey, explore the latest updates, and see how the movement is growing—online and on the ground.</p>
-                        <div class="main-btn-inner m-0">
+                        <p class="vision-desc mt-0">Follow the journey, explore the latest updates, and see how the movement is growing—online and on the ground.</p>
+                        <div class="main-btn-inner m-0 md-d-none">
                             <a href="#" class="main-btn position-relative"><span class="btn-text">Read more</span><span class="arrw-btn">
                                     <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
                             </a>
@@ -319,78 +319,87 @@
                     <div class="swiper-wrapper h-auto">
                         <!-- Slides -->
                         <div class="swiper-slide">
-                            <a class="update-feed-card">
+                            <a class="update-feed-card hover_card" href="">
                                 <div class="event_card_img">
                                     <div class="overlay_date_time feed_name">
                                         <div class="inner-feed-name">
-                                            <span class="dt-text">Blog</span>
+                                            <h5 class="feed-text mb-0">Blog</h5>
                                         </div>
                                     </div>
                                     <img src="./images/latest-feeds/hope-in-motion.jpg" alt="" class="portrait_size radius-12">
                                 </div>
                                 <div class="card_title feed_disc">
-                                    <div class="linebar"></div>
-                                    <p class="mb-0">Hope in Motion: Inside Oluwadare Owolabi’s Grassroots Tour</p>
+                                    <div class="linebar">
+                                        <p class="mb-0">Hope in Motion: Inside Oluwadare Owolabi’s Grassroots Tour</p>
+                                    </div>
                                 </div>
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a class="update-feed-card">
+                            <a class="update-feed-card hover_card" href="">
                                 <div class="event_card_img">
                                     <div class="overlay_date_time feed_name">
                                         <div class="inner-feed-name">
-                                            <span class="dt-text">Blog</span>
+                                            <h5 class="feed-text mb-0">News</h5>
                                         </div>
                                     </div>
-                                    <img src="./images/latest-feeds/arise-news-exclusive.jpg" alt="" class="ladscap_size radius-12">
+                                    <img src="./images/latest-feeds/arise-news-exclusive.jpg" alt="" class="landscap_size radius-12">
                                 </div>
                                 <div class="card_title feed_disc">
-                                    <p class="mb-0">Arise News Exclusive: Oluwadare Owolabi on Reclaiming Nigeria’s Future</p>
+                                    <div class="linebar">
+                                        <p class="mb-0">Arise News Exclusive: Oluwadare Owolabi on Reclaiming Nigeria’s Future</p>
+                                    </div>
                                 </div>
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a class="update-feed-card">
+                            <a class="update-feed-card hover_card" href="">
                                 <div class="event_card_img">
                                     <div class="overlay_date_time feed_name">
                                         <div class="inner-feed-name">
-                                            <span class="dt-text">Blog</span>
+                                            <h5 class="feed-text mb-0">Blog</h5>
                                         </div>
                                     </div>
                                     <img src="./images/latest-feeds/1million-lives-touched.jpg" alt="" class="portrait_size radius-12">
                                 </div>
                                 <div class="card_title feed_disc">
-                                    <p class="mb-0">Over 1 Million Lives Touched: Party’s Grassroots Programs Create Waves Across Nigeria</p>
+                                    <div class="linebar">
+                                        <p class="mb-0">Over 1 Million Lives Touched: Party’s Grassroots Programs Create Waves Across Nigeria</p>
+                                    </div>
                                 </div>
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a class="update-feed-card">
+                            <a class="update-feed-card hover_card" href="">
                                 <div class="event_card_img">
                                     <div class="overlay_date_time feed_name">
                                         <div class="inner-feed-name">
-                                            <span class="dt-text">Blog</span>
+                                            <h5 class="feed-text mb-0">News</h5>
                                         </div>
                                     </div>
-                                    <img src="./images/latest-feeds/not-just-politics.jpg" alt="" class="ladscap_size radius-12">
+                                    <img src="./images/latest-feeds/not-just-politics.jpg" alt="" class="landscap_size radius-12">
                                 </div>
                                 <div class="card_title feed_disc">
-                                    <p class="mb-0">Not Just Politics: How Local Initiatives Are Changing Lives</p>
+                                    <div class="linebar">
+                                        <p class="mb-0">Not Just Politics: How Local Initiatives Are Changing Lives</p>
+                                    </div>
                                 </div>
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a class="update-feed-card">
+                            <a class="update-feed-card hover_card" href="">
                                 <div class="event_card_img">
                                     <div class="overlay_date_time feed_name">
                                         <div class="inner-feed-name">
-                                            <span class="dt-text">Blog</span>
+                                            <h5 class="feed-text mb-0">Blog</h5>
                                         </div>
                                     </div>
                                     <img src="./images/latest-feeds/hope-in-motion.jpg" alt="" class="portrait_size radius-12">
                                 </div>
                                 <div class="card_title feed_disc">
-                                    <p class="mb-0">Hope in Motion: Inside Oluwadare Owolabi’s Grassroots Tour</p>
+                                    <div class="linebar">
+                                        <p class="mb-0">Hope in Motion: Inside Oluwadare Owolabi’s Grassroots Tour</p>
+                                    </div>
                                 </div>
                             </a>
                         </div>
@@ -401,6 +410,11 @@
             <div class="tab-pane fade" id="nav-blogs" role="tabpanel" aria-labelledby="nav-blogs-tab" tabindex="0"></div>
             <div class="tab-pane fade" id="nav-socials" role="tabpanel" aria-labelledby="nav-socials-tab" tabindex="0"></div>
 
+        </div>
+        <div class="main-btn-inner m-0 md-d-block text-center">
+            <a href="#" class="main-btn position-relative"><span class="btn-text">Read more</span><span class="arrw-btn">
+                    <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
+            </a>
         </div>
     </section>
 

@@ -1,4 +1,8 @@
 @media (max-width: 1850px) {
+    .overlay_date_time.feed_name {
+        padding: 7px 22px;
+    }
+
     .event-tabs-wrapper {
         padding: 40px 0 50px;
     }
@@ -62,6 +66,23 @@
 }
 
 @media (max-width: 1600px) {
+    .overlay_date_time.feed_name {
+        padding: 5px 18px;
+    }
+
+    .linebar::before {
+        width: 7px;
+        height: 32px;
+    }
+
+    .feed_disc p {
+        margin-left: 16px;
+    }
+
+    .updates-feed .nav-tabs {
+        margin: 40px auto 70px;
+    }
+
     .dt-text {
         font-size: 14px;
     }
@@ -165,6 +186,22 @@
 }
 
 @media (max-width: 1500px) {
+    .main_heading p {
+        margin-bottom: 20px;
+    }
+
+    .updates-feed .nav-tabs {
+        margin: 40px auto 50px;
+    }
+
+    .feed_disc p {
+        margin-left: 14px;
+    }
+
+    .overlay_date_time.feed_name {
+        padding: 5px 14px;
+    }
+
     .year-dropdown .year_text {
         padding-top: 0;
         padding-bottom: 0;
@@ -219,6 +256,15 @@
 }
 
 @media (max-width: 1399px) {
+
+    .linebar::before {
+        width: 5px;
+    }
+
+    .feed_disc p {
+        margin-left: 12px;
+    }
+
     .tabs-name.nav-link {
         padding: 6px 26px;
         border-radius: 18px;
@@ -253,10 +299,6 @@
         height: 33vh;
     }
 
-    .navbar .navbar-mobile {
-        padding: 20px 0;
-    }
-
     .inner-down-arrow {
         height: 90px;
         width: 90px;
@@ -268,6 +310,28 @@
 }
 
 @media (max-width: 1199px) {
+    .linebar::before {
+        width: 4px;
+        height: 22px;
+    }
+
+    .feed_disc p {
+        margin-left: 10px;
+    }
+
+    .overlay_date_time.feed_name {
+        padding: 4px 12px;
+    }
+
+    .sm-feeds .event_card_img {
+        width: 100%;
+    }
+
+    .sm-feeds .portrait_size,
+    .sm-feeds .landscap_size {
+        width: 100%;
+    }
+
     .dt-text {
         font-size: 12px;
     }
@@ -302,7 +366,8 @@
         height: 42vh;
     }
 
-    .event-tabs-wrapper .nav-tabs::-webkit-scrollbar {
+    .event-tabs-wrapper .nav-tabs::-webkit-scrollbar,
+    .updates-feed .nav-tabs::-webkit-scrollbar {
         display: none;
     }
 
@@ -380,6 +445,28 @@
 }
 
 @media (max-width: 1024px) {
+    .updates-feed .main-btn-inner {
+        padding-top: 40px;
+    }
+
+    .updates-feed .nav-tabs {
+        margin: 30px 30px 40px;
+        padding: 0 !important;
+    }
+
+    .main_heading p {
+        margin-bottom: 0;
+    }
+
+
+    .md-d-none {
+        display: none;
+    }
+
+    .md-d-block {
+        display: block;
+    }
+
     .container {
         max-width: 100%;
         padding: 0 30px;
@@ -390,7 +477,15 @@
     }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
+    .main_heading {
+        margin-bottom: 10px;
+    }
+
+    .updates-feed .nav-tabs {
+        margin: 16px 30px 40px;
+    }
+
     .event-tabs-wrapper .swiper-slide {
         height: 39vh;
     }
@@ -414,9 +509,31 @@
     }
 }
 
-@media (max-width: 767px) {}
+@media (max-width: 767px) {
+    .updates-feed .nav-tabs {
+        margin: 8px 30px 40px;
+    }
+}
 
 @media (max-width: 575px) {
+    .updates-feed .main-btn-inner {
+        padding-top: 30px;
+    }
+
+    h2 {
+        line-height: 1.2;
+    }
+
+    .updates-feed .nav-tabs {
+        margin: 8px 16px 40px;
+        gap: 0;
+        width: 100%;
+        flex-wrap: nowrap;
+        justify-content: start;
+        overflow-y: scroll;
+        padding-bottom: 2px !important;
+    }
+
     .container {
         padding: 0 16px;
     }
