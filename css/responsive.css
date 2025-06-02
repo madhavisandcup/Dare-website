@@ -76,6 +76,18 @@
 }
 
 @media (max-width: 1600px) {
+    .accordion-button {
+        padding: 28px 35px;
+    }
+
+    .accordion-body {
+        padding: 0px 35px 28px;
+    }
+
+    .accordion-item {
+        margin-bottom: 28px;
+    }
+
     .marquee-led-driven .marquee-block .marquee-inner .marquee-text .m-item.m-title {
         letter-spacing: 8px;
     }
@@ -200,6 +212,18 @@
 }
 
 @media (max-width: 1500px) {
+    .accordion-button {
+        padding: 24px 30px;
+    }
+
+    .accordion-body {
+        padding: 0px 30px 24px;
+    }
+
+    .accordion-item {
+        margin-bottom: 28px;
+    }
+
     .main_heading p {
         margin-bottom: 20px;
     }

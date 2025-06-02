@@ -121,6 +121,7 @@ body.navbar-open {
     -moz-transform: translateY(0%);
     -ms-transform: translateY(0%);
     -o-transform: translateY(0%);
+    pointer-events: auto;
 }
 
 .main-menu-wrapper {
@@ -144,6 +145,7 @@ body.navbar-open {
     -moz-transition: transform 0.5s ease-in-out;
     -ms-transition: transform 0.5s ease-in-out;
     -o-transition: transform 0.5s ease-in-out;
+    pointer-events: none;
 }
 
 .main-menu-wrapper li {
@@ -847,8 +849,12 @@ footer {
     padding: 140px 0;
 }
 
+.faqs-wrapper .container {
+    max-width: clamp(320px, 78.26vw, 1503px);
+}
+
 .faqs-accordion {
-    margin: 57px 0 0;
+    margin: 60px 0 0;
 }
 
 .accordion-button {
@@ -866,8 +872,9 @@ footer {
 
 .accordion-body {
     color: #B0B0B0;
-    font-size: clamp(10px, 0.94vw, 18px);
+    font-size: clamp(10px, 1.25vw, 20px);
     padding: 0px 40px 32px;
+    width: 60vw;
 }
 
 .accordion-item {
