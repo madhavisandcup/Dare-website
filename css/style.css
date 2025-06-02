@@ -116,7 +116,11 @@ body.navbar-open {
 }
 
 .navbar-open .main-menu-wrapper {
-    transform: translateX(0);
+    transform: translateY(0%);
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -o-transform: translateY(0%);
 }
 
 .main-menu-wrapper {
@@ -128,10 +132,16 @@ body.navbar-open {
     -webkit-backdrop-filter: blur(40px);
     height: 100vh;
     width: 100%;
-    transform: translateX(100%);
-    transition: all 0.5s ease-in-out;
+    /*transform-origin: calc(100% - 110px) 50px;
+    */transform: translateY(-100%);
+    transition: transform 0.5s ease-in-out;
     padding: 150px 0 0;
     z-index: 9;
+    -webkit-transition: transform 0.5s ease-in-out;
+    -moz-transition: transform 0.5s ease-in-out;
+    -ms-transition: transform 0.5s ease-in-out;
+    -o-transition: transform 0.5s ease-in-out;
+
 }
 
 .navbar-brand {

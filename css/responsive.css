@@ -40,6 +40,16 @@
 }
 
 @media (max-width: 1750px) {
+
+    .marquee-led-driven .marquee-text.flex,
+    .marquee-led-driven .marquee-inner {
+        gap: 32px;
+    }
+
+    .marquee-led-driven .marquee-block {
+        padding: 20px 0;
+    }
+
     .navbar .navbar-mobile {
         padding: 20px 0;
     }
@@ -66,6 +76,10 @@
 }
 
 @media (max-width: 1600px) {
+    .marquee-led-driven .marquee-block .marquee-inner .marquee-text .m-item.m-title {
+        letter-spacing: 8px;
+    }
+
     .overlay_date_time.feed_name {
         padding: 5px 18px;
     }
@@ -256,6 +270,14 @@
 }
 
 @media (max-width: 1399px) {
+    .marquee-led-driven .marquee-block {
+        padding: 16px 0;
+    }
+
+    .marquee-led-driven .marquee-text.flex,
+    .marquee-led-driven .marquee-inner {
+        gap: 26px;
+    }
 
     .linebar::before {
         width: 5px;
@@ -478,6 +500,20 @@
 }
 
 @media (max-width: 991px) {
+    .marquee-led-driven .marquee-block .marquee-inner .marquee-text .m-item.m-title {
+        letter-spacing: 5px;
+    }
+
+    .marquee-led-driven .marquee-text.flex,
+    .marquee-led-driven .marquee-inner {
+        gap: 20px;
+    }
+
+    .marquee-led-driven .marquee-block .marquee-inner .marquee-text .m-item.m-dot span {
+        width: 10px;
+        height: 10px;
+    }
+
     .main_heading {
         margin-bottom: 10px;
     }
@@ -516,6 +552,35 @@
 }
 
 @media (max-width: 575px) {
+    .marquee-led-driven .marquee-block {
+        padding: 10px 0;
+    }
+
+    .marquee-led-driven .m-img img {
+        height: 45px;
+        width: 7em;
+        border-radius: 80px;
+        -webkit-border-radius: 80px;
+        -moz-border-radius: 80px;
+        -ms-border-radius: 80px;
+        -o-border-radius: 80px;
+    }
+
+    .marquee-led-driven .marquee-block .marquee-inner .marquee-text .m-item.m-title {
+        letter-spacing: 4px;
+        font-size: 22px;
+    }
+
+    .marquee-led-driven .marquee-block .marquee-inner .marquee-text .m-item.m-dot span {
+        width: 8px;
+        height: 8px;
+    }
+
+    .marquee-led-driven .marquee-text.flex,
+    .marquee-led-driven .marquee-inner {
+        gap: 16px;
+    }
+
     .updates-feed .main-btn-inner {
         padding-top: 30px;
     }

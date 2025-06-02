@@ -315,6 +315,99 @@
         </div>
     </section>
 
+    <div class="marquee-led-driven">
+        <div class="marquee-block right-marquee">
+            <div class="marquee-inner flex">
+                <div class="marquee-text flex">
+                    <span class="m-item flex m-title">Led By Vision</span>
+
+                    <span class="m-item flex m-dot"><span></span></span>
+                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-01.webp" alt="m-img-01"></span></span>
+                    <span class="m-item flex m-dot"><span></span></span>
+
+                    <span class="m-item flex m-title">Driven By You</span>
+                    <span class="m-item flex m-dot"><span></span></span>
+                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-02.webp" alt="m-img-02"></span></span>
+                    <span class="m-item flex m-dot"><span></span></span>
+
+                    <span class="m-item flex m-title">Led By Vision</span>
+                    <span class="m-item flex m-dot"><span></span></span>
+                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-01.webp" alt="m-img-01"></span></span>
+                    <span class="m-item flex m-dot"><span></span></span>
+
+                    <span class="m-item flex m-title">Driven By You</span>
+                    <span class="m-item flex m-dot"><span></span></span>
+                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-02.webp" alt="m-img-02"></span></span>
+                    <span class="m-item flex m-dot"><span></span></span>
+
+                    <span class="m-item flex m-title">Led By Vision</span>
+                    <span class="m-item flex m-dot"><span></span></span>
+                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-01.webp" alt="m-img-01"></span></span>
+                    <span class="m-item flex m-dot"><span></span></span>
+
+                    <span class="m-item flex m-title">Driven By You</span>
+                    <span class="m-item flex m-dot"><span></span></span>
+                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-02.webp" alt="m-img-02"></span></span>
+                    <span class="m-item flex m-dot"><span></span></span>
+
+                    <span class="m-item flex m-title">Led By Vision</span>
+                    <span class="m-item flex m-dot"><span></span></span>
+                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-01.webp" alt="m-img-01"></span></span>
+                    <span class="m-item flex m-dot"><span></span></span>
+
+                    <span class="m-item flex m-title">Driven By You</span>
+                    <span class="m-item flex m-dot"><span></span></span>
+                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-02.webp" alt="m-img-02"></span></span>
+                    <span class="m-item flex m-dot"><span></span></span>
+
+                </div>
+                <div class="marquee-text flex">
+                    <span class="m-item flex m-title">Led By Vision</span>
+
+                    <span class="m-item flex m-dot"><span></span></span>
+                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-01.webp" alt="m-img-01"></span></span>
+                    <span class="m-item flex m-dot"><span></span></span>
+
+                    <span class="m-item flex m-title">Driven By You</span>
+                    <span class="m-item flex m-dot"><span></span></span>
+                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-02.webp" alt="m-img-02"></span></span>
+                    <span class="m-item flex m-dot"><span></span></span>
+
+                    <span class="m-item flex m-title">Led By Vision</span>
+                    <span class="m-item flex m-dot"><span></span></span>
+                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-01.webp" alt="m-img-01"></span></span>
+                    <span class="m-item flex m-dot"><span></span></span>
+
+                    <span class="m-item flex m-title">Driven By You</span>
+                    <span class="m-item flex m-dot"><span></span></span>
+                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-02.webp" alt="m-img-02"></span></span>
+                    <span class="m-item flex m-dot"><span></span></span>
+
+                    <span class="m-item flex m-title">Led By Vision</span>
+                    <span class="m-item flex m-dot"><span></span></span>
+                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-01.webp" alt="m-img-01"></span></span>
+                    <span class="m-item flex m-dot"><span></span></span>
+
+                    <span class="m-item flex m-title">Driven By You</span>
+                    <span class="m-item flex m-dot"><span></span></span>
+                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-02.webp" alt="m-img-02"></span></span>
+                    <span class="m-item flex m-dot"><span></span></span>
+
+                    <span class="m-item flex m-title">Led By Vision</span>
+                    <span class="m-item flex m-dot"><span></span></span>
+                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-01.webp" alt="m-img-01"></span></span>
+                    <span class="m-item flex m-dot"><span></span></span>
+
+                    <span class="m-item flex m-title">Driven By You</span>
+                    <span class="m-item flex m-dot"><span></span></span>
+                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-02.webp" alt="m-img-02"></span></span>
+                    <span class="m-item flex m-dot"><span></span></span>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <section class="updates-feed sec-space overflow-hidden sm-feeds">
         <div class="container">
             <div class="row">
