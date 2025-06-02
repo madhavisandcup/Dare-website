@@ -125,7 +125,7 @@
      
      .video-bg-img {
           width: 100%;
-          transform: scale(0.5);
+          transform: scale(0.6);
           transition: all 0.5s ease-in-out;
      }
      
