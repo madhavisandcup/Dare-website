@@ -78,10 +78,10 @@
             <div class="f-copyright">
                 <div class="row">
                     <div class="col-md-6">
-                        <h5 class="text-white mb-0">© 2025 Oluwadare Owulabi. All Rights Reserved.</h5>
+                        <h5 class="text-white text-left-md text-center mb-0">© 2025 Oluwadare Owulabi. All Rights Reserved.</h5>
                     </div>
                     <div class="col-md-6">
-                        <div class="c-logo d-flex align-items-center justify-content-end">
+                        <div class="c-logo d-flex align-items-center justify-content-center justify-content-md-end">
                             <img src="images/logo-white.svg" class="img-fluid" alt="sandcup">
                             <h5 class="text-white mb-0">Crafted by Sandcup Design</h5>
                         </div>                        

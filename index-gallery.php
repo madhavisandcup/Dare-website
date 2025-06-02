@@ -309,7 +309,6 @@
     </section>
 
     <section class="voice-wrapper capture-mm position-relative sec-space">
-      
             <div class="center-heading text-center">
                 <h2 class="main-title text-white">Captured Moments of <i class="pd_italic">Impact</i><span class="dor-anima ted text_green">.</span></h2>
                 <p class="vision-desc text-white">A visual journey of change, hope, and community in motion.</p>
@@ -394,7 +393,7 @@
     }
   });
 </script> -->
-<script>
+<!-- <script>
   let lastScrollTop = window.pageYOffset || document.documentElement.scrollTop;
   const items = document.querySelectorAll(".capture-img");
 
@@ -423,6 +422,6 @@
 
     lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
   }, false);
-</script>
+</script> -->
 
 </body>

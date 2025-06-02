@@ -60,7 +60,7 @@
                 </div>
             </div>
 
-            <div class="initiative-main">
+            <div class="initiative-main lg">
                 <div class="initiative-item">
                     <div class="in-key width-lg radius-16">
                         <div class="in-key-content">
@@ -183,6 +183,96 @@
                 </div>
             </div>
         </div>
+        <div class="initiative-main sm">
+                <div class="swiper iniitative-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide initiative-item">
+                            <div class="in-key radius-16">
+                                <div class="in-key-img">
+                                    <img src="images/initiatives/i-01.jpg" class="img-fluid radius-16" alt="security" />
+                                </div>
+                                <div class="in-key-content">
+                                    <div>
+                                        <h3 class="text_green dm_medium">Security</h3>
+                                        <div class="in-key-desc">
+                                            <p>Ensuring safe public spaces through targeted lighting, community patrols, and a dignity-first approach to local security.</p>
+                                            <p class="key-desc-two">Increased banditry, terrorism, and kidnappings have left communities in fear and disrupted livelihoods. State security forces are often overstretched or under-resourced.</p>
+                                        </div>
+                                    </div>
+                                    <div class="main-btn-inner">
+                                        <a href="#" class="main-btn position-relative"><span class="btn-text">Know his vision</span><span class="arrw-btn">
+                                            <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
+                                        </a>
+                                    </div>
+                                </div>                       
+                            </div>
+                        </div>
+                        <div class="swiper-slide initiative-item">
+                            <div class="in-key radius-16">
+                                <div class="in-key-img">
+                                    <img src="images/initiatives/i-01.jpg" class="img-fluid radius-16" alt="security" />
+                                </div>
+                                <div class="in-key-content">
+                                    <div>
+                                        <h3 class="text_green dm_medium">Security</h3>
+                                        <div class="in-key-desc">
+                                            <p>Ensuring safe public spaces through targeted lighting, community patrols, and a dignity-first approach to local security.</p>
+                                            <p class="key-desc-two">Increased banditry, terrorism, and kidnappings have left communities in fear and disrupted livelihoods. State security forces are often overstretched or under-resourced.</p>
+                                        </div>
+                                    </div>
+                                    <div class="main-btn-inner">
+                                        <a href="#" class="main-btn position-relative"><span class="btn-text">Know his vision</span><span class="arrw-btn">
+                                            <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
+                                        </a>
+                                    </div>
+                                </div>                       
+                            </div>
+                        </div>
+                        <div class="swiper-slide initiative-item">
+                            <div class="in-key radius-16">
+                                <div class="in-key-img">
+                                    <img src="images/initiatives/i-01.jpg" class="img-fluid radius-16" alt="security" />
+                                </div>
+                                <div class="in-key-content">
+                                    <div>
+                                        <h3 class="text_green dm_medium">Security</h3>
+                                        <div class="in-key-desc">
+                                            <p>Ensuring safe public spaces through targeted lighting, community patrols, and a dignity-first approach to local security.</p>
+                                            <p class="key-desc-two">Increased banditry, terrorism, and kidnappings have left communities in fear and disrupted livelihoods. State security forces are often overstretched or under-resourced.</p>
+                                        </div>
+                                    </div>
+                                    <div class="main-btn-inner">
+                                        <a href="#" class="main-btn position-relative"><span class="btn-text">Know his vision</span><span class="arrw-btn">
+                                            <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
+                                        </a>
+                                    </div>
+                                </div>                       
+                            </div>
+                        </div>
+                        <div class="swiper-slide initiative-item">
+                            <div class="in-key radius-16">
+                                <div class="in-key-img">
+                                    <img src="images/initiatives/i-01.jpg" class="img-fluid radius-16" alt="security" />
+                                </div>
+                                <div class="in-key-content">
+                                    <div>
+                                        <h3 class="text_green dm_medium">Security</h3>
+                                        <div class="in-key-desc">
+                                            <p>Ensuring safe public spaces through targeted lighting, community patrols, and a dignity-first approach to local security.</p>
+                                            <p class="key-desc-two">Increased banditry, terrorism, and kidnappings have left communities in fear and disrupted livelihoods. State security forces are often overstretched or under-resourced.</p>
+                                        </div>
+                                    </div>
+                                    <div class="main-btn-inner">
+                                        <a href="#" class="main-btn position-relative"><span class="btn-text">Know his vision</span><span class="arrw-btn">
+                                            <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
+                                        </a>
+                                    </div>
+                                </div>                       
+                            </div>
+                        </div>
+                    </div>
+                </div>                 
+            </div>
     </section>
 
     <section class="voice-wrapper sec-space">
@@ -196,6 +286,7 @@
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="voice-item radius-16 lg">
+                            <div class="v-pr-inner">
                                 <div class="voice-profile">
                                     <div class="voice-p-img">
                                          <img src="images/voices/v-p-01.png" class="img-fluid radius-50" alt="user" />
@@ -209,11 +300,12 @@
                                     <p class="voice-highlight-text">Lagos State University</p>
                                     <p class="extra_light_grey mb-0">"A statesman of substance and strategy. His speeches are not just words—they're a call to action and unity. Truly inspiring on a global platform. he listens, understands, and acts"</p>
                                 </div>
-                                <div class="voice-img">
-                                     <img src="images/voices/v-01.jpg" class="img-fluid radius-8" alt="user" />
-                                </div>
+                            </div>
+                            <div class="voice-img">
+                                    <img src="images/voices/v-01.jpg" class="img-fluid radius-8" alt="user" />
+                            </div>
                         </div>
-                        <div class="voice-item radius-16 sm">
+                        <div class="voice-item content-only radius-16 sm">
                             <div class="voice-profile">
                                 <div class="voice-p-img">
                                         <img src="images/voices/v-p-01.png" class="img-fluid radius-50" alt="user" />
@@ -230,7 +322,8 @@
                         </div>
                     </div>
                     <div class="col-lg-4">
-                         <div class="voice-item radius-16 sm">
+                         <div class="voice-item content-only radius-16 sm">
+                           
                             <div class="voice-profile">
                                 <div class="voice-p-img">
                                         <img src="images/voices/v-p-01.png" class="img-fluid radius-50" alt="user" />
@@ -240,24 +333,28 @@
                                     <h5 class="mb-0">Founder & Director</h5>
                                 </div>
                             </div>
+                           
                             <div class="voice-content">
                                 <p class="voice-highlight-text">NextGen Leaders Foundation</p>
                                 <p class="extra_light_grey mb-0">"His policies have directly uplifted marginalized voices, giving hope to many. What sets him apart is his empathy—he listens, understands, and acts."</p>
                             </div>
-                        </div>
+                             </div>
+                       
                         <div class="voice-item radius-16 md">
-                            <div class="voice-profile">
-                                <div class="voice-p-img">
-                                        <img src="images/voices/v-p-01.png" class="img-fluid radius-50" alt="user" />
+                            <div class="v-pr-inner">
+                                <div class="voice-profile">
+                                    <div class="voice-p-img">
+                                            <img src="images/voices/v-p-01.png" class="img-fluid radius-50" alt="user" />
+                                    </div>
+                                    <div class="voice-p-content">
+                                        <h3 class="text-white dm_medium">Ify Okeke</h3>
+                                        <h5 class="mb-0">Senior Lecturer</h5>
+                                    </div>
                                 </div>
-                                <div class="voice-p-content">
-                                    <h3 class="text-white dm_medium">Ify Okeke</h3>
-                                    <h5 class="mb-0">Senior Lecturer</h5>
+                                <div class="voice-content">
+                                    <p class="voice-highlight-text">Lagos State University</p>
+                                    <p class="extra_light_grey mb-0">"A statesman of substance and strategy. His speeches are not just words—they're a call to action and unity. Truly inspiring on a global platform. he listens, understands, and acts"</p>
                                 </div>
-                            </div>
-                            <div class="voice-content">
-                                <p class="voice-highlight-text">Lagos State University</p>
-                                <p class="extra_light_grey mb-0">"A statesman of substance and strategy. His speeches are not just words—they're a call to action and unity. Truly inspiring on a global platform. he listens, understands, and acts"</p>
                             </div>
                             <div class="voice-img">
                                     <img src="images/voices/v-02-md.jpg" class="img-fluid radius-8" alt="user" />
@@ -267,6 +364,7 @@
                     </div>
                     <div class="col-lg-4">
                         <div class="voice-item radius-16 sm">
+                            <div class="v-pr-inner">
                                 <div class="voice-profile">
                                     <div class="voice-p-img">
                                          <img src="images/voices/v-p-01.png" class="img-fluid radius-50" alt="user" />
@@ -280,27 +378,30 @@
                                     <p class="voice-highlight-text">Lagos State University</p>
                                     <p class="extra_light_grey mb-0">"A statesman of substance and strategy. His speeches are not just words—they're a call to action and unity. Truly inspiring on a global platform. he listens, understands, and acts"</p>
                                 </div>
+                                </div>
                                 <div class="voice-img">
                                      <img src="images/voices/v-03-sm.jpg" class="img-fluid radius-8" alt="user" />
                                 </div>
                         </div>
                         <div class="voice-item radius-16 xs">
-                            <div class="voice-profile">
-                                <div class="voice-p-img">
-                                        <img src="images/voices/v-p-01.png" class="img-fluid radius-50" alt="user" />
+                            <div class="v-pr-inner">
+                                <div class="voice-profile">
+                                    <div class="voice-p-img">
+                                            <img src="images/voices/v-p-01.png" class="img-fluid radius-50" alt="user" />
+                                    </div>
+                                    <div class="voice-p-content">
+                                        <h3 class="text-white dm_medium">Tunde Adebayo</h3>
+                                        <h5 class="mb-0">Founder & Director</h5>
+                                    </div>
                                 </div>
-                                <div class="voice-p-content">
-                                    <h3 class="text-white dm_medium">Tunde Adebayo</h3>
-                                    <h5 class="mb-0">Founder & Director</h5>
+                                <div class="voice-content">
+                                    <p class="voice-highlight-text">NextGen Leaders Foundation</p>
+                                    <p class="extra_light_grey mb-0">"His policies have directly uplifted marginalized voices, giving hope to many. What sets him apart is his empathy—he listens, understands, and acts."</p>
                                 </div>
                             </div>
-                            <div class="voice-content">
-                                <p class="voice-highlight-text">NextGen Leaders Foundation</p>
-                                <p class="extra_light_grey mb-0">"His policies have directly uplifted marginalized voices, giving hope to many. What sets him apart is his empathy—he listens, understands, and acts."</p>
+                            <div class="voice-img">
+                                <img src="images/voices/v-04-xs.jpg" class="img-fluid radius-8" alt="user" />
                             </div>
-                             <div class="voice-img">
-                                     <img src="images/voices/v-04-xs.jpg" class="img-fluid radius-8" alt="user" />
-                                </div>
                         </div>
                     </div>
                 </div>
@@ -308,73 +409,145 @@
         </div>
     </section>
 
-    <section class="voice-wrapper capture-mm sec-space">
-      
+       <section class="voice-wrapper capture-mm position-relative sec-space">
             <div class="center-heading text-center">
                 <h2 class="main-title text-white">Captured Moments of <i class="pd_italic">Impact</i><span class="dor-anima ted text_green">.</span></h2>
                 <p class="vision-desc text-white">A visual journey of change, hope, and community in motion.</p>
             </div>
 
-            <div class="initiative-main voices-inner">
+            <div class="initiative-main desktop voices-inner overflow-hidden">
                 <div class="capture-images">
                     <div class="capture-img position-relative one">
-                         <img src="images/captures/cap-01.jpg" class="img-fluid radius-8" alt="user" />
+                         <img src="images/captures/cap-01.png" class="img-fluid radius-8" alt="user" />
                     </div>
                 </div>
                 <div class="capture-images">
                     <div class="capture-img position-relative two">
-                         <img src="images/captures/cap-02.jpg" class="img-fluid radius-8" alt="user" />
+                         <img src="images/captures/cap-02.png" class="img-fluid radius-8" alt="user" />
                     </div>
                     <div class="capture-img position-relative three">
-                         <img src="images/captures/cap-03.jpg" class="img-fluid radius-8" alt="user" />
+                         <img src="images/captures/cap-03.png" class="img-fluid radius-8" alt="user" />
                     </div>
                      <div class="capture-img position-relative four">
-                         <img src="images/captures/cap-04.jpg" class="img-fluid radius-8" alt="user" />
+                         <img src="images/captures/cap-04.png" class="img-fluid radius-8" alt="user" />
                     </div>
                 </div>
                  <div class="capture-images">
                     <div class="capture-img position-relative five">
-                         <img src="images/captures/cap-05.jpg" class="img-fluid radius-8" alt="user" />
+                         <img src="images/captures/cap-05.png" class="img-fluid radius-8" alt="user" />
                     </div>
                     <div class="capture-img position-relative six">
-                         <img src="images/captures/cap-06.jpg" class="img-fluid radius-8" alt="user" />
+                         <img src="images/captures/cap-06.png" class="img-fluid radius-8" alt="user" />
                     </div>
                      <div class="capture-img position-relative seven">
-                         <img src="images/captures/cap-07.jpg" class="img-fluid radius-8" alt="user" />
+                         <img src="images/captures/cap-07.png" class="img-fluid radius-8" alt="user" />
                     </div>
                 </div>
                 <div class="capture-images">
                     <div class="capture-img position-relative eight">
-                         <img src="images/captures/cap-08.jpg" class="img-fluid radius-8" alt="user" />
+                         <img src="images/captures/cap-08.png" class="img-fluid radius-8" alt="user" />
                     </div>
                     <div class="capture-img position-relative nine">
-                         <img src="images/captures/cap-09.jpg" class="img-fluid radius-8" alt="user" />
+                         <img src="images/captures/cap-09.png" class="img-fluid radius-8" alt="user" />
                     </div>
                      <div class="capture-img position-relative ten">
-                         <img src="images/captures/cap-10.jpg" class="img-fluid radius-8" alt="user" />
+                         <img src="images/captures/cap-10.png" class="img-fluid radius-8" alt="user" />
                     </div>
                      <div class="capture-img position-relative eleven">
-                         <img src="images/captures/cap-11.jpg" class="img-fluid radius-8" alt="user" />
+                         <img src="images/captures/cap-11.png" class="img-fluid radius-8" alt="user" />
                     </div>
                 </div>
                 <div class="capture-images">
                     <div class="capture-img position-relative twelve">
-                         <img src="images/captures/cap-12.jpg" class="img-fluid radius-8" alt="user" />
+                         <img src="images/captures/cap-12.png" class="img-fluid radius-8" alt="user" />
                     </div>
                     <div class="capture-img position-relative thirdteen">
-                         <img src="images/captures/cap-13.jpg" class="img-fluid radius-8" alt="user" />
+                         <img src="images/captures/cap-13.png" class="img-fluid radius-8" alt="user" />
                     </div>
                      <div class="capture-img position-relative fortheen">
-                         <img src="images/captures/cap-14.jpg" class="img-fluid radius-8" alt="user" />
+                         <img src="images/captures/cap-14.png" class="img-fluid radius-8" alt="user" />
                     </div>
                      <div class="capture-img position-relative fifteen">
-                         <img src="images/captures/cap-15.jpg" class="img-fluid radius-8" alt="user" />
+                         <img src="images/captures/cap-15.png" class="img-fluid radius-8" alt="user" />
                     </div>
                 </div>
             </div>
-      
+             <div class="initiative-main mobile voices-inner overflow-hidden">
+                <div class="capture-images">
+                    <div class="capture-img position-relative one">
+                         <img src="images/captures/cap-01.png" class="img-fluid radius-8" alt="user" />
+                    </div>
+                    <div class="capture-img position-relative two">
+                         <img src="images/captures/cap-02.png" class="img-fluid radius-8" alt="user" />
+                    </div>
+                    <div class="capture-img position-relative three">
+                         <img src="images/captures/cap-03.png" class="img-fluid radius-8" alt="user" />
+                    </div>
+                     <div class="capture-img position-relative four">
+                         <img src="images/captures/cap-04.png" class="img-fluid radius-8" alt="user" />
+                    </div>
+                    <div class="capture-img position-relative five">
+                         <img src="images/captures/cap-05.png" class="img-fluid radius-8" alt="user" />
+                    </div>
+                    <div class="capture-img position-relative six">
+                         <img src="images/captures/cap-06.png" class="img-fluid radius-8" alt="user" />
+                    </div>
+                     <div class="capture-img position-relative seven">
+                         <img src="images/captures/cap-07.png" class="img-fluid radius-8" alt="user" />
+                    </div>
+                    <div class="capture-img position-relative eight">
+                         <img src="images/captures/cap-08.png" class="img-fluid radius-8" alt="user" />
+                    </div>
+                    <div class="capture-img position-relative nine">
+                         <img src="images/captures/cap-09.png" class="img-fluid radius-8" alt="user" />
+                    </div>
+                     <div class="capture-img position-relative ten">
+                         <img src="images/captures/cap-10.png" class="img-fluid radius-8" alt="user" />
+                    </div>
+                     <div class="capture-img position-relative eleven">
+                         <img src="images/captures/cap-11.png" class="img-fluid radius-8" alt="user" />
+                    </div>
+                    <div class="capture-img position-relative twelve">
+                         <img src="images/captures/cap-12.png" class="img-fluid radius-8" alt="user" />
+                    </div>
+                    <div class="capture-img position-relative thirdteen">
+                         <img src="images/captures/cap-13.png" class="img-fluid radius-8" alt="user" />
+                    </div>
+                     <div class="capture-img position-relative fortheen">
+                         <img src="images/captures/cap-14.png" class="img-fluid radius-8" alt="user" />
+                    </div>
+                     <div class="capture-img position-relative fifteen">
+                         <img src="images/captures/cap-15.png" class="img-fluid radius-8" alt="user" />
+                    </div>
+                </div>
+            </div>
     </section>
 
 <?php include 'footer.php'; ?>
+<script>
+    const initiativeSlider = new Swiper(".iniitative-slider", {
+     slidesOffsetBefore: 30,
+     loop: false,
 
+     breakpoints: {
+          0: {
+               // Small screen
+               slidesPerView: 1,
+               spaceBetween: 16,
+               slidesOffsetBefore: 0,
+          },
+          380:{
+               slidesPerView: 1.2,
+               spaceBetween: 14,
+               slidesOffsetBefore: 20,
+          },
+          650: {
+               // Small screen
+               slidesPerView: 1.5,
+               spaceBetween: 16,
+               slidesOffsetBefore: 30,
+          },
+     },
+});
+</script>
 </body>
