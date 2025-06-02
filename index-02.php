@@ -23,13 +23,13 @@
 
     <section class="video-wrapper sec-space">
         <div class="video-img position-relative">
-            <img src="images/video-bg-img.webp" class="video-bg-img d-block mx-auto" alt="video-img"> 
+            <img src="images/video-bg-img.webp" class="video-bg-img" alt="video-img"> 
             <div class="video-play-btn centered-block">
                 <div class="v-play">
-                    <img src="images/play.svg" class="v-play-ic d-block mx-auto" alt="video-play"> 
+                    <img src="images/play.svg" class="v-play-ic" alt="video-play"> 
                 </div>
                 <div class="circular-text-main centered-block">
-                    <h5  id="circular-text">Watch the vision . Watch the vision .</h5>
+                    <h5  id="circular-text"></h5>
                 </div>
             </div>
         </div>
@@ -272,7 +272,7 @@
                         </div>
                     </div>
                 </div>                 
-            </div>
+        </div>
     </section>
 
     <section class="voice-wrapper sec-space">
@@ -409,7 +409,7 @@
         </div>
     </section>
 
-       <section class="voice-wrapper capture-mm position-relative sec-space">
+    <section class="voice-wrapper capture-mm position-relative sec-space">
             <div class="center-heading text-center">
                 <h2 class="main-title text-white">Captured Moments of <i class="pd_italic">Impact</i><span class="dor-anima ted text_green">.</span></h2>
                 <p class="vision-desc text-white">A visual journey of change, hope, and community in motion.</p>
@@ -524,30 +524,5 @@
     </section>
 
 <?php include 'footer.php'; ?>
-<script>
-    const initiativeSlider = new Swiper(".iniitative-slider", {
-     slidesOffsetBefore: 30,
-     loop: false,
 
-     breakpoints: {
-          0: {
-               // Small screen
-               slidesPerView: 1,
-               spaceBetween: 16,
-               slidesOffsetBefore: 0,
-          },
-          380:{
-               slidesPerView: 1.2,
-               spaceBetween: 14,
-               slidesOffsetBefore: 20,
-          },
-          650: {
-               // Small screen
-               slidesPerView: 1.5,
-               spaceBetween: 16,
-               slidesOffsetBefore: 30,
-          },
-     },
-});
-</script>
 </body>

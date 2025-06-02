@@ -125,8 +125,12 @@
      
      .video-bg-img {
           width: 100%;
-          transform: scale(0.6);
+          transform: scale(0.5);
           transition: all 0.5s ease-in-out;
+     }
+     
+     .video-img {
+          margin-left: -190px;
      }
      
      .v-play {
@@ -165,9 +169,18 @@
      #circular-text {
           color: #fff;
           font-size: 1.58em;
-          -webkit-animation: spin 23s linear infinite;
+          /* -webkit-animation: spin 23s linear infinite;
           -moz-animation: spin 23s linear infinite;
-          animation: spin 23s linear infinite;
+          animation: spin 23s linear infinite; */
+     }
+     
+     .circular-dot {
+          width: 16px;
+          height: 16px;
+          background-color: #ffffff;
+          display: inline-block;
+          margin: 0 8px;
+          border-radius: 50%;
      }
      /***vision Puropse*****/
      
@@ -349,7 +362,7 @@
      
      .voice-wrapper {
           background-color: #110F0E;
-          padding: 125px 0;
+          padding: 125px 0 0;
      }
      
      .voice-item {
@@ -765,7 +778,7 @@
           margin-top: 2rem;
      }
      
-     .initiative-main.mobile,
+     .initiative-main.voices-inner.mobile,
      .initiative-main.sm {
           display: none;
      }
@@ -967,7 +980,7 @@
                -moz-transform: translate3d(0, 0, 0);
                -ms-transform: translate3d(0, 0, 0);
                -o-transform: translate3d(0, 0, 0);
-}
+          }
           0% {
                transform: translate3d(-100%, 0, 0);
           }

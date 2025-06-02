@@ -1,8 +1,8 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function() {
      // ✅ Toggle navbar menu
      const navbarOpen = document.getElementById("navbar-toggler");
      if (navbarOpen) {
-          navbarOpen.addEventListener("click", function () {
+          navbarOpen.addEventListener("click", function() {
                document.body.classList.toggle("navbar-open");
           });
      }
@@ -51,11 +51,13 @@ if (document.querySelector(".video-img") != null) {
           ease: "power1.inOut",
           scale: 1,
      });
+     growTl.to(".video-img", {
+          marginLeft: 0,
+          ease: "power1.inOut",
+     });
 }
 
-if (document.querySelector(".video-play-btn") != null) {
-     const circleType = new CircleType(document.getElementById("circular-text"));
-}
+
 
 /******************* Events-section Slider ******************/
 const swiper = new Swiper(".EventSlider", {
@@ -161,18 +163,43 @@ const UpdatesFeed = new Swiper(".UpdateFeeds", {
 });
 
 /******************* TabSelector with Dropdown js ******************/
-document.getElementById("tabSelector").addEventListener("change", function () {
-     var targetId = this.value;
+// document.getElementById("tabSelector").addEventListener("change", function() {
+//      var targetId = this.value;
 
-     // Remove active classes from all panes
-     document.querySelectorAll(".tab-pane").forEach(function (pane) {
-          pane.classList.remove("show", "active");
-     });
+//      // Remove active classes from all panes
+//      document.querySelectorAll(".tab-pane").forEach(function(pane) {
+//           pane.classList.remove("show", "active");
+//      });
 
-     // Add active class to selected tab content
-     var targetPane = document.getElementById(targetId);
-     if (targetPane) {
-          targetPane.classList.add("show", "active");
-     }
+//      // Add active class to selected tab content
+//      var targetPane = document.getElementById(targetId);
+//      if (targetPane) {
+//           targetPane.classList.add("show", "active");
+//      }
+// });
+
+//initiative slider 
+const initiativeSlider = new Swiper(".iniitative-slider", {
+     slidesOffsetBefore: 30,
+     loop: false,
+
+     breakpoints: {
+          0: {
+               // Small screen
+               slidesPerView: 1,
+               spaceBetween: 16,
+               slidesOffsetBefore: 0,
+          },
+          380: {
+               slidesPerView: 1.2,
+               spaceBetween: 14,
+               slidesOffsetBefore: 20,
+          },
+          650: {
+               // Small screen
+               slidesPerView: 1.5,
+               spaceBetween: 16,
+               slidesOffsetBefore: 30,
+          },
+     },
 });
-
