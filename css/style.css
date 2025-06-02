@@ -872,7 +872,7 @@ footer {
 
 .accordion-body {
     color: #B0B0B0;
-    font-size: clamp(10px, 1.25vw, 20px);
+    font-size: clamp(14px, 1.25vw, 20px);
     padding: 0px 40px 32px;
     width: 60vw;
 }

@@ -212,6 +212,10 @@
 }
 
 @media (max-width: 1500px) {
+    .faqs-accordion {
+        margin: 50px 0 0;
+    }
+
     .accordion-button {
         padding: 24px 30px;
     }
@@ -221,7 +225,7 @@
     }
 
     .accordion-item {
-        margin-bottom: 28px;
+        margin-bottom: 20px;
     }
 
     .main_heading p {
@@ -294,6 +298,20 @@
 }
 
 @media (max-width: 1399px) {
+    .accordion-button {
+        padding: 20px 26px;
+    }
+
+    .accordion-body {
+        padding: 0px 24px 26px;
+    }
+
+    .accordion-button::after {
+        background-size: 14px;
+        width: 30px;
+        height: 30px;
+    }
+
     .marquee-led-driven .marquee-block {
         padding: 16px 0;
     }
@@ -491,6 +509,27 @@
 }
 
 @media (max-width: 1024px) {
+    .faqs-wrapper {
+        padding: 100px 0;
+    }
+
+    .faqs-wrapper .container {
+        max-width: 90%;
+    }
+
+    .accordion-body {
+        width: 70vw;
+        padding: 0px 26px 26px;
+    }
+
+    .faqs-accordion {
+        margin: 40px 0 0;
+    }
+
+    .accordion-button {
+        padding: 16px 26px;
+    }
+
     .updates-feed .main-btn-inner {
         padding-top: 40px;
     }
@@ -576,6 +615,33 @@
 }
 
 @media (max-width: 575px) {
+    .faqs-wrapper {
+        padding: 60px 0;
+    }
+
+    .faqs-wrapper .container {
+        max-width: 100%;
+    }
+
+    .accordion-button {
+        padding: 16px 20px;
+    }
+
+    .accordion-body {
+        width: 100%;
+        padding: 0px 20px 20px;
+    }
+
+    .accordion-button::after {
+        background-size: 11px;
+        width: 26px;
+        height: 26px;
+    }
+
+    .faqs-accordion {
+        margin: 30px 0 0;
+    }
+
     .marquee-led-driven .marquee-block {
         padding: 10px 0;
     }
