@@ -914,8 +914,8 @@ footer {
 /* Rotate on expand */
 .accordion-button:not(.collapsed)::after {
     background-image: url('../images/down-arrow.svg');
-    background-color: #008751;
-    border-color: #008751;
+    background-color: #008751 !important;
+    border-color: #008751 !important;
     transform: rotate(90deg);
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
@@ -923,7 +923,8 @@ footer {
     -o-transform: rotate(90deg);
 }
 
-.accordion-item:hover .accordion-button::after {
+.accordion-item:hover .accordion-button::after,
+.accordion-item:hover .accordion-button:not(.collapsed)::after {
     background-color: #888888;
     border-color: #fff;
 }
