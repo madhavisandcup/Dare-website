@@ -593,7 +593,7 @@
      
      @media(max-width:479px) {
           #circular-text {
-               font-size: 1.1em;
+               font-size: 1em;
           }
           .v-play {
                width: 68px;
