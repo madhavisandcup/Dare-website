@@ -169,9 +169,9 @@
      #circular-text {
           color: #fff;
           font-size: 1.58em;
-          /* -webkit-animation: spin 23s linear infinite;
+          -webkit-animation: spin 23s linear infinite;
           -moz-animation: spin 23s linear infinite;
-          animation: spin 23s linear infinite; */
+          animation: spin 23s linear infinite;
      }
      
      .circular-dot {
