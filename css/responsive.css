@@ -823,6 +823,10 @@
 }
 
 @media (max-width: 479px) {
+    .faqs-wrapper.sm-events .center-heading h2 {
+        width: 80% !important;
+    }
+
     .dt-text {
         font-size: 10px;
     }
@@ -861,6 +865,15 @@
 }
 
 @media (max-width: 380px) {
+    .accordion-button {
+        font-size: 16px;
+        padding: 16px 16px;
+    }
+
+    .accordion-body {
+        padding: 0px 16px 20px;
+    }
+
     .sm-events .center-heading h2 {
         width: 70% !important;
     }
