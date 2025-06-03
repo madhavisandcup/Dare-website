@@ -577,12 +577,21 @@
                     left: 0;
                     z-index: -2;
                     margin: -2px;
-                    background: linear-gradient(60deg, rgba(205, 204, 204, 0.7) 0%, rgba(205, 204, 204, 0) 100%);
+                    background: linear-gradient(180deg, rgba(205, 204, 204, 0.7) 0%, rgba(205, 204, 204, 0) 60%);
                     border-radius: inherit;
                     box-sizing: border-box;
-                    background-size: 300% 300%;
-                    opacity: 0;
-                    transition: all 0.5s ease-in-out;
+                    background-size: 100% 300%;
+                    background-repeat: no-repeat;
+                    background-position: top;
+                    /* opacity: 0;
+                    transition: opacity 0.3s ease-in-out; */
+                    animation: none;
+                    /* transition: all 0.5s ease-in-out; */
+               }
+               
+               .voice-item:hover:after {
+                    /* opacity: 1; */
+                    animation: animated-border 2s ease alternate infinite;
                }
                /* .voice-item:after {
           content: '';
@@ -600,11 +609,6 @@
           background-size: 100% 100%;
           animation: animatedgradient 3s ease alternate infinite;
      } */
-               
-               .voice-item:hover:after {
-                    opacity: 1;
-                    animation: animated-border 3s ease alternate infinite;
-               }
                
                .voice-profile {
                     display: flex;
@@ -1232,6 +1236,21 @@
                
                @keyframes animated-border {
                     0% {
+                         background-position: top;
+                    }
+                    25% {
+                         background-position: right;
+                    }
+                    50% {
+                         background-position: bottom;
+                    }
+                    75% {
+                         background-position: left;
+                    }
+                    100% {
+                         background-position: top;
+                    }
+                    /* 0% {
                          background-position: 0% 50%;
                     }
                     50% {
@@ -1239,5 +1258,5 @@
                     }
                     100% {
                          background-position: 0% 50%;
-                    }
+                    } */
                }
