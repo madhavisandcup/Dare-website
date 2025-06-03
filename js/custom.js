@@ -9,29 +9,45 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 //Initiative interactions
-// document.querySelectorAll('.in-key.width-sm').forEach(function(elem) {
-//      elem.addEventListener('mouseenter', function() {
-//           const container = elem.closest('.initiative-item');
-//           if (container) container.classList.add('key-sm-hover');
-//      });
+document.querySelectorAll('.in-key.width-sm').forEach(function(elem) {
+     elem.addEventListener('mouseenter', function() {
+          const container = elem.closest('.initiative-item');
+          const fadeText = elem.querySelector('.in-key-content');
+          if (container && fadeText) {
+               container.classList.add('key-sm-hover');
+               container.classList.add('lg-active');
+               fadeText.classList.add('fade_text');
+               setTimeout(() => {
+                    fadeText.classList.remove('fade_text');
+               }, 1000);
+          }
 
-//      elem.addEventListener('mouseleave', function() {
-//           const container = elem.closest('.initiative-item');
-//           if (container) container.classList.remove('key-sm-hover');
-//      });
-// });
+     });
 
-// document.querySelectorAll('.in-key.width-lg').forEach(function(elem) {
-//      elem.addEventListener('mouseenter', function() {
-//           const container = elem.closest('.initiative-item');
-//           if (container) container.classList.add('key-lg-hover');
-//      });
+     elem.addEventListener('mouseleave', function() {
+          const container = elem.closest('.initiative-item');
+          if (container) container.classList.remove('key-sm-hover');
+     });
+});
 
-//      elem.addEventListener('mouseleave', function() {
-//           const container = elem.closest('.initiative-item');
-//           if (container) container.classList.remove('key-lg-hover');
-//      });
-// });
+document.querySelectorAll('.in-key.width-lg').forEach(function(elem) {
+     elem.addEventListener('mouseenter', function() {
+          const container = elem.closest('.initiative-item');
+          const fadeTextLg = elem.querySelector('.in-key-content');
+          if (container && fadeTextLg) {
+               container.classList.add('key-lg-hover');
+               fadeTextLg.classList.add('fade_text_lg');
+               setTimeout(() => {
+                    fadeTextLg.classList.remove('fade_text_lg');
+               }, 1000);
+          }
+     });
+
+     elem.addEventListener('mouseleave', function() {
+          const container = elem.closest('.initiative-item');
+          if (container) container.classList.remove('key-lg-hover');
+     });
+});
 
 // videobg interaction
 if (document.querySelector(".video-img") != null) {
@@ -163,43 +179,100 @@ const UpdatesFeed = new Swiper(".UpdateFeeds", {
 });
 
 /******************* TabSelector with Dropdown js ******************/
-document.getElementById("tabSelector").addEventListener("change", function() {
-     var targetId = this.value;
+// document.getElementById("tabSelector").addEventListener("change", function() {
+//      var targetId = this.value;
 
-     // Remove active classes from all panes
-     document.querySelectorAll(".tab-pane").forEach(function(pane) {
-          pane.classList.remove("show", "active");
-     });
+//      // Remove active classes from all panes
+//      document.querySelectorAll(".tab-pane").forEach(function(pane) {
+//           pane.classList.remove("show", "active");
+//      });
 
-     // Add active class to selected tab content
-     var targetPane = document.getElementById(targetId);
-     if (targetPane) {
-          targetPane.classList.add("show", "active");
+//      // Add active class to selected tab content
+//      var targetPane = document.getElementById(targetId);
+//      if (targetPane) {
+//           targetPane.classList.add("show", "active");
+//      }
+// });
+
+//circular Text JS
+window.addEventListener("DOMContentLoaded", () => {
+     const circularText = document.getElementById("circular-text");
+
+     if (circularText) {
+          const phrases = [
+               "Watch the vision",
+               "Watch the vision"
+          ];
+
+          const html = phrases.map((phrase, i) => {
+               // Add dot only between phrases
+               const dot = i < phrases.length - 1 ? ' <span class="circular-dot">•</span>' : ' <span class="circular-dot">•</span>\u00A0';
+               return phrase + dot;
+          }).join(' ');
+
+          // Add leading &nbsp;
+          circularText.innerHTML = '\u00A0' + html;
+
+          new CircleType(circularText);
      }
 });
 
+
+//gallery images interactions
+
+let lastScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+const items = document.querySelectorAll(".capture-img");
+
+function getRandomOffset() {
+     return Math.floor(Math.random() * 15) + 5; // Between 4 and 12px
+}
+
+window.addEventListener("scroll", () => {
+     const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+     const direction = currentScroll > lastScrollTop ? "down" : "up";
+
+     items.forEach((item, index) => {
+          const offset = getRandomOffset();
+
+          // Scroll down = move image up, Scroll up = move image down
+          const translateY = direction === "down" ? -offset : offset;
+
+          gsap.to(item, {
+               y: `+=${translateY}`, // incremental smooth movement
+               duration: 1.5,
+               ease: "sine.out",
+               overwrite: "auto",
+               delay: index * 0.01
+          });
+     });
+
+     lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
+}, false);
+
 //initiative slider 
 const initiativeSlider = new Swiper(".iniitative-slider", {
-     slidesOffsetBefore: 30,
-     loop: false,
+slidesOffsetBefore: 30,
+loop: false,
 
-     breakpoints: {
-          0: {
-               // Small screen
-               slidesPerView: 1,
-               spaceBetween: 16,
-               slidesOffsetBefore: 0,
-          },
-          380: {
-               slidesPerView: 1.2,
-               spaceBetween: 14,
-               slidesOffsetBefore: 20,
-          },
-          650: {
-               // Small screen
-               slidesPerView: 1.5,
-               spaceBetween: 16,
-               slidesOffsetBefore: 30,
-          },
+breakpoints: {
+     0: {
+          // Small screen
+          slidesPerView: 1,
+          spaceBetween: 16,
+          slidesOffsetBefore: 0,
      },
+     380: {
+          slidesPerView: 1.2,
+          spaceBetween: 14,
+          slidesOffsetBefore: 20,
+     },
+     650: {
+          // Small screen
+          slidesPerView: 1.5,
+          spaceBetween: 16,
+          slidesOffsetBefore: 30,
+     },
+},
+});
+},
 });
