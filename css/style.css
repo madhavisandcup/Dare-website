@@ -240,11 +240,11 @@ body.navbar-open {
     background-color: #fff;
     width: 2.6em;
     height: 2px;
-    transition: width 1s ease-in-out;
-    -webkit-transition: width 1s ease-in-out;
-    -moz-transition: width 1s ease-in-out;
-    -ms-transition: width 1s ease-in-out;
-    -o-transition: width 1s ease-in-out;
+    transition: width 0.6s ease-in-out;
+    -webkit-transition: width 0.6s ease-in-out;
+    -moz-transition: width 0.6s ease-in-out;
+    -ms-transition: width 0.6s ease-in-out;
+    -o-transition: width 0.6s ease-in-out;
 }
 
 .nav-item .nav-link:hover span::before {
@@ -268,6 +268,38 @@ body.navbar-open {
 
 .nav-itemlist.join-us {
     width: 20em;
+}
+
+/* mobile view header */
+.lg-desktop {
+    display: block;
+}
+
+.sm-mobile {
+    display: none;
+}
+
+.dropdown,
+.dropdown-center,
+.dropend,
+.dropstart,
+.dropup,
+.dropup-center {
+    position: relative;
+}
+
+.navbar-nav .dropdown-menu {
+    position: static;
+}
+
+.dropdown-menu.show {
+    display: block;
+}
+
+.dropdown-menu[data-bs-popper] {
+    top: 100%;
+    left: 0;
+    margin-top: var(--bs-dropdown-spacer);
 }
 
 /* homepage */
@@ -571,7 +603,8 @@ body.navbar-open {
 }
 
 .event-tabs-wrapper .swiper-slide {
-    height: 58vh;
+    /* height: 60vh; */
+    height: auto;
 }
 
 .events_btn.main-btn-inner {
@@ -942,4 +975,72 @@ footer {
 
 .accordion-button:focus-visible {
     outline: none;
+}
+
+/* circPulse animation on Dots */
+.circ {
+    /* position: relative; */
+    /* width: 10px; */
+    /* height: 10px; */
+    /* display: inline-block; */
+}
+
+.circPulse {
+    position: absolute;
+    right: 16%;
+    top: 25%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+}
+
+.circPulse:before {
+    content: "";
+    position: relative;
+    display: block;
+    width: 300%;
+    height: 300%;
+    box-sizing: border-box;
+    margin-left: -100%;
+    margin-top: -100%;
+    border-radius: 45px;
+    background-color: rgb(0, 135, 81);
+    animation: pulse-ring 1.25s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+    -webkit-animation: pulse-ring 1.25s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+}
+
+.circPulse:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #008751;
+    border-radius: 15px;
+    /* box-shadow: 0 0 8px rgba(0, 0, 0, 0.3); */
+}
+
+@-webkit-keyframes pulse-ring {
+    0% {
+        transform: scale(0.33);
+    }
+
+    80%,
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes pulse-ring {
+    0% {
+        transform: scale(0.33);
+    }
+
+    80%,
+    100% {
+        opacity: 0;
+    }
 }

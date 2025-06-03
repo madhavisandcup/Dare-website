@@ -33,7 +33,7 @@
                     </button>
                 </div>
             </div>
-            <div class="main-menu-wrapper">
+            <div class="main-menu-wrapper lg-desktop">
                 <div class="collapse navbar-collapse container" id="navbarNav">
                     <div class="row">
                         <div class="col-lg-4 col-md-6">
@@ -116,6 +116,117 @@
                         </div>
                     </div>
 
+                </div>
+            </div>
+            <div class="main-menu-wrapper sm-mobile">
+                <div class="collapse navbar-collapse container p-0" id="navbarNav">
+                    <div class="mobile-menu-scroll">
+                        <div class="row menu-row">
+                            <ul class="navbar-nav">
+                                <li class="nav-item collapsed" data-bs-toggle="collapse" data-bs-target="#menuItem1" aria-expanded="false">
+                                    <h3 class="text-white">About
+                                        <div class="arrow">
+                                            <div class="arrow-line left"></div>
+                                            <div class="arrow-line right"></div>
+                                        </div>
+                                    </h3>
+                                    <div class="nav-itemlist collapse" id="menuItem1">
+                                        <a class="nav-link px-0" href=""><span>The Leader’s Story</span></a>
+                                        <a class="nav-link px-0" href=""><span>Mission & Vision</span></a>
+                                        <a class="nav-link px-0" href=""><span>APC Team</span></a>
+                                        <a class="nav-link px-0" href=""><span>Community Roots</span></a>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <ul class="navbar-nav">
+                                <li class="nav-item collapsed" data-bs-toggle="collapse" data-bs-target="#menuItem2" aria-expanded="false">
+                                    <h3 class="text-white">Vision & Mission
+                                        <div class="arrow">
+                                            <div class="arrow-line left"></div>
+                                            <div class="arrow-line right"></div>
+                                        </div>
+                                    </h3>
+                                    <div class="nav-itemlist collapse" id="menuItem2">
+                                        <a class="nav-link px-0" href=""><span>Pillars of Progress</span></a>
+                                        <a class="nav-link px-0" href=""><span>Track Record</span></a>
+                                        <a class="nav-link px-0" href=""><span>Policy Priorities</span></a>
+                                        <a class="nav-link px-0" href=""><span>Our Vision</span></a>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <ul class="navbar-nav">
+                                <li class="nav-item collapsed" data-bs-toggle="collapse" data-bs-target="#menuItem3" aria-expanded="false">
+                                    <h3 class="text-white">Be Part of the Change
+                                        <div class="arrow">
+                                            <div class="arrow-line left"></div>
+                                            <div class="arrow-line right"></div>
+                                        </div>
+                                    </h3>
+                                    <div class="nav-itemlist collapse" id="menuItem3">
+                                        <a class="nav-link px-0" href=""><span>Ongoing Initiatives</span></a>
+                                        <a class="nav-link px-0" href=""><span>Events & Rallies</span></a>
+                                        <a class="nav-link px-0" href=""><span>Volunteer with Us</span></a>
+                                        <a class="nav-link px-0" href=""><span>Join the Movement</span></a>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <ul class="navbar-nav">
+                                <li class="nav-item collapsed" data-bs-toggle="collapse" data-bs-target="#menuItem4" aria-expanded="false">
+                                    <h3 class="text-white">Updates
+                                        <div class="arrow">
+                                            <div class="arrow-line left"></div>
+                                            <div class="arrow-line right"></div>
+                                        </div>
+                                    </h3>
+                                    <div class="nav-itemlist collapse" id="menuItem4">
+                                        <a class="nav-link px-0" href=""><span>News & Announcements</span></a>
+                                        <a class="nav-link px-0" href=""><span>Monthly Highlights</span></a>
+                                        <a class="nav-link px-0" href=""><span>Impact Stories</span></a>
+                                        <a class="nav-link px-0" href=""><span>Social Media Highlights</span></a>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <ul class="navbar-nav">
+                                <li class="nav-item collapsed" data-bs-toggle="collapse" data-bs-target="#menuItem5" aria-expanded="false">
+                                    <h3 class="text-white">Join Us
+                                        <div class="arrow">
+                                            <div class="arrow-line left"></div>
+                                            <div class="arrow-line right"></div>
+                                        </div>
+                                    </h3>
+                                    <div class="nav-itemlist join-us collapse" id="menuItem5">
+                                        <a class="nav-link px-0" href=""><span>Sign Up - For newsletter, volunteering, etc</span></a>
+                                        <a class="nav-link px-0" href=""><span>Donate - Support the mission financially</span></a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="fixed-layout">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <h3 class="text-white m-0">Contact Us</h3>
+                                <div class="header-social-icons">
+                                    <a href="" class="scale_effect">
+                                        <img src="./images/twitter.svg" alt="twitter" class="img-fluid social_v">
+                                    </a>
+                                    <a href="" class="scale_effect">
+                                        <img src="./images/linkedin.svg" alt="linkedin" class="img-fluid social_v">
+                                    </a>
+                                    <a href="" class="scale_effect">
+                                        <img src="./images/instagram.svg" alt="instagram" class="img-fluid social_v">
+                                    </a>
+                                    <a href="" class="scale_effect">
+                                        <img src="./images/facebook.svg" alt="facebook" class="img-fluid social_v">
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </nav>
