@@ -181,6 +181,48 @@ const UpdatesFeed = new Swiper(".UpdateFeeds", {
      },
 });
 
+// Define all selectors at the top
+let clientX = -100;
+let clientY = -100;
+const cursorArrow = document.querySelector(".cursor");
+const cursorText = document.querySelector(".cursor_text");
+
+if (cursorArrow) {
+  const initCursor = () => {
+    document.addEventListener("mousemove", (e) => {
+      clientX = e.clientX;
+      clientY = e.clientY;
+    });
+
+    const render = () => {
+      TweenMax.to(cursorArrow, {
+        duration: 0.3,
+        x: clientX,
+        y: clientY,
+        ease: Power2.easeOut,
+      });
+      requestAnimationFrame(render);
+    };
+    requestAnimationFrame(render);
+  };
+
+initCursor();
+// Only show cursor on <a> inside swiper-slide
+  document.querySelectorAll(".UpdateFeeds .swiper-slide a").forEach(link => {
+    const text = link.getAttribute("data-cursor-text") || "View Next";
+
+    link.addEventListener("mouseenter", () => {
+      cursorArrow.classList.add("cursor-show");
+      if (cursorText) cursorText.textContent = text;
+    });
+
+    link.addEventListener("mouseleave", () => {
+      cursorArrow.classList.remove("cursor-show");
+      if (cursorText) cursorText.textContent = ""; // or default text
+    });
+  });
+}
+
 /******************* TabSelector with Dropdown js ******************/
 const tabSelector = document.getElementById("tabSelector");
 if (tabSelector) {

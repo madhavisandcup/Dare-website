@@ -95,9 +95,13 @@
     <script src="./js/bootstrap.min.js"></script>
     <!-- <script src="./js/bootstrap.bundle.min"></script> -->
     <!-- <script src="https://unpkg.com/@popperjs/core@2"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
     <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./js/circletype.min.js"></script>
     <script src="./js/custom.js"></script>
+    <script src="./js/cursor-slider.js"></script>
+
 </footer>

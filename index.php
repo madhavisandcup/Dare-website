@@ -51,11 +51,11 @@
                     <h2 class="main-title">Familiar <i class="pd_italic text_green">Faces<span class="text_green">,</span></i> Rising <i class="pd_italic text_green">Vision</i><span class="dor-animated text_green">.</span></h2>
                     <div class="main-btn-inner">
                         <a href="#" class="main-btn position-relative"><span class="btn-text">The Heart Behind All</span><span class="arrw-btn">
-                            <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
+                                <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
                         </a>
                     </div>
                 </div>
-                 <div class="col-md-6">
+                <div class="col-md-6">
                     <p class="vision-desc">"In a time of uncertainty, Nigeria needs not just change—but clarity. As the Morning Star rises before the sun, I rise with and for the people. A new direction, a brighter tomorrow."</p>
                 </div>
             </div>
@@ -63,13 +63,13 @@
     </section>
     <section class="video-wrapper sec-space">
         <div class="video-img position-relative">
-            <img src="images/video-bg-img.webp" class="video-bg-img" alt="video-img"> 
+            <img src="images/video-bg-img.webp" class="video-bg-img" alt="video-img">
             <div class="video-play-btn centered-block">
                 <div class="v-play">
-                    <img src="images/play.svg" class="v-play-ic" alt="video-play"> 
+                    <img src="images/play.svg" class="v-play-ic" alt="video-play">
                 </div>
                 <div class="circular-text-main centered-block">
-                    <h5  id="circular-text"></h5>
+                    <h5 id="circular-text"></h5>
                 </div>
             </div>
         </div>
@@ -80,9 +80,9 @@
                 <div class="col-md-7">
                     <h2 class="main-title apc-anim">Backed by<span class="apc-img-animate overflow-hidden position-relative d-inline-block"><span class="apc-imgs"><img src="images/apc-lg.svg" class="ap-01" alt="apc"><img src="images/apc-lg.svg" class="ap-02" alt="apc"></span></span><i class="pd_italic text_green">Vision<span class="text_green">,</span></i> Driven by <i class="pd_italic text_green">Purpose</i><span class="dor-animated text_green">.</span></h2>
                 </div>
-                 <div class="col-md-5">
+                <div class="col-md-5">
                     <p class="vision-desc">Oluwadare is not on this journey alone - he's backed by the All Progressives Congress (APC), a driving force for national progress.</p>
-                     <p class="vision-desc">With APC’s core values of people-centered leadership, inclusive development, and structural reform, Dare champions a bold agenda focused on education reform, youth inclusion, digital access, and job creation - uniting purpose with action.</p>
+                    <p class="vision-desc">With APC’s core values of people-centered leadership, inclusive development, and structural reform, Dare champions a bold agenda focused on education reform, youth inclusion, digital access, and job creation - uniting purpose with action.</p>
                 </div>
             </div>
         </div>
@@ -185,7 +185,7 @@
                 <div class="col-md-6">
                     <h2 class="main-title">Our Key <i class="pd_italic text_green">Initiatives</i><span class="dor-animated text_green">.</span></h2>
                 </div>
-                 <div class="col-md-6">
+                <div class="col-md-6">
                     <p class="vision-desc">At the heart of his mission lies a deep, unshakable hope — for people, for progress, for Nigeria. He stands for a future shaped by vision and built on trust. Born and raised in Lagos, Oluwadare understands the everyday struggles of Nigerians unreliable transport, rising costs, and families doing everything they could to get by.</p>
                 </div>
             </div>
@@ -203,7 +203,7 @@
                             </div>
                             <div class="main-btn-inner">
                                 <a href="#" class="main-btn position-relative"><span class="btn-text">Know his vision</span><span class="arrw-btn">
-                                    <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
+                                        <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
                                 </a>
                             </div>
                         </div>
@@ -211,8 +211,8 @@
                             <img src="images/initiatives/i-01.jpg" class="img-fluid radius-16" alt="security" />
                         </div>
                     </div>
-                    <div class="in-key width-sm position-relative radius-16">
-                         <div class="in-key-img">
+                    <div class="in-key width-sm radius-16">
+                        <div class="in-key-img">
                             <img src="images/initiatives/i-01.jpg" class="img-fluid radius-16" alt="infrastructure" />
                         </div>
                         <div class="in-key-content">
@@ -223,17 +223,17 @@
                                     <p class="key-desc-two">Increased banditry, terrorism, and kidnappings have left communities in fear and disrupted livelihoods. State security forces are often overstretched or under-resourced.</p>
                                 </div>
                             </div>
-                             <div class="main-btn-inner">
+                            <div class="main-btn-inner">
                                 <a href="#" class="main-btn position-relative"><span class="btn-text">Know his vision</span><span class="arrw-btn">
-                                    <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
+                                        <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="initiative-item">
-                     <div class="in-key width-sm position-relative radius-16">
-                         <div class="in-key-img">
+                    <div class="in-key width-sm radius-16">
+                        <div class="in-key-img">
                             <img src="images/initiatives/i-01.jpg" class="img-fluid radius-16" alt="infrastructure" />
                         </div>
                         <div class="in-key-content">
@@ -244,9 +244,9 @@
                                     <p class="key-desc-two">Millions of Nigerians still lack clean drinking water. Rural areas suffer most, leading to diseases and school absenteeism.</p>
                                 </div>
                             </div>
-                             <div class="main-btn-inner">
+                            <div class="main-btn-inner">
                                 <a href="#" class="main-btn position-relative"><span class="btn-text">Know his vision</span><span class="arrw-btn">
-                                    <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
+                                        <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
                                 </a>
                             </div>
                         </div>
@@ -257,19 +257,19 @@
                                 <h3 class="text_green dm_medium">Education & Youth Development</h3>
                                 <div class="in-key-desc">
                                     <p>Reviving public schools with structural repairs, learning materials, and environments that support quality, equitable education.</p>
-                                    <p  class="key-desc-two">Dilapidated schools, outdated curricula, and a lack of alignment between education & employment have left millions of youth behind.</p>
+                                    <p class="key-desc-two">Dilapidated schools, outdated curricula, and a lack of alignment between education & employment have left millions of youth behind.</p>
                                 </div>
                             </div>
                             <div class="main-btn-inner">
                                 <a href="#" class="main-btn position-relative"><span class="btn-text">Know his vision</span><span class="arrw-btn">
-                                    <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
+                                        <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
                                 </a>
                             </div>
                         </div>
                         <div class="in-key-img">
                             <img src="images/initiatives/i-01.jpg" class="img-fluid radius-16" alt="security" />
                         </div>
-                    </div>                   
+                    </div>
                 </div>
                 <div class="initiative-item">
                     <div class="in-key width-lg position-relative radius-16">
@@ -283,7 +283,7 @@
                             </div>
                             <div class="main-btn-inner">
                                 <a href="#" class="main-btn position-relative"><span class="btn-text">Know his vision</span><span class="arrw-btn">
-                                    <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
+                                        <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
                                 </a>
                             </div>
                         </div>
@@ -291,8 +291,8 @@
                             <img src="images/initiatives/i-01.jpg" class="img-fluid radius-16" alt="security" />
                         </div>
                     </div>
-                    <div class="in-key width-sm position-relative radius-16">
-                         <div class="in-key-img">
+                    <div class="in-key width-sm radius-16">
+                        <div class="in-key-img">
                             <img src="images/initiatives/i-01.jpg" class="img-fluid radius-16" alt="infrastructure" />
                         </div>
                         <div class="in-key-content">
@@ -303,9 +303,9 @@
                                     <p class="key-desc-two">Many young people and communities across Nigeria struggle with poor internet access, limited digital literacy, and little exposure to technology.</p>
                                 </div>
                             </div>
-                             <div class="main-btn-inner">
+                            <div class="main-btn-inner">
                                 <a href="#" class="main-btn position-relative"><span class="btn-text">Know his vision</span><span class="arrw-btn">
-                                    <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
+                                        <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
                                 </a>
                             </div>
                         </div>
@@ -314,94 +314,94 @@
             </div>
         </div>
         <div class="initiative-main sm">
-                <div class="swiper iniitative-slider">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide initiative-item">
-                            <div class="in-key radius-16">
-                                <div class="in-key-img">
-                                    <img src="images/initiatives/i-01.jpg" class="img-fluid radius-16" alt="security" />
-                                </div>
-                                <div class="in-key-content">
-                                    <div>
-                                        <h3 class="text_green dm_medium">Security</h3>
-                                        <div class="in-key-desc">
-                                            <p>Ensuring safe public spaces through targeted lighting, community patrols, and a dignity-first approach to local security.</p>
-                                            <p class="key-desc-two">Increased banditry, terrorism, and kidnappings have left communities in fear and disrupted livelihoods. State security forces are often overstretched or under-resourced.</p>
-                                        </div>
-                                    </div>
-                                    <div class="main-btn-inner">
-                                        <a href="#" class="main-btn position-relative"><span class="btn-text">Know his vision</span><span class="arrw-btn">
-                                            <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
-                                        </a>
-                                    </div>
-                                </div>                       
+            <div class="swiper iniitative-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide initiative-item">
+                        <div class="in-key radius-16">
+                            <div class="in-key-img">
+                                <img src="images/initiatives/i-01.jpg" class="img-fluid radius-16" alt="security" />
                             </div>
-                        </div>
-                        <div class="swiper-slide initiative-item">
-                            <div class="in-key radius-16">
-                                <div class="in-key-img">
-                                    <img src="images/initiatives/i-01.jpg" class="img-fluid radius-16" alt="security" />
+                            <div class="in-key-content">
+                                <div>
+                                    <h3 class="text_green dm_medium">Security</h3>
+                                    <div class="in-key-desc">
+                                        <p>Ensuring safe public spaces through targeted lighting, community patrols, and a dignity-first approach to local security.</p>
+                                        <p class="key-desc-two">Increased banditry, terrorism, and kidnappings have left communities in fear and disrupted livelihoods. State security forces are often overstretched or under-resourced.</p>
+                                    </div>
                                 </div>
-                                <div class="in-key-content">
-                                    <div>
-                                        <h3 class="text_green dm_medium">Security</h3>
-                                        <div class="in-key-desc">
-                                            <p>Ensuring safe public spaces through targeted lighting, community patrols, and a dignity-first approach to local security.</p>
-                                            <p class="key-desc-two">Increased banditry, terrorism, and kidnappings have left communities in fear and disrupted livelihoods. State security forces are often overstretched or under-resourced.</p>
-                                        </div>
-                                    </div>
-                                    <div class="main-btn-inner">
-                                        <a href="#" class="main-btn position-relative"><span class="btn-text">Know his vision</span><span class="arrw-btn">
+                                <div class="main-btn-inner">
+                                    <a href="#" class="main-btn position-relative"><span class="btn-text">Know his vision</span><span class="arrw-btn">
                                             <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
-                                        </a>
-                                    </div>
-                                </div>                       
-                            </div>
-                        </div>
-                        <div class="swiper-slide initiative-item">
-                            <div class="in-key radius-16">
-                                <div class="in-key-img">
-                                    <img src="images/initiatives/i-01.jpg" class="img-fluid radius-16" alt="security" />
+                                    </a>
                                 </div>
-                                <div class="in-key-content">
-                                    <div>
-                                        <h3 class="text_green dm_medium">Security</h3>
-                                        <div class="in-key-desc">
-                                            <p>Ensuring safe public spaces through targeted lighting, community patrols, and a dignity-first approach to local security.</p>
-                                            <p class="key-desc-two">Increased banditry, terrorism, and kidnappings have left communities in fear and disrupted livelihoods. State security forces are often overstretched or under-resourced.</p>
-                                        </div>
-                                    </div>
-                                    <div class="main-btn-inner">
-                                        <a href="#" class="main-btn position-relative"><span class="btn-text">Know his vision</span><span class="arrw-btn">
-                                            <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
-                                        </a>
-                                    </div>
-                                </div>                       
-                            </div>
-                        </div>
-                        <div class="swiper-slide initiative-item">
-                            <div class="in-key radius-16">
-                                <div class="in-key-img">
-                                    <img src="images/initiatives/i-01.jpg" class="img-fluid radius-16" alt="security" />
-                                </div>
-                                <div class="in-key-content">
-                                    <div>
-                                        <h3 class="text_green dm_medium">Security</h3>
-                                        <div class="in-key-desc">
-                                            <p>Ensuring safe public spaces through targeted lighting, community patrols, and a dignity-first approach to local security.</p>
-                                            <p class="key-desc-two">Increased banditry, terrorism, and kidnappings have left communities in fear and disrupted livelihoods. State security forces are often overstretched or under-resourced.</p>
-                                        </div>
-                                    </div>
-                                    <div class="main-btn-inner">
-                                        <a href="#" class="main-btn position-relative"><span class="btn-text">Know his vision</span><span class="arrw-btn">
-                                            <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
-                                        </a>
-                                    </div>
-                                </div>                       
                             </div>
                         </div>
                     </div>
-                </div>                 
+                    <div class="swiper-slide initiative-item">
+                        <div class="in-key radius-16">
+                            <div class="in-key-img">
+                                <img src="images/initiatives/i-01.jpg" class="img-fluid radius-16" alt="security" />
+                            </div>
+                            <div class="in-key-content">
+                                <div>
+                                    <h3 class="text_green dm_medium">Security</h3>
+                                    <div class="in-key-desc">
+                                        <p>Ensuring safe public spaces through targeted lighting, community patrols, and a dignity-first approach to local security.</p>
+                                        <p class="key-desc-two">Increased banditry, terrorism, and kidnappings have left communities in fear and disrupted livelihoods. State security forces are often overstretched or under-resourced.</p>
+                                    </div>
+                                </div>
+                                <div class="main-btn-inner">
+                                    <a href="#" class="main-btn position-relative"><span class="btn-text">Know his vision</span><span class="arrw-btn">
+                                            <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide initiative-item">
+                        <div class="in-key radius-16">
+                            <div class="in-key-img">
+                                <img src="images/initiatives/i-01.jpg" class="img-fluid radius-16" alt="security" />
+                            </div>
+                            <div class="in-key-content">
+                                <div>
+                                    <h3 class="text_green dm_medium">Security</h3>
+                                    <div class="in-key-desc">
+                                        <p>Ensuring safe public spaces through targeted lighting, community patrols, and a dignity-first approach to local security.</p>
+                                        <p class="key-desc-two">Increased banditry, terrorism, and kidnappings have left communities in fear and disrupted livelihoods. State security forces are often overstretched or under-resourced.</p>
+                                    </div>
+                                </div>
+                                <div class="main-btn-inner">
+                                    <a href="#" class="main-btn position-relative"><span class="btn-text">Know his vision</span><span class="arrw-btn">
+                                            <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide initiative-item">
+                        <div class="in-key radius-16">
+                            <div class="in-key-img">
+                                <img src="images/initiatives/i-01.jpg" class="img-fluid radius-16" alt="security" />
+                            </div>
+                            <div class="in-key-content">
+                                <div>
+                                    <h3 class="text_green dm_medium">Security</h3>
+                                    <div class="in-key-desc">
+                                        <p>Ensuring safe public spaces through targeted lighting, community patrols, and a dignity-first approach to local security.</p>
+                                        <p class="key-desc-two">Increased banditry, terrorism, and kidnappings have left communities in fear and disrupted livelihoods. State security forces are often overstretched or under-resourced.</p>
+                                    </div>
+                                </div>
+                                <div class="main-btn-inner">
+                                    <a href="#" class="main-btn position-relative"><span class="btn-text">Know his vision</span><span class="arrw-btn">
+                                            <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <section class="events-wrapper sec-space overflow-hidden sm-events">
@@ -683,17 +683,12 @@
 
             <div class="initiative-main voices-inner">
                 <div class="row">
-                    <div class="col-lg-4">                        
-                            <div class="voice-item lg">
-                                <div class="v-pr-inner">
-                                    <div class="voice-profile">
-                                        <div class="voice-p-img">
-                                            <img src="images/voices/v-p-01.png" class="img-fluid radius-50" alt="user" />
-                                        </div>
-                                        <div class="voice-p-content">
-                                            <h3 class="text-white dm_medium">Ify Okeke</h3>
-                                            <h5 class="mb-0">Senior Lecturer</h5>
-                                        </div>
+                    <div class="col-lg-4">
+                        <div class="voice-item radius-16 lg">
+                            <div class="v-pr-inner">
+                                <div class="voice-profile">
+                                    <div class="voice-p-img">
+                                        <img src="images/voices/v-p-01.png" class="img-fluid radius-50" alt="user" />
                                     </div>
                                     <div class="voice-content">
                                         <p class="voice-highlight-text">Lagos State University</p>
@@ -704,11 +699,14 @@
                                         <img src="images/voices/v-01.jpg" class="img-fluid radius-8" alt="user" />
                                 </div>
                             </div>
-                       
-                        <div class="voice-item content-only sm">
+                            <div class="voice-img">
+                                <img src="images/voices/v-01.jpg" class="img-fluid radius-8" alt="user" />
+                            </div>
+                        </div>
+                        <div class="voice-item content-only radius-16 sm last">
                             <div class="voice-profile">
                                 <div class="voice-p-img">
-                                        <img src="images/voices/v-p-01.png" class="img-fluid radius-50" alt="user" />
+                                    <img src="images/voices/v-p-01.png" class="img-fluid radius-50" alt="user" />
                                 </div>
                                 <div class="voice-p-content">
                                     <h3 class="text-white dm_medium">Tunde Adebayo</h3>
@@ -722,29 +720,29 @@
                         </div>
                     </div>
                     <div class="col-lg-4">
-                         <div class="voice-item content-only sm">
-                           
+                        <div class="voice-item content-only radius-16 sm">
+
                             <div class="voice-profile">
                                 <div class="voice-p-img">
-                                        <img src="images/voices/v-p-01.png" class="img-fluid radius-50" alt="user" />
+                                    <img src="images/voices/v-p-01.png" class="img-fluid radius-50" alt="user" />
                                 </div>
                                 <div class="voice-p-content">
                                     <h3 class="text-white dm_medium">Tunde Adebayo</h3>
                                     <h5 class="mb-0">Founder & Director</h5>
                                 </div>
                             </div>
-                           
+
                             <div class="voice-content">
                                 <p class="voice-highlight-text">NextGen Leaders Foundation</p>
                                 <p class="extra_light_grey mb-0">"His policies have directly uplifted marginalized voices, giving hope to many. What sets him apart is his empathy—he listens, understands, and acts."</p>
                             </div>
-                             </div>
-                       
-                        <div class="voice-item md">
+                        </div>
+
+                        <div class="voice-item radius-16 md">
                             <div class="v-pr-inner">
                                 <div class="voice-profile">
                                     <div class="voice-p-img">
-                                            <img src="images/voices/v-p-01.png" class="img-fluid radius-50" alt="user" />
+                                        <img src="images/voices/v-p-01.png" class="img-fluid radius-50" alt="user" />
                                     </div>
                                     <div class="voice-p-content">
                                         <h3 class="text-white dm_medium">Ify Okeke</h3>
@@ -757,17 +755,17 @@
                                 </div>
                             </div>
                             <div class="voice-img">
-                                    <img src="images/voices/v-02-md.jpg" class="img-fluid radius-8" alt="user" />
+                                <img src="images/voices/v-02-md.jpg" class="img-fluid radius-8" alt="user" />
                             </div>
                         </div>
-                       
+
                     </div>
                     <div class="col-lg-4">
                         <div class="voice-item sm">
                             <div class="v-pr-inner">
                                 <div class="voice-profile">
                                     <div class="voice-p-img">
-                                         <img src="images/voices/v-p-01.png" class="img-fluid radius-50" alt="user" />
+                                        <img src="images/voices/v-p-01.png" class="img-fluid radius-50" alt="user" />
                                     </div>
                                     <div class="voice-p-content">
                                         <h3 class="text-white dm_medium">Ify Okeke</h3>
@@ -778,16 +776,16 @@
                                     <p class="voice-highlight-text">Lagos State University</p>
                                     <p class="extra_light_grey mb-0">"A statesman of substance and strategy. His speeches are not just words—they're a call to action and unity. Truly inspiring on a global platform. he listens, understands, and acts"</p>
                                 </div>
-                                </div>
-                                <div class="voice-img">
-                                     <img src="images/voices/v-03-sm.jpg" class="img-fluid radius-8" alt="user" />
-                                </div>
+                            </div>
+                            <div class="voice-img">
+                                <img src="images/voices/v-03-sm.jpg" class="img-fluid radius-8" alt="user" />
+                            </div>
                         </div>
                         <div class="voice-item xs">
                             <div class="v-pr-inner">
                                 <div class="voice-profile">
                                     <div class="voice-p-img">
-                                            <img src="images/voices/v-p-01.png" class="img-fluid radius-50" alt="user" />
+                                        <img src="images/voices/v-p-01.png" class="img-fluid radius-50" alt="user" />
                                     </div>
                                     <div class="voice-p-content">
                                         <h3 class="text-white dm_medium">Tunde Adebayo</h3>
@@ -825,7 +823,7 @@
                     </h2>
                     <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                           Oluwadare is a public Service provider and reform-driven leader dedicated to inclusive progress, youth empowerment, and grassroots transformation.
+                            Oluwadare is a public Service provider and reform-driven leader dedicated to inclusive progress, youth empowerment, and grassroots transformation.
                         </div>
                     </div>
                 </div>
@@ -837,7 +835,7 @@
                     </h2>
                     <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                           Oluwadare is a public Service provider and reform-driven leader dedicated to inclusive progress, youth empowerment, and grassroots transformation.
+                            Oluwadare is a public Service provider and reform-driven leader dedicated to inclusive progress, youth empowerment, and grassroots transformation.
                         </div>
                     </div>
                 </div>
@@ -849,7 +847,7 @@
                     </h2>
                     <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                           Oluwadare is a public Service provider and reform-driven leader dedicated to inclusive progress, youth empowerment, and grassroots transformation.
+                            Oluwadare is a public Service provider and reform-driven leader dedicated to inclusive progress, youth empowerment, and grassroots transformation.
                         </div>
                     </div>
                 </div>
@@ -858,6 +856,7 @@
     </section>
 
     <section class="updates-feed sec-space overflow-hidden sm-feeds">
+
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -878,119 +877,129 @@
                 </div>
             </div>
         </div>
-
-        <div class="nav nav-tabs main-flex-tabs justify-content-start px-3" id="updates-feed-tab" role="tablist">
-            <button class="tabs-name nav-link active" id="nav-latest-tab" data-bs-toggle="tab" data-bs-target="#nav-latest" type="button" role="tab" aria-controls="nav-latest" aria-selected="true">
-                <h5>Latest</h5>
-            </button>
-            <button class="tabs-name nav-link" id="nav-news-tab" data-bs-toggle="tab" data-bs-target="#nav-news" type="button" role="tab" aria-controls="nav-news" aria-selected="false">
-                <h5>News</h5>
-            </button>
-            <button class="tabs-name nav-link" id="nav-blogs-tab" data-bs-toggle="tab" data-bs-target="#nav-blogs" type="button" role="tab" aria-controls="nav-blogs" aria-selected="false">
-                <h5>Blog</h5>
-            </button>
-            <button class="tabs-name nav-link" id="nav-socials-tab" data-bs-toggle="tab" data-bs-target="#nav-socials" type="button" role="tab" aria-controls="nav-socials" aria-selected="false">
-                <h5>Socials</h5>
-            </button>
+        <!-- Custom Cursor -->
+        <div class="cursor">
+            <div class="custom_cursor">
+                <span class="cursor_text"></span>
+            </div>
         </div>
+        <div class="cursor-container">
 
-        <div class="tab-content" id="nav-tabContent">
-            <div class="tab-pane fade show active" id="nav-latest" role="tabpanel" aria-labelledby="nav-latest-tab" tabindex="0">
-                <!-- Swiper -->
-                <div class="swiper UpdateFeeds">
-                    <div class="swiper-wrapper h-auto">
-                        <!-- Slides -->
-                        <div class="swiper-slide">
-                            <a class="update-feed-card hover_card" href="">
-                                <div class="event_card_img">
-                                    <div class="overlay_date_time feed_name">
-                                        <div class="inner-feed-name">
-                                            <h5 class="feed-text mb-0">Blog</h5>
+            <div class="nav nav-tabs main-flex-tabs justify-content-start px-3" id="updates-feed-tab" role="tablist">
+                <button class="tabs-name nav-link active" id="nav-latest-tab" data-bs-toggle="tab" data-bs-target="#nav-latest" type="button" role="tab" aria-controls="nav-latest" aria-selected="true">
+                    <h5>Latest</h5>
+                </button>
+                <button class="tabs-name nav-link" id="nav-news-tab" data-bs-toggle="tab" data-bs-target="#nav-news" type="button" role="tab" aria-controls="nav-news" aria-selected="false">
+                    <h5>News</h5>
+                </button>
+                <button class="tabs-name nav-link" id="nav-blogs-tab" data-bs-toggle="tab" data-bs-target="#nav-blogs" type="button" role="tab" aria-controls="nav-blogs" aria-selected="false">
+                    <h5>Blog</h5>
+                </button>
+                <button class="tabs-name nav-link" id="nav-socials-tab" data-bs-toggle="tab" data-bs-target="#nav-socials" type="button" role="tab" aria-controls="nav-socials" aria-selected="false">
+                    <h5>Socials</h5>
+                </button>
+            </div>
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-latest" role="tabpanel" aria-labelledby="nav-latest-tab" tabindex="0">
+                    <!-- Swiper -->
+                    <div class="swiper UpdateFeeds onSlider">
+                        <div class="swiper-wrapper h-auto">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <a class="update-feed-card hover_card" href="" data-cursor-text="Read Blog">
+                                    <div class="event_card_img">
+                                        <div class="overlay_date_time feed_name">
+                                            <div class="inner-feed-name">
+                                                <h5 class="feed-text mb-0">Blog</h5>
+                                            </div>
+                                        </div>
+                                        <img src="./images/latest-feeds/hope-in-motion.jpg" alt="" class="portrait_size radius-12">
+                                    </div>
+                                    <div class="card_title feed_disc">
+                                        <div class="linebar">
+                                            <p class="mb-0">Hope in Motion: Inside Oluwadare Owolabi’s Grassroots Tour</p>
                                         </div>
                                     </div>
-                                    <img src="./images/latest-feeds/hope-in-motion.jpg" alt="" class="portrait_size radius-12">
-                                </div>
-                                <div class="card_title feed_disc">
-                                    <div class="linebar">
-                                        <p class="mb-0">Hope in Motion: Inside Oluwadare Owolabi’s Grassroots Tour</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="update-feed-card hover_card" href="" data-cursor-text="Read News">
+                                    <div class="event_card_img">
+                                        <div class="overlay_date_time feed_name">
+                                            <div class="inner-feed-name">
+                                                <h5 class="feed-text mb-0">News</h5>
+                                            </div>
+                                        </div>
+                                        <img src="./images/latest-feeds/arise-news-exclusive.jpg" alt="" class="landscap_size radius-12">
                                     </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a class="update-feed-card hover_card" href="">
-                                <div class="event_card_img">
-                                    <div class="overlay_date_time feed_name">
-                                        <div class="inner-feed-name">
-                                            <h5 class="feed-text mb-0">News</h5>
+                                    <div class="card_title feed_disc">
+                                        <div class="linebar">
+                                            <p class="mb-0">Arise News Exclusive: Oluwadare Owolabi on Reclaiming Nigeria’s Future</p>
                                         </div>
                                     </div>
-                                    <img src="./images/latest-feeds/arise-news-exclusive.jpg" alt="" class="landscap_size radius-12">
-                                </div>
-                                <div class="card_title feed_disc">
-                                    <div class="linebar">
-                                        <p class="mb-0">Arise News Exclusive: Oluwadare Owolabi on Reclaiming Nigeria’s Future</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="update-feed-card hover_card" href="" data-cursor-text="Read Blog">
+                                    <div class="event_card_img">
+                                        <div class="overlay_date_time feed_name">
+                                            <div class="inner-feed-name">
+                                                <h5 class="feed-text mb-0">Blog</h5>
+                                            </div>
+                                        </div>
+                                        <img src="./images/latest-feeds/1million-lives-touched.jpg" alt="" class="portrait_size radius-12">
                                     </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a class="update-feed-card hover_card" href="">
-                                <div class="event_card_img">
-                                    <div class="overlay_date_time feed_name">
-                                        <div class="inner-feed-name">
-                                            <h5 class="feed-text mb-0">Blog</h5>
+                                    <div class="card_title feed_disc">
+                                        <div class="linebar">
+                                            <p class="mb-0">Over 1 Million Lives Touched: Party’s Grassroots Programs Create Waves Across Nigeria</p>
                                         </div>
                                     </div>
-                                    <img src="./images/latest-feeds/1million-lives-touched.jpg" alt="" class="portrait_size radius-12">
-                                </div>
-                                <div class="card_title feed_disc">
-                                    <div class="linebar">
-                                        <p class="mb-0">Over 1 Million Lives Touched: Party’s Grassroots Programs Create Waves Across Nigeria</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="update-feed-card hover_card" href="" data-cursor-text="Read News">
+                                    <div class="event_card_img">
+                                        <div class="overlay_date_time feed_name">
+                                            <div class="inner-feed-name">
+                                                <h5 class="feed-text mb-0">News</h5>
+                                            </div>
+                                        </div>
+                                        <img src="./images/latest-feeds/not-just-politics.jpg" alt="" class="landscap_size radius-12">
                                     </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a class="update-feed-card hover_card" href="">
-                                <div class="event_card_img">
-                                    <div class="overlay_date_time feed_name">
-                                        <div class="inner-feed-name">
-                                            <h5 class="feed-text mb-0">News</h5>
+                                    <div class="card_title feed_disc">
+                                        <div class="linebar">
+                                            <p class="mb-0">Not Just Politics: How Local Initiatives Are Changing Lives</p>
                                         </div>
                                     </div>
-                                    <img src="./images/latest-feeds/not-just-politics.jpg" alt="" class="landscap_size radius-12">
-                                </div>
-                                <div class="card_title feed_disc">
-                                    <div class="linebar">
-                                        <p class="mb-0">Not Just Politics: How Local Initiatives Are Changing Lives</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="update-feed-card hover_card" href="">
+                                    <div class="event_card_img">
+                                        <div class="overlay_date_time feed_name">
+                                            <div class="inner-feed-name">
+                                                <h5 class="feed-text mb-0">Blog</h5>
+                                            </div>
+                                        </div>
+                                        <img src="./images/latest-feeds/hope-in-motion.jpg" alt="" class="portrait_size radius-12">
                                     </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a class="update-feed-card hover_card" href="">
-                                <div class="event_card_img">
-                                    <div class="overlay_date_time feed_name">
-                                        <div class="inner-feed-name">
-                                            <h5 class="feed-text mb-0">Blog</h5>
+                                    <div class="card_title feed_disc">
+                                        <div class="linebar">
+                                            <p class="mb-0">Hope in Motion: Inside Oluwadare Owolabi’s Grassroots Tour</p>
                                         </div>
                                     </div>
-                                    <img src="./images/latest-feeds/hope-in-motion.jpg" alt="" class="portrait_size radius-12">
-                                </div>
-                                <div class="card_title feed_disc">
-                                    <div class="linebar">
-                                        <p class="mb-0">Hope in Motion: Inside Oluwadare Owolabi’s Grassroots Tour</p>
-                                    </div>
-                                </div>
-                            </a>
+                                </a>
+                            </div>
                         </div>
+                        <!-- <div class="swiper-button-prev slick-arrow"></div>
+                        <div class="swiper-button-next slick-arrow"></div> -->
                     </div>
                 </div>
+                <div class="tab-pane fade" id="nav-news" role="tabpanel" aria-labelledby="nav-news-tab" tabindex="0"></div>
+                <div class="tab-pane fade" id="nav-blogs" role="tabpanel" aria-labelledby="nav-blogs-tab" tabindex="0"></div>
+                <div class="tab-pane fade" id="nav-socials" role="tabpanel" aria-labelledby="nav-socials-tab" tabindex="0"></div>
+
             </div>
-            <div class="tab-pane fade" id="nav-news" role="tabpanel" aria-labelledby="nav-news-tab" tabindex="0"></div>
-            <div class="tab-pane fade" id="nav-blogs" role="tabpanel" aria-labelledby="nav-blogs-tab" tabindex="0"></div>
-            <div class="tab-pane fade" id="nav-socials" role="tabpanel" aria-labelledby="nav-socials-tab" tabindex="0"></div>
 
         </div>
         <div class="main-btn-inner m-0 md-d-block text-center">
@@ -1000,121 +1009,144 @@
         </div>
     </section>
 
-    
-    <section class="voice-wrapper capture-mm position-relative sec-space">
-            <div class="center-heading text-center">
-                <h2 class="main-title text-white">Captured Moments of <i class="pd_italic text_green">Impact</i><span class="dor-anima ted text_green">.</span></h2>
-                <p class="vision-desc text-white">A visual journey of change, hope, and community in motion.</p>
-            </div>
 
-            <div class="initiative-main desktop voices-inner">
-                <div class="capture-images">
-                    <div class="capture-img position-relative one">
-                         <img src="images/captures/cap-01.png" class="img-fluid radius-8" alt="user" />
-                    </div>
-                </div>
-                <div class="capture-images">
-                    <div class="capture-img position-relative two">
-                         <img src="images/captures/cap-02.png" class="img-fluid radius-8" alt="user" />
-                    </div>
-                    <div class="capture-img position-relative three">
-                         <img src="images/captures/cap-03.png" class="img-fluid radius-8" alt="user" />
-                    </div>
-                     <div class="capture-img position-relative four">
-                         <img src="images/captures/cap-04.png" class="img-fluid radius-8" alt="user" />
-                    </div>
-                </div>
-                 <div class="capture-images">
-                    <div class="capture-img position-relative five">
-                         <img src="images/captures/cap-05.png" class="img-fluid radius-8" alt="user" />
-                    </div>
-                    <div class="capture-img position-relative six">
-                         <img src="images/captures/cap-06.png" class="img-fluid radius-8" alt="user" />
-                    </div>
-                     <div class="capture-img position-relative seven">
-                         <img src="images/captures/cap-07.png" class="img-fluid radius-8" alt="user" />
-                    </div>
-                </div>
-                <div class="capture-images">
-                    <div class="capture-img position-relative eight">
-                         <img src="images/captures/cap-08.png" class="img-fluid radius-8" alt="user" />
-                    </div>
-                    <div class="capture-img position-relative nine">
-                         <img src="images/captures/cap-09.png" class="img-fluid radius-8" alt="user" />
-                    </div>
-                     <div class="capture-img position-relative ten">
-                         <img src="images/captures/cap-10.png" class="img-fluid radius-8" alt="user" />
-                    </div>
-                     <div class="capture-img position-relative eleven">
-                         <img src="images/captures/cap-11.png" class="img-fluid radius-8" alt="user" />
-                    </div>
-                </div>
-                <div class="capture-images">
-                    <div class="capture-img position-relative twelve">
-                         <img src="images/captures/cap-12.png" class="img-fluid radius-8" alt="user" />
-                    </div>
-                    <div class="capture-img position-relative thirdteen">
-                         <img src="images/captures/cap-13.png" class="img-fluid radius-8" alt="user" />
-                    </div>
-                     <div class="capture-img position-relative fortheen">
-                         <img src="images/captures/cap-14.png" class="img-fluid radius-8" alt="user" />
-                    </div>
-                     <div class="capture-img position-relative fifteen">
-                         <img src="images/captures/cap-15.png" class="img-fluid radius-8" alt="user" />
-                    </div>
+    <section class="voice-wrapper capture-mm position-relative sec-space">
+        <div class="center-heading text-center">
+            <h2 class="main-title text-white">Captured Moments of <i class="pd_italic">Impact</i><span class="dor-anima ted text_green">.</span></h2>
+            <p class="vision-desc text-white">A visual journey of change, hope, and community in motion.</p>
+        </div>
+
+        <div class="initiative-main desktop voices-inner overflow-hidden">
+            <div class="capture-images">
+                <div class="capture-img position-relative one">
+                    <img src="images/captures/cap-01.png" class="img-fluid radius-8" alt="user" />
                 </div>
             </div>
-             <div class="initiative-main mobile voices-inner overflow-hidden">
-                <div class="capture-images">
-                    <div class="capture-img position-relative one">
-                         <img src="images/captures/cap-01.png" class="img-fluid radius-8" alt="user" />
-                    </div>
-                    <div class="capture-img position-relative two">
-                         <img src="images/captures/cap-02.png" class="img-fluid radius-8" alt="user" />
-                    </div>
-                    <div class="capture-img position-relative three">
-                         <img src="images/captures/cap-03.png" class="img-fluid radius-8" alt="user" />
-                    </div>
-                     <div class="capture-img position-relative four">
-                         <img src="images/captures/cap-04.png" class="img-fluid radius-8" alt="user" />
-                    </div>
-                    <div class="capture-img position-relative five">
-                         <img src="images/captures/cap-05.png" class="img-fluid radius-8" alt="user" />
-                    </div>
-                    <div class="capture-img position-relative six">
-                         <img src="images/captures/cap-06.png" class="img-fluid radius-8" alt="user" />
-                    </div>
-                     <div class="capture-img position-relative seven">
-                         <img src="images/captures/cap-07.png" class="img-fluid radius-8" alt="user" />
-                    </div>
-                    <div class="capture-img position-relative eight">
-                         <img src="images/captures/cap-08.png" class="img-fluid radius-8" alt="user" />
-                    </div>
-                    <div class="capture-img position-relative nine">
-                         <img src="images/captures/cap-09.png" class="img-fluid radius-8" alt="user" />
-                    </div>
-                     <div class="capture-img position-relative ten">
-                         <img src="images/captures/cap-10.png" class="img-fluid radius-8" alt="user" />
-                    </div>
-                     <div class="capture-img position-relative eleven">
-                         <img src="images/captures/cap-11.png" class="img-fluid radius-8" alt="user" />
-                    </div>
-                    <div class="capture-img position-relative twelve">
-                         <img src="images/captures/cap-12.png" class="img-fluid radius-8" alt="user" />
-                    </div>
-                    <div class="capture-img position-relative thirdteen">
-                         <img src="images/captures/cap-13.png" class="img-fluid radius-8" alt="user" />
-                    </div>
-                     <div class="capture-img position-relative fortheen">
-                         <img src="images/captures/cap-14.png" class="img-fluid radius-8" alt="user" />
-                    </div>
-                     <div class="capture-img position-relative fifteen">
-                         <img src="images/captures/cap-15.png" class="img-fluid radius-8" alt="user" />
-                    </div>
+            <div class="capture-images">
+                <div class="capture-img position-relative two">
+                    <img src="images/captures/cap-02.png" class="img-fluid radius-8" alt="user" />
+                </div>
+                <div class="capture-img position-relative three">
+                    <img src="images/captures/cap-03.png" class="img-fluid radius-8" alt="user" />
+                </div>
+                <div class="capture-img position-relative four">
+                    <img src="images/captures/cap-04.png" class="img-fluid radius-8" alt="user" />
                 </div>
             </div>
+            <div class="capture-images">
+                <div class="capture-img position-relative five">
+                    <img src="images/captures/cap-05.png" class="img-fluid radius-8" alt="user" />
+                </div>
+                <div class="capture-img position-relative six">
+                    <img src="images/captures/cap-06.png" class="img-fluid radius-8" alt="user" />
+                </div>
+                <div class="capture-img position-relative seven">
+                    <img src="images/captures/cap-07.png" class="img-fluid radius-8" alt="user" />
+                </div>
+            </div>
+            <div class="capture-images">
+                <div class="capture-img position-relative eight">
+                    <img src="images/captures/cap-08.png" class="img-fluid radius-8" alt="user" />
+                </div>
+                <div class="capture-img position-relative nine">
+                    <img src="images/captures/cap-09.png" class="img-fluid radius-8" alt="user" />
+                </div>
+                <div class="capture-img position-relative ten">
+                    <img src="images/captures/cap-10.png" class="img-fluid radius-8" alt="user" />
+                </div>
+                <div class="capture-img position-relative eleven">
+                    <img src="images/captures/cap-11.png" class="img-fluid radius-8" alt="user" />
+                </div>
+            </div>
+            <div class="capture-images">
+                <div class="capture-img position-relative twelve">
+                    <img src="images/captures/cap-12.png" class="img-fluid radius-8" alt="user" />
+                </div>
+                <div class="capture-img position-relative thirdteen">
+                    <img src="images/captures/cap-13.png" class="img-fluid radius-8" alt="user" />
+                </div>
+                <div class="capture-img position-relative fortheen">
+                    <img src="images/captures/cap-14.png" class="img-fluid radius-8" alt="user" />
+                </div>
+                <div class="capture-img position-relative fifteen">
+                    <img src="images/captures/cap-15.png" class="img-fluid radius-8" alt="user" />
+                </div>
+            </div>
+        </div>
+        <div class="initiative-main mobile voices-inner overflow-hidden">
+            <div class="capture-images">
+                <div class="capture-img position-relative one">
+                    <img src="images/captures/cap-01.png" class="img-fluid radius-8" alt="user" />
+                </div>
+                <div class="capture-img position-relative two">
+                    <img src="images/captures/cap-02.png" class="img-fluid radius-8" alt="user" />
+                </div>
+                <div class="capture-img position-relative three">
+                    <img src="images/captures/cap-03.png" class="img-fluid radius-8" alt="user" />
+                </div>
+                <div class="capture-img position-relative four">
+                    <img src="images/captures/cap-04.png" class="img-fluid radius-8" alt="user" />
+                </div>
+                <div class="capture-img position-relative five">
+                    <img src="images/captures/cap-05.png" class="img-fluid radius-8" alt="user" />
+                </div>
+                <div class="capture-img position-relative six">
+                    <img src="images/captures/cap-06.png" class="img-fluid radius-8" alt="user" />
+                </div>
+                <div class="capture-img position-relative seven">
+                    <img src="images/captures/cap-07.png" class="img-fluid radius-8" alt="user" />
+                </div>
+                <div class="capture-img position-relative eight">
+                    <img src="images/captures/cap-08.png" class="img-fluid radius-8" alt="user" />
+                </div>
+                <div class="capture-img position-relative nine">
+                    <img src="images/captures/cap-09.png" class="img-fluid radius-8" alt="user" />
+                </div>
+                <div class="capture-img position-relative ten">
+                    <img src="images/captures/cap-10.png" class="img-fluid radius-8" alt="user" />
+                </div>
+                <div class="capture-img position-relative eleven">
+                    <img src="images/captures/cap-11.png" class="img-fluid radius-8" alt="user" />
+                </div>
+                <div class="capture-img position-relative twelve">
+                    <img src="images/captures/cap-12.png" class="img-fluid radius-8" alt="user" />
+                </div>
+                <div class="capture-img position-relative thirdteen">
+                    <img src="images/captures/cap-13.png" class="img-fluid radius-8" alt="user" />
+                </div>
+                <div class="capture-img position-relative fortheen">
+                    <img src="images/captures/cap-14.png" class="img-fluid radius-8" alt="user" />
+                </div>
+                <div class="capture-img position-relative fifteen">
+                    <img src="images/captures/cap-15.png" class="img-fluid radius-8" alt="user" />
+                </div>
+            </div>
+        </div>
     </section>
 
     <?php include 'footer.php'; ?>
+    <script>
+        window.addEventListener("DOMContentLoaded", () => {
+            const circularText = document.getElementById("circular-text");
+
+            if (circularText) {
+                const phrases = [
+                    "Watch the vision",
+                    "Watch the vision"
+                ];
+
+                const html = phrases.map((phrase, i) => {
+                    // Add dot only between phrases
+                    const dot = i < phrases.length - 1 ? ' <span class="circular-dot">•</span>' : ' <span class="circular-dot">•</span>\u00A0';
+                    return phrase + dot;
+                }).join(' ');
+
+                // Add leading &nbsp;
+                circularText.innerHTML = '\u00A0' + html;
+
+                new CircleType(circularText);
+            }
+        });
+    </script>
 
 </body>
