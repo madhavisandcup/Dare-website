@@ -240,11 +240,11 @@ body.navbar-open {
     background-color: #fff;
     width: 2.6em;
     height: 2px;
-    transition: width 1s ease-in-out;
-    -webkit-transition: width 1s ease-in-out;
-    -moz-transition: width 1s ease-in-out;
-    -ms-transition: width 1s ease-in-out;
-    -o-transition: width 1s ease-in-out;
+    transition: width 0.6s ease-in-out;
+    -webkit-transition: width 0.6s ease-in-out;
+    -moz-transition: width 0.6s ease-in-out;
+    -ms-transition: width 0.6s ease-in-out;
+    -o-transition: width 0.6s ease-in-out;
 }
 
 .nav-item .nav-link:hover span::before {
@@ -268,6 +268,38 @@ body.navbar-open {
 
 .nav-itemlist.join-us {
     width: 20em;
+}
+
+/* mobile view header */
+.lg-desktop {
+    display: block;
+}
+
+.sm-mobile {
+    display: none;
+}
+
+.dropdown,
+.dropdown-center,
+.dropend,
+.dropstart,
+.dropup,
+.dropup-center {
+    position: relative;
+}
+
+.navbar-nav .dropdown-menu {
+    position: static;
+}
+
+.dropdown-menu.show {
+    display: block;
+}
+
+.dropdown-menu[data-bs-popper] {
+    top: 100%;
+    left: 0;
+    margin-top: var(--bs-dropdown-spacer);
 }
 
 /* homepage */
@@ -571,7 +603,7 @@ body.navbar-open {
 }
 
 .event-tabs-wrapper .swiper-slide {
-    height: 58vh;
+    height: 60vh;
 }
 
 .events_btn.main-btn-inner {

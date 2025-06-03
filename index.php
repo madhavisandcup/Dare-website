@@ -73,7 +73,7 @@
             </div>
         </div>
     </section>
-        <section class="vision-wrapper purpose sec-space">
+    <section class="vision-wrapper purpose sec-space">
         <div class="container">
             <div class="row">
                 <div class="col-md-7">
@@ -86,7 +86,7 @@
             </div>
         </div>
     </section>
-        <div class="marquee-led-driven sec-space">
+    <div class="marquee-led-driven sec-space">
         <div class="marquee-block right-marquee">
             <div class="marquee-inner flex">
                 <div class="marquee-text flex">
@@ -178,7 +178,7 @@
             </div>
         </div>
     </div>
-      <section class="key-initiative-wrapper sec-space">
+    <section class="key-initiative-wrapper sec-space">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -673,7 +673,7 @@
             </div>
         </div>
     </section>
-   <section class="voice-wrapper sec-space">
+    <section class="voice-wrapper sec-space">
         <div class="container">
             <div class="center-heading text-center">
                 <h2 class="main-title text-white w-100">Voices that <i class="pd_italic">Believe</i><span class="dor-anima ted text_green">.</span></h2>
@@ -812,7 +812,7 @@
     <section class="faqs-wrapper overflow-hidden sm-events">
         <div class="container">
             <div class="center-heading text-center">
-                <h2 class="main-title w-100 text-white">Frequently asked <i class="pd_italic text_green">Questions</i></h2>
+                <h2 class="main-title w-100 text-white">Frequently asked <i class="pd_italic text_green"><i class="bask_font">Q</i>uestions</i></h2>
                 <p class="vision-desc m-0 text-white">Our FAQ section gives you quick solutions to frequent questions, simplifying your search for information</p>
             </div>
 
