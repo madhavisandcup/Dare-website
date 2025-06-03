@@ -50,6 +50,11 @@
           /* .main-title {
                width: 70%;
           } */
+          .initiative-item.key-sm-hover .in-key.width-sm img,
+          .initiative-item.lg-active.key-lg-hover .in-key.width-lg img,
+          .initiative-item:not(.key-sm-hover) .in-key.width-lg img {
+               width: 368px;
+          }
      }
      
      @media(max-width:1480px) {
