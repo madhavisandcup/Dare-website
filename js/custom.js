@@ -85,7 +85,12 @@ const swiper = new Swiper(".EventSlider", {
      //   spaceBetween: 36,
      slidesOffsetBefore: 100,
      loop: false,
-
+     // Navigation arrows
+     navigation: {
+     nextEl: '.swiper-button-next.s1',
+     prevEl: '.swiper-button-prev.s1',
+     },
+     
      breakpoints: {
           0: {
                // Small screen
@@ -137,8 +142,8 @@ const UpdatesFeed = new Swiper(".UpdateFeeds", {
      loop: false,
      // Navigation arrows
      navigation: {
-     nextEl: '.swiper-button-next',
-     prevEl: '.swiper-button-prev',
+     nextEl: '.swiper-button-next.s2',
+     prevEl: '.swiper-button-prev.s2',
      },
      
      breakpoints: {
@@ -188,48 +193,59 @@ const UpdatesFeed = new Swiper(".UpdateFeeds", {
 
 // Custom cursor only for screens >= 1024px
 if (window.matchMedia("(min-width: 1024px)").matches) {
-     let clientX = -100;
-     let clientY = -100;
-     const cursorArrow = document.querySelector(".cursor");
-     const cursorText = document.querySelector(".cursor_text");
+    let clientX = -100;
+    let clientY = -100;
+    const cursorArrow = document.querySelector(".cursor");
+    const cursorText = document.querySelector(".cursor_text");
 
-     if (cursorArrow) {
-     const initCursor = () => {
-     document.addEventListener("mousemove", (e) => {
-          clientX = e.clientX;
-          clientY = e.clientY;
-     });
+    if (cursorArrow) {
+        const initCursor = () => {
+            document.addEventListener("mousemove", (e) => {
+                clientX = e.clientX;
+                clientY = e.clientY;
+            });
 
-     const render = () => {
-          TweenMax.to(cursorArrow, {
-          duration: 0.3,
-          x: clientX,
-          y: clientY,
-          ease: Power2.easeOut,
-          });
-          requestAnimationFrame(render);
-     };
-     requestAnimationFrame(render);
-     };
+            const render = () => {
+                TweenMax.to(cursorArrow, {
+                    duration: 0.3,
+                    x: clientX,
+                    y: clientY,
+                    ease: Power2.easeOut,
+                });
+                requestAnimationFrame(render);
+            };
 
-     initCursor();
-     // Only show cursor on <a> inside swiper-slide
-     document.querySelectorAll(".UpdateFeeds .swiper-slide a").forEach(link => {
-     const text = link.getAttribute("data-cursor-text") 
+            requestAnimationFrame(render);
+        };
 
-     link.addEventListener("mouseenter", () => {
-          cursorArrow.classList.add("cursor-show");
-          if (cursorText) cursorText.textContent = text;
-     });
+        initCursor();
 
-     link.addEventListener("mouseleave", () => {
-          cursorArrow.classList.remove("cursor-show");
-          if (cursorText) cursorText.textContent = ""; // or default text
-     });
-     });
-     }
+        // Function to attach cursor to a section
+        const attachCursorToSection = (sectionSelector) => {
+            document.querySelectorAll(`${sectionSelector} a`).forEach(link => {
+                const text = link.getAttribute("data-cursor-text");
+
+                link.addEventListener("mouseenter", () => {
+                    cursorArrow.classList.add("cursor-show");
+                    if (cursorText) cursorText.textContent = text;
+                });
+
+                link.addEventListener("mouseleave", () => {
+                    cursorArrow.classList.remove("cursor-show");
+                    if (cursorText) cursorText.textContent = "";
+                });
+            });
+        };
+
+        // 🔁 Add all sections where the cursor should work
+        const cursorSections = [
+            ".UpdateFeeds",         // slider 1
+            ".EventSlider"         // slider 2
+        ];
+
+        cursorSections.forEach(section => attachCursorToSection(section));
+    }
 }
-
 /******************* TabSelector with Dropdown js ******************/
 const tabSelector = document.getElementById("tabSelector");
 if (tabSelector) {

@@ -696,6 +696,18 @@ body.navbar-open {
     pointer-events: none;
 }
 
+select.year_text option {
+    color: #000;
+    background-color: #fff;
+    padding: 10px;
+    font-size: 16px;
+}
+
+select.year_text option:checked {
+    color: #fff;
+    background-color: #008751;
+}
+
 .form-select:focus,
 .form-select:focus-visible {
     box-shadow: none;
@@ -1086,10 +1098,15 @@ footer {
     opacity: 1;
 }
 
-.slider-arrow .swiper-button-next:after,
-.swiper-rtl .slider-arrow .swiper-button-prev:after,
-.slider-arrow .swiper-button-prev:after,
-.swiper-rtl .slider-arrow .swiper-button-next:after {
+.slider-arrow .swiper-button-next.s2:after,
+.swiper-rtl .slider-arrow .swiper-button-prev.s2:after,
+.slider-arrow .swiper-button-prev.s2:after,
+.swiper-rtl .slider-arrow .swiper-button-next.s2:after,
+
+.slider-arrow .swiper-button-next.s1::after,
+.slider-arrow .swiper-button-prev.s1:after,
+.swiper-rtl .slider-arrow .swiper-button-next.s1:after,
+.swiper-rtl .slider-arrow .swiper-button-prev.s1:after {
     content: '';
 }
 
@@ -1117,11 +1134,13 @@ footer {
     border-color: #008751;
 }
 
-.swiper-button-prev {
+.swiper-button-prev.s2,
+.swiper-button-prev.s1 {
     left: auto;
     right: 150px;
 }
 
-.swiper-button-next {
+.swiper-button-next.s2,
+.swiper-button-next.s1 {
     right: 80px;
 }

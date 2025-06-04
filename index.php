@@ -1,6 +1,14 @@
 <body>
 
     <?php include 'header.php'; ?>
+
+    <!-- Custom Cursor -->
+    <div class="cursor">
+        <div class="custom_cursor">
+            <span class="cursor_text"></span>
+        </div>
+    </div>
+
     <div class="homepage">
         <section class="container">
             <div class="hero-banner">
@@ -508,7 +516,7 @@
                         <div class="swiper-wrapper h-auto">
                             <!-- Slides -->
                             <div class="swiper-slide">
-                                <a class="event-card lg hover_card" href="">
+                                <a class="event-card lg hover_card" href="" data-cursor-text="Read">
                                     <div class="event_card_img">
                                         <div class="overlay_date_time">
                                             <div class="inner-date-time">
@@ -530,7 +538,7 @@
                                 </a>
                             </div>
                             <div class="swiper-slide">
-                                <a class="event-card lg hover_card" href="">
+                                <a class="event-card lg hover_card" href="" data-cursor-text="Read">
                                     <div class="event_card_img">
                                         <div class="overlay_date_time">
                                             <div class="inner-date-time">
@@ -552,7 +560,7 @@
                                 </a>
                             </div>
                             <div class="swiper-slide">
-                                <a class="event-card lg hover_card" href="">
+                                <a class="event-card lg hover_card" href="" data-cursor-text="Read">
                                     <div class="event_card_img">
                                         <div class="overlay_date_time">
                                             <div class="inner-date-time">
@@ -574,7 +582,7 @@
                                 </a>
                             </div>
                             <div class="swiper-slide">
-                                <a class="event-card lg hover_card" href="">
+                                <a class="event-card lg hover_card" href="" data-cursor-text="Read">
                                     <div class="event_card_img">
                                         <div class="overlay_date_time">
                                             <div class="inner-date-time">
@@ -596,7 +604,7 @@
                                 </a>
                             </div>
                             <div class="swiper-slide">
-                                <a class="event-card lg hover_card" href="">
+                                <a class="event-card lg hover_card" href="" data-cursor-text="Read">
                                     <div class="event_card_img">
                                         <div class="overlay_date_time">
                                             <div class="inner-date-time">
@@ -618,7 +626,7 @@
                                 </a>
                             </div>
                             <div class="swiper-slide">
-                                <a class="event-card lg hover_card" href="">
+                                <a class="event-card lg hover_card" href="" data-cursor-text="Read">
                                     <div class="event_card_img">
                                         <div class="overlay_date_time">
                                             <div class="inner-date-time">
@@ -667,10 +675,24 @@
 
             </div>
 
-            <div class="events_btn main-btn-inner">
+            <div class="events_btn main-btn-inner position-relative">
                 <a href="#" class="main-btn position-relative"><span class="btn-text">Explore more</span><span class="arrw-btn">
                         <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
                 </a>
+                <!-- custom navigation in slider -->
+                <div class="slider-arrow">
+                    <div class="swiper-button-prev s1 arrow-circle">
+                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M6.62087 11.7428C6.27798 12.0857 5.72203 12.0857 5.37913 11.7428L0.257174 6.62088C0.0925078 6.45621 -5.04178e-07 6.23287 -5.24537e-07 6C-5.44895e-07 5.76713 0.0925078 5.54379 0.257174 5.37913L5.37913 0.257175C5.72202 -0.0857252 6.27797 -0.0857253 6.62087 0.257175C6.96377 0.600074 6.96377 1.15602 6.62087 1.49892L2.99785 5.12195L11.122 5.12195C11.6069 5.12195 12 5.51507 12 6C12 6.48493 11.6069 6.87805 11.122 6.87805L2.99785 6.87805L6.62087 10.5011C6.96377 10.844 6.96377 11.3999 6.62087 11.7428Z" fill="#3B3B3B" />
+                        </svg>
+
+                    </div>
+                    <div class="swiper-button-next s1 arrow-circle">
+                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.37913 0.257175C5.72202 -0.0857248 6.27797 -0.0857248 6.62087 0.257174L11.7428 5.37913C11.9075 5.54379 12 5.76713 12 6C12 6.23287 11.9075 6.45621 11.7428 6.62087L6.62087 11.7428C6.27797 12.0857 5.72202 12.0857 5.37913 11.7428C5.03623 11.3999 5.03623 10.844 5.37913 10.5011L9.00215 6.87805H0.878049C0.393116 6.87805 0 6.48493 0 6C0 5.51507 0.393116 5.12195 0.878049 5.12195H9.00215L5.37913 1.49892C5.03623 1.15602 5.03623 0.600074 5.37913 0.257175Z" fill="#3B3B3B" />
+                        </svg>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -872,12 +894,7 @@
                 </div>
             </div>
         </div>
-        <!-- Custom Cursor -->
-        <div class="cursor">
-            <div class="custom_cursor">
-                <span class="cursor_text"></span>
-            </div>
-        </div>
+
         <div class="cursor-container">
 
             <div class="nav nav-tabs main-flex-tabs justify-content-start px-3" id="updates-feed-tab" role="tablist">
@@ -1000,13 +1017,13 @@
             </a>
             <!-- custom navigation in slider -->
             <div class="slider-arrow">
-                <div class="swiper-button-prev arrow-circle">
+                <div class="swiper-button-prev s2 arrow-circle">
                     <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M6.62087 11.7428C6.27798 12.0857 5.72203 12.0857 5.37913 11.7428L0.257174 6.62088C0.0925078 6.45621 -5.04178e-07 6.23287 -5.24537e-07 6C-5.44895e-07 5.76713 0.0925078 5.54379 0.257174 5.37913L5.37913 0.257175C5.72202 -0.0857252 6.27797 -0.0857253 6.62087 0.257175C6.96377 0.600074 6.96377 1.15602 6.62087 1.49892L2.99785 5.12195L11.122 5.12195C11.6069 5.12195 12 5.51507 12 6C12 6.48493 11.6069 6.87805 11.122 6.87805L2.99785 6.87805L6.62087 10.5011C6.96377 10.844 6.96377 11.3999 6.62087 11.7428Z" fill="#3B3B3B" />
                     </svg>
 
                 </div>
-                <div class="swiper-button-next arrow-circle">
+                <div class="swiper-button-next s2 arrow-circle">
                     <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M5.37913 0.257175C5.72202 -0.0857248 6.27797 -0.0857248 6.62087 0.257174L11.7428 5.37913C11.9075 5.54379 12 5.76713 12 6C12 6.23287 11.9075 6.45621 11.7428 6.62087L6.62087 11.7428C6.27797 12.0857 5.72202 12.0857 5.37913 11.7428C5.03623 11.3999 5.03623 10.844 5.37913 10.5011L9.00215 6.87805H0.878049C0.393116 6.87805 0 6.48493 0 6C0 5.51507 0.393116 5.12195 0.878049 5.12195H9.00215L5.37913 1.49892C5.03623 1.15602 5.03623 0.600074 5.37913 0.257175Z" fill="#3B3B3B" />
                     </svg>
