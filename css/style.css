@@ -829,13 +829,13 @@ footer {
 
 /* homepage marquee */
 .marquee-led-driven .marquee-block {
-    background: #2B2B2B;
-    padding: 30px 0;
+    background: #110F0E;
+    padding: 28px 0;
 }
 
 .marquee-led-driven .marquee-block .marquee-inner .marquee-text .m-item.m-title {
-    font-size: clamp(28px, 3.33vw, 64px);
-    letter-spacing: 10px;
+    font-size: 55px;
+    letter-spacing: 8px;
     align-items: center;
 }
 
@@ -850,8 +850,8 @@ footer {
     -moz-border-radius: 118px;
     -ms-border-radius: 118px;
     -o-border-radius: 118px;
-    width: clamp(159px, 11.74vw, 226px);
-    height: clamp(59px, 4.8vw, 92px);
+    width: 200px;
+    height: 80px;
 }
 
 .marquee-led-driven .m-item.m-dot {
