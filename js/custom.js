@@ -61,26 +61,60 @@ document.querySelectorAll('.in-key.width-lg').forEach(function(elem) {
 });
 
 // videobg interaction
-if (document.querySelector(".video-img") != null) {
-     gsap.registerPlugin(ScrollTrigger);
-     const growTl = gsap.timeline({
-          scrollTrigger: {
-               trigger: ".video-bg-img",
-               scrub: false,
-               start: "top center",
-               end: "+=400",
+const videoImgWrapper = document.querySelector(".video-img");
+const videoImg = document.querySelector(".video-img img");
+
+if (videoImgWrapper && videoImg) {
+     function animateOnLoad() {
+          const vidWidth = videoImg.naturalWidth;
+          const vidHeight = videoImg.naturalHeight;
+
+          // Scale proportionally to device width
+          const deviceWidth = window.innerWidth;
+          const scaleRatio = deviceWidth / vidWidth;
+          const scaledWidth = deviceWidth;
+          const scaledHeight = vidHeight * scaleRatio;
+
+          console.log("width...", scaledWidth);
+          console.log("height...", scaledHeight);
+
+          gsap.registerPlugin(ScrollTrigger);
+
+          const growTl = gsap.timeline({
+               scrollTrigger: {
+                    trigger: ".video-bg-img",
+                    scrub: false,
+                    start: "top center",
+                    end: "+=400",
+                    toggleActions: "play none none none",
+               },
+          });
+
+          growTl.to(".video-img", {
+               duration: 0.5,
                ease: "power1.inOut",
-               toggleActions: "play none none none",
-          },
-     });
-     growTl.to(".video-bg-img", {
-          duration: 0.5,
-          ease: "power1.inOut",
-          scale: 1,
-     });
-     growTl.to(".video-img", {
-          marginLeft: 0,
-          ease: "power1.inOut",
+               width: scaledWidth,
+               height: scaledHeight,
+               marginLeft: 0,
+          });
+     }
+
+     // If already loaded (from cache)
+     if (videoImg.complete) {
+          animateOnLoad();
+     } else {
+          videoImg.onload = animateOnLoad;
+     }
+}
+//Apc hover class 
+const apcMain = document.querySelector('.main-title.apc-anim');
+if (apcMain) {
+     let apcTimeout;
+     apcMain.addEventListener('mouseenter', () => {
+          clearTimeout(apcTimeout); // prevent multiple stacked timeouts
+          apcTimeout = setTimeout(() => {
+               apcMain.classList.add('f-apc-anim');
+          }, 500);
      });
 }
 
@@ -275,25 +309,25 @@ if (tabSelector) {
      });
 }
 //circular Text JS
-window.addEventListener("DOMContentLoaded", () => {
-     const circularText = document.getElementById("circular-text");
+// window.addEventListener("DOMContentLoaded", () => {
+//      const circularText = document.getElementById("circular-text");
 
-     if (circularText) {
-          const phrases = [
-               "Watch the vision",
-               "Watch the vision"
-          ];
+//      if (circularText) {
+//           const phrases = [
+//                "Watch the vision",
+//                "Watch the vision"
+//           ];
 
-          const html = phrases.map((phrase, i) => {
-               const dot = i < phrases.length - 1 ? ' <span class="circular-dot">•</span>' : ' <span class="circular-dot">•</span>\u00A0';
-               return phrase + dot;
-          }).join(' ');
+//           const html = phrases.map((phrase, i) => {
+//                const dot = i < phrases.length - 1 ? ' <span class="circular-dot">•</span>' : ' <span class="circular-dot">•</span>\u00A0';
+//                return phrase + dot;
+//           }).join(' ');
 
-          circularText.innerHTML = '\u00A0' + html;
+//           circularText.innerHTML = '\u00A0' + html;
 
-          new CircleType(circularText);
-     }
-});
+//           new CircleType(circularText);
+//      }
+// });
 
 
 //gallery images interactions

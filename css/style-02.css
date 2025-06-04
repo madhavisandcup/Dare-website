@@ -140,13 +140,23 @@
                     transition: all 0.5s ease-in-out;
                }
                
-               .main-title.apc-anim:hover .ap-02,
+               .main-title.apc-anim.f-apc-anim:hover .ap-02,
                .apc-imgs .ap-01 {
                     left: 50%;
                     transform: translateX(-50%);
                }
                
+               .main-title.apc-anim:hover .ap-02 {
+                    left: 5%;
+                    transform: translateX(-80%);
+               }
+               
                .main-title.apc-anim:hover .ap-01 {
+                    left: 34%;
+                    transform: translateX(0);
+               }
+               
+               .main-title.apc-anim.f-apc-anim:hover .ap-01 {
                     left: 99%;
                     transform: translateX(0);
                }
@@ -159,12 +169,17 @@
                
                .video-bg-img {
                     width: 100%;
-                    transform: scale(0.6);
+                    height: 100%;
+                    object-fit: cover;
+                    /* width: 100%;
+                    transform: scale(0.6); */
                     transition: all 0.5s ease-in-out;
                }
                
                .video-img {
-                    margin-left: -190px;
+                    width: 815px;
+                    height: 578px;
+                    margin-left: 100px;
                }
                
                .v-play {
@@ -189,32 +204,32 @@
                     position: absolute;
                }
                
+               .circular-box-main {
+                    width: 216px;
+                    height: 216px;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+               }
+               
+               .c-box {
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    animation: rotateCircle 10s linear infinite;
+               }
+               
                .centered-block {
                     left: 50%;
                     top: 50%;
                     transform: translate(-50%, -50%);
                }
                
-               .circular-text-main {
-                    position: absolute;
-                    top: 53%;
-               }
-               
-               #circular-text {
-                    color: #fff;
-                    font-size: 1.58em;
-                    -webkit-animation: spin 23s linear infinite;
-                    -moz-animation: spin 23s linear infinite;
-                    animation: spin 23s linear infinite;
-               }
-               
-               .circular-dot {
-                    width: 16px;
-                    height: 16px;
-                    background-color: #c81515;
-                    display: inline-block;
-                    margin: 0 8px;
-                    border-radius: 50%;
+               .circular-box-main text {
+                    font-size: 1.5vw;
                }
                /***vision Puropse*****/
                
@@ -1308,5 +1323,11 @@
                @keyframes rotateBorder {
                     to {
                          --angle: 360deg;
+                    }
+               }
+               
+               @keyframes rotateCircle {
+                    100% {
+                         transform: rotate(360deg);
                     }
                }

@@ -28,9 +28,12 @@
                 <div class="v-play">
                     <img src="images/play.svg" class="v-play-ic" alt="video-play"> 
                 </div>
-                <div class="circular-text-main centered-block">
+                <div class="circular-text-n">
+  <p id="rotating-text-n">Watch the vision • Watch the vision •</p>
+</div>
+                <!-- <div class="circular-text-main centered-block">
                     <h5  id="circular-text"></h5>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>

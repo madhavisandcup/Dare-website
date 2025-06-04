@@ -68,16 +68,34 @@
             </div>
         </div>
     </section>
-    <section class="video-wrapper sec-space">
+    <section class="video-wrapper overflow-hidden sec-space">
         <div class="video-img position-relative">
             <img src="images/video-bg-img.webp" class="video-bg-img" alt="video-img">
             <div class="video-play-btn centered-block">
                 <div class="v-play">
                     <img src="images/play.svg" class="v-play-ic" alt="video-play">
                 </div>
-                <div class="circular-text-main centered-block">
-                    <h5 id="circular-text"></h5>
+                <div class="circular-box-main">
+                    <div class="c-box">
+                        <svg viewBox="0 0 216 216" width="216" height="216">
+                            <defs>
+                                    <path id="circlePath"
+                                    d="M108,108 m-90,0 a90,90 0 1,1 180,0 a90,90 0 1,1 -180,0" />
+                            </defs>
+                            <text fill="#ffffff" textLength="560">
+                            <textPath href="#circlePath" startOffset="0">
+                                <tspan>Watch the vision </tspan>
+                                <tspan fill="#008751">•</tspan>
+                                <tspan> Watch the vision </tspan>
+                                <tspan fill="#008751">•</tspan>       
+                            </textPath>
+                            </text>
+                        </svg>
+                    </div>
                 </div>
+                <!-- <div class="circular-text-main centered-block">
+                    <h5 id="circular-text"></h5>
+                </div> -->
             </div>
         </div>
     </section>
