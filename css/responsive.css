@@ -76,6 +76,16 @@
 }
 
 @media (max-width: 1600px) {
+    .arrow-circle {
+        width: 45px;
+        height: 45px;
+        padding: 13px;
+    }
+
+    .swiper-button-prev {
+        right: 140px;
+    }
+
     .event-tabs-wrapper .swiper-slide {
         height: auto;
     }
@@ -216,6 +226,16 @@
 }
 
 @media (max-width: 1500px) {
+    .arrow-circle {
+        width: 40px;
+        height: 40px;
+        padding: 12px;
+    }
+
+    .swiper-button-prev {
+        right: 132px;
+    }
+
     .faqs-accordion {
         margin: 50px 0 0;
     }
@@ -302,6 +322,10 @@
 }
 
 @media (max-width: 1399px) {
+    .arrow-circle {
+        border-width: 1px;
+    }
+
     .accordion-button {
         padding: 20px 26px;
     }
@@ -513,6 +537,14 @@
 }
 
 @media (max-width: 1024px) {
+    .swiper-button-next {
+        right: 40px;
+    }
+
+    .swiper-button-prev {
+        right: 90px;
+    }
+
     .faqs-wrapper {
         padding: 100px 0;
     }
@@ -777,6 +809,16 @@
 }
 
 @media (max-width: 575px) {
+    .swiper-button-prev {
+        right: 70px;
+        left: auto;
+    }
+
+    .swiper-button-next {
+        right: 20px;
+        left: auto;
+    }
+
     .faqs-wrapper {
         padding: 60px 0;
     }
@@ -834,7 +876,16 @@
     }
 
     .updates-feed .main-btn-inner {
-        padding-top: 30px;
+        margin: 0 auto;
+        padding: 30px 20px 0;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .updates-feed .main-btn-inner .main-btn {
+        width: fit-content;
     }
 
     h2 {
@@ -1048,6 +1099,18 @@
 }
 
 @media (max-width: 380px) {
+    .updates-feed .main-btn-inner {
+        padding: 30px 16px 0;
+    }
+
+    .swiper-button-next {
+        right: 16px;
+    }
+
+    .swiper-button-prev {
+        right: 64px;
+    }
+
     .accordion-button {
         font-size: 16px;
         padding: 16px 16px;
