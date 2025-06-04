@@ -16,13 +16,13 @@
                     <div class="hero-title">
                         <h1 class="text-white mb-0">
                             <span class="">
-                                <span class="">Hope in</span>
+                                <span class="">Hope <span class="wrap_in"><span class="pulse-animate"><span class="pulse_dot"></span><span class="d-inline-block overflow-hidden"><img src="./images/object-i-img.svg" alt="I-img" class="object_i"></span></span>n</span></span>
                                 <span class="pd_italic"><em>Motion</em><span class="text_green">,</span></span>
                             </span>
                             <span class="d-block">
                                 <span class="pd_italic"><em>Leadership</em></span>
-                                <span class="">in Action<span class="text_green">.</span>
-                                </span>
+                                <span class=""><span class="wrap_in"><span class="pulse-animate"><span class="pulse_dot"></span><span class="d-inline-block overflow-hidden"><img src="./images/object-i-img.svg" alt="I-img" class="object_i"></span></span>n</span> Action<span class="text_green">.</span>
+                            </span>
                         </h1>
                         <p class="text-white mb-0">Oluwadare Owolabi leads with vision, compassion, and a promise to serve the people not power.</p>
                     </div>

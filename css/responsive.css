@@ -1,4 +1,8 @@
 @media (max-width: 1850px) {
+    .object_i {
+        height: 50px;
+    }
+
     .overlay_date_time.feed_name {
         padding: 7px 22px;
     }
@@ -40,6 +44,16 @@
 }
 
 @media (max-width: 1750px) {
+    .object_i {
+        height: 47px;
+    }
+
+    .pulse_dot {
+        top: -21px;
+        left: -2px;
+        width: 12px;
+        height: 12px;
+    }
 
     .marquee-led-driven .marquee-text.flex,
     .marquee-led-driven .marquee-inner {
@@ -76,6 +90,14 @@
 }
 
 @media (max-width: 1600px) {
+    .object_i {
+        height: 44px;
+    }
+
+    .nav-itemlist.join-us {
+        width: 17vw;
+    }
+
     .arrow-circle {
         width: 45px;
         height: 45px;
@@ -226,6 +248,11 @@
 }
 
 @media (max-width: 1500px) {
+    .object_i {
+        height: 42px;
+        margin-right: 3px;
+    }
+
     .arrow-circle {
         width: 40px;
         height: 40px;
@@ -322,6 +349,10 @@
 }
 
 @media (max-width: 1399px) {
+    .object_i {
+        height: 38px;
+    }
+
     .arrow-circle {
         border-width: 1px;
     }
@@ -402,6 +433,17 @@
 }
 
 @media (max-width: 1199px) {
+    .object_i {
+        height: 35px;
+        margin-right: 2px;
+    }
+
+    .pulse_dot {
+        top: -18px;
+        width: 10px;
+        height: 10px;
+    }
+
     .linebar::before {
         width: 4px;
         height: 22px;
@@ -537,6 +579,10 @@
 }
 
 @media (max-width: 1024px) {
+    .object_i {
+        height: 31px;
+    }
+
     .swiper-button-next {
         right: 40px;
     }
@@ -599,6 +645,16 @@
 }
 
 @media (max-width: 991px) {
+    .object_i {
+        height: 24px;
+    }
+
+    .pulse_dot {
+        top: -14px;
+        width: 8px;
+        height: 8px;
+    }
+
     .marquee-led-driven .marquee-block .marquee-inner .marquee-text .m-item.m-title {
         letter-spacing: 5px;
     }
@@ -803,6 +859,16 @@
 }
 
 @media (max-width: 767px) {
+    .object_i {
+        height: 20px;
+    }
+
+    .pulse_dot {
+        top: -12px;
+        width: 6px;
+        height: 6px;
+    }
+
     .updates-feed .nav-tabs {
         margin: 8px 30px 40px;
     }
