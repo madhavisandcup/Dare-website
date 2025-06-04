@@ -9,6 +9,10 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 //Initiative interactions
+// let iniImg = document.querySelector('.in-key-img img');
+// const smImgParent = document.querySelector('.in-key.width-sm .in-key-img');
+// iniImg.style.width = `${smImgParent.clientWidth}px`;
+
 document.querySelectorAll('.in-key.width-sm').forEach(function(elem) {
      elem.addEventListener('mouseenter', function() {
           const container = elem.closest('.initiative-item');
@@ -19,17 +23,21 @@ document.querySelectorAll('.in-key.width-sm').forEach(function(elem) {
           if (container && fadeText) {
                container.classList.add('key-sm-hover');
                container.classList.add('lg-active');
-               fadeText.classList.add('fade_text');
-               setTimeout(() => {
-                    fadeText.classList.remove('fade_text');
-               }, 2000);
+               // fadeText.classList.add('fade_text');
+               // setTimeout(() => {
+               //      fadeText.classList.remove('fade_text');
+               // }, 2000);
           }
 
      });
 
      elem.addEventListener('mouseleave', function() {
           const container = elem.closest('.initiative-item');
-          if (container) container.classList.remove('key-sm-hover');
+          if (container) {
+               container.classList.remove('key-sm-hover');
+               // container.classList.remove('lg-active');
+          }
+
      });
 });
 
@@ -39,10 +47,10 @@ document.querySelectorAll('.in-key.width-lg').forEach(function(elem) {
           const fadeTextLg = elem.querySelector('.in-key-content');
           if (container && fadeTextLg) {
                container.classList.add('key-lg-hover');
-               fadeTextLg.classList.add('fade_text_lg');
-               setTimeout(() => {
-                    fadeTextLg.classList.remove('fade_text_lg');
-               }, 2000);
+               // fadeTextLg.classList.add('fade_text_lg');
+               // setTimeout(() => {
+               //      fadeTextLg.classList.remove('fade_text_lg');
+               // }, 2000);
           }
      });
 
@@ -78,6 +86,7 @@ if (document.querySelector(".video-img") != null) {
 
 
 
+
 /******************* Events-section Slider ******************/
 const swiper = new Swiper(".EventSlider", {
      direction: "horizontal",
@@ -87,10 +96,10 @@ const swiper = new Swiper(".EventSlider", {
      loop: false,
      // Navigation arrows
      navigation: {
-     nextEl: '.swiper-button-next.s1',
-     prevEl: '.swiper-button-prev.s1',
+          nextEl: '.swiper-button-next.s1',
+          prevEl: '.swiper-button-prev.s1',
      },
-     
+
      breakpoints: {
           0: {
                // Small screen
@@ -142,10 +151,10 @@ const UpdatesFeed = new Swiper(".UpdateFeeds", {
      loop: false,
      // Navigation arrows
      navigation: {
-     nextEl: '.swiper-button-next.s2',
-     prevEl: '.swiper-button-prev.s2',
+          nextEl: '.swiper-button-next.s2',
+          prevEl: '.swiper-button-prev.s2',
      },
-     
+
      breakpoints: {
           0: {
                // Small screen
@@ -193,59 +202,60 @@ const UpdatesFeed = new Swiper(".UpdateFeeds", {
 
 // Custom cursor only for screens >= 1024px
 if (window.matchMedia("(min-width: 1024px)").matches) {
-    let clientX = -100;
-    let clientY = -100;
-    const cursorArrow = document.querySelector(".cursor");
-    const cursorText = document.querySelector(".cursor_text");
+     let clientX = -100;
+     let clientY = -100;
+     const cursorArrow = document.querySelector(".cursor");
+     const cursorText = document.querySelector(".cursor_text");
 
-    if (cursorArrow) {
-        const initCursor = () => {
-            document.addEventListener("mousemove", (e) => {
-                clientX = e.clientX;
-                clientY = e.clientY;
-            });
+     if (cursorArrow) {
+          const initCursor = () => {
+               document.addEventListener("mousemove", (e) => {
+                    clientX = e.clientX;
+                    clientY = e.clientY;
+               });
 
-            const render = () => {
-                TweenMax.to(cursorArrow, {
-                    duration: 0.3,
-                    x: clientX,
-                    y: clientY,
-                    ease: Power2.easeOut,
-                });
-                requestAnimationFrame(render);
-            };
+               const render = () => {
+                    TweenMax.to(cursorArrow, {
+                         duration: 0.3,
+                         x: clientX,
+                         y: clientY,
+                         ease: Power2.easeOut,
+                    });
+                    requestAnimationFrame(render);
+               };
 
-            requestAnimationFrame(render);
-        };
+               requestAnimationFrame(render);
+          };
 
-        initCursor();
+          initCursor();
 
-        // Function to attach cursor to a section
-        const attachCursorToSection = (sectionSelector) => {
-            document.querySelectorAll(`${sectionSelector} a`).forEach(link => {
-                const text = link.getAttribute("data-cursor-text");
+          // Function to attach cursor to a section
+          const attachCursorToSection = (sectionSelector) => {
+               document.querySelectorAll(`${sectionSelector} a`).forEach(link => {
+                    const text = link.getAttribute("data-cursor-text");
 
-                link.addEventListener("mouseenter", () => {
-                    cursorArrow.classList.add("cursor-show");
-                    if (cursorText) cursorText.textContent = text;
-                });
+                    link.addEventListener("mouseenter", () => {
+                         cursorArrow.classList.add("cursor-show");
+                         if (cursorText) cursorText.textContent = text;
+                    });
 
-                link.addEventListener("mouseleave", () => {
-                    cursorArrow.classList.remove("cursor-show");
-                    if (cursorText) cursorText.textContent = "";
-                });
-            });
-        };
+                    link.addEventListener("mouseleave", () => {
+                         cursorArrow.classList.remove("cursor-show");
+                         if (cursorText) cursorText.textContent = "";
+                    });
+               });
+          };
 
-        // 🔁 Add all sections where the cursor should work
-        const cursorSections = [
-            ".UpdateFeeds",         // slider 1
-            ".EventSlider"         // slider 2
-        ];
+          // 🔁 Add all sections where the cursor should work
+          const cursorSections = [
+               ".UpdateFeeds", // slider 1
+               ".EventSlider" // slider 2
+          ];
 
-        cursorSections.forEach(section => attachCursorToSection(section));
-    }
+          cursorSections.forEach(section => attachCursorToSection(section));
+     }
 }
+
 /******************* TabSelector with Dropdown js ******************/
 const tabSelector = document.getElementById("tabSelector");
 if (tabSelector) {

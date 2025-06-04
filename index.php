@@ -202,11 +202,20 @@
                     <div class="in-key width-lg position-relative radius-16">
                         <div class="in-key-content">
                             <div>
-                                <h3 class="text_green dm_medium">Security</h3>
-                                <div class="in-key-desc">
+                                
+                                 <div class="in-key-desc key-desc-one">
+                                    <h3 class="text_green dm_medium">Security</h3>
+                                    <p class="mb-0">Reconnecting rural communities through road rehabilitation, improved transit access, and investments in everyday mobility.</p>
+                                </div>
+                                <div class="in-key-desc key-desc-two">
+                                    <h3 class="text_green dm_medium">Security</h3>
+                                    <p class="mb-0">Reconnecting rural communities through road rehabilitation, improved transit access, and investments in everyday mobility.</p>
+                                    <p class="mb-0">Increased banditry, terrorism, and kidnappings have left communities in fear and disrupted livelihoods. State security forces are often overstretched or under-resourced.</p>
+                                </div>
+                                <!-- <div class="in-key-desc">
                                     <p>Ensuring safe public spaces through targeted lighting, community patrols, and a dignity-first approach to local security.</p>
                                     <p class="key-desc-two">Increased banditry, terrorism, and kidnappings have left communities in fear and disrupted livelihoods. State security forces are often overstretched or under-resourced.</p>
-                                </div>
+                                </div> -->
                             </div>
                             <div class="main-btn-inner">
                                 <a href="#" class="main-btn position-relative"><span class="btn-text">Know his vision</span><span class="arrw-btn">
@@ -218,28 +227,33 @@
                             <img src="images/initiatives/i-01.jpg" class="img-fluid radius-16" alt="security" />
                         </div>
                     </div>
-                    <div class="in-key width-sm radius-16">
+                    <div class="in-key width-sm position-relative radius-16">
                         <div class="in-key-img">
                             <img src="images/initiatives/i-01.jpg" class="img-fluid radius-16" alt="infrastructure" />
                         </div>
                         <div class="in-key-content">
                             <div>
-                                <h3 class="text_green dm_medium">Infrastructure</h3>
-                                <div class="in-key-desc">
+                                
+                                <div class="in-key-desc key-desc-one">
+                                    <h3 class="text_green dm_medium">Infrastructure</h3>
                                     <p class="mb-0">Reconnecting rural communities through road rehabilitation, improved transit access, and investments in everyday mobility.</p>
-                                    <p class="key-desc-two">Increased banditry, terrorism, and kidnappings have left communities in fear and disrupted livelihoods. State security forces are often overstretched or under-resourced.</p>
                                 </div>
-                            </div>
+                                <div class="in-key-desc key-desc-two">
+                                    <h3 class="text_green dm_medium">Infrastructure</h3>
+                                    <p class="mb-0">Reconnecting rural communities through road rehabilitation, improved transit access, and investments in everyday mobility.</p>
+                                    <p class="mb-0">Increased banditry, terrorism, and kidnappings have left communities in fear and disrupted livelihoods. State security forces are often overstretched or under-resourced.</p>
+                                </div>
+                            </div>   
                             <div class="main-btn-inner">
                                 <a href="#" class="main-btn position-relative"><span class="btn-text">Know his vision</span><span class="arrw-btn">
                                         <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
                                 </a>
-                            </div>
-                        </div>
+                            </div>                         
+                        </div>                        
                     </div>
                 </div>
                 <div class="initiative-item">
-                    <div class="in-key width-sm radius-16">
+                    <div class="in-key width-sm position-relative radius-16">
                         <div class="in-key-img">
                             <img src="images/initiatives/i-01.jpg" class="img-fluid radius-16" alt="infrastructure" />
                         </div>
@@ -298,7 +312,7 @@
                             <img src="images/initiatives/i-01.jpg" class="img-fluid radius-16" alt="security" />
                         </div>
                     </div>
-                    <div class="in-key width-sm radius-16">
+                    <div class="in-key width-sm position-relative radius-16">
                         <div class="in-key-img">
                             <img src="images/initiatives/i-01.jpg" class="img-fluid radius-16" alt="infrastructure" />
                         </div>
@@ -705,11 +719,16 @@
             <div class="initiative-main voices-inner">
                 <div class="row">
                     <div class="col-lg-4">
-                        <div class="voice-item radius-16 lg">
-                            <div class="v-pr-inner">
-                                <div class="voice-profile">
-                                    <div class="voice-p-img">
-                                        <img src="images/voices/v-p-01.png" class="img-fluid radius-50" alt="user" />
+                       <div class="voice-item lg">
+                                <div class="v-pr-inner">
+                                    <div class="voice-profile">
+                                        <div class="voice-p-img">
+                                            <img src="images/voices/v-p-01.png" class="img-fluid radius-50" alt="user" />
+                                        </div>
+                                        <div class="voice-p-content">
+                                            <h3 class="text-white dm_medium">Ify Okeke</h3>
+                                            <h5 class="mb-0">Senior Lecturer</h5>
+                                        </div>
                                     </div>
                                     <div class="voice-content">
                                         <p class="voice-highlight-text">Lagos State University</p>
@@ -720,11 +739,7 @@
                                     <img src="images/voices/v-01.jpg" class="img-fluid radius-8" alt="user" />
                                 </div>
                             </div>
-                            <div class="voice-img">
-                                <img src="images/voices/v-01.jpg" class="img-fluid radius-8" alt="user" />
-                            </div>
-                        </div>
-                        <div class="voice-item content-only radius-16 sm last">
+                        <div class="voice-item content-only sm last">
                             <div class="voice-profile">
                                 <div class="voice-p-img">
                                     <img src="images/voices/v-p-01.png" class="img-fluid radius-50" alt="user" />
@@ -741,7 +756,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="voice-item content-only radius-16 sm">
+                        <div class="voice-item border-gradient content-only sm">
 
                             <div class="voice-profile">
                                 <div class="voice-p-img">
@@ -759,7 +774,7 @@
                             </div>
                         </div>
 
-                        <div class="voice-item radius-16 md">
+                        <div class="voice-item md">
                             <div class="v-pr-inner">
                                 <div class="voice-profile">
                                     <div class="voice-p-img">
