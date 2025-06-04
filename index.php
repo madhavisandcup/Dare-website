@@ -42,12 +42,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="down-arrow">
-                    <a class="inner-down-arrow" href="#Vision">
-                        <img src="./images/down-arrow.svg" alt="down-arrow" class="img-fluid down_arrow_size">
-                    </a>
-                </div>
-
+                    <div class="down-arrow">
+                        <a class="inner-down-arrow" href="#Vision">
+                            <img src="./images/down-arrow.svg" alt="down-arrow" class="img-fluid down_arrow_size">
+                        </a>
+                    </div>
             </div>
         </section>
     </div>
@@ -1171,5 +1170,4 @@
             }
         });
     </script>
-
 </body>
