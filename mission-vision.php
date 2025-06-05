@@ -9,22 +9,22 @@
         </div>
     </div>
 
-    <div class="homepage">
+    <div class="homepage mission">
         <section class="container">
             <div class="hero-banner">
                 <div class="hero-layout">
                     <div class="hero-title">
                         <h1 class="text-white mb-0">
                             <span class="">
-                                <span class="">Hope <span class="wrap_in"><span class="pulse-animate"><span class="pulse_dot"></span><span class="d-inline-block overflow-hidden"><img src="./images/object-i-img.svg" alt="I-img" class="object_i"></span></span>n</span></span>
-                                <span class="pd_italic"><em>Motion</em><span class="text_green">,</span></span>
+                                <span class="">Gu<span class="wrap_in"><span class="pulse-animate"><span class="pulse_dot"></span><span class="d-inline-block overflow-hidden"><img src="./images/object-i-img.svg" alt="I-img" class="object_i"></span></span>ded</span></span><span>By</span>
+                                <span class="pd_italic"><em>Light</em><span class="text_green">,</span></span>
                             </span>
                             <span class="d-block">
-                                <span class="pd_italic"><em>Leadership</em></span>
+                                <span class="pd_italic"><em>Grounded</em></span>
                                 <span class=""><span class="wrap_in"><span class="pulse-animate"><span class="pulse_dot"></span><span class="d-inline-block overflow-hidden"><img src="./images/object-i-img.svg" alt="I-img" class="object_i"></span></span>n</span> Action<span class="text_green">.</span>
                                 </span>
                         </h1>
-                        <p class="text-white mb-0">Oluwadare Owolabi leads with vision, compassion, and a promise to serve the people not power.</p>
+                        <p class="text-white mb-0">Like a beacon at dawn, Dare’s mission rises from the people and leads with integrity. His vision is not about lofty promises. It’s about real, visible progress.</p>
                     </div>
                     <div class="connect-btn">
                         <div class="main-btn-inner button_green m-0">
@@ -32,9 +32,9 @@
                                     <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
                             </a>
                         </div>
-                        <div class="hero-apc">
+                        <!-- <div class="hero-apc">
                             <a href=""><img src="./images/apc-logo.svg" class="apc-logo" alt="apc-logo"></a>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="mobile-view-img">
                         <div class="m-hero-img">

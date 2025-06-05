@@ -350,46 +350,46 @@ if (tabSelector) {
 
 
 //gallery images interactions
+if (window.matchMedia("(min-width: 992px)").matches) {
+     let lastScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+     const items = document.querySelectorAll(".capture-img");
+     const captureSection = document.querySelector(".capture-mm");
 
-let lastScrollTop = window.pageYOffset || document.documentElement.scrollTop;
-const items = document.querySelectorAll(".capture-img");
-const captureSection = document.querySelector(".capture-mm");
-
-function getRandomOffset() {
-     return Math.floor(Math.random() * 15) + 5; // Between 5 and 19px
-}
-
-function isInViewport(el) {
-     const rect = el.getBoundingClientRect();
-     return (
-          rect.top < window.innerHeight &&
-          rect.bottom > 0
-     );
-}
-
-window.addEventListener("scroll", () => {
-     const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
-     const direction = currentScroll > lastScrollTop ? "down" : "up";
-
-     if (isInViewport(captureSection)) {
-          items.forEach((item, index) => {
-               const offset = getRandomOffset();
-               const translateY = direction === "down" ? -offset : offset;
-
-               gsap.to(item, {
-                    y: `+=${translateY}`,
-                    duration: 1.5,
-                    ease: "sine.out",
-                    overwrite: "auto",
-                    delay: index * 0.01
-               });
-          });
+     function getRandomOffset() {
+          return Math.floor(Math.random() * 15) + 5; // Between 5 and 19px
      }
 
-     lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
-}, false);
+     function isInViewport(el) {
+          const rect = el.getBoundingClientRect();
+          return (
+               rect.top < window.innerHeight &&
+               rect.bottom > 0
+          );
+     }
 
+     window.addEventListener("scroll", () => {
+          const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+          const direction = currentScroll > lastScrollTop ? "down" : "up";
 
+          if (isInViewport(captureSection)) {
+               items.forEach((item, index) => {
+                    const offset = getRandomOffset();
+                    const translateY = direction === "down" ? -offset : offset;
+
+                    gsap.to(item, {
+                         y: `+=${translateY}`,
+                         duration: 1.5,
+                         ease: "sine.out",
+                         overwrite: "auto",
+                         delay: index * 0.01
+                    });
+               });
+          }
+
+          lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
+     }, false);
+
+}
 // let lastScrollTop = window.pageYOffset || document.documentElement.scrollTop;
 // const items = document.querySelectorAll(".capture-img");
 

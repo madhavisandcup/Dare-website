@@ -55,11 +55,11 @@
                                 </form>
                             </div>
                             <ul class="f-links list-unstyled">
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">About him</a></li>
-                                <li><a href="#">News & articles</a></li>
-                                <li><a href="#">Join APC</a></li>
-                                <li><a href="#">Job opportunities</a></li>
+                                <li><a href="#" class="d-inline-block f-link position-relative">Home</a></li>
+                                <li><a href="#" class="d-inline-block f-link position-relative">About him</a></li>
+                                <li><a href="#" class="d-inline-block f-link position-relative">News & articles</a></li>
+                                <li><a href="#" class="d-inline-block f-link position-relative">Join APC</a></li>
+                                <li><a href="#" class="d-inline-block f-link position-relative">Job opportunities</a></li>
                             </ul>
                             <ul class="f-socials list-unstyled">
                                <li><a href="#"><img src="images/twitter-01.svg" alt="twitter" /></a></li>
@@ -78,7 +78,7 @@
             <div class="f-copyright">
                 <div class="row">
                     <div class="col-md-6">
-                        <h5 class="text-white text-left-md text-center mb-0">© 2025 Oluwadare Owulabi. All Rights Reserved.</h5>
+                        <h5 class="text-white d-flex justify-content-center justify-content-md-start mb-0">© 2025 Oluwadare Owulabi. All Rights Reserved.</h5>
                     </div>
                     <div class="col-md-6">
                         <div class="c-logo d-flex align-items-center justify-content-center justify-content-md-end">

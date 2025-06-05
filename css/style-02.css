@@ -693,6 +693,39 @@
      padding-top: 16px;
 }
 
+.capture-img {
+     cursor: pointer;
+}
+
+.cap-overlay-content {
+     position: absolute;
+     top: 0;
+     left: 0;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     opacity: 0;
+     width: 100%;
+     height: 100%;
+     background-color: rgba(0, 0, 0, 0.5);
+     transition: all 0.5s ease-in-out;
+}
+
+.capture-img:hover .cap-overlay-content,
+.capture-img:hover .cap-overlay-content h5 {
+     opacity: 1;
+}
+
+.capture-img:hover .cap-overlay-content h5 {
+     transition-delay: 0.3s;
+}
+
+.capture-img .cap-overlay-content h5 {
+     opacity: 0;
+     transition: all 0.5s ease-in-out;
+}
+
 
 /****with grid template*****/
 
@@ -1135,6 +1168,7 @@
 
 .capture-images {
      display: flex;
+     align-items: flex-start;
      gap: 48px;
 }
 
@@ -1200,16 +1234,20 @@ footer .marquee-block .marquee-inner .marquee-text {
      animation: tickerRight 30s linear infinite;
 }
 
+.f-link:after {
+     content: '';
+     position: absolute;
+     left: 0;
+     bottom: -5px;
+     width: 0;
+     transition: width 0.5s linear;
+     height: 2px;
+     background: #008751;
+}
 
-/* .marquee-block .marquee-inner .marquee-text.two {
-          position: absolute;
-          top: 0;
-          left: 0;
-          backface-visibility: hidden;
-          -webkit-animation: tickerTwo 30s linear infinite;
-          animation: tickerTwo 30s linear infinite;
-          transform: translateX(100%) translateZ(0);
-     } */
+.f-link:hover:after {
+     width: 100%;
+}
 
 .marquee-block .marquee-inner .marquee-text .m-item.m-title {
      color: #ffffff;
@@ -1266,6 +1304,13 @@ footer .main-banner .marquee-block .marquee-inner .marquee-text .m-item {
 
 .c-logo {
      gap: 12px;
+}
+
+
+/*********Mission Vision************/
+
+.homepage.mission {
+     background-image: url(../images/mission-bg.jpg);
 }
 
 @-moz-keyframes spin {
