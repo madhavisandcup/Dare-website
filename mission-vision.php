@@ -32,9 +32,6 @@
                                     <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
                             </a>
                         </div>
-                        <!-- <div class="hero-apc">
-                            <a href=""><img src="./images/apc-logo.svg" class="apc-logo" alt="apc-logo"></a>
-                        </div> -->
                     </div>
                     <div class="mobile-view-img">
                         <div class="m-hero-img">
@@ -68,392 +65,111 @@
             </div>
         </section>
     </div>
-    <div id="Vision"></div>
     <section class="vision-wrapper sec-space">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <h2 class="main-title">Familiar <i class="pd_italic text_green">Faces<span class="text_green">,</span></i> Rising <i class="pd_italic text_green">Vision</i><span class="dot-animated text_green"><span class="pulse-animate"><span class="pulse_dot"></span></span></span></h2>
-                    <div class="main-btn-inner">
-                        <a href="#" class="main-btn position-relative"><span class="btn-text">The Heart Behind All</span><span class="arrw-btn">
-                                <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
-                        </a>
-                    </div>
+                    <h2 class="main-title mi-title"><i class="pd_italic text_green">Mission</i> Statement</h2>
                 </div>
                 <div class="col-md-6">
-                    <p class="vision-desc">"In a time of uncertainty, Nigeria needs not just change—but clarity. As the Morning Star rises before the sun, I rise with and for the people. A new direction, a brighter tomorrow."</p>
+                    <p class="vision-desc">“To serve the people with integrity, empathy, and courage, building a Nigeria where dignity is a right, not a privilege. Every initiative, every effort, every word is rooted in the real needs of our communities.”</p>
                 </div>
             </div>
         </div>
     </section>
-    <section class="video-wrapper overflow-hidden sec-space">
-        <div class="video-img position-relative">
-            <img src="images/video-bg-img.webp" class="video-bg-img" alt="video-img">
-            <div class="video-play-btn centered-block">
-                <div class="v-play">
-                    <img src="images/play.svg" class="v-play-ic" alt="video-play">
-                </div>
-                <div class="circular-box-main">
-                    <div class="c-box">
-                        <svg viewBox="0 0 216 216" width="216" height="216">
-                            <defs>
-                                <path id="circlePath"
-                                    d="M108,108 m-90,0 a90,90 0 1,1 180,0 a90,90 0 1,1 -180,0" />
-                            </defs>
-                            <text fill="#ffffff" textLength="560">
-                                <textPath href="#circlePath" startOffset="0">
-                                    <tspan>Watch the vision </tspan>
-                                    <tspan class="s-dot" fill="#008751">•</tspan>
-                                    <tspan> Watch the vision </tspan>
-                                    <tspan class="s-dot" fill="#008751">•</tspan>
-                                </textPath>
-                            </text>
-                        </svg>
-                    </div>
-                </div>
-                <!-- <div class="circular-text-main centered-block">
-                    <h5 id="circular-text"></h5>
-                </div> -->
-            </div>
-        </div>
-    </section>
-    <section class="vision-wrapper purpose sec-space">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-7">
-                    <h2 class="main-title apc-anim">Backed by<span class="apc-img-animate overflow-hidden position-relative d-inline-block"><span class="apc-imgs"><img src="images/apc-lg.svg" class="ap-01" alt="apc"><img src="images/apc-lg.svg" class="ap-02" alt="apc"></span></span><i class="pd_italic text_green">Vision<span class="text_green">,</span></i> Driven by <i class="pd_italic text_green">Purpose</i><span class="dot-animated text_green"><span class="pulse-animate"><span class="pulse_dot"></span></span></span></h2>
-                </div>
-                <div class="col-md-5">
-                    <p class="vision-desc">Oluwadare is not on this journey alone - he's backed by the All Progressives Congress (APC), a driving force for national progress.</p>
-                    <p class="vision-desc">With APC’s core values of people-centered leadership, inclusive development, and structural reform, Dare champions a bold agenda focused on education reform, youth inclusion, digital access, and job creation - uniting purpose with action.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <div class="marquee-led-driven sec-space">
-        <div class="marquee-block right-marquee">
-            <div class="marquee-inner flex">
-                <div class="marquee-text flex">
-                    <span class="m-item flex m-title">Led By Vision</span>
-
-                    <span class="m-item flex m-dot"><span></span></span>
-                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-01.webp" alt="m-img-01"></span></span>
-                    <span class="m-item flex m-dot"><span></span></span>
-
-                    <span class="m-item flex m-title">Driven By You</span>
-                    <span class="m-item flex m-dot"><span></span></span>
-                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-02.webp" alt="m-img-02"></span></span>
-                    <span class="m-item flex m-dot"><span></span></span>
-
-                    <span class="m-item flex m-title">Led By Vision</span>
-                    <span class="m-item flex m-dot"><span></span></span>
-                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-01.webp" alt="m-img-01"></span></span>
-                    <span class="m-item flex m-dot"><span></span></span>
-
-                    <span class="m-item flex m-title">Driven By You</span>
-                    <span class="m-item flex m-dot"><span></span></span>
-                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-02.webp" alt="m-img-02"></span></span>
-                    <span class="m-item flex m-dot"><span></span></span>
-
-                    <span class="m-item flex m-title">Led By Vision</span>
-                    <span class="m-item flex m-dot"><span></span></span>
-                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-01.webp" alt="m-img-01"></span></span>
-                    <span class="m-item flex m-dot"><span></span></span>
-
-                    <span class="m-item flex m-title">Driven By You</span>
-                    <span class="m-item flex m-dot"><span></span></span>
-                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-02.webp" alt="m-img-02"></span></span>
-                    <span class="m-item flex m-dot"><span></span></span>
-
-                    <span class="m-item flex m-title">Led By Vision</span>
-                    <span class="m-item flex m-dot"><span></span></span>
-                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-01.webp" alt="m-img-01"></span></span>
-                    <span class="m-item flex m-dot"><span></span></span>
-
-                    <span class="m-item flex m-title">Driven By You</span>
-                    <span class="m-item flex m-dot"><span></span></span>
-                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-02.webp" alt="m-img-02"></span></span>
-                    <span class="m-item flex m-dot"><span></span></span>
-
-                </div>
-                <div class="marquee-text flex">
-                    <span class="m-item flex m-title">Led By Vision</span>
-
-                    <span class="m-item flex m-dot"><span></span></span>
-                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-01.webp" alt="m-img-01"></span></span>
-                    <span class="m-item flex m-dot"><span></span></span>
-
-                    <span class="m-item flex m-title">Driven By You</span>
-                    <span class="m-item flex m-dot"><span></span></span>
-                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-02.webp" alt="m-img-02"></span></span>
-                    <span class="m-item flex m-dot"><span></span></span>
-
-                    <span class="m-item flex m-title">Led By Vision</span>
-                    <span class="m-item flex m-dot"><span></span></span>
-                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-01.webp" alt="m-img-01"></span></span>
-                    <span class="m-item flex m-dot"><span></span></span>
-
-                    <span class="m-item flex m-title">Driven By You</span>
-                    <span class="m-item flex m-dot"><span></span></span>
-                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-02.webp" alt="m-img-02"></span></span>
-                    <span class="m-item flex m-dot"><span></span></span>
-
-                    <span class="m-item flex m-title">Led By Vision</span>
-                    <span class="m-item flex m-dot"><span></span></span>
-                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-01.webp" alt="m-img-01"></span></span>
-                    <span class="m-item flex m-dot"><span></span></span>
-
-                    <span class="m-item flex m-title">Driven By You</span>
-                    <span class="m-item flex m-dot"><span></span></span>
-                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-02.webp" alt="m-img-02"></span></span>
-                    <span class="m-item flex m-dot"><span></span></span>
-
-                    <span class="m-item flex m-title">Led By Vision</span>
-                    <span class="m-item flex m-dot"><span></span></span>
-                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-01.webp" alt="m-img-01"></span></span>
-                    <span class="m-item flex m-dot"><span></span></span>
-
-                    <span class="m-item flex m-title">Driven By You</span>
-                    <span class="m-item flex m-dot"><span></span></span>
-                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-02.webp" alt="m-img-02"></span></span>
-                    <span class="m-item flex m-dot"><span></span></span>
-
-                </div>
-            </div>
-        </div>
-    </div>
-    <section class="key-initiative-wrapper sec-space">
+     <section class="vision-wrapper vision-main p-sec-space">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <h2 class="main-title">Our Key <i class="pd_italic text_green">Initiatives</i><span class="dot-animated text_green"><span class="pulse-animate"><span class="pulse_dot"></span></span></span></h2>
+                    <h2 class="main-title mi-title v-reveal"><i class="pd_italic text_green">Vision</i> Statement</h2>
                 </div>
                 <div class="col-md-6">
-                    <p class="vision-desc">At the heart of his mission lies a deep, unshakable hope — for people, for progress, for Nigeria. He stands for a future shaped by vision and built on trust. Born and raised in Lagos, Oluwadare understands the everyday struggles of Nigerians unreliable transport, rising costs, and families doing everything they could to get by.</p>
-                </div>
-            </div>
-
-            <div class="initiative-main lg">
-                <div class="initiative-item">
-                    <div class="in-key width-lg position-relative radius-16">
-                        <div class="in-key-content">
-                            <div>
-
-                                <div class="in-key-desc key-desc-one">
-                                    <h3 class="text_green dm_medium">Security</h3>
-                                    <p class="mb-0">Reconnecting rural communities through road rehabilitation, improved transit access, and investments in everyday mobility.</p>
-                                </div>
-                                <div class="in-key-desc key-desc-two">
-                                    <h3 class="text_green dm_medium">Security</h3>
-                                    <p class="mb-0">Reconnecting rural communities through road rehabilitation, improved transit access, and investments in everyday mobility.</p>
-                                    <p class="mb-0">Increased banditry, terrorism, and kidnappings have left communities in fear and disrupted livelihoods. State security forces are often overstretched or under-resourced.</p>
-                                </div>
-                                <!-- <div class="in-key-desc">
-                                    <p>Ensuring safe public spaces through targeted lighting, community patrols, and a dignity-first approach to local security.</p>
-                                    <p class="key-desc-two">Increased banditry, terrorism, and kidnappings have left communities in fear and disrupted livelihoods. State security forces are often overstretched or under-resourced.</p>
-                                </div> -->
-                            </div>
-                            <div class="main-btn-inner">
-                                <a href="#" class="main-btn position-relative"><span class="btn-text">Know his vision</span><span class="arrw-btn">
-                                        <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="in-key-img">
-                            <img src="images/initiatives/i-01.jpg" class="img-fluid radius-16" alt="security" />
-                        </div>
-                    </div>
-                    <div class="in-key width-sm position-relative radius-16">
-                        <div class="in-key-img">
-                            <img src="images/initiatives/i-01.jpg" class="img-fluid radius-16" alt="infrastructure" />
-                        </div>
-                        <div class="in-key-content">
-                            <div>
-
-                                <div class="in-key-desc key-desc-one">
-                                    <h3 class="text_green dm_medium">Infrastructure</h3>
-                                    <p class="mb-0">Reconnecting rural communities through road rehabilitation, improved transit access, and investments in everyday mobility.</p>
-                                </div>
-                                <div class="in-key-desc key-desc-two">
-                                    <h3 class="text_green dm_medium">Infrastructure</h3>
-                                    <p class="mb-0">Reconnecting rural communities through road rehabilitation, improved transit access, and investments in everyday mobility.</p>
-                                    <p class="mb-0">Increased banditry, terrorism, and kidnappings have left communities in fear and disrupted livelihoods. State security forces are often overstretched or under-resourced.</p>
-                                </div>
-                            </div>
-                            <div class="main-btn-inner">
-                                <a href="#" class="main-btn position-relative"><span class="btn-text">Know his vision</span><span class="arrw-btn">
-                                        <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="initiative-item">
-                    <div class="in-key width-sm position-relative radius-16">
-                        <div class="in-key-img">
-                            <img src="images/initiatives/i-01.jpg" class="img-fluid radius-16" alt="infrastructure" />
-                        </div>
-                        <div class="in-key-content">
-                            <div>
-                                <h3 class="text_green dm_medium">Water Access</h3>
-                                <div class="in-key-desc">
-                                    <p class="mb-0">Delivering clean, reliable water to underserved wards by investing in solar-powered infrastructure and accessible public points.</p>
-                                    <p class="key-desc-two">Millions of Nigerians still lack clean drinking water. Rural areas suffer most, leading to diseases and school absenteeism.</p>
-                                </div>
-                            </div>
-                            <div class="main-btn-inner">
-                                <a href="#" class="main-btn position-relative"><span class="btn-text">Know his vision</span><span class="arrw-btn">
-                                        <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="in-key width-lg position-relative radius-16">
-                        <div class="in-key-content">
-                            <div>
-                                <h3 class="text_green dm_medium">Education & Youth Development</h3>
-                                <div class="in-key-desc">
-                                    <p>Reviving public schools with structural repairs, learning materials, and environments that support quality, equitable education.</p>
-                                    <p class="key-desc-two">Dilapidated schools, outdated curricula, and a lack of alignment between education & employment have left millions of youth behind.</p>
-                                </div>
-                            </div>
-                            <div class="main-btn-inner">
-                                <a href="#" class="main-btn position-relative"><span class="btn-text">Know his vision</span><span class="arrw-btn">
-                                        <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="in-key-img">
-                            <img src="images/initiatives/i-01.jpg" class="img-fluid radius-16" alt="security" />
-                        </div>
-                    </div>
-                </div>
-                <div class="initiative-item">
-                    <div class="in-key width-lg position-relative radius-16">
-                        <div class="in-key-content">
-                            <div>
-                                <h3 class="text_green dm_medium">Employment & Economic Access</h3>
-                                <div class="in-key-desc">
-                                    <p>Enabling local livelihoods through micro-enterprise support, youth training, and grassroots job-creation initiatives.</p>
-                                    <p class="key-desc-two">Nigeria’s growing youth population lacks stable employment. The informal sector is large but unsupported.</p>
-                                </div>
-                            </div>
-                            <div class="main-btn-inner">
-                                <a href="#" class="main-btn position-relative"><span class="btn-text">Know his vision</span><span class="arrw-btn">
-                                        <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="in-key-img">
-                            <img src="images/initiatives/i-01.jpg" class="img-fluid radius-16" alt="security" />
-                        </div>
-                    </div>
-                    <div class="in-key width-sm position-relative radius-16">
-                        <div class="in-key-img">
-                            <img src="images/initiatives/i-01.jpg" class="img-fluid radius-16" alt="infrastructure" />
-                        </div>
-                        <div class="in-key-content">
-                            <div>
-                                <h3 class="text_green dm_medium">Digital Empowerment</h3>
-                                <div class="in-key-desc">
-                                    <p class="mb-0">Creating opportunities through public tech labs, digital skill training, and access to tools that prepare young people for tomorrow.</p>
-                                    <p class="key-desc-two">Many young people and communities across Nigeria struggle with poor internet access, limited digital literacy, and little exposure to technology.</p>
-                                </div>
-                            </div>
-                            <div class="main-btn-inner">
-                                <a href="#" class="main-btn position-relative"><span class="btn-text">Know his vision</span><span class="arrw-btn">
-                                        <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+                    <p class="vision-desc v-reveal">“A nation where security is humane, education is empowering, and the youth lead the way forward. A future built not from the top down, but from the ground up, through collaboration, transparency, and trust.”</p>
                 </div>
             </div>
         </div>
-        <div class="initiative-main sm">
-            <div class="swiper iniitative-slider">
+    </section>
+
+
+    <section class="principles-marquee-wrapper dark-bg-color sec-space p-sec-top">
+        <div class="container">
+            <div class="center-heading text-center">
+                <h2 class="main-title text-white w-100"><i class="pd_italic text_green">Principles</i> That Power the path<span class="dot-animated text_green"><span class="pulse-animate"><span class="pulse_dot"></span></span></span></h2>
+                <p class="vision-desc text-white p-0">These are the beliefs that shape how Oluwadare leads, listens, and serves.</p>
+            </div>
+        </div>
+        <div class="principles-marquee-inner position-relative">
+            <div class="swiper principles-slider">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide initiative-item">
-                        <div class="in-key radius-16">
-                            <div class="in-key-img">
-                                <img src="images/initiatives/i-01.jpg" class="img-fluid radius-16" alt="security" />
+                    <div class="swiper-slide">
+                        <div class="principle-item text-center">
+                            <div class="pri-icon-box d-flex align-items-center justify-content-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="56" height="45" class="pri-icon" viewBox="0 0 56 45" fill="none">
+                                <path d="M4.72879 14.4C4.4962 14.1493 4.21433 13.9499 3.90103 13.8144C3.58772 13.6788 3.24981 13.6101 2.90868 13.6125C1.76061 13.6125 0.892554 14.1469 0.33252 15.2438C-0.227515 16.3406 -0.0875058 17.3812 0.808549 18.3656C4.11275 21.3469 6.21288 23.4562 7.10893 24.6937C8.257 26.2687 8.81704 28.575 8.81704 31.5563C8.81704 35.2406 10.2171 37.9688 13.0173 39.8531C14.5854 41.0906 16.2935 42.0187 18.1976 42.6375V31.6969C18.1976 29.0531 17.2736 26.8594 15.5094 25.0875M40.487 25.2281C38.7509 26.9719 37.7988 29.1375 37.7988 31.6969V42.75C40.487 41.7938 42.7271 40.3031 44.5752 38.3344C46.3953 36.3656 47.3194 34.2 47.3194 31.5563C47.3194 28.3781 47.8514 26.1 48.9155 24.6937C49.1675 24.2437 49.6435 23.6812 50.3996 22.9781C51.0436 22.275 51.7157 21.6 52.3877 20.9813C53.0317 20.3906 53.6758 19.7719 54.2918 19.1531L55.2159 18.3656C55.4662 18.1267 55.665 17.8386 55.7999 17.5193C55.9347 17.2 56.0028 16.8562 55.9999 16.5094C55.9999 15.7219 55.7479 15.0188 55.2159 14.4563C54.6838 13.8938 54.0398 13.6125 53.1997 13.6125C52.3597 13.6125 51.7997 13.8656 51.2676 14.4M27.9982 45C29.9303 45 31.8064 44.7469 33.5985 44.2125V34.1719C33.5985 32.5125 33.0945 31.2188 31.9464 29.9812C30.7984 28.7437 29.4823 28.125 27.9982 28.125C26.5141 28.125 25.198 28.6875 24.134 29.8406C23.0139 30.9375 22.3979 32.2312 22.3979 33.9187V44.2125C24.19 44.7469 26.0661 45 27.9982 45ZM19.5977 12.6562C19.5977 14.9906 17.7216 16.875 15.3974 16.875C13.0733 16.875 11.1972 14.9906 11.1972 12.6562C11.1972 10.3219 13.0733 8.4375 15.3974 8.4375C17.7216 8.4375 19.5977 10.3219 19.5977 12.6562ZM44.7992 12.6562C44.7992 14.9906 42.9231 16.875 40.599 16.875C38.2748 16.875 36.3987 14.9906 36.3987 12.6562C36.3987 10.3219 38.2748 8.4375 40.599 8.4375C42.9231 8.4375 44.7992 10.3219 44.7992 12.6562ZM32.1985 4.21875C32.1985 6.55312 30.3223 8.4375 27.9982 8.4375C25.6741 8.4375 23.7979 6.55312 23.7979 4.21875C23.7979 1.88438 25.6741 0 27.9982 0C30.3223 0 32.1985 1.88438 32.1985 4.21875ZM32.1985 19.6875C32.1985 22.0219 30.3223 23.9062 27.9982 23.9062C25.6741 23.9062 23.7979 22.0219 23.7979 19.6875C23.7979 17.3531 25.6741 15.4688 27.9982 15.4688C30.3223 15.4688 32.1985 17.3531 32.1985 19.6875Z" fill="rgba(0,0,0,0.25)"/></svg>
                             </div>
-                            <div class="in-key-content">
-                                <div>
-                                    <h3 class="text_green dm_medium">Security</h3>
-                                    <div class="in-key-desc">
-                                        <p>Ensuring safe public spaces through targeted lighting, community patrols, and a dignity-first approach to local security.</p>
-                                        <p class="key-desc-two">Increased banditry, terrorism, and kidnappings have left communities in fear and disrupted livelihoods. State security forces are often overstretched or under-resourced.</p>
-                                    </div>
-                                </div>
-                                <div class="main-btn-inner">
-                                    <a href="#" class="main-btn position-relative"><span class="btn-text">Know his vision</span><span class="arrw-btn">
-                                            <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
-                                    </a>
-                                </div>
+                            <div class="pri-content">
+                                <h3>Grassroots Action</h3>
+                                <p class="mb-0">Real change starts from the bottom up — in wards, in homes, in everyday lives.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide initiative-item">
-                        <div class="in-key radius-16">
-                            <div class="in-key-img">
-                                <img src="images/initiatives/i-01.jpg" class="img-fluid radius-16" alt="security" />
+                    <div class="swiper-slide">
+                        <div class="principle-item text-center">
+                            <div class="pri-icon-box d-flex align-items-center justify-content-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="56" height="45" class="pri-icon" viewBox="0 0 56 45" fill="none">
+                                <path d="M4.72879 14.4C4.4962 14.1493 4.21433 13.9499 3.90103 13.8144C3.58772 13.6788 3.24981 13.6101 2.90868 13.6125C1.76061 13.6125 0.892554 14.1469 0.33252 15.2438C-0.227515 16.3406 -0.0875058 17.3812 0.808549 18.3656C4.11275 21.3469 6.21288 23.4562 7.10893 24.6937C8.257 26.2687 8.81704 28.575 8.81704 31.5563C8.81704 35.2406 10.2171 37.9688 13.0173 39.8531C14.5854 41.0906 16.2935 42.0187 18.1976 42.6375V31.6969C18.1976 29.0531 17.2736 26.8594 15.5094 25.0875M40.487 25.2281C38.7509 26.9719 37.7988 29.1375 37.7988 31.6969V42.75C40.487 41.7938 42.7271 40.3031 44.5752 38.3344C46.3953 36.3656 47.3194 34.2 47.3194 31.5563C47.3194 28.3781 47.8514 26.1 48.9155 24.6937C49.1675 24.2437 49.6435 23.6812 50.3996 22.9781C51.0436 22.275 51.7157 21.6 52.3877 20.9813C53.0317 20.3906 53.6758 19.7719 54.2918 19.1531L55.2159 18.3656C55.4662 18.1267 55.665 17.8386 55.7999 17.5193C55.9347 17.2 56.0028 16.8562 55.9999 16.5094C55.9999 15.7219 55.7479 15.0188 55.2159 14.4563C54.6838 13.8938 54.0398 13.6125 53.1997 13.6125C52.3597 13.6125 51.7997 13.8656 51.2676 14.4M27.9982 45C29.9303 45 31.8064 44.7469 33.5985 44.2125V34.1719C33.5985 32.5125 33.0945 31.2188 31.9464 29.9812C30.7984 28.7437 29.4823 28.125 27.9982 28.125C26.5141 28.125 25.198 28.6875 24.134 29.8406C23.0139 30.9375 22.3979 32.2312 22.3979 33.9187V44.2125C24.19 44.7469 26.0661 45 27.9982 45ZM19.5977 12.6562C19.5977 14.9906 17.7216 16.875 15.3974 16.875C13.0733 16.875 11.1972 14.9906 11.1972 12.6562C11.1972 10.3219 13.0733 8.4375 15.3974 8.4375C17.7216 8.4375 19.5977 10.3219 19.5977 12.6562ZM44.7992 12.6562C44.7992 14.9906 42.9231 16.875 40.599 16.875C38.2748 16.875 36.3987 14.9906 36.3987 12.6562C36.3987 10.3219 38.2748 8.4375 40.599 8.4375C42.9231 8.4375 44.7992 10.3219 44.7992 12.6562ZM32.1985 4.21875C32.1985 6.55312 30.3223 8.4375 27.9982 8.4375C25.6741 8.4375 23.7979 6.55312 23.7979 4.21875C23.7979 1.88438 25.6741 0 27.9982 0C30.3223 0 32.1985 1.88438 32.1985 4.21875ZM32.1985 19.6875C32.1985 22.0219 30.3223 23.9062 27.9982 23.9062C25.6741 23.9062 23.7979 22.0219 23.7979 19.6875C23.7979 17.3531 25.6741 15.4688 27.9982 15.4688C30.3223 15.4688 32.1985 17.3531 32.1985 19.6875Z" fill="rgba(0,0,0,0.25)"/></svg>
                             </div>
-                            <div class="in-key-content">
-                                <div>
-                                    <h3 class="text_green dm_medium">Security</h3>
-                                    <div class="in-key-desc">
-                                        <p>Ensuring safe public spaces through targeted lighting, community patrols, and a dignity-first approach to local security.</p>
-                                        <p class="key-desc-two">Increased banditry, terrorism, and kidnappings have left communities in fear and disrupted livelihoods. State security forces are often overstretched or under-resourced.</p>
-                                    </div>
-                                </div>
-                                <div class="main-btn-inner">
-                                    <a href="#" class="main-btn position-relative"><span class="btn-text">Know his vision</span><span class="arrw-btn">
-                                            <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
-                                    </a>
-                                </div>
+                            <div class="pri-content">
+                                <h3>Togetherness</h3>
+                                <p class="mb-0">Leadership begins with listening. Every decision must serve lives before politics.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide initiative-item">
-                        <div class="in-key radius-16">
-                            <div class="in-key-img">
-                                <img src="images/initiatives/i-01.jpg" class="img-fluid radius-16" alt="security" />
+                    <div class="swiper-slide">
+                        <div class="principle-item text-center">
+                            <div class="pri-icon-box d-flex align-items-center justify-content-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="56" height="45" class="pri-icon" viewBox="0 0 56 45" fill="none">
+                                <path d="M4.72879 14.4C4.4962 14.1493 4.21433 13.9499 3.90103 13.8144C3.58772 13.6788 3.24981 13.6101 2.90868 13.6125C1.76061 13.6125 0.892554 14.1469 0.33252 15.2438C-0.227515 16.3406 -0.0875058 17.3812 0.808549 18.3656C4.11275 21.3469 6.21288 23.4562 7.10893 24.6937C8.257 26.2687 8.81704 28.575 8.81704 31.5563C8.81704 35.2406 10.2171 37.9688 13.0173 39.8531C14.5854 41.0906 16.2935 42.0187 18.1976 42.6375V31.6969C18.1976 29.0531 17.2736 26.8594 15.5094 25.0875M40.487 25.2281C38.7509 26.9719 37.7988 29.1375 37.7988 31.6969V42.75C40.487 41.7938 42.7271 40.3031 44.5752 38.3344C46.3953 36.3656 47.3194 34.2 47.3194 31.5563C47.3194 28.3781 47.8514 26.1 48.9155 24.6937C49.1675 24.2437 49.6435 23.6812 50.3996 22.9781C51.0436 22.275 51.7157 21.6 52.3877 20.9813C53.0317 20.3906 53.6758 19.7719 54.2918 19.1531L55.2159 18.3656C55.4662 18.1267 55.665 17.8386 55.7999 17.5193C55.9347 17.2 56.0028 16.8562 55.9999 16.5094C55.9999 15.7219 55.7479 15.0188 55.2159 14.4563C54.6838 13.8938 54.0398 13.6125 53.1997 13.6125C52.3597 13.6125 51.7997 13.8656 51.2676 14.4M27.9982 45C29.9303 45 31.8064 44.7469 33.5985 44.2125V34.1719C33.5985 32.5125 33.0945 31.2188 31.9464 29.9812C30.7984 28.7437 29.4823 28.125 27.9982 28.125C26.5141 28.125 25.198 28.6875 24.134 29.8406C23.0139 30.9375 22.3979 32.2312 22.3979 33.9187V44.2125C24.19 44.7469 26.0661 45 27.9982 45ZM19.5977 12.6562C19.5977 14.9906 17.7216 16.875 15.3974 16.875C13.0733 16.875 11.1972 14.9906 11.1972 12.6562C11.1972 10.3219 13.0733 8.4375 15.3974 8.4375C17.7216 8.4375 19.5977 10.3219 19.5977 12.6562ZM44.7992 12.6562C44.7992 14.9906 42.9231 16.875 40.599 16.875C38.2748 16.875 36.3987 14.9906 36.3987 12.6562C36.3987 10.3219 38.2748 8.4375 40.599 8.4375C42.9231 8.4375 44.7992 10.3219 44.7992 12.6562ZM32.1985 4.21875C32.1985 6.55312 30.3223 8.4375 27.9982 8.4375C25.6741 8.4375 23.7979 6.55312 23.7979 4.21875C23.7979 1.88438 25.6741 0 27.9982 0C30.3223 0 32.1985 1.88438 32.1985 4.21875ZM32.1985 19.6875C32.1985 22.0219 30.3223 23.9062 27.9982 23.9062C25.6741 23.9062 23.7979 22.0219 23.7979 19.6875C23.7979 17.3531 25.6741 15.4688 27.9982 15.4688C30.3223 15.4688 32.1985 17.3531 32.1985 19.6875Z" fill="rgba(0,0,0,0.25)"/></svg>
                             </div>
-                            <div class="in-key-content">
-                                <div>
-                                    <h3 class="text_green dm_medium">Security</h3>
-                                    <div class="in-key-desc">
-                                        <p>Ensuring safe public spaces through targeted lighting, community patrols, and a dignity-first approach to local security.</p>
-                                        <p class="key-desc-two">Increased banditry, terrorism, and kidnappings have left communities in fear and disrupted livelihoods. State security forces are often overstretched or under-resourced.</p>
-                                    </div>
-                                </div>
-                                <div class="main-btn-inner">
-                                    <a href="#" class="main-btn position-relative"><span class="btn-text">Know his vision</span><span class="arrw-btn">
-                                            <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
-                                    </a>
-                                </div>
+                            <div class="pri-content">
+                                <h3>Equality</h3>
+                                <p class="mb-0">Every person deserves a fair chance. We create systems that include, not exclude.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide initiative-item">
-                        <div class="in-key radius-16">
-                            <div class="in-key-img">
-                                <img src="images/initiatives/i-01.jpg" class="img-fluid radius-16" alt="security" />
+                    <div class="swiper-slide">
+                        <div class="principle-item text-center">
+                            <div class="pri-icon-box d-flex align-items-center justify-content-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="56" height="45" class="pri-icon" viewBox="0 0 56 45" fill="none">
+                                <path d="M4.72879 14.4C4.4962 14.1493 4.21433 13.9499 3.90103 13.8144C3.58772 13.6788 3.24981 13.6101 2.90868 13.6125C1.76061 13.6125 0.892554 14.1469 0.33252 15.2438C-0.227515 16.3406 -0.0875058 17.3812 0.808549 18.3656C4.11275 21.3469 6.21288 23.4562 7.10893 24.6937C8.257 26.2687 8.81704 28.575 8.81704 31.5563C8.81704 35.2406 10.2171 37.9688 13.0173 39.8531C14.5854 41.0906 16.2935 42.0187 18.1976 42.6375V31.6969C18.1976 29.0531 17.2736 26.8594 15.5094 25.0875M40.487 25.2281C38.7509 26.9719 37.7988 29.1375 37.7988 31.6969V42.75C40.487 41.7938 42.7271 40.3031 44.5752 38.3344C46.3953 36.3656 47.3194 34.2 47.3194 31.5563C47.3194 28.3781 47.8514 26.1 48.9155 24.6937C49.1675 24.2437 49.6435 23.6812 50.3996 22.9781C51.0436 22.275 51.7157 21.6 52.3877 20.9813C53.0317 20.3906 53.6758 19.7719 54.2918 19.1531L55.2159 18.3656C55.4662 18.1267 55.665 17.8386 55.7999 17.5193C55.9347 17.2 56.0028 16.8562 55.9999 16.5094C55.9999 15.7219 55.7479 15.0188 55.2159 14.4563C54.6838 13.8938 54.0398 13.6125 53.1997 13.6125C52.3597 13.6125 51.7997 13.8656 51.2676 14.4M27.9982 45C29.9303 45 31.8064 44.7469 33.5985 44.2125V34.1719C33.5985 32.5125 33.0945 31.2188 31.9464 29.9812C30.7984 28.7437 29.4823 28.125 27.9982 28.125C26.5141 28.125 25.198 28.6875 24.134 29.8406C23.0139 30.9375 22.3979 32.2312 22.3979 33.9187V44.2125C24.19 44.7469 26.0661 45 27.9982 45ZM19.5977 12.6562C19.5977 14.9906 17.7216 16.875 15.3974 16.875C13.0733 16.875 11.1972 14.9906 11.1972 12.6562C11.1972 10.3219 13.0733 8.4375 15.3974 8.4375C17.7216 8.4375 19.5977 10.3219 19.5977 12.6562ZM44.7992 12.6562C44.7992 14.9906 42.9231 16.875 40.599 16.875C38.2748 16.875 36.3987 14.9906 36.3987 12.6562C36.3987 10.3219 38.2748 8.4375 40.599 8.4375C42.9231 8.4375 44.7992 10.3219 44.7992 12.6562ZM32.1985 4.21875C32.1985 6.55312 30.3223 8.4375 27.9982 8.4375C25.6741 8.4375 23.7979 6.55312 23.7979 4.21875C23.7979 1.88438 25.6741 0 27.9982 0C30.3223 0 32.1985 1.88438 32.1985 4.21875ZM32.1985 19.6875C32.1985 22.0219 30.3223 23.9062 27.9982 23.9062C25.6741 23.9062 23.7979 22.0219 23.7979 19.6875C23.7979 17.3531 25.6741 15.4688 27.9982 15.4688C30.3223 15.4688 32.1985 17.3531 32.1985 19.6875Z" fill="rgba(0,0,0,0.25)"/></svg>
                             </div>
-                            <div class="in-key-content">
-                                <div>
-                                    <h3 class="text_green dm_medium">Security</h3>
-                                    <div class="in-key-desc">
-                                        <p>Ensuring safe public spaces through targeted lighting, community patrols, and a dignity-first approach to local security.</p>
-                                        <p class="key-desc-two">Increased banditry, terrorism, and kidnappings have left communities in fear and disrupted livelihoods. State security forces are often overstretched or under-resourced.</p>
-                                    </div>
-                                </div>
-                                <div class="main-btn-inner">
-                                    <a href="#" class="main-btn position-relative"><span class="btn-text">Know his vision</span><span class="arrw-btn">
-                                            <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
-                                    </a>
-                                </div>
+                            <div class="pri-content">
+                                <h3>Grassroots Action</h3>
+                                <p class="mb-0">Real change starts from the bottom up — in wards, in homes, in everyday lives.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="principle-item text-center">
+                            <div class="pri-icon-box d-flex align-items-center justify-content-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="56" height="45" class="pri-icon" viewBox="0 0 56 45" fill="none">
+                                <path d="M4.72879 14.4C4.4962 14.1493 4.21433 13.9499 3.90103 13.8144C3.58772 13.6788 3.24981 13.6101 2.90868 13.6125C1.76061 13.6125 0.892554 14.1469 0.33252 15.2438C-0.227515 16.3406 -0.0875058 17.3812 0.808549 18.3656C4.11275 21.3469 6.21288 23.4562 7.10893 24.6937C8.257 26.2687 8.81704 28.575 8.81704 31.5563C8.81704 35.2406 10.2171 37.9688 13.0173 39.8531C14.5854 41.0906 16.2935 42.0187 18.1976 42.6375V31.6969C18.1976 29.0531 17.2736 26.8594 15.5094 25.0875M40.487 25.2281C38.7509 26.9719 37.7988 29.1375 37.7988 31.6969V42.75C40.487 41.7938 42.7271 40.3031 44.5752 38.3344C46.3953 36.3656 47.3194 34.2 47.3194 31.5563C47.3194 28.3781 47.8514 26.1 48.9155 24.6937C49.1675 24.2437 49.6435 23.6812 50.3996 22.9781C51.0436 22.275 51.7157 21.6 52.3877 20.9813C53.0317 20.3906 53.6758 19.7719 54.2918 19.1531L55.2159 18.3656C55.4662 18.1267 55.665 17.8386 55.7999 17.5193C55.9347 17.2 56.0028 16.8562 55.9999 16.5094C55.9999 15.7219 55.7479 15.0188 55.2159 14.4563C54.6838 13.8938 54.0398 13.6125 53.1997 13.6125C52.3597 13.6125 51.7997 13.8656 51.2676 14.4M27.9982 45C29.9303 45 31.8064 44.7469 33.5985 44.2125V34.1719C33.5985 32.5125 33.0945 31.2188 31.9464 29.9812C30.7984 28.7437 29.4823 28.125 27.9982 28.125C26.5141 28.125 25.198 28.6875 24.134 29.8406C23.0139 30.9375 22.3979 32.2312 22.3979 33.9187V44.2125C24.19 44.7469 26.0661 45 27.9982 45ZM19.5977 12.6562C19.5977 14.9906 17.7216 16.875 15.3974 16.875C13.0733 16.875 11.1972 14.9906 11.1972 12.6562C11.1972 10.3219 13.0733 8.4375 15.3974 8.4375C17.7216 8.4375 19.5977 10.3219 19.5977 12.6562ZM44.7992 12.6562C44.7992 14.9906 42.9231 16.875 40.599 16.875C38.2748 16.875 36.3987 14.9906 36.3987 12.6562C36.3987 10.3219 38.2748 8.4375 40.599 8.4375C42.9231 8.4375 44.7992 10.3219 44.7992 12.6562ZM32.1985 4.21875C32.1985 6.55312 30.3223 8.4375 27.9982 8.4375C25.6741 8.4375 23.7979 6.55312 23.7979 4.21875C23.7979 1.88438 25.6741 0 27.9982 0C30.3223 0 32.1985 1.88438 32.1985 4.21875ZM32.1985 19.6875C32.1985 22.0219 30.3223 23.9062 27.9982 23.9062C25.6741 23.9062 23.7979 22.0219 23.7979 19.6875C23.7979 17.3531 25.6741 15.4688 27.9982 15.4688C30.3223 15.4688 32.1985 17.3531 32.1985 19.6875Z" fill="rgba(0,0,0,0.25)"/></svg>
+                            </div>
+                            <div class="pri-content">
+                                <h3>Togetherness</h3>
+                                <p class="mb-0">Leadership begins with listening. Every decision must serve lives before politics.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="principle-item text-center">
+                            <div class="pri-icon-box d-flex align-items-center justify-content-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="56" height="45" class="pri-icon" viewBox="0 0 56 45" fill="none">
+                                <path d="M4.72879 14.4C4.4962 14.1493 4.21433 13.9499 3.90103 13.8144C3.58772 13.6788 3.24981 13.6101 2.90868 13.6125C1.76061 13.6125 0.892554 14.1469 0.33252 15.2438C-0.227515 16.3406 -0.0875058 17.3812 0.808549 18.3656C4.11275 21.3469 6.21288 23.4562 7.10893 24.6937C8.257 26.2687 8.81704 28.575 8.81704 31.5563C8.81704 35.2406 10.2171 37.9688 13.0173 39.8531C14.5854 41.0906 16.2935 42.0187 18.1976 42.6375V31.6969C18.1976 29.0531 17.2736 26.8594 15.5094 25.0875M40.487 25.2281C38.7509 26.9719 37.7988 29.1375 37.7988 31.6969V42.75C40.487 41.7938 42.7271 40.3031 44.5752 38.3344C46.3953 36.3656 47.3194 34.2 47.3194 31.5563C47.3194 28.3781 47.8514 26.1 48.9155 24.6937C49.1675 24.2437 49.6435 23.6812 50.3996 22.9781C51.0436 22.275 51.7157 21.6 52.3877 20.9813C53.0317 20.3906 53.6758 19.7719 54.2918 19.1531L55.2159 18.3656C55.4662 18.1267 55.665 17.8386 55.7999 17.5193C55.9347 17.2 56.0028 16.8562 55.9999 16.5094C55.9999 15.7219 55.7479 15.0188 55.2159 14.4563C54.6838 13.8938 54.0398 13.6125 53.1997 13.6125C52.3597 13.6125 51.7997 13.8656 51.2676 14.4M27.9982 45C29.9303 45 31.8064 44.7469 33.5985 44.2125V34.1719C33.5985 32.5125 33.0945 31.2188 31.9464 29.9812C30.7984 28.7437 29.4823 28.125 27.9982 28.125C26.5141 28.125 25.198 28.6875 24.134 29.8406C23.0139 30.9375 22.3979 32.2312 22.3979 33.9187V44.2125C24.19 44.7469 26.0661 45 27.9982 45ZM19.5977 12.6562C19.5977 14.9906 17.7216 16.875 15.3974 16.875C13.0733 16.875 11.1972 14.9906 11.1972 12.6562C11.1972 10.3219 13.0733 8.4375 15.3974 8.4375C17.7216 8.4375 19.5977 10.3219 19.5977 12.6562ZM44.7992 12.6562C44.7992 14.9906 42.9231 16.875 40.599 16.875C38.2748 16.875 36.3987 14.9906 36.3987 12.6562C36.3987 10.3219 38.2748 8.4375 40.599 8.4375C42.9231 8.4375 44.7992 10.3219 44.7992 12.6562ZM32.1985 4.21875C32.1985 6.55312 30.3223 8.4375 27.9982 8.4375C25.6741 8.4375 23.7979 6.55312 23.7979 4.21875C23.7979 1.88438 25.6741 0 27.9982 0C30.3223 0 32.1985 1.88438 32.1985 4.21875ZM32.1985 19.6875C32.1985 22.0219 30.3223 23.9062 27.9982 23.9062C25.6741 23.9062 23.7979 22.0219 23.7979 19.6875C23.7979 17.3531 25.6741 15.4688 27.9982 15.4688C30.3223 15.4688 32.1985 17.3531 32.1985 19.6875Z" fill="rgba(0,0,0,0.25)"/></svg>
+                            </div>
+                            <div class="pri-content">
+                                <h3>Equality</h3>
+                                <p class="mb-0">Every person deserves a fair chance. We create systems that include, not exclude.</p>
                             </div>
                         </div>
                     </div>
@@ -461,471 +177,15 @@
             </div>
         </div>
     </section>
-    <section class="events-wrapper sec-space overflow-hidden sm-events">
+ <section class="title-mask-wrapper dark-bg-color p-sec-top p-sec-bottom">
         <div class="container">
-            <div class="center-heading text-center">
-                <h2 class="main-title w-100">Be Part of the <i class="pd_italic text_green">Movement</i><span class="dot-animated text_green"><span class="pulse-animate"><span class="pulse_dot"></span></span></span></h2>
-                <p class="vision-desc m-0">See where we’ll be next rallies, town halls, and moments that matter.</p>
+            <div class="masking-title-scroll text-center position-relative">
+                <div class="dark-text"></div>
+                <h2 class="pd_bold light-text">Oluwadare’s vision is supported by SIX core Sectors that define the path forward</h2>
             </div>
         </div>
-        <div class="event-tabs-wrapper">
-            <div class="main-flex-tabs">
-                <div class="year-dropdown">
-                    <select class="form-select sm year_text" aria-label="select year">
-                        <option selected class="">2025</option>
-                        <option value="1" class="">2024</option>
-                        <option value="2" class="">2023</option>
-                        <option value="3" class="">2022</option>
-                    </select>
-                </div>
-                <div class="month-dropdown position-relative mobile-tabs">
-                    <select class="nav nav-tabs select-style-tabs tabs-name nav-link" id="tabSelector" role="tablist">
-                        <option value="nav-jan" selected>
-                            <h5>Jan</h5>
-                        </option>
-                        <option value="nav-fab">
-                            <h5>Feb</h5>
-                        </option>
-                        <option value="nav-march">
-                            <h5>Mar</h5>
-                        </option>
-                        <option value="nav-apr">
-                            <h5>Apr</h5>
-                        </option>
-                        <option value="nav-may">
-                            <h5>May</h5>
-                        </option>
-                        <option value="nav-jun">
-                            <h5>Jun</h5>
-                        </option>
-                        <option value="nav-july">
-                            <h5>Jul</h5>
-                        </option>
-                        <option value="nav-aug">
-                            <h5>Aug</h5>
-                        </option>
-                        <option value="nav-sep">
-                            <h5>Sep</h5>
-                        </option>
-                        <option value="nav-oct">
-                            <h5>Oct</h5>
-                        </option>
-                        <option value="nav-nov">
-                            <h5>Nov</h5>
-                        </option>
-                        <option value="nav-dec">
-                            <h5>Dec</h5>
-                        </option>
-
-                    </select>
-                </div>
-                <div class="nav nav-tabs desktop-tabs" id="nav-tab" role="tablist">
-                    <button class="tabs-name nav-link active" id="nav-jan-tab" data-bs-toggle="tab" data-bs-target="#nav-jan" type="button" role="tab" aria-controls="nav-jan" aria-selected="true">
-                        <h5>Jan</h5>
-                    </button>
-                    <button class="tabs-name nav-link" id="nav-fab-tab" data-bs-toggle="tab" data-bs-target="#nav-fab" type="button" role="tab" aria-controls="nav-fab" aria-selected="false">
-                        <h5>Feb</h5>
-                    </button>
-                    <button class="tabs-name nav-link" id="nav-march-tab" data-bs-toggle="tab" data-bs-target="#nav-march" type="button" role="tab" aria-controls="nav-march" aria-selected="false">
-                        <h5>Mar</h5>
-                    </button>
-                    <button class="tabs-name nav-link" id="nav-apr-tab" data-bs-toggle="tab" data-bs-target="#nav-apr" type="button" role="tab" aria-controls="nav-apr" aria-selected="false">
-                        <h5>Apr</h5>
-                    </button>
-                    <button class="tabs-name nav-link" id="nav-may-tab" data-bs-toggle="tab" data-bs-target="#nav-may" type="button" role="tab" aria-controls="nav-may" aria-selected="false">
-                        <h5>May</h5>
-                    </button>
-                    <button class="tabs-name nav-link" id="nav-jun-tab" data-bs-toggle="tab" data-bs-target="#nav-jun" type="button" role="tab" aria-controls="nav-jun" aria-selected="false">
-                        <h5>Jun</h5>
-                    </button>
-                    <button class="tabs-name nav-link" id="nav-july-tab" data-bs-toggle="tab" data-bs-target="#nav-july" type="button" role="tab" aria-controls="nav-july" aria-selected="false">
-                        <h5>Jul</h5>
-                    </button>
-                    <button class="tabs-name nav-link" id="nav-aug-tab" data-bs-toggle="tab" data-bs-target="#nav-aug" type="button" role="tab" aria-controls="nav-aug" aria-selected="false">
-                        <h5>Aug</h5>
-                    </button>
-                    <button class="tabs-name nav-link" id="nav-sep-tab" data-bs-toggle="tab" data-bs-target="#nav-sep" type="button" role="tab" aria-controls="nav-sep" aria-selected="false">
-                        <h5>Sep</h5>
-                    </button>
-                    <button class="tabs-name nav-link" id="nav-oct-tab" data-bs-toggle="tab" data-bs-target="#nav-oct" type="button" role="tab" aria-controls="nav-oct" aria-selected="false">
-                        <h5>Oct</h5>
-                    </button>
-                    <button class="tabs-name nav-link" id="nav-nov-tab" data-bs-toggle="tab" data-bs-target="#nav-nov" type="button" role="tab" aria-controls="nav-nov" aria-selected="false">
-                        <h5>Nov</h5>
-                    </button>
-                    <button class="tabs-name nav-link" id="nav-dec-tab" data-bs-toggle="tab" data-bs-target="#nav-dec" type="button" role="tab" aria-controls="nav-dec" aria-selected="false">
-                        <h5>Dec</h5>
-                    </button>
-                </div>
-            </div>
-            <div class="tab-content" id="nav-tabContent">
-                <div class="tab-pane fade show active" id="nav-jan" role="tabpanel" aria-labelledby="nav-jan-tab" tabindex="0">
-                    <!-- Swiper -->
-                    <div class="swiper EventSlider">
-                        <div class="swiper-wrapper h-auto">
-                            <!-- Slides -->
-                            <div class="swiper-slide">
-                                <a class="event-card lg hover_card" href="" data-cursor-text="Read">
-                                    <div class="event_card_img">
-                                        <div class="overlay_date_time">
-                                            <div class="inner-date-time">
-                                                <img src="./images/clock-icon.svg" alt="clock-icon" class="clock_size">
-                                                <span class="dt-text">Feb 8, 10:00 AM</span>
-                                            </div>
-                                        </div>
-                                        <img src="./images/events-image/culture-center.webp" alt="culture-center" class="card_img_size">
-                                        <div class="card_arrow down-arrow">
-                                            <div class="inner-down-arrow">
-                                                <img src="./images/event_down_arrow.svg" alt="down-arrow" class="img-fluid down_arrow_size">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card_title">
-                                        <h5 class="text-black">Cultural Centre, <i class="pd_italic">Ibadan</i></h5>
-                                        <h3 class="mb-0">Grassroots Rising – Empowering Local Talent</h3>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a class="event-card lg hover_card" href="" data-cursor-text="Read">
-                                    <div class="event_card_img">
-                                        <div class="overlay_date_time">
-                                            <div class="inner-date-time">
-                                                <img src="./images/clock-icon.svg" alt="clock-icon" class="clock_size">
-                                                <span class="dt-text">Feb 8, 10:00 AM</span>
-                                            </div>
-                                        </div>
-                                        <img src="./images/events-image/civic-hive.webp" alt="civic-hive" class="card_img_size">
-                                        <div class="card_arrow down-arrow">
-                                            <div class="inner-down-arrow">
-                                                <img src="./images/event_down_arrow.svg" alt="down-arrow" class="img-fluid down_arrow_size">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card_title">
-                                        <h5 class="text-black">Civic Hive, <i class="pd_italic">Lagos</i></h5>
-                                        <h3 class="mb-0">Naija NextGen Meetup Digital morrow</h3>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a class="event-card lg hover_card" href="" data-cursor-text="Read">
-                                    <div class="event_card_img">
-                                        <div class="overlay_date_time">
-                                            <div class="inner-date-time">
-                                                <img src="./images/clock-icon.svg" alt="clock-icon" class="clock_size">
-                                                <span class="dt-text">Feb 8, 10:00 AM</span>
-                                            </div>
-                                        </div>
-                                        <img src="./images/events-image/culture-center.webp" alt="culture-center" class="card_img_size">
-                                        <div class="card_arrow down-arrow">
-                                            <div class="inner-down-arrow">
-                                                <img src="./images/event_down_arrow.svg" alt="down-arrow" class="img-fluid down_arrow_size">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card_title">
-                                        <h5 class="text-black">Cultural Centre, <i class="pd_italic">Ibadan</i></h5>
-                                        <h3 class="mb-0">Grassroots Rising – Empowering Local Talent</h3>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a class="event-card lg hover_card" href="" data-cursor-text="Read">
-                                    <div class="event_card_img">
-                                        <div class="overlay_date_time">
-                                            <div class="inner-date-time">
-                                                <img src="./images/clock-icon.svg" alt="clock-icon" class="clock_size">
-                                                <span class="dt-text">Feb 8, 10:00 AM</span>
-                                            </div>
-                                        </div>
-                                        <img src="./images/events-image/civic-hive.webp" alt="civic-hive" class="card_img_size">
-                                        <div class="card_arrow down-arrow">
-                                            <div class="inner-down-arrow">
-                                                <img src="./images/event_down_arrow.svg" alt="down-arrow" class="img-fluid down_arrow_size">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card_title">
-                                        <h5 class="text-black">Civic Hive, <i class="pd_italic">Lagos</i></h5>
-                                        <h3 class="mb-0">Naija NextGen Meetup Digital morrow</h3>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a class="event-card lg hover_card" href="" data-cursor-text="Read">
-                                    <div class="event_card_img">
-                                        <div class="overlay_date_time">
-                                            <div class="inner-date-time">
-                                                <img src="./images/clock-icon.svg" alt="clock-icon" class="clock_size">
-                                                <span class="dt-text">Feb 8, 10:00 AM</span>
-                                            </div>
-                                        </div>
-                                        <img src="./images/events-image/civic-hive.webp" alt="civic-hive" class="card_img_size">
-                                        <div class="card_arrow down-arrow">
-                                            <div class="inner-down-arrow">
-                                                <img src="./images/event_down_arrow.svg" alt="down-arrow" class="img-fluid down_arrow_size">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card_title">
-                                        <h5 class="text-black">Civic Hive, <i class="pd_italic">Lagos</i></h5>
-                                        <h3 class="mb-0">Naija NextGen Meetup Digital morrow</h3>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a class="event-card lg hover_card" href="" data-cursor-text="Read">
-                                    <div class="event_card_img">
-                                        <div class="overlay_date_time">
-                                            <div class="inner-date-time">
-                                                <img src="./images/clock-icon.svg" alt="clock-icon" class="clock_size">
-                                                <span class="dt-text">Feb 8, 10:00 AM</span>
-                                            </div>
-                                        </div>
-                                        <img src="./images/events-image/civic-hive.webp" alt="civic-hive" class="card_img_size">
-                                        <div class="card_arrow down-arrow">
-                                            <div class="inner-down-arrow">
-                                                <img src="./images/event_down_arrow.svg" alt="down-arrow" class="img-fluid down_arrow_size">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card_title">
-                                        <h5 class="text-black">Civic Hive, <i class="pd_italic">Lagos</i></h5>
-                                        <h3 class="mb-0">Naija NextGen Meetup Digital morrow</h3>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="tab-pane fade" id="nav-fab" role="tabpanel" aria-labelledby="nav-fab-tab" tabindex="0"></div>
-
-                <div class="tab-pane fade" id="nav-march" role="tabpanel" aria-labelledby="nav-march-tab" tabindex="0">...</div>
-
-                <div class="tab-pane fade" id="nav-apr" role="tabpanel" aria-labelledby="nav-apr-tab" tabindex="0">...</div>
-
-                <div class="tab-pane fade" id="nav-may" role="tabpanel" aria-labelledby="nav-may-tab" tabindex="0">...</div>
-
-                <div class="tab-pane fade" id="nav-jun" role="tabpanel" aria-labelledby="nav-jun-tab" tabindex="0">...</div>
-
-                <div class="tab-pane fade" id="nav-july" role="tabpanel" aria-labelledby="nav-july-tab" tabindex="0">...</div>
-
-                <div class="tab-pane fade" id="nav-aug" role="tabpanel" aria-labelledby="nav-aug-tab" tabindex="0">...</div>
-
-                <div class="tab-pane fade" id="nav-sep" role="tabpanel" aria-labelledby="nav-sep-tab" tabindex="0">...</div>
-
-                <div class="tab-pane fade" id="nav-oct" role="tabpanel" aria-labelledby="nav-oct-tab" tabindex="0">...</div>
-
-                <div class="tab-pane fade" id="nav-nov" role="tabpanel" aria-labelledby="nav-nov-tab" tabindex="0">...</div>
-
-                <div class="tab-pane fade" id="nav-dec" role="tabpanel" aria-labelledby="nav-dec-tab" tabindex="0">...</div>
-
-            </div>
-
-            <div class="events_btn main-btn-inner position-relative">
-                <a href="#" class="main-btn position-relative"><span class="btn-text">Explore more</span><span class="arrw-btn">
-                        <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
-                </a>
-                <!-- custom navigation in slider -->
-                <div class="slider-arrow">
-                    <div class="swiper-button-prev s1 arrow-circle">
-                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M6.62087 11.7428C6.27798 12.0857 5.72203 12.0857 5.37913 11.7428L0.257174 6.62088C0.0925078 6.45621 -5.04178e-07 6.23287 -5.24537e-07 6C-5.44895e-07 5.76713 0.0925078 5.54379 0.257174 5.37913L5.37913 0.257175C5.72202 -0.0857252 6.27797 -0.0857253 6.62087 0.257175C6.96377 0.600074 6.96377 1.15602 6.62087 1.49892L2.99785 5.12195L11.122 5.12195C11.6069 5.12195 12 5.51507 12 6C12 6.48493 11.6069 6.87805 11.122 6.87805L2.99785 6.87805L6.62087 10.5011C6.96377 10.844 6.96377 11.3999 6.62087 11.7428Z" fill="#3B3B3B" />
-                        </svg>
-
-                    </div>
-                    <div class="swiper-button-next s1 arrow-circle">
-                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.37913 0.257175C5.72202 -0.0857248 6.27797 -0.0857248 6.62087 0.257174L11.7428 5.37913C11.9075 5.54379 12 5.76713 12 6C12 6.23287 11.9075 6.45621 11.7428 6.62087L6.62087 11.7428C6.27797 12.0857 5.72202 12.0857 5.37913 11.7428C5.03623 11.3999 5.03623 10.844 5.37913 10.5011L9.00215 6.87805H0.878049C0.393116 6.87805 0 6.48493 0 6C0 5.51507 0.393116 5.12195 0.878049 5.12195H9.00215L5.37913 1.49892C5.03623 1.15602 5.03623 0.600074 5.37913 0.257175Z" fill="#3B3B3B" />
-                        </svg>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="voice-wrapper sec-space">
-        <div class="container">
-            <div class="center-heading text-center">
-                <h2 class="main-title text-white w-100">Voices that <i class="pd_italic text_green">Believe</i><span class="dot-animated text_green"><span class="pulse-animate"><span class="pulse_dot"></span></span></span></h2>
-                <p class="vision-desc text-white p-0">Real words from real people stories of impact, trust, and shared vision.</p>
-            </div>
-
-            <div class="initiative-main voices-inner">
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="voice-item lg">
-                            <div class="v-pr-inner">
-                                <div class="voice-profile">
-                                    <div class="voice-p-img">
-                                        <img src="images/voices/v-p-01.png" class="img-fluid radius-50" alt="user" />
-                                    </div>
-                                    <div class="voice-p-content">
-                                        <h3 class="text-white dm_medium">Ify Okeke</h3>
-                                        <h5 class="mb-0">Senior Lecturer</h5>
-                                    </div>
-                                </div>
-                                <div class="voice-content">
-                                    <p class="voice-highlight-text">Lagos State University</p>
-                                    <p class="extra_light_grey mb-0">"A statesman of substance and strategy. His speeches are not just words—they're a call to action and unity. Truly inspiring on a global platform. he listens, understands, and acts"</p>
-                                </div>
-                            </div>
-                            <div class="voice-img">
-                                <img src="images/voices/v-01.jpg" class="img-fluid radius-8" alt="user" />
-                            </div>
-                        </div>
-                        <div class="voice-item content-only sm last">
-                            <div class="voice-profile">
-                                <div class="voice-p-img">
-                                    <img src="images/voices/v-p-01.png" class="img-fluid radius-50" alt="user" />
-                                </div>
-                                <div class="voice-p-content">
-                                    <h3 class="text-white dm_medium">Tunde Adebayo</h3>
-                                    <h5 class="mb-0">Founder & Director</h5>
-                                </div>
-                            </div>
-                            <div class="voice-content">
-                                <p class="voice-highlight-text">NextGen Leaders Foundation</p>
-                                <p class="extra_light_grey mb-0">"His policies have directly uplifted marginalized voices, giving hope to many. What sets him apart is his empathy—he listens, understands, and acts."</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="voice-item border-gradient content-only sm">
-
-                            <div class="voice-profile">
-                                <div class="voice-p-img">
-                                    <img src="images/voices/v-p-01.png" class="img-fluid radius-50" alt="user" />
-                                </div>
-                                <div class="voice-p-content">
-                                    <h3 class="text-white dm_medium">Tunde Adebayo</h3>
-                                    <h5 class="mb-0">Founder & Director</h5>
-                                </div>
-                            </div>
-
-                            <div class="voice-content">
-                                <p class="voice-highlight-text">NextGen Leaders Foundation</p>
-                                <p class="extra_light_grey mb-0">"His policies have directly uplifted marginalized voices, giving hope to many. What sets him apart is his empathy—he listens, understands, and acts."</p>
-                            </div>
-                        </div>
-
-                        <div class="voice-item md">
-                            <div class="v-pr-inner">
-                                <div class="voice-profile">
-                                    <div class="voice-p-img">
-                                        <img src="images/voices/v-p-01.png" class="img-fluid radius-50" alt="user" />
-                                    </div>
-                                    <div class="voice-p-content">
-                                        <h3 class="text-white dm_medium">Ify Okeke</h3>
-                                        <h5 class="mb-0">Senior Lecturer</h5>
-                                    </div>
-                                </div>
-                                <div class="voice-content">
-                                    <p class="voice-highlight-text">Lagos State University</p>
-                                    <p class="extra_light_grey mb-0">"A statesman of substance and strategy. His speeches are not just words—they're a call to action and unity. Truly inspiring on a global platform. he listens, understands, and acts"</p>
-                                </div>
-                            </div>
-                            <div class="voice-img">
-                                <img src="images/voices/v-02-md.jpg" class="img-fluid radius-8" alt="user" />
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="voice-item sm">
-                            <div class="v-pr-inner">
-                                <div class="voice-profile">
-                                    <div class="voice-p-img">
-                                        <img src="images/voices/v-p-01.png" class="img-fluid radius-50" alt="user" />
-                                    </div>
-                                    <div class="voice-p-content">
-                                        <h3 class="text-white dm_medium">Ify Okeke</h3>
-                                        <h5 class="mb-0">Senior Lecturer</h5>
-                                    </div>
-                                </div>
-                                <div class="voice-content">
-                                    <p class="voice-highlight-text">Lagos State University</p>
-                                    <p class="extra_light_grey mb-0">"A statesman of substance and strategy. His speeches are not just words—they're a call to action and unity. Truly inspiring on a global platform. he listens, understands, and acts"</p>
-                                </div>
-                            </div>
-                            <div class="voice-img">
-                                <img src="images/voices/v-03-sm.jpg" class="img-fluid radius-8" alt="user" />
-                            </div>
-                        </div>
-                        <div class="voice-item xs">
-                            <div class="v-pr-inner">
-                                <div class="voice-profile">
-                                    <div class="voice-p-img">
-                                        <img src="images/voices/v-p-01.png" class="img-fluid radius-50" alt="user" />
-                                    </div>
-                                    <div class="voice-p-content">
-                                        <h3 class="text-white dm_medium">Tunde Adebayo</h3>
-                                        <h5 class="mb-0">Founder & Director</h5>
-                                    </div>
-                                </div>
-                                <div class="voice-content">
-                                    <p class="voice-highlight-text">NextGen Leaders Foundation</p>
-                                    <p class="extra_light_grey mb-0">"His policies have directly uplifted marginalized voices, giving hope to many. What sets him apart is his empathy—he listens, understands, and acts."</p>
-                                </div>
-                            </div>
-                            <div class="voice-img">
-                                <img src="images/voices/v-04-xs.jpg" class="img-fluid radius-8" alt="user" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="faqs-wrapper overflow-hidden sm-events">
-        <div class="container">
-            <div class="center-heading text-center">
-                <h2 class="main-title w-100 text-white">Frequently asked <i class="pd_italic text_green"><i class="bask_font">Q</i>uestions</i></h2>
-                <p class="vision-desc m-0 text-white">Our FAQ section gives you quick solutions to frequent questions, simplifying your search for information</p>
-            </div>
-
-            <div class="accordion faqs-accordion" id="accordionExample">
-                <div class="accordion-item radius-16">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                            Who is Oluwadare Owolabi?
-                        </button>
-                    </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            Oluwadare is a public Service provider and reform-driven leader dedicated to inclusive progress, youth empowerment, and grassroots transformation.
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item radius-16">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            Is Oluwadare affiliated with any political party?
-                        </button>
-                    </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            Oluwadare is a public Service provider and reform-driven leader dedicated to inclusive progress, youth empowerment, and grassroots transformation.
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item radius-16">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            What are Oluwadare’s main focus areas?
-                        </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            Oluwadare is a public Service provider and reform-driven leader dedicated to inclusive progress, youth empowerment, and grassroots transformation.
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+</section>
+   
 
     <section class="updates-feed sec-space overflow-hidden sm-feeds">
 
@@ -1081,7 +341,53 @@
             </div>
         </div>
     </section>
+ <section class="faqs-wrapper overflow-hidden sm-events">
+        <div class="container">
+            <div class="center-heading text-center">
+                <h2 class="main-title w-100 text-white">Frequently asked <i class="pd_italic text_green"><i class="bask_font">Q</i>uestions</i></h2>
+                <p class="vision-desc m-0 text-white">Our FAQ section gives you quick solutions to frequent questions, simplifying your search for information</p>
+            </div>
 
+            <div class="accordion faqs-accordion" id="accordionExample">
+                <div class="accordion-item radius-16">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            Who is Oluwadare Owolabi?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Oluwadare is a public Service provider and reform-driven leader dedicated to inclusive progress, youth empowerment, and grassroots transformation.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item radius-16">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Is Oluwadare affiliated with any political party?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Oluwadare is a public Service provider and reform-driven leader dedicated to inclusive progress, youth empowerment, and grassroots transformation.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item radius-16">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            What are Oluwadare’s main focus areas?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Oluwadare is a public Service provider and reform-driven leader dedicated to inclusive progress, youth empowerment, and grassroots transformation.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section class="voice-wrapper capture-mm position-relative sec-space">
         <div class="center-heading text-center">

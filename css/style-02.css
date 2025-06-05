@@ -1313,6 +1313,103 @@ footer .main-banner .marquee-block .marquee-inner .marquee-text .m-item {
      background-image: url(../images/mission-bg.jpg);
 }
 
+.main-title.mi-title {
+     width: 90%;
+}
+
+.vision-wrapper.vision-main .mi-title,
+.vision-wrapper.vision-main .vision-desc {
+     opacity: 0;
+     transform: translateY(70%);
+}
+
+.p-sec-top {
+     padding-top: 140px;
+}
+
+.p-sec-bottom {
+     padding-bottom: 140px;
+}
+
+.pri-content p {
+     font-size: clamp(14px, 1.11vw, 21px);
+     margin-top: 15px;
+}
+
+.pri-icon-box {
+     width: 4.83vw;
+     height: 4.83vw;
+     border-radius: 50%;
+     background: radial-gradient(rgba(255, 255, 255, 1)0%, rgba(0, 135, 81, 1)100%);
+     margin-bottom: 10px;
+}
+
+.principle-item {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+}
+
+.principles-marquee-inner {
+     margin-top: 5vw;
+}
+
+.principles-slider .pri-content h3,
+.principles-slider .pri-content p {
+     color: #3b3b3b;
+     transition: color 0.5s ease-in-out;
+}
+
+.swiper-slide.swiper-slide-active .pri-content h3,
+.swiper-slide.swiper-slide-active .pri-content p {
+     color: #ffffff;
+}
+
+.pri-icon path {
+     transition: all 0.5s ease-in-out;
+}
+
+.swiper-slide.swiper-slide-active .pri-icon path {
+     fill: #000000;
+}
+
+.principles-marquee-inner:after {
+     content: '';
+     position: absolute;
+     top: 50px;
+     left: 0;
+     background-image: linear-gradient(to right, #7D7D7D 17%, #008751 35%, #008751 100%);
+     width: 100%;
+     height: 1.5px;
+}
+
+.principles-slider .swiper-wrapper {
+     will-change: transform;
+     height: auto;
+}
+
+.principles-slider .swiper-slide {
+     height: 220px;
+}
+
+
+/****Masking title on scroll*****/
+
+
+/* .masking-title-scroll .dark-text {
+     background-color: #ffffff;
+     position: absolute;
+     inset: 0% 0% 0% auto;
+} */
+
+.masking-title-scroll .light-text {
+     color: #2b2b2b;
+     background: #ffffff;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+}
+
 @-moz-keyframes spin {
      100% {
           -moz-transform: rotate(360deg);
