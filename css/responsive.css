@@ -1348,8 +1348,17 @@
         width: 100%;
     }
 
-    .down-arrow {
-        right: 8px;
-        bottom: 30px;
+    .inner-down-arrow .down_arrow_size {
+        width: 1.5em;
+    }
+
+    .inner-down-arrow {
+        height: 55px;
+        width: 55px;
+    }
+
+    .h-circular .circular-box-main {
+        width: 86px;
+        height: 86px;
     }
 }
