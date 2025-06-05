@@ -22,7 +22,7 @@
                             <span class="d-block">
                                 <span class="pd_italic"><em>Leadership</em></span>
                                 <span class=""><span class="wrap_in"><span class="pulse-animate"><span class="pulse_dot"></span><span class="d-inline-block overflow-hidden"><img src="./images/object-i-img.svg" alt="I-img" class="object_i"></span></span>n</span> Action<span class="text_green">.</span>
-                            </span>
+                                </span>
                         </h1>
                         <p class="text-white mb-0">Oluwadare Owolabi leads with vision, compassion, and a promise to serve the people not power.</p>
                     </div>
@@ -42,11 +42,29 @@
                         </div>
                     </div>
                 </div>
-                    <div class="down-arrow">
-                        <a class="inner-down-arrow" href="#Vision">
-                            <img src="./images/down-arrow.svg" alt="down-arrow" class="img-fluid down_arrow_size">
-                        </a>
+                <div class="down-arrow h-circular">
+                    <div class="circular-box-main">
+                        <div class="c-box">
+                            <svg viewBox="0 0 216 216" width="216" height="216">
+                                <defs>
+                                    <path id="circlePath"
+                                        d="M108,108 m-90,0 a90,90 0 1,1 180,0 a90,90 0 1,1 -180,0" />
+                                </defs>
+                                <text fill="#ffffff" textLength="560">
+                                    <textPath href="#circlePath" startOffset="0">
+                                        <tspan> Forward Together </tspan>
+                                        <tspan fill="#008751">•</tspan>
+                                        <tspan> Forward Together </tspan>
+                                        <tspan fill="#008751">•</tspan>
+                                    </textPath>
+                                </text>
+                            </svg>
+                        </div>
                     </div>
+                    <a class="inner-down-arrow" href="#Vision">
+                        <img src="./images/down-arrow.svg" alt="down-arrow" class="img-fluid down_arrow_size">
+                    </a>
+                </div>
             </div>
         </section>
     </div>
@@ -79,16 +97,16 @@
                     <div class="c-box">
                         <svg viewBox="0 0 216 216" width="216" height="216">
                             <defs>
-                                    <path id="circlePath"
+                                <path id="circlePath"
                                     d="M108,108 m-90,0 a90,90 0 1,1 180,0 a90,90 0 1,1 -180,0" />
                             </defs>
                             <text fill="#ffffff" textLength="560">
-                            <textPath href="#circlePath" startOffset="0">
-                                <tspan>Watch the vision </tspan>
-                                <tspan fill="#008751">•</tspan>
-                                <tspan> Watch the vision </tspan>
-                                <tspan fill="#008751">•</tspan>       
-                            </textPath>
+                                <textPath href="#circlePath" startOffset="0">
+                                    <tspan>Watch the vision </tspan>
+                                    <tspan fill="#008751">•</tspan>
+                                    <tspan> Watch the vision </tspan>
+                                    <tspan fill="#008751">•</tspan>
+                                </textPath>
                             </text>
                         </svg>
                     </div>
@@ -220,8 +238,8 @@
                     <div class="in-key width-lg position-relative radius-16">
                         <div class="in-key-content">
                             <div>
-                                
-                                 <div class="in-key-desc key-desc-one">
+
+                                <div class="in-key-desc key-desc-one">
                                     <h3 class="text_green dm_medium">Security</h3>
                                     <p class="mb-0">Reconnecting rural communities through road rehabilitation, improved transit access, and investments in everyday mobility.</p>
                                 </div>
@@ -251,7 +269,7 @@
                         </div>
                         <div class="in-key-content">
                             <div>
-                                
+
                                 <div class="in-key-desc key-desc-one">
                                     <h3 class="text_green dm_medium">Infrastructure</h3>
                                     <p class="mb-0">Reconnecting rural communities through road rehabilitation, improved transit access, and investments in everyday mobility.</p>
@@ -261,13 +279,13 @@
                                     <p class="mb-0">Reconnecting rural communities through road rehabilitation, improved transit access, and investments in everyday mobility.</p>
                                     <p class="mb-0">Increased banditry, terrorism, and kidnappings have left communities in fear and disrupted livelihoods. State security forces are often overstretched or under-resourced.</p>
                                 </div>
-                            </div>   
+                            </div>
                             <div class="main-btn-inner">
                                 <a href="#" class="main-btn position-relative"><span class="btn-text">Know his vision</span><span class="arrw-btn">
                                         <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
                                 </a>
-                            </div>                         
-                        </div>                        
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="initiative-item">
@@ -737,26 +755,26 @@
             <div class="initiative-main voices-inner">
                 <div class="row">
                     <div class="col-lg-4">
-                       <div class="voice-item lg">
-                                <div class="v-pr-inner">
-                                    <div class="voice-profile">
-                                        <div class="voice-p-img">
-                                            <img src="images/voices/v-p-01.png" class="img-fluid radius-50" alt="user" />
-                                        </div>
-                                        <div class="voice-p-content">
-                                            <h3 class="text-white dm_medium">Ify Okeke</h3>
-                                            <h5 class="mb-0">Senior Lecturer</h5>
-                                        </div>
+                        <div class="voice-item lg">
+                            <div class="v-pr-inner">
+                                <div class="voice-profile">
+                                    <div class="voice-p-img">
+                                        <img src="images/voices/v-p-01.png" class="img-fluid radius-50" alt="user" />
                                     </div>
-                                    <div class="voice-content">
-                                        <p class="voice-highlight-text">Lagos State University</p>
-                                        <p class="extra_light_grey mb-0">"A statesman of substance and strategy. His speeches are not just words—they're a call to action and unity. Truly inspiring on a global platform. he listens, understands, and acts"</p>
+                                    <div class="voice-p-content">
+                                        <h3 class="text-white dm_medium">Ify Okeke</h3>
+                                        <h5 class="mb-0">Senior Lecturer</h5>
                                     </div>
                                 </div>
-                                <div class="voice-img">
-                                    <img src="images/voices/v-01.jpg" class="img-fluid radius-8" alt="user" />
+                                <div class="voice-content">
+                                    <p class="voice-highlight-text">Lagos State University</p>
+                                    <p class="extra_light_grey mb-0">"A statesman of substance and strategy. His speeches are not just words—they're a call to action and unity. Truly inspiring on a global platform. he listens, understands, and acts"</p>
                                 </div>
                             </div>
+                            <div class="voice-img">
+                                <img src="images/voices/v-01.jpg" class="img-fluid radius-8" alt="user" />
+                            </div>
+                        </div>
                         <div class="voice-item content-only sm last">
                             <div class="voice-profile">
                                 <div class="voice-p-img">
