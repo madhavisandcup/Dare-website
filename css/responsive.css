@@ -875,6 +875,7 @@
 
     .main-menu-wrapper .nav-link {
         font-size: 18px;
+        width: 100%;
     }
 
     .arrow {
@@ -885,7 +886,7 @@
         left: auto;
         display: inline-block;
         width: 20px;
-        height: 20px;
+        height: 12px;
         transition: transform 0.3s ease;
         -webkit-transition: transform 0.3s ease;
         -moz-transition: transform 0.3s ease;
@@ -914,7 +915,7 @@
         -moz-transform: rotate(-45deg);
         -ms-transform: rotate(-45deg);
         -o-transform: rotate(-45deg);
-}
+    }
 
     .arrow-line.right {
         right: 6px;
@@ -923,14 +924,14 @@
         -moz-transform: rotate(45deg);
         -ms-transform: rotate(45deg);
         -o-transform: rotate(45deg);
-}
+    }
 
     .main-menu-wrapper .nav-item[aria-expanded="true"] .arrow {
-        transform: rotate(180deg);
-        -webkit-transform: rotate(180deg);
-        -moz-transform: rotate(180deg);
-        -ms-transform: rotate(180deg);
-        -o-transform: rotate(180deg);
+        transform: rotate(-180deg);
+        -webkit-transform: rotate(-180deg);
+        -moz-transform: rotate(-180deg);
+        -ms-transform: rotate(-180deg);
+        -o-transform: rotate(-180deg);
     }
 
     .main-menu-wrapper li {
@@ -942,7 +943,7 @@
         overflow-y: scroll;
         overflow-x: hidden;
         padding-bottom: 80px;
-        height: 57%;
+        height: 61%;
     }
 
     .mobile-menu-scroll::-webkit-scrollbar {
@@ -958,11 +959,16 @@
     }
 
     .menu-row {
-        margin: 0 30px;
+        margin: 0 35px;
     }
 
     .nav-itemlist.join-us {
         width: 100%;
+    }
+
+    .main-menu-wrapper .nav-item[aria-expanded="true"] {
+        border-bottom: 0.5px solid #585858;
+        margin-bottom: 22px;
     }
 }
 
@@ -1239,7 +1245,7 @@
     }
 
     .main-menu-wrapper .nav-item h3 {
-        font-size: 18px;
+        font-size: 16px;
         margin-bottom: 12px;
     }
 
@@ -1299,6 +1305,14 @@
 }
 
 @media (max-width: 380px) {
+    .navbar-right {
+        gap: 8px;
+    }
+
+    .arrow-line.right {
+        right: 5px;
+    }
+
     .updates-feed .main-btn-inner {
         padding: 30px 16px 0;
     }
