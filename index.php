@@ -52,10 +52,10 @@
                                 </defs>
                                 <text fill="#ffffff" textLength="560">
                                     <textPath href="#circlePath" startOffset="0">
-                                        <tspan> Forward Together </tspan>
-                                        <tspan fill="#008751">•</tspan>
-                                        <tspan> Forward Together </tspan>
-                                        <tspan fill="#008751">•</tspan>
+                                        <tspan> Forward Together</tspan>
+                                        <tspan class="s-dot" fill="#008751">•</tspan>
+                                        <tspan> Forward Together</tspan>
+                                        <tspan class="s-dot" fill="#008751">•</tspan>
                                     </textPath>
                                 </text>
                             </svg>
@@ -103,9 +103,9 @@
                             <text fill="#ffffff" textLength="560">
                                 <textPath href="#circlePath" startOffset="0">
                                     <tspan>Watch the vision </tspan>
-                                    <tspan fill="#008751">•</tspan>
+                                    <tspan class="s-dot" fill="#008751">•</tspan>
                                     <tspan> Watch the vision </tspan>
-                                    <tspan fill="#008751">•</tspan>
+                                    <tspan class="s-dot" fill="#008751">•</tspan>
                                 </textPath>
                             </text>
                         </svg>
