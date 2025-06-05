@@ -159,6 +159,7 @@ const swiper = new Swiper(".EventSlider", {
                slidesPerView: 1.5,
                spaceBetween: 14,
                slidesOffsetBefore: 20,
+               slidesOffsetAfter: 20,
           },
           575: {
                // Small screen

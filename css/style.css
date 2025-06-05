@@ -315,12 +315,28 @@ body.navbar-open {
 
 .homepage {
     position: relative;
+    z-index: 1;
     background: url(../images/hero-banner.webp), #000;
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
+}
+
+.homepage::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(to top,
+            rgba(17, 15, 14, 77%)0%,
+            rgba(17, 15, 14, 0%)72%);
+    pointer-events: none;
+    z-index: -1;
 }
 
 .apc-logo {
