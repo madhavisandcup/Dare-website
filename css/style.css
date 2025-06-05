@@ -429,7 +429,6 @@ body.navbar-open {
 }
 
 .inner-down-arrow .down_arrow_size {
-    width: 58px;
     transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
     -webkit-transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
     -moz-transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
