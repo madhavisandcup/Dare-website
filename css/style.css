@@ -1024,6 +1024,12 @@ span.pulse-animate {
     -o-transform: scale(1);
 }
 
+.dot-animated .pulse_dot {
+    top: -15px;
+    left: auto;
+    right: -23px;
+}
+
 @keyframes pulse {
     0% {
         transform: scale(0.95);

@@ -55,7 +55,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <h2 class="main-title">Familiar <i class="pd_italic text_green">Faces<span class="text_green">,</span></i> Rising <i class="pd_italic text_green">Vision</i><span class="dor-animated text_green">.</span></h2>
+                    <h2 class="main-title">Familiar <i class="pd_italic text_green">Faces<span class="text_green">,</span></i> Rising <i class="pd_italic text_green">Vision</i><span class="dot-animated text_green"><span class="pulse-animate"><span class="pulse_dot"></span></span></span></h2>
                     <div class="main-btn-inner">
                         <a href="#" class="main-btn position-relative"><span class="btn-text">The Heart Behind All</span><span class="arrw-btn">
                                 <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
@@ -103,7 +103,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-7">
-                    <h2 class="main-title apc-anim">Backed by<span class="apc-img-animate overflow-hidden position-relative d-inline-block"><span class="apc-imgs"><img src="images/apc-lg.svg" class="ap-01" alt="apc"><img src="images/apc-lg.svg" class="ap-02" alt="apc"></span></span><i class="pd_italic text_green">Vision<span class="text_green">,</span></i> Driven by <i class="pd_italic text_green">Purpose</i><span class="dor-animated text_green">.</span></h2>
+                    <h2 class="main-title apc-anim">Backed by<span class="apc-img-animate overflow-hidden position-relative d-inline-block"><span class="apc-imgs"><img src="images/apc-lg.svg" class="ap-01" alt="apc"><img src="images/apc-lg.svg" class="ap-02" alt="apc"></span></span><i class="pd_italic text_green">Vision<span class="text_green">,</span></i> Driven by <i class="pd_italic text_green">Purpose</i><span class="dot-animated text_green"><span class="pulse-animate"><span class="pulse_dot"></span></span></span></h2>
                 </div>
                 <div class="col-md-5">
                     <p class="vision-desc">Oluwadare is not on this journey alone - he's backed by the All Progressives Congress (APC), a driving force for national progress.</p>
@@ -208,7 +208,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <h2 class="main-title">Our Key <i class="pd_italic text_green">Initiatives</i><span class="dor-animated text_green">.</span></h2>
+                    <h2 class="main-title">Our Key <i class="pd_italic text_green">Initiatives</i><span class="dot-animated text_green"><span class="pulse-animate"><span class="pulse_dot"></span></span></span></h2>
                 </div>
                 <div class="col-md-6">
                     <p class="vision-desc">At the heart of his mission lies a deep, unshakable hope — for people, for progress, for Nigeria. He stands for a future shaped by vision and built on trust. Born and raised in Lagos, Oluwadare understands the everyday struggles of Nigerians unreliable transport, rising costs, and families doing everything they could to get by.</p>
@@ -446,7 +446,7 @@
     <section class="events-wrapper sec-space overflow-hidden sm-events">
         <div class="container">
             <div class="center-heading text-center">
-                <h2 class="main-title w-100">Be Part of the <i class="pd_italic text_green">Movement</i><span class="dor-anima ted text_green">.</span></h2>
+                <h2 class="main-title w-100">Be Part of the <i class="pd_italic text_green">Movement</i><span class="dot-animated text_green"><span class="pulse-animate"><span class="pulse_dot"></span></span></span></h2>
                 <p class="vision-desc m-0">See where we’ll be next rallies, town halls, and moments that matter.</p>
             </div>
         </div>
@@ -730,7 +730,7 @@
     <section class="voice-wrapper sec-space">
         <div class="container">
             <div class="center-heading text-center">
-                <h2 class="main-title text-white w-100">Voices that <i class="pd_italic text_green">Believe</i><span class="dor-anima ted text_green">.</span></h2>
+                <h2 class="main-title text-white w-100">Voices that <i class="pd_italic text_green">Believe</i><span class="dot-animated text_green"><span class="pulse-animate"><span class="pulse_dot"></span></span></span></h2>
                 <p class="vision-desc text-white p-0">Real words from real people stories of impact, trust, and shared vision.</p>
             </div>
 
@@ -915,7 +915,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="main_heading">
-                        <h2 class="main-title w-100 mb-0"><i class="pd_italic">Reflections</i> from the Movement<span class="dor-animated text_green">.</span>
+                        <h2 class="main-title w-100 mb-0"><i class="pd_italic">Reflections</i> from the Movement<span class="dot-animated text_green"><span class="pulse-animate"><span class="pulse_dot"></span></span></span>
                         </h2>
                     </div>
                 </div>
@@ -1067,7 +1067,7 @@
 
     <section class="voice-wrapper capture-mm position-relative sec-space">
         <div class="center-heading text-center">
-            <h2 class="main-title text-white">Captured Moments of <i class="pd_italic">Impact</i><span class="dor-anima ted text_green">.</span></h2>
+            <h2 class="main-title text-white">Captured Moments of <i class="pd_italic">Impact</i><span class="dot-animated text_green"><span class="pulse-animate"><span class="pulse_dot"></span></span></span></h2>
             <p class="vision-desc text-white">A visual journey of change, hope, and community in motion.</p>
         </div>
 
