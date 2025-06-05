@@ -1,4 +1,13 @@
 @media (max-width: 1850px) {
+    .inner-down-arrow .down_arrow_size {
+        width: auto;
+    }
+
+    .h-circular .circular-box-main {
+        width: 160px;
+        height: 160px;
+    }
+
     .object_i {
         height: 50px;
     }
@@ -90,6 +99,10 @@
 }
 
 @media (max-width: 1600px) {
+    .dot-animated .pulse_dot {
+        top: -11px;
+    }
+
     .marquee-led-driven .marquee-block .marquee-inner .marquee-text .m-item.m-title {
         font-size: 46px;
         letter-spacing: 5px;
@@ -114,8 +127,9 @@
         padding: 13px;
     }
 
-    .swiper-button-prev {
-        right: 140px;
+    .swiper-button-prev.s2,
+    .swiper-button-prev.s1 {
+        right: 135px;
     }
 
     .event-tabs-wrapper .swiper-slide {
@@ -245,7 +259,12 @@
     }
 
     .down-arrow {
-        bottom: 50px;
+        bottom: 60px;
+    }
+
+    .h-circular .circular-box-main {
+        width: 150px;
+        height: 150px;
     }
 
     .hero-layout {
@@ -254,6 +273,10 @@
 }
 
 @media (max-width: 1500px) {
+    .dot-animated .pulse_dot {
+        right: -19px;
+    }
+
     .marquee-led-driven .marquee-block .marquee-inner .marquee-text .m-item.m-title {
         font-size: 40px;
     }
@@ -279,7 +302,8 @@
         padding: 12px;
     }
 
-    .swiper-button-prev {
+    .swiper-button-prev.s2,
+    .swiper-button-prev.s1 {
         right: 132px;
     }
 
@@ -369,6 +393,11 @@
 }
 
 @media (max-width: 1399px) {
+    .pulse_dot {
+        width: 10px;
+        height: 10px;
+    }
+
     .marquee-led-driven .marquee-block .marquee-inner .marquee-text .m-item.m-title {
         font-size: 34px;
     }
@@ -447,25 +476,62 @@
     }
 
     .inner-down-arrow {
-        height: 90px;
-        width: 90px;
+        height: 80px;
+        width: 80px;
     }
 
     .inner-down-arrow .down_arrow_size {
-        width: 2em;
+        width: 2.5em;
+    }
+
+    .h-circular .circular-box-main {
+        width: 130px;
+        height: 130px;
+    }
+
+    .h-circular .circular-box-main svg {
+        width: 130px;
+        height: 130px;
+    }
+
+    .down-arrow {
+        bottom: 80px;
+        right: 30px;
     }
 }
 
 @media (max-width: 1199px) {
+    @keyframes pulse {
+        0% {
+            transform: scale(0.98);
+            box-shadow: 0 0 0 0 rgba(0, 135, 81, 0.7);
+        }
+
+        70% {
+            transform: scale(1);
+            box-shadow: 0 0 0 8px rgba(0, 135, 81, 0);
+        }
+
+        100% {
+            transform: scale(1);
+            box-shadow: 0 0 0 0 rgba(0, 135, 81, 0);
+        }
+    }
+
+    .dot-animated .pulse_dot {
+        right: -14px;
+        top: -8px;
+    }
+
     .object_i {
         height: 35px;
         margin-right: 2px;
     }
 
     .pulse_dot {
-        top: -18px;
-        width: 10px;
-        height: 10px;
+        top: -14px;
+        width: 8px;
+        height: 8px;
     }
 
     .linebar::before {
@@ -514,6 +580,7 @@
     .event-tabs-wrapper .nav-tabs {
         width: 72vw;
         gap: 7px;
+        display: flex;
         flex-wrap: nowrap;
         justify-content: start;
         overflow-y: scroll;
@@ -603,15 +670,31 @@
 }
 
 @media (max-width: 1024px) {
+    .inner-down-arrow .down_arrow_size {
+        width: 2em;
+    }
+
+    .inner-down-arrow {
+        height: 70px;
+        width: 70px;
+    }
+
+    .h-circular .circular-box-main {
+        width: 120px;
+        height: 120px;
+    }
+
     .object_i {
         height: 31px;
     }
 
-    .swiper-button-next {
+    .swiper-button-next.s2,
+    .swiper-button-next.s1 {
         right: 40px;
     }
 
-    .swiper-button-prev {
+    .swiper-button-prev.s2,
+    .swiper-button-prev.s1 {
         right: 90px;
     }
 
@@ -669,6 +752,11 @@
 }
 
 @media (max-width: 991px) {
+    .h-circular .circular-box-main {
+        width: 110px;
+        height: 110px;
+    }
+
     .marquee-led-driven .m-img img {
         width: 120px;
         height: 46px;
@@ -717,15 +805,6 @@
 
     .hero-title p {
         width: 57%;
-    }
-
-    .inner-down-arrow {
-        height: 70px;
-        width: 70px;
-    }
-
-    .inner-down-arrow .down_arrow_size {
-        width: 1.8em;
     }
 
     /* header mobile view */
@@ -830,21 +909,21 @@
 
     .arrow-line.left {
         left: 6px;
-        transform: rotate(45deg);
-        -webkit-transform: rotate(45deg);
-        -moz-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-        -o-transform: rotate(45deg);
-    }
-
-    .arrow-line.right {
-        right: 6px;
         transform: rotate(-45deg);
         -webkit-transform: rotate(-45deg);
         -moz-transform: rotate(-45deg);
         -ms-transform: rotate(-45deg);
         -o-transform: rotate(-45deg);
-    }
+}
+
+    .arrow-line.right {
+        right: 6px;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+}
 
     .main-menu-wrapper .nav-item[aria-expanded="true"] .arrow {
         transform: rotate(180deg);
@@ -894,6 +973,7 @@
 
     .pulse_dot {
         top: -12px;
+        left: -1px;
         width: 6px;
         height: 6px;
     }
@@ -904,12 +984,41 @@
 }
 
 @media (max-width: 575px) {
-    .swiper-button-prev {
+    .h-circular .circular-box-main {
+        width: 100px;
+        height: 100px;
+    }
+
+    @keyframes pulse {
+        0% {
+            transform: scale(0.98);
+            box-shadow: 0 0 0 0 rgba(0, 135, 81, 0.6);
+        }
+
+        70% {
+            transform: scale(1);
+            box-shadow: 0 0 0 6px rgba(0, 135, 81, 0);
+        }
+
+        100% {
+            transform: scale(1);
+            box-shadow: 0 0 0 0 rgba(0, 135, 81, 0);
+        }
+    }
+
+    .dot-animated .pulse_dot {
+        right: -11px;
+        top: -5px;
+    }
+
+    .swiper-button-prev.s2,
+    .swiper-button-prev.s1 {
         right: 70px;
         left: auto;
     }
 
-    .swiper-button-next {
+    .swiper-button-next.s2,
+    .swiper-button-next.s1 {
         right: 20px;
         left: auto;
     }
@@ -1058,19 +1167,15 @@
     }
 
     .inner-down-arrow {
-        height: 55px;
-        width: 55px;
-    }
-
-    .inner-down-arrow .down_arrow_size {
-        width: 1.5em;
+        height: 65px;
+        width: 65px;
     }
 
     .down-arrow {
         position: absolute;
         margin-left: auto;
-        bottom: 40px;
-        right: 16px;
+        bottom: 60px;
+        right: 20px;
         left: auto;
     }
 
@@ -1198,11 +1303,13 @@
         padding: 30px 16px 0;
     }
 
-    .swiper-button-next {
+    .swiper-button-next.s2,
+    .swiper-button-next.s1 {
         right: 16px;
     }
 
-    .swiper-button-prev {
+    .swiper-button-prev.s2,
+    .swiper-button-prev.s1 {
         right: 64px;
     }
 
