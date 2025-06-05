@@ -9,56 +9,75 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 //Initiative interactions
-// let iniImg = document.querySelector('.in-key-img img');
-// const smImgParent = document.querySelector('.in-key.width-sm .in-key-img');
-// iniImg.style.width = `${smImgParent.clientWidth}px`;
+if (window.matchMedia("(min-width: 992px)").matches) {
+     document.querySelectorAll('.in-key.width-sm').forEach(function(elem) {
+          elem.addEventListener('mouseenter', function() {
+               const container = elem.closest('.initiative-item');
+               const fadeText = elem.querySelector('.in-key-content');
+               if (container && fadeText) {
+                    container.classList.add('key-sm-hover');
+                    container.classList.add('lg-active');
+               }
 
-document.querySelectorAll('.in-key.width-sm').forEach(function(elem) {
-     elem.addEventListener('mouseenter', function() {
-          const container = elem.closest('.initiative-item');
-          const fadeText = elem.querySelector('.in-key-content');
-          // const keyImgParent = elem.querySelector('.in-key-img');
-          // const keyImg = elem.querySelector('.in-key-img img');
-          // keyImg.style.height = keyImgParent.offsetHeight;
-          if (container && fadeText) {
-               container.classList.add('key-sm-hover');
-               container.classList.add('lg-active');
-               // fadeText.classList.add('fade_text');
-               // setTimeout(() => {
-               //      fadeText.classList.remove('fade_text');
-               // }, 2000);
-          }
+          });
 
+          elem.addEventListener('mouseleave', function() {
+               const container = elem.closest('.initiative-item');
+               if (container) {
+                    container.classList.remove('key-sm-hover');
+               }
+
+          });
      });
 
-     elem.addEventListener('mouseleave', function() {
-          const container = elem.closest('.initiative-item');
-          if (container) {
-               container.classList.remove('key-sm-hover');
-               // container.classList.remove('lg-active');
-          }
+     document.querySelectorAll('.in-key.width-lg').forEach(function(elem) {
+          elem.addEventListener('mouseenter', function() {
+               const container = elem.closest('.initiative-item');
+               const fadeTextLg = elem.querySelector('.in-key-content');
+               if (container && fadeTextLg) {
+                    container.classList.add('key-lg-hover');
+               }
+          });
 
+          elem.addEventListener('mouseleave', function() {
+               const container = elem.closest('.initiative-item');
+               if (container) container.classList.remove('key-lg-hover');
+          });
      });
-});
+}
+if (window.matchMedia("(max-width: 991px)").matches) {
+     document.querySelectorAll('.in-key').forEach(function(elem) {
+          elem.addEventListener('click', function() {
+               const container = elem.closest('.initiative-item');
+               if (!container) return;
 
-document.querySelectorAll('.in-key.width-lg').forEach(function(elem) {
-     elem.addEventListener('mouseenter', function() {
-          const container = elem.closest('.initiative-item');
-          const fadeTextLg = elem.querySelector('.in-key-content');
-          if (container && fadeTextLg) {
-               container.classList.add('key-lg-hover');
-               // fadeTextLg.classList.add('fade_text_lg');
-               // setTimeout(() => {
-               //      fadeTextLg.classList.remove('fade_text_lg');
-               // }, 2000);
-          }
-     });
+               const isSmall = elem.classList.contains('width-sm');
+               const isLarge = elem.classList.contains('width-lg');
 
-     elem.addEventListener('mouseleave', function() {
-          const container = elem.closest('.initiative-item');
-          if (container) container.classList.remove('key-lg-hover');
+               if (isSmall) {
+                    // Toggle small key classes
+                    const alreadyActive = container.classList.contains('key-sm-hover');
+                    container.classList.remove('key-lg-hover'); // remove lg class
+                    if (alreadyActive) {
+                         container.classList.remove('key-sm-hover', 'lg-active');
+                    } else {
+                         container.classList.add('key-sm-hover', 'lg-active');
+                    }
+               }
+
+               if (isLarge) {
+                    // Toggle large key classes
+                    const alreadyActive = container.classList.contains('key-lg-hover');
+                    container.classList.remove('key-sm-hover', 'lg-active'); // remove sm classes
+                    if (alreadyActive) {
+                         container.classList.remove('key-lg-hover');
+                    } else {
+                         container.classList.add('key-lg-hover');
+                    }
+               }
+          });
      });
-});
+}
 
 // videobg interaction
 const videoImgWrapper = document.querySelector(".video-img");
