@@ -99,9 +99,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
     <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollToPlugin.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/split-type"></script>
     <!-- <script src="./js/circletype.min.js"></script> -->
+    <!-- <script src="./js/about.js"></script> -->
     <script src="./js/custom.js"></script>
     <script src="./js/custom-02.js"></script>
     <script src="./js/cursor-slider.js"></script>
