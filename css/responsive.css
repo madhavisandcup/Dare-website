@@ -670,6 +670,10 @@
 }
 
 @media (max-width: 1024px) {
+    .sec-bottom {
+        margin-bottom: 100px;
+    }
+
     .inner-down-arrow .down_arrow_size {
         width: 2em;
     }
@@ -990,6 +994,10 @@
 }
 
 @media (max-width: 575px) {
+    .sec-bottom {
+        margin-bottom: 60px;
+    }
+
     .homepage::before {
         z-index: 1;
     }
@@ -1088,6 +1096,7 @@
     .marquee-led-driven .marquee-inner {
         gap: 16px;
     }
+
     .events_btn.main-btn-inner,
     .updates-feed .main-btn-inner {
         margin: 0 auto;
@@ -1099,7 +1108,7 @@
     }
 
     .updates-feed .main-btn-inner .main-btn,
-     .events_btn.main-btn-inner .main-btn {
+    .events_btn.main-btn-inner .main-btn {
         width: fit-content;
     }
 

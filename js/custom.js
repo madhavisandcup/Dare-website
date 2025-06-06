@@ -351,7 +351,7 @@ if (tabSelector) {
 
 
 //gallery images interactions
-window.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", function () {
      if (window.matchMedia("(min-width: 992px)").matches) {
           let lastScrollTop = window.pageYOffset || document.documentElement.scrollTop;
           const items = document.querySelectorAll(".capture-img");
@@ -362,6 +362,7 @@ window.addEventListener("DOMContentLoaded", () => {
           }
 
           function isInViewport(el) {
+               if (!el) return false; // ✅ prevent error if null
                const rect = el.getBoundingClientRect();
                return (
                     rect.top < window.innerHeight &&
