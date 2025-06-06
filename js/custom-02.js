@@ -52,3 +52,60 @@ const principlesSlider = new Swiper(".principles-slider", {
 
      },
 });
+
+//Masking Text on scroll
+gsap.registerPlugin(ScrollTrigger);
+
+// const split = new SplitType(".light-text", { types: "chars" });
+
+// Confirm split works (debug)
+// Split text into characters
+const split = new SplitType(".light-text", { types: "chars" });
+const chars = document.querySelectorAll(".light-text .char");
+
+// Create a timeline for sequential animation
+const tl = gsap.timeline({
+     scrollTrigger: {
+          trigger: ".title-mask-wrapper",
+          start: "top 50%",
+          end: "+=600",
+          scrub: true,
+          toggleActions: "play none none none",
+          // markers: true,
+     }
+});
+
+// Add each character to the timeline sequentially
+chars.forEach((char, i) => {
+     tl.to(char, {
+          color: "#ffffff",
+          duration: 0.03,
+          ease: "power1.inOut"
+     }, "+=0.01"); // small delay between each
+});
+
+
+
+// Get all .js-pinned-images
+
+gsap.registerPlugin(ScrollTrigger);
+
+window.addEventListener("DOMContentLoaded", () => {
+     const wrapper = document.querySelector('.features-verticle-slider');
+     const inner = wrapper.querySelector('.features-verticle-inner');
+     const sections = gsap.utils.toArray('.feature-item', inner);
+
+     gsap.to(inner, {
+          yPercent: -100 * (sections.length - 1),
+          ease: 'none',
+          scrollTrigger: {
+               trigger: wrapper,
+               start: 'top top',
+               end: () => `+=${window.innerHeight * (sections.length - 1)}`,
+               scrub: 1,
+               pin: true,
+               anticipatePin: 1,
+               invalidateOnRefresh: true,
+          }
+     });
+});
