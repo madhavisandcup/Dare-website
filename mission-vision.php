@@ -177,14 +177,99 @@
             </div>
         </div>
     </section>
- <section class="title-mask-wrapper dark-bg-color p-sec-top p-sec-bottom">
+    <section class="title-mask-wrapper dark-bg-color p-sec-top p-sec-bottom">
         <div class="container">
-            <div class="masking-title-scroll text-center position-relative">
-                <div class="dark-text"></div>
-                <h2 class="pd_bold light-text">Oluwadare’s vision is supported by SIX core Sectors that define the path forward</h2>
+            <div class="masking-title-scroll text-center">                   
+                <h2 class="light-text position-relative">Oluwadare’s vision is supported by SIX core Sectors that define the path forward
+                </h2>
             </div>
         </div>
-</section>
+    </section>
+
+      
+    <section class="features-verticle-slider overflow-hidden">
+        <div class="fi-navigation">
+            <span class="fi-line"></span>
+             <span class="fi-line"></span>
+              <span class="fi-line"></span>
+               <span class="fi-line"></span>
+                <span class="fi-line"></span>
+        </div>
+        <div class="features-verticle-inner">
+            <div class="feature-item">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2 class="main-title mi-title">Security</h2>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="vision-desc">“To serve the people with integrity, empathy, and courage, building a Nigeria where dignity is a right, not a privilege. Every initiative, every effort, every word is rooted in the real needs of our communities.”</p>
+                        <div class="feature-img"> 
+                            <img src="images/features/security.jpg" class="img-fluid radius-16" alt="security">
+                        </div>
+                    </div>
+                </div>
+                <div class="features-timeline-main">
+                    <div class="ft-item">
+                        <p>Community Policing: Empower and train local security volunteers with better oversight.</p>
+                    </div>
+                        <div class="ft-item">
+                        <p>Community Policing: Empower and train local security volunteers with better oversight.</p>
+                    </div>
+                        <div class="ft-item">
+                        <p>Community Policing: Empower and train local security volunteers with better oversight.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="feature-item">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2 class="main-title mi-title">Security</h2>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="vision-desc">“To serve the people with integrity, empathy, and courage, building a Nigeria where dignity is a right, not a privilege. Every initiative, every effort, every word is rooted in the real needs of our communities.”</p>
+                        <div class="feature-img"> 
+                            <img src="images/features/security.jpg" class="img-fluid radius-16" alt="security">
+                        </div>
+                    </div>
+                </div>
+                <div class="features-timeline-main">
+                    <div class="ft-item">
+                        <p>Community Policing: Empower and train local security volunteers with better oversight.</p>
+                    </div>
+                        <div class="ft-item">
+                        <p>Community Policing: Empower and train local security volunteers with better oversight.</p>
+                    </div>
+                        <div class="ft-item">
+                        <p>Community Policing: Empower and train local security volunteers with better oversight.</p>
+                    </div>
+                </div>
+            </div>
+                <div class="feature-item">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2 class="main-title mi-title">Security</h2>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="vision-desc">“To serve the people with integrity, empathy, and courage, building a Nigeria where dignity is a right, not a privilege. Every initiative, every effort, every word is rooted in the real needs of our communities.”</p>
+                        <div class="feature-img"> 
+                            <img src="images/features/security.jpg" class="img-fluid radius-16" alt="security">
+                        </div>
+                    </div>
+                </div>
+                <div class="features-timeline-main">
+                    <div class="ft-item">
+                        <p>Community Policing: Empower and train local security volunteers with better oversight.</p>
+                    </div>
+                        <div class="ft-item">
+                        <p>Community Policing: Empower and train local security volunteers with better oversight.</p>
+                    </div>
+                        <div class="ft-item">
+                        <p>Community Policing: Empower and train local security volunteers with better oversight.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
    
 
     <section class="updates-feed sec-space overflow-hidden sm-feeds">
@@ -594,27 +679,4 @@
     </section>
 
     <?php include 'footer.php'; ?>
-    <script>
-        window.addEventListener("DOMContentLoaded", () => {
-            const circularText = document.getElementById("circular-text");
-
-            if (circularText) {
-                const phrases = [
-                    "Watch the vision",
-                    "Watch the vision"
-                ];
-
-                const html = phrases.map((phrase, i) => {
-                    // Add dot only between phrases
-                    const dot = i < phrases.length - 1 ? ' <span class="circular-dot">•</span>' : ' <span class="circular-dot">•</span>\u00A0';
-                    return phrase + dot;
-                }).join(' ');
-
-                // Add leading &nbsp;
-                circularText.innerHTML = '\u00A0' + html;
-
-                new CircleType(circularText);
-            }
-        });
-    </script>
 </body>
