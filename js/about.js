@@ -1,4 +1,6 @@
+/************************ verticle scroll slider -GSAP ***************************/
 gsap.registerPlugin(ScrollTrigger);
+
 const container = document.querySelector(".verticle-scroll-slider");
 const panels = gsap.utils.toArray(".image_panel");
 let index = 0;
@@ -49,14 +51,13 @@ function updateSlide() {
   }, 900); // delay between scrolls
 }
 
-// Fade-in/out + vertical peek effect
-
+// Slide-by-slide animation logic
 function showPanel(i) {
   panels.forEach((panel, idx) => {
     const content = panel.querySelector(".panel_content");
 
     if (idx === i) {
-      // Active panel: fully visible, centered content
+      // Active panel
       gsap.to(panel, {
         opacity: 1,
         duration: 0.85,
@@ -65,49 +66,43 @@ function showPanel(i) {
         pointerEvents: "auto"
       });
       gsap.to(content, {
-        yPercent: 0, // vertically centered
+        // yPercent: 0,
         duration: 0.85,
         ease: "Power3.easeInOut"
       });
     } else if (idx === i - 1) {
-      // Previous panel: partially visible above, content peeks above
+      // Previous panel peek
       gsap.to(panel, {
-        opacity: 0.3,
         duration: 0.85,
         ease: "Power3.easeInOut",
-        zIndex: 2,
-        pointerEvents: "none"
+        zIndex: 2
       });
       gsap.to(content, {
-        yPercent: -50, // move content up (peek above)
+        // yPercent: -50,
         duration: 0.85,
         ease: "Power3.easeInOut"
       });
     } else if (idx === i + 1) {
-      // Next panel: partially visible below, content peeks below
+      // Next panel peek
       gsap.to(panel, {
-        opacity: 0.3,
         duration: 0.85,
         ease: "Power3.easeInOut",
-        zIndex: 2,
-        pointerEvents: "none"
+        zIndex: 2
       });
       gsap.to(content, {
-        yPercent: 50, // move content down (peek below)
+        // yPercent: 50,
         duration: 0.85,
         ease: "Power3.easeInOut"
       });
     } else {
-      // Other panels hidden, content normal position
+      // All others hidden
       gsap.to(panel, {
-        opacity: 0,
         duration: 0.85,
         ease: "Power3.easeInOut",
-        zIndex: 1,
-        pointerEvents: "none"
+        zIndex: 1
       });
       gsap.to(content, {
-        yPercent: 0,
+        // yPercent: 0,
         duration: 0.85,
         ease: "Power3.easeInOut"
       });

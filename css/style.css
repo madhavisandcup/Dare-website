@@ -1247,6 +1247,9 @@ span.pulse-animate {
     position: absolute;
     width: 100%;
     left: 0;
+    right: auto;
+    top: 0;
+    bottom: 0;
     color: #fff;
     /* We'll control vertical position by JS */
     transition: transform 0.85s cubic-bezier(0.645, 0.045, 0.355, 1);
