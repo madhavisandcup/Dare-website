@@ -398,7 +398,6 @@
                                 </a>
                             </div>
                         </div>
-
                     </div>
                 </div>
                 <div class="tab-pane fade" id="nav-news" role="tabpanel" aria-labelledby="nav-news-tab" tabindex="0"></div>
