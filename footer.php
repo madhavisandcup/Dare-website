@@ -1,5 +1,5 @@
 <footer>
-    <div class="footer-main">
+    <div class="footer-main overflow-hidden">
         <div class="marquee-block right-marquee">
             <div class="marquee-inner flex">
                 <div class="marquee-text flex">

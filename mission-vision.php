@@ -16,12 +16,12 @@
                     <div class="hero-title">
                         <h1 class="text-white mb-0">
                             <span class="">
-                                <span class="">Gu<span class="wrap_in"><span class="pulse-animate"><span class="pulse_dot"></span><span class="d-inline-block overflow-hidden"><img src="./images/object-i-img.svg" alt="I-img" class="object_i"></span></span>ded</span></span><span>By</span>
+                                <span class="">Gu<span class="wrap_in"><span class="pulse-animate"><span class="pulse_dot"></span><span class="d-inline-block overflow-hidden"><img src="./images/object-i-img.svg" alt="I-img" class="object_i"></span></span>ded</span></span><span> By</span>
                                 <span class="pd_italic"><em>Light</em><span class="text_green">,</span></span>
                             </span>
                             <span class="d-block">
-                                <span class="pd_italic"><em>Grounded</em></span>
-                                <span class=""><span class="wrap_in"><span class="pulse-animate"><span class="pulse_dot"></span><span class="d-inline-block overflow-hidden"><img src="./images/object-i-img.svg" alt="I-img" class="object_i"></span></span>n</span> Action<span class="text_green">.</span>
+                                <span>Grounded</span>
+                                <span class=""><span class="wrap_in"><span class="pulse-animate"><span class="pulse_dot"></span><span class="d-inline-block overflow-hidden"><img src="./images/object-i-img.svg" alt="I-img" class="object_i"></span></span>n</span><span class="pd_italic"><em> Action</em> <span class="text_green">.</span>
                                 </span>
                         </h1>
                         <p class="text-white mb-0">Like a beacon at dawn, Dare’s mission rises from the people and leads with integrity. His vision is not about lofty promises. It’s about real, visible progress.</p>
@@ -77,7 +77,7 @@
             </div>
         </div>
     </section>
-     <section class="vision-wrapper vision-main p-sec-space">
+     <section class="vision-wrapper vision-main p-sec-top">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -188,12 +188,14 @@
 
       
     <section class="features-verticle-slider">
-    <div class="fi-navigation visible">
-        <span class="fi-line" data-index="0"></span>
-        <span class="fi-line" data-index="1"></span>
-        <span class="fi-line" data-index="2"></span>
-    </div>
-        <div class="features-verticle-inner overflow-hidden">
+        <div class="fi-navigation visible">
+            <span class="fi-line" data-index="0"></span>
+            <span class="fi-line" data-index="1"></span>
+            <span class="fi-line" data-index="2"></span>
+            <span class="fi-line" data-index="3"></span>
+            <span class="fi-line" data-index="4"></span>
+        </div>
+        <div class="features-verticle-inner">
             <div class="feature-item">
                 <div class="row">
                     <div class="col-md-6">
@@ -224,7 +226,38 @@
             <div class="feature-item">
                 <div class="row">
                     <div class="col-md-6">
-                        <h2 class="main-title mi-title">Security</h2>
+                        <h2 class="main-title mi-title">Infrastructure</h2>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="vision-desc">Poor road networks, unreliable electricity, and collapsing public buildings impact daily life and business productivity.</p>
+                        <div class="feature-img"> 
+                            <img src="images/features/security.jpg" class="img-fluid radius-16" alt="security">
+                        </div>
+                    </div>
+                </div>
+                 <div class="features-timeline-main position-relative">
+                    <div class="ft-item one">
+                        <span class="dot-animated d-inline-block"><span class="pulse-animate"><span class="pulse_dot"></span></span></span>
+                        <p>Community Policing: Empower and train local security volunteers with better oversight.</p>
+                    </div>
+                    <div class="ft-item two">
+                        <span class="dot-animated d-inline-block"><span class="pulse-animate"><span class="pulse_dot"></span></span></span>
+                        <p>Community Policing: Empower and train local security volunteers with better oversight.</p>
+                    </div>
+                    <div class="ft-item three">
+                        <span class="dot-animated d-inline-block"><span class="pulse-animate"><span class="pulse_dot"></span></span></span>
+                        <p>Community Policing: Empower and train local security volunteers with better oversight.</p>
+                    </div>
+                     <div class="ft-item four">
+                        <span class="dot-animated d-inline-block"><span class="pulse-animate"><span class="pulse_dot"></span></span></span>
+                        <p>Community Policing: Empower and train local security volunteers with better oversight.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="feature-item">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2 class="main-title mi-title">Water Access</h2>
                     </div>
                     <div class="col-md-6">
                         <p class="vision-desc">“To serve the people with integrity, empathy, and courage, building a Nigeria where dignity is a right, not a privilege. Every initiative, every effort, every word is rooted in the real needs of our communities.”</p>
@@ -248,10 +281,10 @@
                     </div>
                 </div>
             </div>
-                <div class="feature-item">
+             <div class="feature-item">
                 <div class="row">
                     <div class="col-md-6">
-                        <h2 class="main-title mi-title">Security</h2>
+                        <h2 class="main-title mi-title">Education & Youth Empowerment</h2>
                     </div>
                     <div class="col-md-6">
                         <p class="vision-desc">“To serve the people with integrity, empathy, and courage, building a Nigeria where dignity is a right, not a privilege. Every initiative, every effort, every word is rooted in the real needs of our communities.”</p>
@@ -269,7 +302,26 @@
                         <span class="dot-animated d-inline-block"><span class="pulse-animate"><span class="pulse_dot"></span></span></span>
                         <p>Community Policing: Empower and train local security volunteers with better oversight.</p>
                     </div>
-                        <div class="ft-item three">
+                </div>
+            </div>
+             <div class="feature-item">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2 class="main-title mi-title">Job & Econimic Access</h2>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="vision-desc">“To serve the people with integrity, empathy, and courage, building a Nigeria where dignity is a right, not a privilege. Every initiative, every effort, every word is rooted in the real needs of our communities.”</p>
+                        <div class="feature-img"> 
+                            <img src="images/features/security.jpg" class="img-fluid radius-16" alt="security">
+                        </div>
+                    </div>
+                </div>
+                 <div class="features-timeline-main position-relative">
+                    <div class="ft-item one">
+                        <span class="dot-animated d-inline-block"><span class="pulse-animate"><span class="pulse_dot"></span></span></span>
+                        <p>Community Policing: Empower and train local security volunteers with better oversight.</p>
+                    </div>
+                        <div class="ft-item two">
                         <span class="dot-animated d-inline-block"><span class="pulse-animate"><span class="pulse_dot"></span></span></span>
                         <p>Community Policing: Empower and train local security volunteers with better oversight.</p>
                     </div>
@@ -371,160 +423,162 @@
         </div>
     </div>
 
-    <section class="updates-feed sec-space overflow-hidden sm-feeds">
+    <section class="updates-feed work-feed sec-space overflow-hidden sm-feeds">
 
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
                     <div class="main_heading">
-                        <h2 class="main-title w-100 mb-0"><i class="pd_italic">Reflections</i> from the Movement<span class="dot-animated text_green"><span class="pulse-animate"><span class="pulse_dot"></span></span></span>
+                        <h2 class="main-title w-100 mb-0">Already in<i class="pd_italic text_green"> Motions</i><span class="dot-animated text_green"><span class="pulse-animate"><span class="pulse_dot"></span></span></span>
                         </h2>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="main_heading">
-                        <p class="vision-desc mt-0">Follow the journey, explore the latest updates, and see how the movement is growing—online and on the ground. Stories, statements, and snapshots that shape the movement.</p>
+                        <p class="vision-desc mt-0">Real work is already underway — from ideas to action, here’s what’s already making an impact on the ground. Explore the programs already shaping lives across communities.</p>
                     </div>
                 </div>
             </div>
         </div>
 
         <div class="cursor-container">
-
-            <div class="nav nav-tabs main-flex-tabs justify-content-start px-3" id="updates-feed-tab" role="tablist">
-                <button class="tabs-name nav-link active" id="nav-latest-tab" data-bs-toggle="tab" data-bs-target="#nav-latest" type="button" role="tab" aria-controls="nav-latest" aria-selected="true">
-                    <h5>Latest</h5>
-                </button>
-                <button class="tabs-name nav-link" id="nav-news-tab" data-bs-toggle="tab" data-bs-target="#nav-news" type="button" role="tab" aria-controls="nav-news" aria-selected="false">
-                    <h5>News</h5>
-                </button>
-                <button class="tabs-name nav-link" id="nav-blogs-tab" data-bs-toggle="tab" data-bs-target="#nav-blogs" type="button" role="tab" aria-controls="nav-blogs" aria-selected="false">
-                    <h5>Blog</h5>
-                </button>
-                <button class="tabs-name nav-link" id="nav-socials-tab" data-bs-toggle="tab" data-bs-target="#nav-socials" type="button" role="tab" aria-controls="nav-socials" aria-selected="false">
-                    <h5>Socials</h5>
-                </button>
-            </div>
-            <div class="tab-content" id="nav-tabContent">
-                <div class="tab-pane fade show active" id="nav-latest" role="tabpanel" aria-labelledby="nav-latest-tab" tabindex="0">
-                    <!-- Swiper -->
-                    <div class="swiper UpdateFeeds onSlider">
-                        <div class="swiper-wrapper h-auto">
-                            <!-- Slides -->
-                            <div class="swiper-slide">
-                                <a class="update-feed-card hover_card" href="" data-cursor-text="Read Blog">
-                                    <div class="event_card_img">
-                                        <div class="overlay_date_time feed_name">
-                                            <div class="inner-feed-name">
-                                                <h5 class="feed-text mb-0">Blog</h5>
+            <div class="container">
+                <div class="nav nav-tabs main-flex-tabs justify-content-start px-3" id="updates-feed-tab" role="tablist">
+                    <button class="tabs-name nav-link active" id="nav-latest-tab" data-bs-toggle="tab" data-bs-target="#nav-latest" type="button" role="tab" aria-controls="nav-latest" aria-selected="true">
+                        <h5>Security</h5>
+                    </button>
+                    <button class="tabs-name nav-link" id="nav-news-tab" data-bs-toggle="tab" data-bs-target="#nav-news" type="button" role="tab" aria-controls="nav-news" aria-selected="false">
+                        <h5>Housing</h5>
+                    </button>
+                    <button class="tabs-name nav-link" id="nav-blogs-tab" data-bs-toggle="tab" data-bs-target="#nav-blogs" type="button" role="tab" aria-controls="nav-blogs" aria-selected="false">
+                        <h5>Infrastructure</h5>
+                    </button>
+                    <button class="tabs-name nav-link" id="nav-socials-tab" data-bs-toggle="tab" data-bs-target="#nav-socials" type="button" role="tab" aria-controls="nav-socials" aria-selected="false">
+                        <h5>Youth</h5>
+                    </button>
+                </div>
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-latest" role="tabpanel" aria-labelledby="nav-latest-tab" tabindex="0">
+                        <!-- Swiper -->
+                        <div class="swiper workFeeds onSlider">
+                            <div class="swiper-wrapper h-auto">
+                                <!-- Slides -->
+                                <div class="swiper-slide">
+                                    <a class="update-feed-card hover_card" href="" data-cursor-text="Read Blog">
+                                        <div class="event_card_img">
+                                            <div class="overlay_date_time feed_name">
+                                                <div class="inner-feed-name">
+                                                    <h5 class="feed-text mb-0">Youth</h5>
+                                                </div>
+                                            </div>
+                                            <img src="./images/work-feeds/wf-01.jpg" alt="" class="img-fluid radius-16">
+                                        </div>
+                                        <div class="card_title feed_disc">
+                                            <div class="linebar">
+                                                <p class="mb-0">Hope in Motion: Inside Oluwadare Owolabi’s Grassroots Tour</p>
                                             </div>
                                         </div>
-                                        <img src="./images/latest-feeds/hope-in-motion.jpg" alt="" class="portrait_size radius-12">
-                                    </div>
-                                    <div class="card_title feed_disc">
-                                        <div class="linebar">
-                                            <p class="mb-0">Hope in Motion: Inside Oluwadare Owolabi’s Grassroots Tour</p>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a class="update-feed-card hover_card" href="" data-cursor-text="Read News">
+                                        <div class="event_card_img">
+                                            <div class="overlay_date_time feed_name">
+                                                <div class="inner-feed-name">
+                                                    <h5 class="feed-text mb-0">Youth</h5>
+                                                </div>
+                                            </div>
+                                             <img src="./images/work-feeds/wf-01.jpg" alt="" class="img-fluid radius-16">
                                         </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a class="update-feed-card hover_card" href="" data-cursor-text="Read News">
-                                    <div class="event_card_img">
-                                        <div class="overlay_date_time feed_name">
-                                            <div class="inner-feed-name">
-                                                <h5 class="feed-text mb-0">News</h5>
+                                        <div class="card_title feed_disc">
+                                            <div class="linebar">
+                                                <p class="mb-0">Arise News Exclusive: Oluwadare Owolabi on Reclaiming Nigeria’s Future</p>
                                             </div>
                                         </div>
-                                        <img src="./images/latest-feeds/arise-news-exclusive.jpg" alt="" class="landscap_size radius-12">
-                                    </div>
-                                    <div class="card_title feed_disc">
-                                        <div class="linebar">
-                                            <p class="mb-0">Arise News Exclusive: Oluwadare Owolabi on Reclaiming Nigeria’s Future</p>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a class="update-feed-card hover_card" href="" data-cursor-text="Read Blog">
+                                        <div class="event_card_img">
+                                            <div class="overlay_date_time feed_name">
+                                                <div class="inner-feed-name">
+                                                    <h5 class="feed-text mb-0">Blog</h5>
+                                                </div>
+                                            </div>
+                                            <img src="./images/work-feeds/wf-01.jpg" alt="" class="img-fluid radius-16">
                                         </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a class="update-feed-card hover_card" href="" data-cursor-text="Read Blog">
-                                    <div class="event_card_img">
-                                        <div class="overlay_date_time feed_name">
-                                            <div class="inner-feed-name">
-                                                <h5 class="feed-text mb-0">Blog</h5>
+                                        <div class="card_title feed_disc">
+                                            <div class="linebar">
+                                                <p class="mb-0">Over 1 Million Lives Touched: Party’s Grassroots Programs Create Waves Across Nigeria</p>
                                             </div>
                                         </div>
-                                        <img src="./images/latest-feeds/1million-lives-touched.jpg" alt="" class="portrait_size radius-12">
-                                    </div>
-                                    <div class="card_title feed_disc">
-                                        <div class="linebar">
-                                            <p class="mb-0">Over 1 Million Lives Touched: Party’s Grassroots Programs Create Waves Across Nigeria</p>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a class="update-feed-card hover_card" href="" data-cursor-text="Read News">
+                                        <div class="event_card_img">
+                                            <div class="overlay_date_time feed_name">
+                                                <div class="inner-feed-name">
+                                                    <h5 class="feed-text mb-0">News</h5>
+                                                </div>
+                                            </div>
+                                             <img src="./images/work-feeds/wf-02.jpg" alt="" class="img-fluid radius-16">
                                         </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a class="update-feed-card hover_card" href="" data-cursor-text="Read News">
-                                    <div class="event_card_img">
-                                        <div class="overlay_date_time feed_name">
-                                            <div class="inner-feed-name">
-                                                <h5 class="feed-text mb-0">News</h5>
+                                        <div class="card_title feed_disc">
+                                            <div class="linebar">
+                                                <p class="mb-0">Not Just Politics: How Local Initiatives Are Changing Lives</p>
                                             </div>
                                         </div>
-                                        <img src="./images/latest-feeds/not-just-politics.jpg" alt="" class="landscap_size radius-12">
-                                    </div>
-                                    <div class="card_title feed_disc">
-                                        <div class="linebar">
-                                            <p class="mb-0">Not Just Politics: How Local Initiatives Are Changing Lives</p>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a class="update-feed-card hover_card" href="" data-cursor-text="Read News">
+                                        <div class="event_card_img">
+                                            <div class="overlay_date_time feed_name">
+                                                <div class="inner-feed-name">
+                                                    <h5 class="feed-text mb-0">Blog</h5>
+                                                </div>
+                                            </div>
+                                             <img src="./images/work-feeds/wf-01.jpg" alt="" class="img-fluid radius-16">
                                         </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a class="update-feed-card hover_card" href="" data-cursor-text="Read News">
-                                    <div class="event_card_img">
-                                        <div class="overlay_date_time feed_name">
-                                            <div class="inner-feed-name">
-                                                <h5 class="feed-text mb-0">Blog</h5>
+                                        <div class="card_title feed_disc">
+                                            <div class="linebar">
+                                                <p class="mb-0">Hope in Motion: Inside Oluwadare Owolabi’s Grassroots Tour</p>
                                             </div>
                                         </div>
-                                        <img src="./images/latest-feeds/hope-in-motion.jpg" alt="" class="portrait_size radius-12">
-                                    </div>
-                                    <div class="card_title feed_disc">
-                                        <div class="linebar">
-                                            <p class="mb-0">Hope in Motion: Inside Oluwadare Owolabi’s Grassroots Tour</p>
-                                        </div>
-                                    </div>
-                                </a>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
+                    <div class="tab-pane fade" id="nav-news" role="tabpanel" aria-labelledby="nav-news-tab" tabindex="0"></div>
+                    <div class="tab-pane fade" id="nav-blogs" role="tabpanel" aria-labelledby="nav-blogs-tab" tabindex="0"></div>
+                    <div class="tab-pane fade" id="nav-socials" role="tabpanel" aria-labelledby="nav-socials-tab" tabindex="0"></div>
                 </div>
-                <div class="tab-pane fade" id="nav-news" role="tabpanel" aria-labelledby="nav-news-tab" tabindex="0"></div>
-                <div class="tab-pane fade" id="nav-blogs" role="tabpanel" aria-labelledby="nav-blogs-tab" tabindex="0"></div>
-                <div class="tab-pane fade" id="nav-socials" role="tabpanel" aria-labelledby="nav-socials-tab" tabindex="0"></div>
-            </div>
-        </div>
-        <div class="events_btn main-btn-inner position-relative">
-            <a href="#" class="main-btn position-relative"><span class="btn-text">Read more</span><span class="arrw-btn">
-                    <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
-            </a>
-            <!-- custom navigation in slider -->
-            <div class="slider-arrow">
-                <div class="swiper-button-prev s2 arrow-circle">
-                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M6.62087 11.7428C6.27798 12.0857 5.72203 12.0857 5.37913 11.7428L0.257174 6.62088C0.0925078 6.45621 -5.04178e-07 6.23287 -5.24537e-07 6C-5.44895e-07 5.76713 0.0925078 5.54379 0.257174 5.37913L5.37913 0.257175C5.72202 -0.0857252 6.27797 -0.0857253 6.62087 0.257175C6.96377 0.600074 6.96377 1.15602 6.62087 1.49892L2.99785 5.12195L11.122 5.12195C11.6069 5.12195 12 5.51507 12 6C12 6.48493 11.6069 6.87805 11.122 6.87805L2.99785 6.87805L6.62087 10.5011C6.96377 10.844 6.96377 11.3999 6.62087 11.7428Z" fill="#3B3B3B" />
-                    </svg>
+                <div class="events_btn main-btn-inner position-relative">
+                    <a href="#" class="main-btn position-relative"><span class="btn-text">Read more</span><span class="arrw-btn">
+                            <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
+                    </a>
+                    <!-- custom navigation in slider -->
+                    <div class="slider-arrow">
+                        <div class="swiper-button-prev s2 arrow-circle">
+                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.62087 11.7428C6.27798 12.0857 5.72203 12.0857 5.37913 11.7428L0.257174 6.62088C0.0925078 6.45621 -5.04178e-07 6.23287 -5.24537e-07 6C-5.44895e-07 5.76713 0.0925078 5.54379 0.257174 5.37913L5.37913 0.257175C5.72202 -0.0857252 6.27797 -0.0857253 6.62087 0.257175C6.96377 0.600074 6.96377 1.15602 6.62087 1.49892L2.99785 5.12195L11.122 5.12195C11.6069 5.12195 12 5.51507 12 6C12 6.48493 11.6069 6.87805 11.122 6.87805L2.99785 6.87805L6.62087 10.5011C6.96377 10.844 6.96377 11.3999 6.62087 11.7428Z" fill="#3B3B3B" />
+                            </svg>
 
-                </div>
-                <div class="swiper-button-next s2 arrow-circle">
-                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M5.37913 0.257175C5.72202 -0.0857248 6.27797 -0.0857248 6.62087 0.257174L11.7428 5.37913C11.9075 5.54379 12 5.76713 12 6C12 6.23287 11.9075 6.45621 11.7428 6.62087L6.62087 11.7428C6.27797 12.0857 5.72202 12.0857 5.37913 11.7428C5.03623 11.3999 5.03623 10.844 5.37913 10.5011L9.00215 6.87805H0.878049C0.393116 6.87805 0 6.48493 0 6C0 5.51507 0.393116 5.12195 0.878049 5.12195H9.00215L5.37913 1.49892C5.03623 1.15602 5.03623 0.600074 5.37913 0.257175Z" fill="#3B3B3B" />
-                    </svg>
+                        </div>
+                        <div class="swiper-button-next s2 arrow-circle">
+                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M5.37913 0.257175C5.72202 -0.0857248 6.27797 -0.0857248 6.62087 0.257174L11.7428 5.37913C11.9075 5.54379 12 5.76713 12 6C12 6.23287 11.9075 6.45621 11.7428 6.62087L6.62087 11.7428C6.27797 12.0857 5.72202 12.0857 5.37913 11.7428C5.03623 11.3999 5.03623 10.844 5.37913 10.5011L9.00215 6.87805H0.878049C0.393116 6.87805 0 6.48493 0 6C0 5.51507 0.393116 5.12195 0.878049 5.12195H9.00215L5.37913 1.49892C5.03623 1.15602 5.03623 0.600074 5.37913 0.257175Z" fill="#3B3B3B" />
+                            </svg>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
- <section class="faqs-wrapper overflow-hidden sm-events">
+
+ <section class="faqs-wrapper overflow-hidden sec-space sm-events">
         <div class="container">
             <div class="center-heading text-center">
                 <h2 class="main-title w-100 text-white">Frequently asked <i class="pd_italic text_green"><i class="bask_font">Q</i>uestions</i></h2>
@@ -570,9 +624,143 @@
                 </div>
             </div>
         </div>
+</section>
+
+<section class="voice-wrapper">
+        <div class="container">
+            <div class="center-heading text-center">
+                <h2 class="main-title text-white w-100">Voices that <i class="pd_italic text_green">Believe</i><span class="dot-animated text_green"><span class="pulse-animate"><span class="pulse_dot"></span></span></span></h2>
+                <p class="vision-desc text-white p-0">Real words from real people stories of impact, trust, and shared vision.</p>
+            </div>
+
+            <div class="initiative-main voices-inner">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="voice-item lg">
+                            <div class="v-pr-inner">
+                                <div class="voice-profile">
+                                    <div class="voice-p-img">
+                                        <img src="images/voices/v-p-01.png" class="img-fluid radius-50" alt="user" />
+                                    </div>
+                                    <div class="voice-p-content">
+                                        <h3 class="text-white dm_medium">Ify Okeke</h3>
+                                        <h5 class="mb-0">Senior Lecturer</h5>
+                                    </div>
+                                </div>
+                                <div class="voice-content">
+                                    <p class="voice-highlight-text">Lagos State University</p>
+                                    <p class="extra_light_grey mb-0">"A statesman of substance and strategy. His speeches are not just words—they're a call to action and unity. Truly inspiring on a global platform. he listens, understands, and acts"</p>
+                                </div>
+                            </div>
+                            <div class="voice-img">
+                                <img src="images/voices/v-01.jpg" class="img-fluid radius-8" alt="user" />
+                            </div>
+                        </div>
+                        <div class="voice-item content-only sm last">
+                            <div class="voice-profile">
+                                <div class="voice-p-img">
+                                    <img src="images/voices/v-p-01.png" class="img-fluid radius-50" alt="user" />
+                                </div>
+                                <div class="voice-p-content">
+                                    <h3 class="text-white dm_medium">Tunde Adebayo</h3>
+                                    <h5 class="mb-0">Founder & Director</h5>
+                                </div>
+                            </div>
+                            <div class="voice-content">
+                                <p class="voice-highlight-text">NextGen Leaders Foundation</p>
+                                <p class="extra_light_grey mb-0">"His policies have directly uplifted marginalized voices, giving hope to many. What sets him apart is his empathy—he listens, understands, and acts."</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="voice-item border-gradient content-only sm">
+
+                            <div class="voice-profile">
+                                <div class="voice-p-img">
+                                    <img src="images/voices/v-p-01.png" class="img-fluid radius-50" alt="user" />
+                                </div>
+                                <div class="voice-p-content">
+                                    <h3 class="text-white dm_medium">Tunde Adebayo</h3>
+                                    <h5 class="mb-0">Founder & Director</h5>
+                                </div>
+                            </div>
+
+                            <div class="voice-content">
+                                <p class="voice-highlight-text">NextGen Leaders Foundation</p>
+                                <p class="extra_light_grey mb-0">"His policies have directly uplifted marginalized voices, giving hope to many. What sets him apart is his empathy—he listens, understands, and acts."</p>
+                            </div>
+                        </div>
+
+                        <div class="voice-item md">
+                            <div class="v-pr-inner">
+                                <div class="voice-profile">
+                                    <div class="voice-p-img">
+                                        <img src="images/voices/v-p-01.png" class="img-fluid radius-50" alt="user" />
+                                    </div>
+                                    <div class="voice-p-content">
+                                        <h3 class="text-white dm_medium">Ify Okeke</h3>
+                                        <h5 class="mb-0">Senior Lecturer</h5>
+                                    </div>
+                                </div>
+                                <div class="voice-content">
+                                    <p class="voice-highlight-text">Lagos State University</p>
+                                    <p class="extra_light_grey mb-0">"A statesman of substance and strategy. His speeches are not just words—they're a call to action and unity. Truly inspiring on a global platform. he listens, understands, and acts"</p>
+                                </div>
+                            </div>
+                            <div class="voice-img">
+                                <img src="images/voices/v-02-md.jpg" class="img-fluid radius-8" alt="user" />
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="voice-item sm">
+                            <div class="v-pr-inner">
+                                <div class="voice-profile">
+                                    <div class="voice-p-img">
+                                        <img src="images/voices/v-p-01.png" class="img-fluid radius-50" alt="user" />
+                                    </div>
+                                    <div class="voice-p-content">
+                                        <h3 class="text-white dm_medium">Ify Okeke</h3>
+                                        <h5 class="mb-0">Senior Lecturer</h5>
+                                    </div>
+                                </div>
+                                <div class="voice-content">
+                                    <p class="voice-highlight-text">Lagos State University</p>
+                                    <p class="extra_light_grey mb-0">"A statesman of substance and strategy. His speeches are not just words—they're a call to action and unity. Truly inspiring on a global platform. he listens, understands, and acts"</p>
+                                </div>
+                            </div>
+                            <div class="voice-img">
+                                <img src="images/voices/v-03-sm.jpg" class="img-fluid radius-8" alt="user" />
+                            </div>
+                        </div>
+                        <div class="voice-item xs">
+                            <div class="v-pr-inner">
+                                <div class="voice-profile">
+                                    <div class="voice-p-img">
+                                        <img src="images/voices/v-p-01.png" class="img-fluid radius-50" alt="user" />
+                                    </div>
+                                    <div class="voice-p-content">
+                                        <h3 class="text-white dm_medium">Tunde Adebayo</h3>
+                                        <h5 class="mb-0">Founder & Director</h5>
+                                    </div>
+                                </div>
+                                <div class="voice-content">
+                                    <p class="voice-highlight-text">NextGen Leaders Foundation</p>
+                                    <p class="extra_light_grey mb-0">"His policies have directly uplifted marginalized voices, giving hope to many. What sets him apart is his empathy—he listens, understands, and acts."</p>
+                                </div>
+                            </div>
+                            <div class="voice-img">
+                                <img src="images/voices/v-04-xs.jpg" class="img-fluid radius-8" alt="user" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section class="voice-wrapper capture-mm position-relative sec-space">
+    <section class="voice-wrapper capture-mm position-relative">
         <div class="center-heading text-center">
             <h2 class="main-title text-white">Captured Moments of <i class="pd_italic">Impact</i><span class="dot-animated text_green"><span class="pulse-animate"><span class="pulse_dot"></span></span></span></h2>
             <p class="vision-desc text-white">A visual journey of change, hope, and community in motion.</p>

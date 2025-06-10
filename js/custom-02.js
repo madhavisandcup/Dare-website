@@ -28,10 +28,10 @@ const principlesSlider = new Swiper(".principles-slider", {
      slidesPerView: 3,
      speed: 1000,
      effect: 'slide',
-     autoplay: {
-          delay: 2500,
-          disableOnInteraction: false,
-     },
+     // autoplay: {
+     //      delay: 2500,
+     //      disableOnInteraction: false,
+     // },
      breakpoints: {
           0: {
                // Small screen
@@ -41,7 +41,7 @@ const principlesSlider = new Swiper(".principles-slider", {
           },
           650: {
                // Small screen
-               slidesPerView: 1,
+               slidesPerView: 2,
                spaceBetween: 16,
                slidesOffsetBefore: 30,
           },
@@ -186,3 +186,35 @@ navObserver.observe(sliderSection);
 
 window.addEventListener('scroll', updateActiveDot);
 window.addEventListener('load', updateActiveDot);
+
+// Work feed Slider
+
+const workFeed = new Swiper(".workFeeds", {
+     direction: "horizontal",
+     loop: false,
+     // Navigation arrows
+     navigation: {
+          nextEl: '.swiper-button-next.s2',
+          prevEl: '.swiper-button-prev.s2',
+     },
+
+     breakpoints: {
+          0: {
+               // Small screen
+               slidesPerView: 1,
+          },
+          576: {
+               slidesPerView: 1.2,
+               spaceBetween: 16,
+
+          },
+          768: {
+               slidesPerView: 2,
+               spaceBetween: 24,
+          },
+          1480: {
+               slidesPerView: 3,
+               spaceBetween: 50,
+          },
+     },
+});
