@@ -95,20 +95,6 @@ chars.forEach((char, i) => {
 //      const items = gsap.utils.toArray(".feature-item", inner);
 //      const totalHeight = inner.scrollHeight;
 
-//      gsap.to(inner, {
-//           yPercent: -100 * (items.length - 1),
-//           ease: "none",
-//           scrollTrigger: {
-//                trigger: wrapper,
-//                start: "top top",
-//                end: () => `+=${inner.scrollHeight - wrapper.offsetHeight}`,
-//                scrub: true,
-//                pin: true,
-//                anticipatePin: 1,
-//           },
-//      });
-// });
-
 
 const slides = document.querySelectorAll('.feature-item');
 const nav = document.querySelector('.fi-navigation');

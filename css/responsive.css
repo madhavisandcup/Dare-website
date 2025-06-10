@@ -95,6 +95,10 @@
 }
 
 @media (max-width: 1600px) {
+    .timeline-photo-grid {
+        gap: 6px;
+    }
+
     .dot-animated .pulse_dot {
         top: -11px;
     }
