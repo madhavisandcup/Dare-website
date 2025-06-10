@@ -154,6 +154,10 @@ p {
      line-height: 1.5;
 }
 
+.text_70 {
+     font-size: clamp(50px, 4.86vw, 93px);
+}
+
 .dm_light {
      font-family: 'DM Sans Light';
 }

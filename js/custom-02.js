@@ -92,6 +92,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 window.addEventListener("DOMContentLoaded", () => {
      const wrapper = document.querySelector('.features-verticle-slider');
+     if (!wrapper) return; // Exit if wrapper is not found
      const inner = wrapper.querySelector('.features-verticle-inner');
      const sections = gsap.utils.toArray('.feature-item', inner);
 
