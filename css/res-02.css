@@ -369,6 +369,9 @@
                                                             .ft-item {
                                                                  flex: 0 0 30%;
                                                             }
+                                                            .updates-feed.work-feed .main-btn-inner {
+                                                                 padding-top: 0;
+                                                            }
                                                        }
                                                        
                                                        @media(min-width:992px) {
@@ -557,7 +560,7 @@
                                                                  height: 397px;
                                                             }
                                                             .ft-item {
-                                                                 flex: 0 0 33% 33%;
+                                                                 flex: 0 0 33%;
                                                             }
                                                        }
                                                        
