@@ -187,15 +187,13 @@
     </section>
 
       
-    <section class="features-verticle-slider overflow-hidden">
-        <div class="fi-navigation">
-            <span class="fi-line"></span>
-             <span class="fi-line"></span>
-              <span class="fi-line"></span>
-               <span class="fi-line"></span>
-                <span class="fi-line"></span>
-        </div>
-        <div class="features-verticle-inner">
+    <section class="features-verticle-slider">
+    <div class="fi-navigation visible">
+        <span class="fi-line" data-index="0"></span>
+        <span class="fi-line" data-index="1"></span>
+        <span class="fi-line" data-index="2"></span>
+    </div>
+        <div class="features-verticle-inner overflow-hidden">
             <div class="feature-item">
                 <div class="row">
                     <div class="col-md-6">
@@ -208,14 +206,17 @@
                         </div>
                     </div>
                 </div>
-                <div class="features-timeline-main">
-                    <div class="ft-item">
+                <div class="features-timeline-main position-relative">
+                    <div class="ft-item one">
+                        <span class="dot-animated d-inline-block"><span class="pulse-animate"><span class="pulse_dot"></span></span></span>
                         <p>Community Policing: Empower and train local security volunteers with better oversight.</p>
                     </div>
-                        <div class="ft-item">
+                        <div class="ft-item two">
+                        <span class="dot-animated d-inline-block"><span class="pulse-animate"><span class="pulse_dot"></span></span></span>
                         <p>Community Policing: Empower and train local security volunteers with better oversight.</p>
                     </div>
-                        <div class="ft-item">
+                        <div class="ft-item three">
+                        <span class="dot-animated d-inline-block"><span class="pulse-animate"><span class="pulse_dot"></span></span></span>
                         <p>Community Policing: Empower and train local security volunteers with better oversight.</p>
                     </div>
                 </div>
@@ -232,14 +233,17 @@
                         </div>
                     </div>
                 </div>
-                <div class="features-timeline-main">
-                    <div class="ft-item">
+                 <div class="features-timeline-main position-relative">
+                    <div class="ft-item one">
+                        <span class="dot-animated d-inline-block"><span class="pulse-animate"><span class="pulse_dot"></span></span></span>
                         <p>Community Policing: Empower and train local security volunteers with better oversight.</p>
                     </div>
-                        <div class="ft-item">
+                        <div class="ft-item two">
+                        <span class="dot-animated d-inline-block"><span class="pulse-animate"><span class="pulse_dot"></span></span></span>
                         <p>Community Policing: Empower and train local security volunteers with better oversight.</p>
                     </div>
-                        <div class="ft-item">
+                        <div class="ft-item three">
+                        <span class="dot-animated d-inline-block"><span class="pulse-animate"><span class="pulse_dot"></span></span></span>
                         <p>Community Policing: Empower and train local security volunteers with better oversight.</p>
                     </div>
                 </div>
@@ -256,21 +260,116 @@
                         </div>
                     </div>
                 </div>
-                <div class="features-timeline-main">
-                    <div class="ft-item">
+                 <div class="features-timeline-main position-relative">
+                    <div class="ft-item one">
+                        <span class="dot-animated d-inline-block"><span class="pulse-animate"><span class="pulse_dot"></span></span></span>
                         <p>Community Policing: Empower and train local security volunteers with better oversight.</p>
                     </div>
-                        <div class="ft-item">
+                        <div class="ft-item two">
+                        <span class="dot-animated d-inline-block"><span class="pulse-animate"><span class="pulse_dot"></span></span></span>
                         <p>Community Policing: Empower and train local security volunteers with better oversight.</p>
                     </div>
-                        <div class="ft-item">
+                        <div class="ft-item three">
+                        <span class="dot-animated d-inline-block"><span class="pulse-animate"><span class="pulse_dot"></span></span></span>
                         <p>Community Policing: Empower and train local security volunteers with better oversight.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-   
+    <!-- <div class="slider-spacer" style="height:30vh;"></div> -->
+   <div class="marquee-led-driven sec-space">
+        <div class="marquee-block right-marquee">
+            <div class="marquee-inner flex">
+                <div class="marquee-text flex">
+                    <span class="m-item flex m-title">Led By Vision</span>
+
+                    <span class="m-item flex m-dot"><span></span></span>
+                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-01.webp" alt="m-img-01"></span></span>
+                    <span class="m-item flex m-dot"><span></span></span>
+
+                    <span class="m-item flex m-title">Driven By You</span>
+                    <span class="m-item flex m-dot"><span></span></span>
+                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-02.webp" alt="m-img-02"></span></span>
+                    <span class="m-item flex m-dot"><span></span></span>
+
+                    <span class="m-item flex m-title">Led By Vision</span>
+                    <span class="m-item flex m-dot"><span></span></span>
+                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-01.webp" alt="m-img-01"></span></span>
+                    <span class="m-item flex m-dot"><span></span></span>
+
+                    <span class="m-item flex m-title">Driven By You</span>
+                    <span class="m-item flex m-dot"><span></span></span>
+                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-02.webp" alt="m-img-02"></span></span>
+                    <span class="m-item flex m-dot"><span></span></span>
+
+                    <span class="m-item flex m-title">Led By Vision</span>
+                    <span class="m-item flex m-dot"><span></span></span>
+                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-01.webp" alt="m-img-01"></span></span>
+                    <span class="m-item flex m-dot"><span></span></span>
+
+                    <span class="m-item flex m-title">Driven By You</span>
+                    <span class="m-item flex m-dot"><span></span></span>
+                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-02.webp" alt="m-img-02"></span></span>
+                    <span class="m-item flex m-dot"><span></span></span>
+
+                    <span class="m-item flex m-title">Led By Vision</span>
+                    <span class="m-item flex m-dot"><span></span></span>
+                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-01.webp" alt="m-img-01"></span></span>
+                    <span class="m-item flex m-dot"><span></span></span>
+
+                    <span class="m-item flex m-title">Driven By You</span>
+                    <span class="m-item flex m-dot"><span></span></span>
+                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-02.webp" alt="m-img-02"></span></span>
+                    <span class="m-item flex m-dot"><span></span></span>
+
+                </div>
+                <div class="marquee-text flex">
+                    <span class="m-item flex m-title">Led By Vision</span>
+
+                    <span class="m-item flex m-dot"><span></span></span>
+                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-01.webp" alt="m-img-01"></span></span>
+                    <span class="m-item flex m-dot"><span></span></span>
+
+                    <span class="m-item flex m-title">Driven By You</span>
+                    <span class="m-item flex m-dot"><span></span></span>
+                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-02.webp" alt="m-img-02"></span></span>
+                    <span class="m-item flex m-dot"><span></span></span>
+
+                    <span class="m-item flex m-title">Led By Vision</span>
+                    <span class="m-item flex m-dot"><span></span></span>
+                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-01.webp" alt="m-img-01"></span></span>
+                    <span class="m-item flex m-dot"><span></span></span>
+
+                    <span class="m-item flex m-title">Driven By You</span>
+                    <span class="m-item flex m-dot"><span></span></span>
+                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-02.webp" alt="m-img-02"></span></span>
+                    <span class="m-item flex m-dot"><span></span></span>
+
+                    <span class="m-item flex m-title">Led By Vision</span>
+                    <span class="m-item flex m-dot"><span></span></span>
+                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-01.webp" alt="m-img-01"></span></span>
+                    <span class="m-item flex m-dot"><span></span></span>
+
+                    <span class="m-item flex m-title">Driven By You</span>
+                    <span class="m-item flex m-dot"><span></span></span>
+                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-02.webp" alt="m-img-02"></span></span>
+                    <span class="m-item flex m-dot"><span></span></span>
+
+                    <span class="m-item flex m-title">Led By Vision</span>
+                    <span class="m-item flex m-dot"><span></span></span>
+                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-01.webp" alt="m-img-01"></span></span>
+                    <span class="m-item flex m-dot"><span></span></span>
+
+                    <span class="m-item flex m-title">Driven By You</span>
+                    <span class="m-item flex m-dot"><span></span></span>
+                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-02.webp" alt="m-img-02"></span></span>
+                    <span class="m-item flex m-dot"><span></span></span>
+
+                </div>
+            </div>
+        </div>
+    </div>
 
     <section class="updates-feed sec-space overflow-hidden sm-feeds">
 
@@ -398,7 +497,6 @@
                                 </a>
                             </div>
                         </div>
-
                     </div>
                 </div>
                 <div class="tab-pane fade" id="nav-news" role="tabpanel" aria-labelledby="nav-news-tab" tabindex="0"></div>

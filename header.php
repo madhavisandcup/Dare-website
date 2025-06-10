@@ -42,7 +42,7 @@
                                     <h3 class="text_green">About</h3>
                                     <div class="nav-itemlist">
                                         <a class="nav-link px-0" href=""><span>The Leader’s Story</span></a>
-                                        <a class="nav-link px-0" href=""><span>Mission & Vision</span></a>
+                                        <a class="nav-link px-0" href="mission-vision"><span>Mission & Vision</span></a>
                                         <a class="nav-link px-0" href=""><span>APC Team</span></a>
                                         <a class="nav-link px-0" href=""><span>Community Roots</span></a>
                                     </div>
