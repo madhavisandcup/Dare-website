@@ -37,6 +37,7 @@ const principlesSlider = new Swiper(".principles-slider", {
                // Small screen
                slidesPerView: 1,
                spaceBetween: 16,
+               centeredSlides: false,
                slidesOffsetBefore: 0,
           },
           650: {
@@ -56,33 +57,37 @@ const principlesSlider = new Swiper(".principles-slider", {
 //Masking Text on scroll
 gsap.registerPlugin(ScrollTrigger);
 
-// const split = new SplitType(".light-text", { types: "chars" });
-
-// Confirm split works (debug)
-// Split text into characters
-const split = new SplitType(".light-text", { types: "chars" });
-const chars = document.querySelectorAll(".light-text .char");
-
-// Create a timeline for sequential animation
-const tl = gsap.timeline({
-     scrollTrigger: {
-          trigger: ".title-mask-wrapper",
-          start: "top 50%",
-          end: "+=600",
-          scrub: true,
-          toggleActions: "play none none none",
-          // markers: true,
-     }
+// STEP 1: Split text into words & characters
+const split = new SplitType(".masking-title-scroll .light-text", {
+     types: "chars",
+     tagName: "span",
 });
 
-// Add each character to the timeline sequentially
-chars.forEach((char, i) => {
-     tl.to(char, {
+// STEP 2: Fix display so text wraps by word
+// document.querySelectorAll(".word").forEach(word => {
+//      word.style.display = "inline";
+// });
+document.querySelectorAll(".char").forEach(char => {
+     char.style.display = "inline";
+});
+
+// STEP 3: Scroll-triggered animation
+gsap.timeline({
+          scrollTrigger: {
+               trigger: ".title-mask-wrapper",
+               start: "top 60%", // when the section hits 60% from top of screen
+               end: "+=400", // controls scroll range
+               toggleActions: "play none none none",
+               scrub: true // smoother on/off instead of scroll-linked
+          }
+     })
+     .to(".char", {
           color: "#ffffff",
-          duration: 0.03,
-          ease: "power1.inOut"
-     }, "+=0.01"); // small delay between each
-});
+          stagger: 0.1, // slow the animation (higher = slower)
+          duration: 0.3,
+          ease: "power2.out"
+     });
+
 
 
 
@@ -100,7 +105,7 @@ const slides = document.querySelectorAll('.feature-item');
 const nav = document.querySelector('.fi-navigation');
 const navDots = document.querySelectorAll('.fi-line');
 const sliderSection = document.querySelector('.features-verticle-slider');
-
+const lastSlide = slides[slides.length - 1];
 // Scroll to section on dot click
 navDots.forEach(dot => {
      dot.addEventListener('click', () => {
@@ -128,30 +133,33 @@ function updateActiveDot() {
 }
 
 // Intersection Observer: make slide active when in view
-const slideObserver = new IntersectionObserver(
-     entries => {
-          entries.forEach(entry => {
-               if (entry.isIntersecting) {
-                    entry.target.classList.add('active');
-                    const fTime = entry.target.querySelector('.features-timeline-main');
-                    if (fTime && !fTime.classList.contains('active-tl')) {
-                         setTimeout(() => {
-                              fTime.classList.add('active-tl');
-                         }, 500);
+function createObserver() {
+     const thresholdValue = window.innerWidth <= 767 ? 0.5 : 1;
+     const slideObserver = new IntersectionObserver(
+          entries => {
+               entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                         entry.target.classList.add('active');
+                         const fTime = entry.target.querySelector('.features-timeline-main');
+                         if (fTime && !fTime.classList.contains('active-tl')) {
+                              setTimeout(() => {
+                                   fTime.classList.add('active-tl');
+                              }, 500);
+                         }
+                         if (fTime && !fTime.classList.contains('progress-fill')) {
+                              setTimeout(() => {
+                                   fTime.classList.add('progress-fill');
+                              }, 1500);
+                         }
                     }
-                    if (fTime && !fTime.classList.contains('progress-fill')) {
-                         setTimeout(() => {
-                              fTime.classList.add('progress-fill');
-                         }, 1500);
-                    }
-               }
-          });
-     }, {
-          threshold: 1, // Adjust this if needed
-     }
-);
+               });
+          }, {
+               threshold: thresholdValue, // Adjust this if needed
+          }
+     );
 
-slides.forEach(slide => slideObserver.observe(slide));
+     slides.forEach(slide => slideObserver.observe(slide));
+}
 
 // Intersection Observer: show nav when section is in view
 const navObserver = new IntersectionObserver(
@@ -164,14 +172,23 @@ const navObserver = new IntersectionObserver(
                }
           });
      }, {
-          threshold: 0.1,
+          threshold: 0.15,
      }
 );
 
 navObserver.observe(sliderSection);
 
 window.addEventListener('scroll', updateActiveDot);
-window.addEventListener('load', updateActiveDot);
+window.addEventListener('load', () => {
+     updateActiveDot();
+     createObserver();
+});
+
+
+// Optional: Re-evaluate on window resize (only if screen size might change e.g. rotate)
+window.addEventListener('resize', () => {
+     createObserver();
+});
 
 // Work feed Slider
 
