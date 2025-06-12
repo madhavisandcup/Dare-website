@@ -146,7 +146,6 @@
                 </div>
             </div>
         </div>
-        
     </section>
     <section class="hiring-steps-wrapper dark-bg-color sec-space p-sec-top p-sec-bottom">
         <div class="container">
@@ -155,226 +154,183 @@
                 <p class="vision-desc text-white p-0">From your first click to your first day — here’s a transparent look at how applications are reviewed, selected, and turned into real opportunities.</p>
             </div>
             <div class="hiring-steps-inner">
-                <div class="h-step radius-16">
+                <div class="h-step s-active position-relative radius-16">
                     <div class="h-step-top">
                         <h5 class="d-block h-step-sub-title dm_sbold">Apply</h5>
-                        <h3 class="dm_medium text-white">Submit Your Application</h3>
-                        <p class="text-white">Fill in the application form for the job that fits your skills and interests.</p>
+                        <div class="step-content">
+                            <h3 class="dm_medium text-white">Submit Your Application</h3>
+                            <p class="text-white">Fill in the application form for the job that fits your skills and interests.</p>
+                        </div>
                     </div>
                     <div class="h-step-bottom">
                         <span class="h-step-number"><span class="dm_sbold">1</span></span>
                     </div>
+                    <img src="images/job/apply-ic.svg" class="j-icon" alt="apply" />
+                </div>
+                <div class="h-step position-relative radius-16">
+                    <div class="h-step-top">
+                        <h5 class="d-block h-step-sub-title dm_sbold">Review</h5>
+                       <div class="step-content">
+                            <h3 class="dm_medium text-white">Shortlisting & Contact</h3>
+                            <p class="text-white">If shortlisted, you’ll be contacted via email or SMS for the next steps.</p>
+                        </div>
+                    </div>
+                    <div class="h-step-bottom">
+                        <span class="h-step-number"><span class="dm_sbold">2</span></span>
+                    </div>
+                    <img src="images/job/apply-ic.svg" class="j-icon" alt="apply" />
+                </div>
+                <div class="h-step position-relative radius-16">
+                    <div class="h-step-top">
+                        <h5 class="d-block h-step-sub-title dm_sbold">Shortlist</h5>
+                        <div class="step-content">
+                            <h3 class="dm_medium text-white">Interview / Screening</h3>
+                            <p class="text-white">A short conversation or interview is scheduled to understand your strengths better.</p>
+                        </div>
+                    </div>
+                    <div class="h-step-bottom">
+                        <span class="h-step-number"><span class="dm_sbold">3</span></span>
+                    </div>
+                    <img src="images/job/apply-ic.svg" class="j-icon" alt="apply" />
+                </div>
+                <div class="h-step position-relative radius-16">
+                    <div class="h-step-top">
+                        <h5 class="d-block h-step-sub-title dm_sbold">Onboarding</h5>
+                        <div class="step-content">
+                            <h3 class="dm_medium text-white">Final Decision</h3>
+                            <p class="text-white">If selected, you’ll receive an offer with next steps for onboarding.</p>
+                        </div>
+                    </div>
+                    <div class="h-step-bottom">
+                        <span class="h-step-number"><span class="dm_sbold">4</span></span>
+                    </div>
+                    <img src="images/job/apply-ic.svg" class="j-icon" alt="apply" />
                 </div>
             </div>
         </div>
     </section>
 
-      
-    <section class="features-verticle-slider">
-        <div class="fi-navigation visible">
-            <span class="fi-line" data-index="0"></span>
-            <span class="fi-line" data-index="1"></span>
-            <span class="fi-line" data-index="2"></span>
-            <span class="fi-line" data-index="3"></span>
-            <span class="fi-line" data-index="4"></span>
-        </div>
-        <div class="features-verticle-inner">
-            <div class="feature-item">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="feature-left">
-                            <h2 class="main-title mi-title">Security</h2>
-                            <div class="main-btn-inner lg position-relative">
-                                <a href="#" class="main-btn position-relative"><span class="btn-text">Explore the plan</span><span class="arrw-btn">
-                                    <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <p class="vision-desc">“To serve the people with integrity, empathy, and courage, building a Nigeria where dignity is a right, not a privilege. Every initiative, every effort, every word is rooted in the real needs of our communities.”</p>
-
-                        <div class="feature-img"> 
-                            <img src="images/features/security.jpg" class="img-fluid radius-16" alt="security">
-                        </div>
-                    </div>
-                </div>
-                <div class="features-timeline-main position-relative">
-                    <div class="ft-item one">
-                        <span class="dot-animated d-inline-block"><span class="pulse-animate"><span class="pulse_dot"></span></span></span>
-                        <p class="mb-0">Community Policing: Empower and train local security volunteers with better oversight.</p>
-                    </div>
-                        <div class="ft-item two">
-                        <span class="dot-animated d-inline-block"><span class="pulse-animate"><span class="pulse_dot"></span></span></span>
-                        <p class="mb-0">Community Policing: Empower and train local security volunteers with better oversight.</p>
-                    </div>
-                        <div class="ft-item three">
-                        <span class="dot-animated d-inline-block"><span class="pulse-animate"><span class="pulse_dot"></span></span></span>
-                        <p class="mb-0">Community Policing: Empower and train local security volunteers with better oversight.</p>
-                    </div>
-                </div>
-                <div class="main-btn-inner sm position-relative">
-                    <a href="#" class="main-btn position-relative"><span class="btn-text">Explore the plan</span><span class="arrw-btn">
-                        <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
-                    </a>
-                </div>
+     <section class="job-post-wrapper sec-space">
+        <div class="container">
+            <div class="center-heading j-mi-title text-center">
+                <h2 class="main-title w-100">Explore Job <i class="pd_italic text_green">Opportunities</i><span class="dot-animated text_green"><span class="pulse-animate"><span class="pulse_dot"></span></span></span></h2>
+                <p class="vision-desc p-0">Browse roles across industries. Whether you're looking to protect, build, teach, or innovate — find your fit and apply with ease.</p>
             </div>
-            <div class="feature-item">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="feature-left">
-                            <h2 class="main-title mi-title">Infrastructure</h2>
-                            <div class="main-btn-inner lg position-relative">
-                                <a href="#" class="main-btn position-relative"><span class="btn-text">Explore the plan</span><span class="arrw-btn">
-                                    <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
-                                </a>
+        
+            <div class="job-post-feeds">
+                <div class="job-nav-top">
+                    <h3 class="dm_medium extra_light_grey">Job categories :</h3>
+                    <div class="nav nav-tabs border-0 main-flex-tabs justify-content-start" id="updates-feed-tab" role="tablist">
+                        <button class="tabs-name nav-link active" id="nav-infrastructure-tab" data-bs-toggle="tab" data-bs-target="#nav-infrastructure" type="button" role="tab" aria-controls="nav-infrastructure" aria-selected="true">
+                            <h5>Infrastructure</h5>
+                        </button>
+                        <button class="tabs-name nav-link" id="nav-security-tab" data-bs-toggle="tab" data-bs-target="#nav-security" type="button" role="tab" aria-controls="nav-security" aria-selected="false">
+                            <h5>Security</h5>
+                        </button>
+                        <button class="tabs-name nav-link" id="nav-education-tab" data-bs-toggle="tab" data-bs-target="#nav-education" type="button" role="tab" aria-controls="nav-blogs" aria-selected="false">
+                            <h5>Education</h5>
+                        </button>
+                        <button class="tabs-name nav-link" id="nav-technology-tab" data-bs-toggle="tab" data-bs-target="#nav-technology" type="button" role="tab" aria-controls="nav-technology" aria-selected="false">
+                            <h5>Technology</h5>
+                        </button>
+                        <button class="tabs-name nav-link" id="nav-administration-tab" data-bs-toggle="tab" data-bs-target="#nav-administration" type="button" role="tab" aria-controls="nav-administration" aria-selected="false">
+                            <h5>Administration</h5>
+                        </button>
+                        <button class="tabs-name nav-link" id="nav-health-tab" data-bs-toggle="tab" data-bs-target="#nav-health" type="button" role="tab" aria-controls="nav-health" aria-selected="false">
+                            <h5>Health</h5>
+                        </button>
+                    </div>
+                </div>
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-latest" role="tabpanel" aria-labelledby="nav-latest-tab" tabindex="0">
+                       <div class="feed-grid row">
+                            <div class="col-md-6">
+                                <article class="j-feed radius-16">
+                                    <div class="j-designation">
+                                        <div>
+                                            <h4 class="text-black">Site Supervisor</h4>
+                                            <h5 class="dm_light text_light mb-0"><img src="./images/job/map.svg" class="me-1" alt="map">Lagos,Nigeria</h5>
+                                        </div>
+                                        <p class="dm_medium text_green j-cat mb-0">Education</p>
+                                    </div>
+                                    <div class="j-desc">
+                                        <p>Oversee day-to-day operations on construction sites, manage labor teams, ensure safety compliance, and monitor project progress in line with engineering plans and budgets.</p>
+                                    </div>
+                                    <div class="main-btn-inner position-relative">
+                                        <a href="#" class="main-btn position-relative"><span class="btn-text">Apply Now</span><span class="arrw-btn">
+                                            <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
+                                        </a>
+                                    </div>
+                                </article>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <p class="vision-desc">Poor road networks, unreliable electricity, and collapsing public buildings impact daily life and business productivity.</p>
-                        <div class="feature-img"> 
-                            <img src="images/features/security.jpg" class="img-fluid radius-16" alt="security">
-                        </div>
-                    </div>
-                </div>
-                <div class="features-timeline-main position-relative">
-                    <div class="ft-item one">
-                        <span class="dot-animated d-inline-block"><span class="pulse-animate"><span class="pulse_dot"></span></span></span>
-                        <p class="mb-0">Community Policing: Empower and train local security volunteers with better oversight.</p>
-                    </div>
-                    <div class="ft-item two">
-                        <span class="dot-animated d-inline-block"><span class="pulse-animate"><span class="pulse_dot"></span></span></span>
-                        <p class="mb-0">Community Policing: Empower and train local security volunteers with better oversight.</p>
-                    </div>
-                    <div class="ft-item three">
-                        <span class="dot-animated d-inline-block"><span class="pulse-animate"><span class="pulse_dot"></span></span></span>
-                        <p class="mb-0">Community Policing: Empower and train local security volunteers with better oversight.</p>
-                    </div>
-                     <div class="ft-item four">
-                        <span class="dot-animated d-inline-block"><span class="pulse-animate"><span class="pulse_dot"></span></span></span>
-                        <p class="mb-0">Community Policing: Empower and train local security volunteers with better oversight.</p>
-                    </div>
-                </div>
-                <div class="main-btn-inner sm position-relative">
-                    <a href="#" class="main-btn position-relative"><span class="btn-text">Explore the plan</span><span class="arrw-btn">
-                        <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
-                    </a>
-                </div>
-            </div>
-            <div class="feature-item">
-                <div class="row">
-                    <div class="col-md-6">
-                         <div class="feature-left">
-                        <h2 class="main-title mi-title">Water Access</h2>
-                        <div class="main-btn-inner lg position-relative">
-                                <a href="#" class="main-btn position-relative"><span class="btn-text">Explore the plan</span><span class="arrw-btn">
-                                    <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
-                                </a>
+                            <div class="col-md-6">
+                                <article class="j-feed radius-16">
+                                    <div class="j-designation">
+                                        <div>
+                                            <h4 class="text-black">Civil Engineer</h4>
+                                            <h5 class="dm_light text_light mb-0"><img src="./images/job/map.svg" class="me-1" alt="map">Lagos,Nigeria</h5>
+                                        </div>
+                                        <p class="dm_medium text_green j-cat mb-0">Education</p>
+                                    </div>
+                                    <div class="j-desc">
+                                        <p>Design, plan, and execute infrastructure projects such as roads, bridges, and drainage systems with focus on sustainability, cost-efficiency, and regulatory standards.</p>
+                                    </div>
+                                    <div class="main-btn-inner position-relative">
+                                        <a href="#" class="main-btn position-relative"><span class="btn-text">Apply Now</span><span class="arrw-btn">
+                                            <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
+                                        </a>
+                                    </div>
+                                </article>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <p class="vision-desc">“To serve the people with integrity, empathy, and courage, building a Nigeria where dignity is a right, not a privilege. Every initiative, every effort, every word is rooted in the real needs of our communities.”</p>
-                        <div class="feature-img"> 
-                            <img src="images/features/security.jpg" class="img-fluid radius-16" alt="security">
-                        </div>
-                    </div>
-                </div>
-                <div class="features-timeline-main position-relative">
-                    <div class="ft-item one">
-                        <span class="dot-animated d-inline-block"><span class="pulse-animate"><span class="pulse_dot"></span></span></span>
-                        <p class="mb-0">Community Policing: Empower and train local security volunteers with better oversight.</p>
-                    </div>
-                        <div class="ft-item two">
-                        <span class="dot-animated d-inline-block"><span class="pulse-animate"><span class="pulse_dot"></span></span></span>
-                        <p class="mb-0">Community Policing: Empower and train local security volunteers with better oversight.</p>
-                    </div>
-                        <div class="ft-item three">
-                        <span class="dot-animated d-inline-block"><span class="pulse-animate"><span class="pulse_dot"></span></span></span>
-                        <p class="mb-0">Community Policing: Empower and train local security volunteers with better oversight.</p>
-                    </div>
-                </div>
-                <div class="main-btn-inner sm position-relative">
-                    <a href="#" class="main-btn position-relative"><span class="btn-text">Explore the plan</span><span class="arrw-btn">
-                        <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
-                    </a>
-                </div>
-            </div>
-             <div class="feature-item">
-                <div class="row">
-                    <div class="col-md-6">
-                         <div class="feature-left">
-                            <h2 class="main-title mi-title">Education & Youth Empowerment</h2>
-                            <div class="main-btn-inner lg position-relative">
-                                    <a href="#" class="main-btn position-relative"><span class="btn-text">Explore the plan</span><span class="arrw-btn">
-                                        <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
-                                    </a>
-                                </div>
+                             <div class="col-md-6">
+                                <article class="j-feed radius-16">
+                                    <div class="j-designation">
+                                        <div>
+                                            <h4 class="text-black">Public Works Coordinator</h4>
+                                            <h5 class="dm_light text_light mb-0"><img src="./images/job/map.svg" class="me-1" alt="map">Lagos,Nigeria</h5>
+                                        </div>
+                                        <p class="dm_medium text_green j-cat mb-0">Education</p>
+                                    </div>
+                                    <div class="j-desc">
+                                        <p>Oversee day-to-day operations on construction sites, manage labor teams, ensure safety compliance, and monitor project progress in line with engineering plans and budgets.</p>
+                                    </div>
+                                    <div class="main-btn-inner position-relative">
+                                        <a href="#" class="main-btn position-relative"><span class="btn-text">Apply Now</span><span class="arrw-btn">
+                                            <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
+                                        </a>
+                                    </div>
+                                </article>
                             </div>
-                        </div>
-                    <div class="col-md-6">
-                        <p class="vision-desc">“To serve the people with integrity, empathy, and courage, building a Nigeria where dignity is a right, not a privilege. Every initiative, every effort, every word is rooted in the real needs of our communities.”</p>
-                        <div class="feature-img"> 
-                            <img src="images/features/security.jpg" class="img-fluid radius-16" alt="security">
-                        </div>
-                    </div>
-                </div>
-                 <div class="features-timeline-main position-relative">
-                    <div class="ft-item one">
-                        <span class="dot-animated d-inline-block"><span class="pulse-animate"><span class="pulse_dot"></span></span></span>
-                        <p class="mb-0">Community Policing: Empower and train local security volunteers with better oversight.</p>
-                    </div>
-                        <div class="ft-item two">
-                        <span class="dot-animated d-inline-block"><span class="pulse-animate"><span class="pulse_dot"></span></span></span>
-                        <p class="mb-0">Community Policing: Empower and train local security volunteers with better oversight.</p>
-                    </div>
-                </div>
-                <div class="main-btn-inner sm position-relative">
-                    <a href="#" class="main-btn position-relative"><span class="btn-text">Explore the plan</span><span class="arrw-btn">
-                        <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
-                    </a>
-                </div>
-            </div>
-             <div class="feature-item">
-                <div class="row">
-                    <div class="col-md-6">
-                         <div class="feature-left">
-                        <h2 class="main-title mi-title">Job & Econimic Access</h2>
-                        <div class="main-btn-inner lg position-relative">
-                                <a href="#" class="main-btn position-relative"><span class="btn-text">Explore the plan</span><span class="arrw-btn">
-                                    <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
-                                </a>
+                            <div class="col-md-6">
+                                <article class="j-feed radius-16">
+                                    <div class="j-designation">
+                                        <div>
+                                            <h4 class="text-black">Field Surveyor</h4>
+                                            <h5 class="dm_light text_light mb-0"><img src="./images/job/map.svg" class="me-1" alt="map">Lagos,Nigeria</h5>
+                                        </div>
+                                        <p class="dm_medium text_green j-cat mb-0">Education</p>
+                                    </div>
+                                    <div class="j-desc">
+                                        <p>Design, plan, and execute infrastructure projects such as roads, bridges, and drainage systems with focus on sustainability, cost-efficiency, and regulatory standards.</p>
+                                    </div>
+                                    <div class="main-btn-inner position-relative">
+                                        <a href="#" class="main-btn position-relative"><span class="btn-text">Apply Now</span><span class="arrw-btn">
+                                            <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
+                                        </a>
+                                    </div>
+                                </article>
                             </div>
-                        </div>
+                       </div>
                     </div>
-                    <div class="col-md-6">
-                        <p class="vision-desc">“To serve the people with integrity, empathy, and courage, building a Nigeria where dignity is a right, not a privilege. Every initiative, every effort, every word is rooted in the real needs of our communities.”</p>
-                        <div class="feature-img"> 
-                            <img src="images/features/security.jpg" class="img-fluid radius-16" alt="security">
-                        </div>
-                    </div>
-                </div>
-                 <div class="features-timeline-main position-relative">
-                    <div class="ft-item one">
-                        <span class="dot-animated d-inline-block"><span class="pulse-animate"><span class="pulse_dot"></span></span></span>
-                        <p class="mb-0">Community Policing: Empower and train local security volunteers with better oversight.</p>
-                    </div>
-                        <div class="ft-item two">
-                        <span class="dot-animated d-inline-block"><span class="pulse-animate"><span class="pulse_dot"></span></span></span>
-                        <p class="mb-0">Community Policing: Empower and train local security volunteers with better oversight.</p>
-                    </div>
-                </div>
-                <div class="main-btn-inner sm position-relative">
-                    <a href="#" class="main-btn position-relative"><span class="btn-text">Explore the plan</span><span class="arrw-btn">
-                        <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
-                    </a>
+                    <div class="tab-pane fade" id="nav-news" role="tabpanel" aria-labelledby="nav-news-tab" tabindex="0"></div>
+                    <div class="tab-pane fade" id="nav-blogs" role="tabpanel" aria-labelledby="nav-blogs-tab" tabindex="0"></div>
+                    <div class="tab-pane fade" id="nav-socials" role="tabpanel" aria-labelledby="nav-socials-tab" tabindex="0"></div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- <div class="slider-spacer" style="height:30vh;"></div> -->
-   <div class="marquee-led-driven sec-space">
+
+    <div class="marquee-led-driven sec-space">
         <div class="marquee-block right-marquee">
             <div class="marquee-inner flex">
                 <div class="marquee-text flex">
@@ -467,208 +423,123 @@
         </div>
     </div>
 
-    <section class="updates-feed work-feed sec-space overflow-hidden sm-feeds">
-
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="main_heading">
-                        <h2 class="main-title w-100 mb-0">Already in<i class="pd_italic text_green"> Motions</i><span class="dot-animated text_green"><span class="pulse-animate"><span class="pulse_dot"></span></span></span>
-                        </h2>
+    <section class="appication-form-wrapper sec-space">
+       <div class="container">
+            <h2>Submit your application</h2>
+            <div class="application-form-inner radius-16">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-input">
+                            <label for="job-sector" class="form-label">Job Sector*</label>
+                            <select class="form-select" id="job-sector">
+                            <option selected>Education</option>
+                            <option value="1">Security</option>
+                            <option value="2">Infrastructure</option>
+                            <option value="3">Technology</option>
+                            <option value="4">Administration</option>
+                            <option value="5">Health</option>
+                        </select>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="main_heading">
-                        <p class="vision-desc mt-0">Real work is already underway — from ideas to action, here’s what’s already making an impact on the ground. Explore the programs already shaping lives across communities.</p>
+                    <div class="col-md-6">
+                        <div class="form-input">
+                            <label for="position" class="form-label">Position*</label>
+                            <select class="form-select" id="position">
+                                <option selected>Site Supervisor</option>
+                                <option value="1">Civil Engineer</option>
+                                <option value="2">Public Works Coordinator</option>
+                                <option value="3">Field Surveyor</option>
+                            </select>
+                        </div>
                     </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="cursor-container">
-            <div class="container">
-                <div class="nav nav-tabs main-flex-tabs justify-content-start" id="updates-feed-tab" role="tablist">
-                    <button class="tabs-name nav-link active" id="nav-latest-tab" data-bs-toggle="tab" data-bs-target="#nav-latest" type="button" role="tab" aria-controls="nav-latest" aria-selected="true">
-                        <h5>Security</h5>
-                    </button>
-                    <button class="tabs-name nav-link" id="nav-news-tab" data-bs-toggle="tab" data-bs-target="#nav-news" type="button" role="tab" aria-controls="nav-news" aria-selected="false">
-                        <h5>Housing</h5>
-                    </button>
-                    <button class="tabs-name nav-link" id="nav-blogs-tab" data-bs-toggle="tab" data-bs-target="#nav-blogs" type="button" role="tab" aria-controls="nav-blogs" aria-selected="false">
-                        <h5>Infrastructure</h5>
-                    </button>
-                    <button class="tabs-name nav-link" id="nav-socials-tab" data-bs-toggle="tab" data-bs-target="#nav-socials" type="button" role="tab" aria-controls="nav-socials" aria-selected="false">
-                        <h5>Youth</h5>
-                    </button>
-                </div>
-                <div class="tab-content" id="nav-tabContent">
-                    <div class="tab-pane fade show active" id="nav-latest" role="tabpanel" aria-labelledby="nav-latest-tab" tabindex="0">
-                        <!-- Swiper -->
-                        <div class="swiper workFeeds onSlider">
-                            <div class="swiper-wrapper h-auto">
-                                <!-- Slides -->
-                                <div class="swiper-slide">
-                                    <a class="update-feed-card hover_card" href="" data-cursor-text="Read Blog">
-                                        <div class="event_card_img">
-                                            <div class="overlay_date_time feed_name">
-                                                <div class="inner-feed-name">
-                                                    <h5 class="feed-text mb-0">Youth</h5>
-                                                </div>
-                                            </div>
-                                            <img src="./images/work-feeds/wf-01.jpg" alt="" class="img-fluid radius-16">
-                                        </div>
-                                        <div class="card_title feed_disc">
-                                            <div class="linebar">
-                                                <p class="mb-0">Hope in Motion: Inside Oluwadare Owolabi’s Grassroots Tour</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="swiper-slide">
-                                    <a class="update-feed-card hover_card" href="" data-cursor-text="Read News">
-                                        <div class="event_card_img">
-                                            <div class="overlay_date_time feed_name">
-                                                <div class="inner-feed-name">
-                                                    <h5 class="feed-text mb-0">Youth</h5>
-                                                </div>
-                                            </div>
-                                             <img src="./images/work-feeds/wf-01.jpg" alt="" class="img-fluid radius-16">
-                                        </div>
-                                        <div class="card_title feed_disc">
-                                            <div class="linebar">
-                                                <p class="mb-0">Arise News Exclusive: Oluwadare Owolabi on Reclaiming Nigeria’s Future</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="swiper-slide">
-                                    <a class="update-feed-card hover_card" href="" data-cursor-text="Read Blog">
-                                        <div class="event_card_img">
-                                            <div class="overlay_date_time feed_name">
-                                                <div class="inner-feed-name">
-                                                    <h5 class="feed-text mb-0">Blog</h5>
-                                                </div>
-                                            </div>
-                                            <img src="./images/work-feeds/wf-01.jpg" alt="" class="img-fluid radius-16">
-                                        </div>
-                                        <div class="card_title feed_disc">
-                                            <div class="linebar">
-                                                <p class="mb-0">Over 1 Million Lives Touched: Party’s Grassroots Programs Create Waves Across Nigeria</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="swiper-slide">
-                                    <a class="update-feed-card hover_card" href="" data-cursor-text="Read News">
-                                        <div class="event_card_img">
-                                            <div class="overlay_date_time feed_name">
-                                                <div class="inner-feed-name">
-                                                    <h5 class="feed-text mb-0">News</h5>
-                                                </div>
-                                            </div>
-                                             <img src="./images/work-feeds/wf-02.jpg" alt="" class="img-fluid radius-16">
-                                        </div>
-                                        <div class="card_title feed_disc">
-                                            <div class="linebar">
-                                                <p class="mb-0">Not Just Politics: How Local Initiatives Are Changing Lives</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="swiper-slide">
-                                    <a class="update-feed-card hover_card" href="" data-cursor-text="Read News">
-                                        <div class="event_card_img">
-                                            <div class="overlay_date_time feed_name">
-                                                <div class="inner-feed-name">
-                                                    <h5 class="feed-text mb-0">Blog</h5>
-                                                </div>
-                                            </div>
-                                             <img src="./images/work-feeds/wf-01.jpg" alt="" class="img-fluid radius-16">
-                                        </div>
-                                        <div class="card_title feed_disc">
-                                            <div class="linebar">
-                                                <p class="mb-0">Hope in Motion: Inside Oluwadare Owolabi’s Grassroots Tour</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
+                    <div class="col-md-6">
+                        <div class="form-input">
+                            <label for="applicant-name" class="form-label">Name*</label>
+                            <input type="text" class="form-control" id="applicant-name" placeholder="Enter your full name">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-input">
+                            <label for="email" class="form-label">Email*</label>
+                            <input type="email" class="form-control" id="email" placeholder="hello@gmail.com">
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-input">
+                            <label for="message" class="form-label">Description</label>
+                            <textarea  type="text" class="form-control" id="message" rows="3" placeholder="why you want to apply"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-input">
+                            <label for="uploadResume" class="form-label">Upload your resume*</label>
+                            <div class="custom-file-uploader position-relative">
+                                <span class="choose-file-button">Choose files</span>
+                                <span class="choose-text"><img src="images/job/add-ic.svg" alt="svg"><span>Files supported: PDF, Docx, PNG</span></span>
+                                <input type="file" class="file-input" placeholder="" id="uploadResume">
                             </div>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="nav-news" role="tabpanel" aria-labelledby="nav-news-tab" tabindex="0"></div>
-                    <div class="tab-pane fade" id="nav-blogs" role="tabpanel" aria-labelledby="nav-blogs-tab" tabindex="0"></div>
-                    <div class="tab-pane fade" id="nav-socials" role="tabpanel" aria-labelledby="nav-socials-tab" tabindex="0"></div>
-                </div>
-                <div class="events_btn main-btn-inner position-relative">
-                    <a href="#" class="main-btn position-relative"><span class="btn-text">Read more</span><span class="arrw-btn">
-                            <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
-                    </a>
-                    <!-- custom navigation in slider -->
-                    <div class="slider-arrow">
-                        <div class="swiper-button-prev s2 arrow-circle">
-                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.62087 11.7428C6.27798 12.0857 5.72203 12.0857 5.37913 11.7428L0.257174 6.62088C0.0925078 6.45621 -5.04178e-07 6.23287 -5.24537e-07 6C-5.44895e-07 5.76713 0.0925078 5.54379 0.257174 5.37913L5.37913 0.257175C5.72202 -0.0857252 6.27797 -0.0857253 6.62087 0.257175C6.96377 0.600074 6.96377 1.15602 6.62087 1.49892L2.99785 5.12195L11.122 5.12195C11.6069 5.12195 12 5.51507 12 6C12 6.48493 11.6069 6.87805 11.122 6.87805L2.99785 6.87805L6.62087 10.5011C6.96377 10.844 6.96377 11.3999 6.62087 11.7428Z" fill="#3B3B3B" />
-                            </svg>
-
-                        </div>
-                        <div class="swiper-button-next s2 arrow-circle">
-                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M5.37913 0.257175C5.72202 -0.0857248 6.27797 -0.0857248 6.62087 0.257174L11.7428 5.37913C11.9075 5.54379 12 5.76713 12 6C12 6.23287 11.9075 6.45621 11.7428 6.62087L6.62087 11.7428C6.27797 12.0857 5.72202 12.0857 5.37913 11.7428C5.03623 11.3999 5.03623 10.844 5.37913 10.5011L9.00215 6.87805H0.878049C0.393116 6.87805 0 6.48493 0 6C0 5.51507 0.393116 5.12195 0.878049 5.12195H9.00215L5.37913 1.49892C5.03623 1.15602 5.03623 0.600074 5.37913 0.257175Z" fill="#3B3B3B" />
-                            </svg>
+                    <div class="col-md-6">
+                       <div class="main-btn-inner mt-0 position-relative">
+                            <a href="#" class="main-btn position-relative"><span class="btn-text">Apply Now</span><span class="arrw-btn">
+                                <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+       </div> 
     </section>
 
- <section class="faqs-wrapper overflow-hidden sec-space sm-events">
-        <div class="container">
-            <div class="center-heading text-center">
-                <h2 class="main-title w-100 text-white">Frequently asked <i class="pd_italic text_green"><i class="bask_font">Q</i>uestions</i></h2>
-                <p class="vision-desc m-0 text-white">Our FAQ section gives you quick solutions to frequent questions, simplifying your search for information</p>
-            </div>
+   
+    <section class="faqs-wrapper overflow-hidden sec-space sm-events">
+            <div class="container">
+                <div class="center-heading text-center">
+                    <h2 class="main-title w-100 text-white">Frequently asked <i class="pd_italic text_green"><i class="bask_font">Q</i>uestions</i></h2>
+                    <p class="vision-desc m-0 text-white">Our FAQ section gives you quick solutions to frequent questions, simplifying your search for information</p>
+                </div>
 
-            <div class="accordion faqs-accordion" id="accordionExample">
-                <div class="accordion-item radius-16">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                            Who is Oluwadare Owolabi?
-                        </button>
-                    </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            Oluwadare is a public Service provider and reform-driven leader dedicated to inclusive progress, youth empowerment, and grassroots transformation.
+                <div class="accordion faqs-accordion" id="accordionExample">
+                    <div class="accordion-item radius-16">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                Who is Oluwadare Owolabi?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Oluwadare is a public Service provider and reform-driven leader dedicated to inclusive progress, youth empowerment, and grassroots transformation.
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="accordion-item radius-16">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            Is Oluwadare affiliated with any political party?
-                        </button>
-                    </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            Oluwadare is a public Service provider and reform-driven leader dedicated to inclusive progress, youth empowerment, and grassroots transformation.
+                    <div class="accordion-item radius-16">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Is Oluwadare affiliated with any political party?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Oluwadare is a public Service provider and reform-driven leader dedicated to inclusive progress, youth empowerment, and grassroots transformation.
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="accordion-item radius-16">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            What are Oluwadare’s main focus areas?
-                        </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            Oluwadare is a public Service provider and reform-driven leader dedicated to inclusive progress, youth empowerment, and grassroots transformation.
+                    <div class="accordion-item radius-16">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                What are Oluwadare’s main focus areas?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Oluwadare is a public Service provider and reform-driven leader dedicated to inclusive progress, youth empowerment, and grassroots transformation.
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-</section>
+    </section>
 
 <section class="voice-wrapper">
         <div class="container">

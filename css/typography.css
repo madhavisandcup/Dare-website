@@ -142,6 +142,11 @@ h3 {
      /* 24px on figma */
 }
 
+h4 {
+     font-size: clamp(16px, 1.39vw, 27px);
+     /* 20px on figma */
+}
+
 h5 {
      font-size: clamp(14px, 1.11vw, 21px);
      /* 16px on figma */
