@@ -63,8 +63,12 @@
 gsap.registerPlugin(ScrollTrigger);
 
 document.querySelectorAll(".verticle-scroll-slider").forEach((slider) => {
-  const imagePanels = slider.querySelectorAll(".verticle-scroll-img .image_panel");
-  const contentPanels = slider.querySelectorAll(".verticle-scroll-content .panel_content");
+  const imagePanels = slider.querySelectorAll(
+    ".verticle-scroll-img .image_panel"
+  );
+  const contentPanels = slider.querySelectorAll(
+    ".verticle-scroll-content .panel_content"
+  );
   const contentWrapper = slider.querySelector(".verticle-scroll-content");
 
   // Set initial state for images: only first visible, rest hidden and absolutely positioned
@@ -75,7 +79,7 @@ document.querySelectorAll(".verticle-scroll-slider").forEach((slider) => {
       top: 0,
       left: 0,
       width: "100%",
-      height: "100%"
+      height: "100%",
     });
   });
 
@@ -88,10 +92,9 @@ document.querySelectorAll(".verticle-scroll-slider").forEach((slider) => {
       gsap.to(panel, {
         autoAlpha: i === index ? 1 : 0,
         duration: 0.6,
-        overwrite: "auto"
+        overwrite: "auto",
       });
     });
-
 
     // Smooth scroll the contentWrapper to vertically center the active panel_content
     const activePanel = contentPanels[index];
@@ -101,15 +104,14 @@ document.querySelectorAll(".verticle-scroll-slider").forEach((slider) => {
       const panelHeight = activePanel.offsetHeight;
 
       // Calculate scrollTop so the active panel is vertically centered
-      const scrollTop = panelOffsetTop - (wrapperHeight / 2) + (panelHeight / 2);
+      const scrollTop = panelOffsetTop - wrapperHeight / 2 + panelHeight / 2;
 
       contentWrapper.scrollTo({
         top: scrollTop,
-        behavior: "smooth"
+        behavior: "smooth",
       });
     }
   }
-
 
   makeActive(0); // initialize first active
 
@@ -135,33 +137,44 @@ document.querySelectorAll(".verticle-scroll-slider").forEach((slider) => {
   });
 });
 
-
 /************************** Timeline slider - GSAP *******************************/
-if (document.querySelector('.timeline-scroll') != null) {
+if (document.querySelector(".timeline-scroll") != null) {
   gsap.registerPlugin(ScrollTrigger);
   let mm = gsap.matchMedia();
-  const pinnedImageWrappers = document.querySelectorAll('.timeline-scroll');
-  let cItem = gsap.utils.toArray(".tm-slide");
-  let cItemP = document.querySelector('.tm-slide.scroll-only')
-  if ((typeof (pinnedImageWrappers) != 'undefined' && pinnedImageWrappers != null)) {
-    pinnedImageWrappers.forEach((cWrapper) => {
-      const inner = cWrapper.querySelector('.timeline-inner-content');
-     let tl = gsap.timeline({
-        ease: "none",
-        scrollTrigger: {
-          trigger: cWrapper,
-          pin: true,
-          // pinSpacing: false,
-          scrub: true,
-          invalidateOnRefresh: true,
-          end: () => `+=${cItemP.offsetHeight}`,
-        },
-      });
-      tl.to(".tm-slide.white-bg", {
-        yPercent: '-=100',
-        ease: "none",
-      });
+  const pinnedImageWrappers = document.querySelectorAll(".timeline-scroll");
 
+  // Init timeline + ScrollTrigger
+  pinnedImageWrappers.forEach((cWrapper) => {
+    const inner = cWrapper.querySelector(".timeline-inner-content");
+    let cItemP = document.querySelector(".tm-slide.scroll-only");
+
+    let tl = gsap.timeline({
+      ease: "none",
+      scrollTrigger: {
+        trigger: cWrapper,
+        pin: true,
+        scrub: 1,
+        invalidateOnRefresh: true,
+        end: () => `+=${cItemP.offsetHeight}`,
+      },
     });
-  }
+
+    tl.to(".tm-slide.white-bg", {
+      yPercent: "-=100",
+      ease: "power1.out", 
+    });
+  });
+  // Slick slider //
+  $('.slickSlider').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: true,
+    dots: true,
+    vertical: true,
+    verticalSwiping: true,
+    infinite: false
+  });
 }
+
+
+

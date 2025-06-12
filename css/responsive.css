@@ -95,6 +95,29 @@
 }
 
 @media (max-width: 1600px) {
+    .slick-arrow {
+        width: 45px;
+        height: 45px;
+        background-size: 34%;
+    }
+
+    .slick-next.slick-arrow {
+        bottom: 22vh;
+    }
+
+    .slick-prev.slick-arrow {
+        top: 32vh;
+    }
+
+    ul.slick-dots button {
+        padding: 5px;
+        margin: 7px 0;
+    }
+
+    .timeline-info-text {
+        gap: 20px;
+    }
+
     .timeline-photo-grid {
         gap: 6px;
     }
