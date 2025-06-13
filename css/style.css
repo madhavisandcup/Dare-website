@@ -1488,7 +1488,7 @@ span.pulse-animate {
 }
 
 .timeline-photo-grid {
-     width: 50vw;
+     /* width: 50vw; */
      display: flex;
      gap: 16px;
      flex-wrap: wrap;
@@ -1648,4 +1648,29 @@ ul.slick-dots button:focus-visible {
      -moz-transition: transform 0.8s cubic-bezier(0.25, 1, 0.5, 1) !important;
      -ms-transition: transform 0.8s cubic-bezier(0.25, 1, 0.5, 1) !important;
      -o-transition: transform 0.8s cubic-bezier(0.25, 1, 0.5, 1) !important;
+}
+
+.set_relative {
+     position: relative;
+     height: calc(100vh - 100px);
+     width: 50vw;
+}
+
+.set_relative img {
+     position: absolute;
+}
+
+.tm_grid4 {
+     top: 0;
+     left: 0;
+}
+
+.tm_grid5 {
+     right: 0;
+     bottom: 0;
+}
+
+.tm_grid6 {
+     bottom: 0;
+     left: 0;
 }

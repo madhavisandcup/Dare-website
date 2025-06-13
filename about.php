@@ -204,10 +204,10 @@
                                     </div>
                                 </div>
                                 <div class="child-image">
-                                    <div class="timeline-photo-grid">
-                                        <img src="./images/about/tm-grid-1.svg" alt="" class="radius-16 tm_grid1">
-                                        <img src="./images/about/tm-grid-2.svg" alt="" class="radius-16 tm_grid2">
-                                        <img src="./images/about/tm-grid-3.svg" alt="" class="radius-16 tm_grid3">
+                                    <div class="timeline-photo-grid set_relative">
+                                        <img src="./images/about/tm-grid-4.svg" alt="" class="radius-16 tm_grid4">
+                                        <img src="./images/about/tm-grid-5.svg" alt="" class="radius-16 tm_grid5">
+                                        <img src="./images/about/tm-grid-6.svg" alt="" class="radius-16 tm_grid6">
                                     </div>
                                 </div>
                             </div>
