@@ -1643,9 +1643,9 @@ ul.slick-dots button:focus-visible {
 
 .slick-slider .slick-track {
      transition-duration: 1s;
-     transition:  transform 0.8s cubic-bezier(0.25, 1, 0.5, 1) !important;
-     -webkit-transition:  transform 0.8s cubic-bezier(0.25, 1, 0.5, 1) !important;
-     -moz-transition:  transform 0.8s cubic-bezier(0.25, 1, 0.5, 1) !important;
-     -ms-transition:  transform 0.8s cubic-bezier(0.25, 1, 0.5, 1) !important;
-     -o-transition:  transform 0.8s cubic-bezier(0.25, 1, 0.5, 1) !important;
+     transition: transform 0.8s cubic-bezier(0.25, 1, 0.5, 1) !important;
+     -webkit-transition: transform 0.8s cubic-bezier(0.25, 1, 0.5, 1) !important;
+     -moz-transition: transform 0.8s cubic-bezier(0.25, 1, 0.5, 1) !important;
+     -ms-transition: transform 0.8s cubic-bezier(0.25, 1, 0.5, 1) !important;
+     -o-transition: transform 0.8s cubic-bezier(0.25, 1, 0.5, 1) !important;
 }

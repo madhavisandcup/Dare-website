@@ -55,38 +55,36 @@ const principlesSlider = new Swiper(".principles-slider", {
 });
 
 //Masking Text on scroll
-gsap.registerPlugin(ScrollTrigger);
+const titleMask = document.querySelector('.title-mask-wrapper');
+if (titleMask) {
+     gsap.registerPlugin(ScrollTrigger);
 
-// STEP 1: Split text into words & characters
-const split = new SplitType(".masking-title-scroll .light-text", {
-     types: "chars",
-     tagName: "span",
-});
-
-// STEP 2: Fix display so text wraps by word
-// document.querySelectorAll(".word").forEach(word => {
-//      word.style.display = "inline";
-// });
-document.querySelectorAll(".char").forEach(char => {
-     char.style.display = "inline";
-});
-
-// STEP 3: Scroll-triggered animation
-gsap.timeline({
-          scrollTrigger: {
-               trigger: ".title-mask-wrapper",
-               start: "top 60%", // when the section hits 60% from top of screen
-               end: "+=400", // controls scroll range
-               toggleActions: "play none none none",
-               scrub: true // smoother on/off instead of scroll-linked
-          }
-     })
-     .to(".char", {
-          color: "#ffffff",
-          stagger: 0.1, // slow the animation (higher = slower)
-          duration: 0.3,
-          ease: "power2.out"
+     const split = new SplitType(".masking-title-scroll .light-text", {
+          types: "chars",
+          tagName: "span",
      });
+
+     document.querySelectorAll(".masking-title-scroll .light-text span").forEach(char => {
+          char.style.display = "inline";
+     });
+     gsap.timeline({
+               scrollTrigger: {
+                    trigger: titleMask,
+                    start: "top 60%",
+                    end: "+=400",
+                    toggleActions: "play none none none",
+                    scrub: true
+               }
+          })
+          .to(".char", {
+               color: "#ffffff",
+               stagger: 0.1,
+               duration: 0.3,
+               ease: "power2.out"
+          });
+}
+
+
 
 
 
