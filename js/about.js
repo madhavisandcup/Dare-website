@@ -161,20 +161,19 @@ if (document.querySelector(".timeline-scroll") != null) {
 
     tl.to(".tm-slide.white-bg", {
       yPercent: "-=100",
-      ease: "power1.out", 
+      ease: "power1.out",
     });
   });
   // Slick slider //
-  $('.slickSlider').slick({
+  $(".slickSlider").slick({
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: true,
     dots: true,
     vertical: true,
     verticalSwiping: true,
-    infinite: false
+    infinite: false,
   });
 }
 
-
-
+/************************** Text marquee semicircle - GSAP *******************************/

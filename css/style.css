@@ -913,6 +913,7 @@ footer {
           -ms-transform: translateX(calc(-50% - 2px));
           -o-transform: translateX(calc(-50% - 2px));
      }
+
      100% {
           transform: translateX(0%);
           -webkit-transform: translateX(0%);
@@ -1080,6 +1081,7 @@ span.pulse-animate {
           -ms-transform: scale(0.95);
           -o-transform: scale(0.95);
      }
+
      70% {
           transform: scale(1);
           box-shadow: 0 0 0 15px rgba(0, 135, 81, 0);
@@ -1088,6 +1090,7 @@ span.pulse-animate {
           -ms-transform: scale(1);
           -o-transform: scale(1);
      }
+
      100% {
           transform: scale(1);
           box-shadow: 0 0 0 0 rgba(0, 135, 81, 0);
@@ -1107,6 +1110,7 @@ span.pulse-animate {
           -ms-transform: scale(0.95);
           -o-transform: scale(0.95);
      }
+
      70% {
           transform: scale(1);
           box-shadow: 0 0 0 15px rgba(0, 135, 81, 0);
@@ -1115,6 +1119,7 @@ span.pulse-animate {
           -ms-transform: scale(1);
           -o-transform: scale(1);
      }
+
      100% {
           transform: scale(1);
           box-shadow: 0 0 0 0 rgba(0, 135, 81, 0);
@@ -1403,7 +1408,7 @@ span.pulse-animate {
      font-size: clamp(16px, 1.39vw, 27px);
      color: #2B2B2B;
      display: inline-block;
-     padding: 200px 0 0;
+     margin: 200px 0 0;
 }
 
 .tm-year {
@@ -1438,8 +1443,52 @@ span.pulse-animate {
      z-index: 2;
 }
 
+/* 
+.bg_blur {
+     filter: blur(1);
+     -webkit-filter: blur(1);
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     z-index: 1;
+} */
+
 .tm-slick-item.img1 {
      background-image: url(../images/about/tm-img-01.svg);
+}
+
+.tm-slick-item.img2 {
+     background-image: url(../images/about/tm-img-02.svg);
+}
+
+.tm-slick-item.img3 {
+     background-image: url(../images/about/tm-img-03.svg);
+}
+
+.tm-slick-item.img4 {
+     background-image: url(../images/about/tm-img-04.svg);
+}
+
+.tm-slick-item.img5 {
+     background-image: url(../images/about/tm-img-05.svg);
+}
+
+.tm-slick-item.img6 {
+     background-image: url(../images/about/tm-img-06.svg);
+}
+
+.tm-slick-item.img7 {
+     background-image: url(../images/about/tm-img-07.svg);
+}
+
+.tm-slick-item.img8 {
+     background-image: url(../images/about/tm-img-08.svg);
+}
+
+.tm-slick-item.img9 {
+     background-image: url(../images/about/tm-img-09.svg);
 }
 
 .timeline-info-text {
@@ -1509,6 +1558,41 @@ span.pulse-animate {
 .tm_grid3 {
      width: clamp(349px, 24.24vw, 465px);
      height: clamp(197px, 13.68vw, 263px);
+}
+
+.tm_grid4 {
+     width: clamp(406px, 28.2vw, 541px);
+     height: clamp(270px, 18.75vw, 360px);
+}
+
+.tm_grid5 {
+     width: clamp(325px, 22.57vw, 434px);
+     height: clamp(217px, 15.07vw, 290px);
+}
+
+.tm_grid6 {
+     width: clamp(230px, 15.97vw, 306px);
+     height: clamp(344px, 23.89vw, 459px);
+}
+
+.tm_grid10 {
+     width: clamp(297px, 20.63vw, 396px);
+     height: clamp(198px, 13.75vw, 264px);
+}
+
+.tm_grid11 {
+     width: clamp(269px, 18.68vw, 359px);
+     height: clamp(179px, 12.44vw, 239px);
+}
+
+.tm_grid12 {
+     width: clamp(357px, 24.79vw, 476px);
+     height: clamp(246px, 17.08vw, 328px);
+}
+
+.tm_grid13 {
+     width: clamp(341px, 23.68vw, 455px);
+     height: clamp(255px, 17.71vw, 340px);
 }
 
 .child-content {
@@ -1660,17 +1744,74 @@ ul.slick-dots button:focus-visible {
      position: absolute;
 }
 
-.tm_grid4 {
-     top: 0;
-     left: 0;
+.inner-flex-img {
+     display: flex;
+     flex-wrap: wrap;
 }
 
-.tm_grid5 {
-     right: 0;
-     bottom: 0;
+.lg-align-start {
+     align-items: start;
 }
 
-.tm_grid6 {
-     bottom: 0;
+.lg-align-end {
+     align-items: end;
+}
+
+.m-left {
+     margin-left: auto;
+}
+
+.ml_3 {
+     margin-left: 17vw !important;
+}
+
+.semicircle-container {
+     position: relative;
+     width: 63rem;
+     height: 60rem;
+     margin: 0 auto;
+     display: block;
+}
+
+.circle-text {
+     position: absolute;
+     top: -25em;
+     width: 100%;
+     height: 100%;
+     transform: rotate(180deg);
+     /* overflow: visible; */
+
+}
+
+.circle-text svg {
+     width: 100%;
+     height: 100%;
+     /* position: absolute;
      left: 0;
+     top: 0; */
+
+     animation: rotate 10s infinite linear;
+     -webkit-animation: rotate 10s infinite linear;
+     transform-origin: center center;
+}
+
+.circle-text text {
+     font-size: 50px;
+     fill: #00834e;
+     white-space: nowrap;
+     transition: fill .2s;
+}
+
+.circle-text text .small-text {
+     font-size: 20px;
+}
+
+@keyframes rotate {
+     0% {
+          transform: rotate(0deg);
+     }
+
+     100% {
+          transform: rotate(-360deg);
+     }
 }

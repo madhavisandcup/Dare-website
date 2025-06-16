@@ -139,6 +139,125 @@
             </div>
         </div>
     </div> -->
+    <div class="semicircle-marquee overflow-hidden text-center">
+        <div class="semicircle-container animate">
+            <h2 class="mb-0 text-black">He
+                <span class="d-block pd_italic">Envisions</span>
+            </h2>
+            <div class="circle-text">
+                <svg width="1008" height="960" viewBox="0 0 1008 960" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <path d="M500,200 a300,300 0 1,1 -0.1,0" id="textcircle"></path>
+                    </defs>
+                    <text dy="" writing-mode="vertical-rl">
+                        <textPath href="#textcircle">
+                            <tspan class="small-text" style="fill: #B0B0B0;">Progress That Reaches Everyone.</tspan>
+
+                            <tspan style="font-style: italic;">Justice </tspan> that doesn't wait.
+
+                            <tspan class="small-text" style="fill: #B0B0B0;">Unity Without Exception.</tspan>
+
+                            <tspan style="font-style: italic;">Unity </tspan> Without Exception.
+                        </textPath>
+                    </text>
+                </svg>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="marquee-led-driven sec-space">
+        <div class="marquee-block right-marquee">
+            <div class="marquee-inner flex">
+                <div class="marquee-text flex">
+                    <span class="m-item flex m-title">Led By Vision</span>
+
+                    <span class="m-item flex m-dot"><span></span></span>
+                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-01.webp" alt="m-img-01"></span></span>
+                    <span class="m-item flex m-dot"><span></span></span>
+
+                    <span class="m-item flex m-title">Driven By You</span>
+                    <span class="m-item flex m-dot"><span></span></span>
+                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-02.webp" alt="m-img-02"></span></span>
+                    <span class="m-item flex m-dot"><span></span></span>
+
+                    <span class="m-item flex m-title">Led By Vision</span>
+                    <span class="m-item flex m-dot"><span></span></span>
+                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-01.webp" alt="m-img-01"></span></span>
+                    <span class="m-item flex m-dot"><span></span></span>
+
+                    <span class="m-item flex m-title">Driven By You</span>
+                    <span class="m-item flex m-dot"><span></span></span>
+                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-02.webp" alt="m-img-02"></span></span>
+                    <span class="m-item flex m-dot"><span></span></span>
+
+                    <span class="m-item flex m-title">Led By Vision</span>
+                    <span class="m-item flex m-dot"><span></span></span>
+                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-01.webp" alt="m-img-01"></span></span>
+                    <span class="m-item flex m-dot"><span></span></span>
+
+                    <span class="m-item flex m-title">Driven By You</span>
+                    <span class="m-item flex m-dot"><span></span></span>
+                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-02.webp" alt="m-img-02"></span></span>
+                    <span class="m-item flex m-dot"><span></span></span>
+
+                    <span class="m-item flex m-title">Led By Vision</span>
+                    <span class="m-item flex m-dot"><span></span></span>
+                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-01.webp" alt="m-img-01"></span></span>
+                    <span class="m-item flex m-dot"><span></span></span>
+
+                    <span class="m-item flex m-title">Driven By You</span>
+                    <span class="m-item flex m-dot"><span></span></span>
+                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-02.webp" alt="m-img-02"></span></span>
+                    <span class="m-item flex m-dot"><span></span></span>
+
+                </div>
+                <div class="marquee-text flex">
+                    <span class="m-item flex m-title">Led By Vision</span>
+
+                    <span class="m-item flex m-dot"><span></span></span>
+                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-01.webp" alt="m-img-01"></span></span>
+                    <span class="m-item flex m-dot"><span></span></span>
+
+                    <span class="m-item flex m-title">Driven By You</span>
+                    <span class="m-item flex m-dot"><span></span></span>
+                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-02.webp" alt="m-img-02"></span></span>
+                    <span class="m-item flex m-dot"><span></span></span>
+
+                    <span class="m-item flex m-title">Led By Vision</span>
+                    <span class="m-item flex m-dot"><span></span></span>
+                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-01.webp" alt="m-img-01"></span></span>
+                    <span class="m-item flex m-dot"><span></span></span>
+
+                    <span class="m-item flex m-title">Driven By You</span>
+                    <span class="m-item flex m-dot"><span></span></span>
+                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-02.webp" alt="m-img-02"></span></span>
+                    <span class="m-item flex m-dot"><span></span></span>
+
+                    <span class="m-item flex m-title">Led By Vision</span>
+                    <span class="m-item flex m-dot"><span></span></span>
+                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-01.webp" alt="m-img-01"></span></span>
+                    <span class="m-item flex m-dot"><span></span></span>
+
+                    <span class="m-item flex m-title">Driven By You</span>
+                    <span class="m-item flex m-dot"><span></span></span>
+                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-02.webp" alt="m-img-02"></span></span>
+                    <span class="m-item flex m-dot"><span></span></span>
+
+                    <span class="m-item flex m-title">Led By Vision</span>
+                    <span class="m-item flex m-dot"><span></span></span>
+                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-01.webp" alt="m-img-01"></span></span>
+                    <span class="m-item flex m-dot"><span></span></span>
+
+                    <span class="m-item flex m-title">Driven By You</span>
+                    <span class="m-item flex m-dot"><span></span></span>
+                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-02.webp" alt="m-img-02"></span></span>
+                    <span class="m-item flex m-dot"><span></span></span>
+
+                </div>
+            </div>
+        </div>
+    </div>
 
     <section class="wrapper-timeline">
         <div id="timeline-main" class="timeline-scroll">
@@ -191,7 +310,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="tm-slick-item img1">
+                        <div class="tm-slick-item img2">
                             <div class="tm-main container">
                                 <div class="child-content">
                                     <div class="timeline-info-text">
@@ -200,28 +319,93 @@
                                             <h2 class="text-white dm_medium">Early exposure</h2>
                                         </div>
                                         <h3 class="text-white dm_medium mb-0">Strategy in the Real World</h3>
-                                        <p class="mb-0 text-white">Entered the corporate world as a strategy analyst, building a foundation in systems thinking and organizational leadership.This phase sharpened his understanding of systems, structure, and leadership grounded in impact.</p>
+                                        <p class="mb-0 text-white">Oluwadare began his professional journey in corporate strategy roles, working closely with teams in finance and operations. This phase helped him understand how structured thinking and decision-making impact real outcomes, forming the base of his leadership mindset.</p>
                                     </div>
                                 </div>
                                 <div class="child-image">
-                                    <div class="timeline-photo-grid set_relative">
+                                    <div class="timeline-photo-grid">
                                         <img src="./images/about/tm-grid-4.svg" alt="" class="radius-16 tm_grid4">
-                                        <img src="./images/about/tm-grid-5.svg" alt="" class="radius-16 tm_grid5">
-                                        <img src="./images/about/tm-grid-6.svg" alt="" class="radius-16 tm_grid6">
+                                        <div class="inner-flex-img lg-align-start m-left">
+                                            <img src="./images/about/tm-grid-6.svg" alt="" class="radius-16 tm_grid6">
+                                            <img src="./images/about/tm-grid-5.svg" alt="" class="radius-16 tm_grid5">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="tm-slick-item img1">
+                        <div class="tm-slick-item img3">
                             <div class="tm-main container">
                                 <div class="child-content">
                                     <div class="timeline-info-text">
-                                        <span class="dm_sbold d-inline-block tm-year">2013</span>
+                                        <span class="dm_sbold d-inline-block tm-year">2014</span>
                                         <div class="tm-heading-text">
-                                            <h2 class="text-white dm_medium">Early exposure</h2>
+                                            <h2 class="text-white dm_medium">Finance</h2>
                                         </div>
-                                        <h3 class="text-white dm_medium mb-0">Strategy in the Real World</h3>
-                                        <p class="mb-0 text-white">Entered the corporate world as a strategy analyst, building a foundation in systems thinking and organizational leadership.This phase sharpened his understanding of systems, structure, and leadership grounded in impact.</p>
+                                        <h3 class="text-white dm_medium mb-0">Learning How Systems Move</h3>
+                                        <p class="mb-0 text-white">Expanding into the financial sector, he participated in high level analysis and planning, seeing firsthand how policy, funding, and execution intersect especially when applied to national infrastructure and economic reform.</p>
+                                    </div>
+                                </div>
+                                <div class="child-image">
+                                    <div class="timeline-photo-grid lg-align-start">
+                                        <img src="./images/about/tm-grid-7.svg" alt="" class="radius-16 tm_grid5">
+                                        <img src="./images/about/tm-grid-8.svg" alt="" class="radius-16 tm_grid6">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tm-slick-item img4">
+                            <div class="tm-main container">
+                                <div class="child-content">
+                                    <div class="timeline-info-text">
+                                        <span class="dm_sbold d-inline-block tm-year">2016</span>
+                                        <div class="tm-heading-text">
+                                            <h2 class="text-white dm_medium">Leadership role</h2>
+                                        </div>
+                                        <h3 class="text-white dm_medium mb-0">From Team Member to Team Leader</h3>
+                                        <p class="mb-0 text-white">He began advising emerging political figures, translating data and grassroots insights into actionable policy input. This marked the start of his deeper engagement with governance and public reform, bridging private insights with civic outcomes.</p>
+                                    </div>
+                                </div>
+                                <div class="child-image">
+                                    <div class="timeline-photo-grid">
+                                        <img src="./images/about/tm-grid-9.svg" alt="" class="radius-16 tm_grid2">
+                                        <div class="timeline-photo-grid lg-align-start m-left">
+                                            <img src="./images/about/tm-grid-10.svg" alt="" class="radius-16 tm_grid10">
+                                            <img src="./images/about/tm-grid-11.svg" alt="" class="radius-16 tm_grid11">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tm-slick-item img5">
+                            <div class="tm-main container">
+                                <div class="child-content">
+                                    <div class="timeline-info-text">
+                                        <span class="dm_sbold d-inline-block tm-year">2018</span>
+                                        <div class="tm-heading-text">
+                                            <h2 class="text-white dm_medium">Community roots</h2>
+                                        </div>
+                                        <h3 class="text-white dm_medium mb-0">Bridging Boardroom and Community</h3>
+                                        <p class="mb-0 text-white">With growing recognition, Dare contributed to youth and education policy panels. His proposals focused on inclusive learning, vocational pathways, and the digital divide bringing structural thinking and equity into the same conversation.</p>
+                                    </div>
+                                </div>
+                                <div class="child-image">
+                                    <div class="timeline-photo-grid">
+                                        <img src="./images/about/tm-grid-12.svg" alt="" class="ml_3 radius-16 tm_grid12">
+                                        <img src="./images/about/tm-grid-13.svg" alt="" class="radius-16 tm_grid13">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tm-slick-item img6">
+                            <div class="tm-main container">
+                                <div class="child-content">
+                                    <div class="timeline-info-text">
+                                        <span class="dm_sbold d-inline-block tm-year">2020</span>
+                                        <div class="tm-heading-text">
+                                            <h2 class="text-white dm_medium">Civic engagement</h2>
+                                        </div>
+                                        <h3 class="text-white dm_medium mb-0">Beyond Business: Into Advocacy</h3>
+                                        <p class="mb-0 text-white">Oluwadare launched Digital Youth Labs, a free skills program across secondary schools, impacting over 300 students. It was a direct manifestation of his belief that leadership should create access, not just ambition.</p>
                                     </div>
                                 </div>
                                 <div class="child-image">
@@ -233,16 +417,16 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="tm-slick-item img1">
+                        <div class="tm-slick-item img7">
                             <div class="tm-main container">
                                 <div class="child-content">
                                     <div class="timeline-info-text">
-                                        <span class="dm_sbold d-inline-block tm-year">2013</span>
+                                        <span class="dm_sbold d-inline-block tm-year">2022</span>
                                         <div class="tm-heading-text">
-                                            <h2 class="text-white dm_medium">Early exposure</h2>
+                                            <h2 class="text-white dm_medium">Policy making</h2>
                                         </div>
-                                        <h3 class="text-white dm_medium mb-0">Strategy in the Real World</h3>
-                                        <p class="mb-0 text-white">Entered the corporate world as a strategy analyst, building a foundation in systems thinking and organizational leadership.This phase sharpened his understanding of systems, structure, and leadership grounded in impact.</p>
+                                        <h3 class="text-white dm_medium mb-0">Vision meets structure</h3>
+                                        <p class="mb-0 text-white">He officially aligned with the All Progressives Congress (APC), strengthening his platform and gaining national visibility. This year was marked by clarity in purpose and the beginning of formal political planning.</p>
                                     </div>
                                 </div>
                                 <div class="child-image">
@@ -254,16 +438,16 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="tm-slick-item img1">
+                        <div class="tm-slick-item img8">
                             <div class="tm-main container">
                                 <div class="child-content">
                                     <div class="timeline-info-text">
-                                        <span class="dm_sbold d-inline-block tm-year">2013</span>
+                                        <span class="dm_sbold d-inline-block tm-year">2023</span>
                                         <div class="tm-heading-text">
-                                            <h2 class="text-white dm_medium">Early exposure</h2>
+                                            <h2 class="text-white dm_medium">Youth initiatives</h2>
                                         </div>
-                                        <h3 class="text-white dm_medium mb-0">Strategy in the Real World</h3>
-                                        <p class="mb-0 text-white">Entered the corporate world as a strategy analyst, building a foundation in systems thinking and organizational leadership.This phase sharpened his understanding of systems, structure, and leadership grounded in impact.</p>
+                                        <h3 class="text-white dm_medium mb-0">Ideas in action</h3>
+                                        <p class="mb-0 text-white">Grassroots support deepened. His team grew into a volunteer-driven movement, rolling out water access pilot projects and creating platforms for youth voices to directly influence policy ideas.</p>
                                     </div>
                                 </div>
                                 <div class="child-image">
@@ -275,79 +459,16 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="tm-slick-item img1">
+                        <div class="tm-slick-item img9">
                             <div class="tm-main container">
                                 <div class="child-content">
                                     <div class="timeline-info-text">
-                                        <span class="dm_sbold d-inline-block tm-year">2013</span>
+                                        <span class="dm_sbold d-inline-block tm-year">2024</span>
                                         <div class="tm-heading-text">
-                                            <h2 class="text-white dm_medium">Early exposure</h2>
+                                            <h2 class="text-white dm_medium">Political network</h2>
                                         </div>
-                                        <h3 class="text-white dm_medium mb-0">Strategy in the Real World</h3>
-                                        <p class="mb-0 text-white">Entered the corporate world as a strategy analyst, building a foundation in systems thinking and organizational leadership.This phase sharpened his understanding of systems, structure, and leadership grounded in impact.</p>
-                                    </div>
-                                </div>
-                                <div class="child-image">
-                                    <div class="timeline-photo-grid">
-                                        <img src="./images/about/tm-grid-1.svg" alt="" class="radius-16 tm_grid1">
-                                        <img src="./images/about/tm-grid-2.svg" alt="" class="radius-16 tm_grid2">
-                                        <img src="./images/about/tm-grid-3.svg" alt="" class="radius-16 tm_grid3">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tm-slick-item img1">
-                            <div class="tm-main container">
-                                <div class="child-content">
-                                    <div class="timeline-info-text">
-                                        <span class="dm_sbold d-inline-block tm-year">2013</span>
-                                        <div class="tm-heading-text">
-                                            <h2 class="text-white dm_medium">Early exposure</h2>
-                                        </div>
-                                        <h3 class="text-white dm_medium mb-0">Strategy in the Real World</h3>
-                                        <p class="mb-0 text-white">Entered the corporate world as a strategy analyst, building a foundation in systems thinking and organizational leadership.This phase sharpened his understanding of systems, structure, and leadership grounded in impact.</p>
-                                    </div>
-                                </div>
-                                <div class="child-image">
-                                    <div class="timeline-photo-grid">
-                                        <img src="./images/about/tm-grid-1.svg" alt="" class="radius-16 tm_grid1">
-                                        <img src="./images/about/tm-grid-2.svg" alt="" class="radius-16 tm_grid2">
-                                        <img src="./images/about/tm-grid-3.svg" alt="" class="radius-16 tm_grid3">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tm-slick-item img1">
-                            <div class="tm-main container">
-                                <div class="child-content">
-                                    <div class="timeline-info-text">
-                                        <span class="dm_sbold d-inline-block tm-year">2013</span>
-                                        <div class="tm-heading-text">
-                                            <h2 class="text-white dm_medium">Early exposure</h2>
-                                        </div>
-                                        <h3 class="text-white dm_medium mb-0">Strategy in the Real World</h3>
-                                        <p class="mb-0 text-white">Entered the corporate world as a strategy analyst, building a foundation in systems thinking and organizational leadership.This phase sharpened his understanding of systems, structure, and leadership grounded in impact.</p>
-                                    </div>
-                                </div>
-                                <div class="child-image">
-                                    <div class="timeline-photo-grid">
-                                        <img src="./images/about/tm-grid-1.svg" alt="" class="radius-16 tm_grid1">
-                                        <img src="./images/about/tm-grid-2.svg" alt="" class="radius-16 tm_grid2">
-                                        <img src="./images/about/tm-grid-3.svg" alt="" class="radius-16 tm_grid3">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tm-slick-item img1">
-                            <div class="tm-main container">
-                                <div class="child-content">
-                                    <div class="timeline-info-text">
-                                        <span class="dm_sbold d-inline-block tm-year">2013</span>
-                                        <div class="tm-heading-text">
-                                            <h2 class="text-white dm_medium">Early exposure</h2>
-                                        </div>
-                                        <h3 class="text-white dm_medium mb-0">Strategy in the Real World</h3>
-                                        <p class="mb-0 text-white">Entered the corporate world as a strategy analyst, building a foundation in systems thinking and organizational leadership.This phase sharpened his understanding of systems, structure, and leadership grounded in impact.</p>
+                                        <h3 class="text-white dm_medium mb-0">From voice to platform</h3>
+                                        <p class="mb-0 text-white">With a clear vision and proven groundwork, Dare stepped fully into public leadership. His campaign now carries the values of trust, dignity, and future readiness rooted in communities, rising for all.</p>
                                     </div>
                                 </div>
                                 <div class="child-image">
@@ -382,6 +503,548 @@
         <div class="timeline-pagination"></div> -->
 
     </section>
+
+    <section class="voice-wrapper">
+        <div class="container">
+            <div class="center-heading text-center">
+                <h2 class="main-title text-white w-100">Voices that <i class="pd_italic text_green">Believe</i><span class="dot-animated text_green"><span class="pulse-animate"><span class="pulse_dot"></span></span></span></h2>
+                <p class="vision-desc text-white p-0">Real words from real people stories of impact, trust, and shared vision.</p>
+            </div>
+
+            <div class="initiative-main voices-inner">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="voice-item lg">
+                            <div class="v-pr-inner">
+                                <div class="voice-profile">
+                                    <div class="voice-p-img">
+                                        <img src="images/voices/v-p-01.png" class="img-fluid radius-50" alt="user" />
+                                    </div>
+                                    <div class="voice-p-content">
+                                        <h3 class="text-white dm_medium">Ify Okeke</h3>
+                                        <h5 class="mb-0">Senior Lecturer</h5>
+                                    </div>
+                                </div>
+                                <div class="voice-content">
+                                    <p class="voice-highlight-text">Lagos State University</p>
+                                    <p class="extra_light_grey mb-0">"A statesman of substance and strategy. His speeches are not just words—they're a call to action and unity. Truly inspiring on a global platform. he listens, understands, and acts"</p>
+                                </div>
+                            </div>
+                            <div class="voice-img">
+                                <img src="images/voices/v-01.jpg" class="img-fluid radius-8" alt="user" />
+                            </div>
+                        </div>
+                        <div class="voice-item content-only sm last">
+                            <div class="voice-profile">
+                                <div class="voice-p-img">
+                                    <img src="images/voices/v-p-01.png" class="img-fluid radius-50" alt="user" />
+                                </div>
+                                <div class="voice-p-content">
+                                    <h3 class="text-white dm_medium">Tunde Adebayo</h3>
+                                    <h5 class="mb-0">Founder & Director</h5>
+                                </div>
+                            </div>
+                            <div class="voice-content">
+                                <p class="voice-highlight-text">NextGen Leaders Foundation</p>
+                                <p class="extra_light_grey mb-0">"His policies have directly uplifted marginalized voices, giving hope to many. What sets him apart is his empathy—he listens, understands, and acts."</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="voice-item border-gradient content-only sm">
+
+                            <div class="voice-profile">
+                                <div class="voice-p-img">
+                                    <img src="images/voices/v-p-01.png" class="img-fluid radius-50" alt="user" />
+                                </div>
+                                <div class="voice-p-content">
+                                    <h3 class="text-white dm_medium">Tunde Adebayo</h3>
+                                    <h5 class="mb-0">Founder & Director</h5>
+                                </div>
+                            </div>
+
+                            <div class="voice-content">
+                                <p class="voice-highlight-text">NextGen Leaders Foundation</p>
+                                <p class="extra_light_grey mb-0">"His policies have directly uplifted marginalized voices, giving hope to many. What sets him apart is his empathy—he listens, understands, and acts."</p>
+                            </div>
+                        </div>
+
+                        <div class="voice-item md">
+                            <div class="v-pr-inner">
+                                <div class="voice-profile">
+                                    <div class="voice-p-img">
+                                        <img src="images/voices/v-p-01.png" class="img-fluid radius-50" alt="user" />
+                                    </div>
+                                    <div class="voice-p-content">
+                                        <h3 class="text-white dm_medium">Ify Okeke</h3>
+                                        <h5 class="mb-0">Senior Lecturer</h5>
+                                    </div>
+                                </div>
+                                <div class="voice-content">
+                                    <p class="voice-highlight-text">Lagos State University</p>
+                                    <p class="extra_light_grey mb-0">"A statesman of substance and strategy. His speeches are not just words—they're a call to action and unity. Truly inspiring on a global platform. he listens, understands, and acts"</p>
+                                </div>
+                            </div>
+                            <div class="voice-img">
+                                <img src="images/voices/v-02-md.jpg" class="img-fluid radius-8" alt="user" />
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="voice-item sm">
+                            <div class="v-pr-inner">
+                                <div class="voice-profile">
+                                    <div class="voice-p-img">
+                                        <img src="images/voices/v-p-01.png" class="img-fluid radius-50" alt="user" />
+                                    </div>
+                                    <div class="voice-p-content">
+                                        <h3 class="text-white dm_medium">Ify Okeke</h3>
+                                        <h5 class="mb-0">Senior Lecturer</h5>
+                                    </div>
+                                </div>
+                                <div class="voice-content">
+                                    <p class="voice-highlight-text">Lagos State University</p>
+                                    <p class="extra_light_grey mb-0">"A statesman of substance and strategy. His speeches are not just words—they're a call to action and unity. Truly inspiring on a global platform. he listens, understands, and acts"</p>
+                                </div>
+                            </div>
+                            <div class="voice-img">
+                                <img src="images/voices/v-03-sm.jpg" class="img-fluid radius-8" alt="user" />
+                            </div>
+                        </div>
+                        <div class="voice-item xs">
+                            <div class="v-pr-inner">
+                                <div class="voice-profile">
+                                    <div class="voice-p-img">
+                                        <img src="images/voices/v-p-01.png" class="img-fluid radius-50" alt="user" />
+                                    </div>
+                                    <div class="voice-p-content">
+                                        <h3 class="text-white dm_medium">Tunde Adebayo</h3>
+                                        <h5 class="mb-0">Founder & Director</h5>
+                                    </div>
+                                </div>
+                                <div class="voice-content">
+                                    <p class="voice-highlight-text">NextGen Leaders Foundation</p>
+                                    <p class="extra_light_grey mb-0">"His policies have directly uplifted marginalized voices, giving hope to many. What sets him apart is his empathy—he listens, understands, and acts."</p>
+                                </div>
+                            </div>
+                            <div class="voice-img">
+                                <img src="images/voices/v-04-xs.jpg" class="img-fluid radius-8" alt="user" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faqs-wrapper overflow-hidden sm-events">
+        <div class="container">
+            <div class="center-heading text-center">
+                <h2 class="main-title w-100 text-white">Frequently asked <i class="pd_italic text_green"><i class="bask_font">Q</i>uestions</i></h2>
+                <p class="vision-desc m-0 text-white">Our FAQ section gives you quick solutions to frequent questions, simplifying your search for information</p>
+            </div>
+
+            <div class="accordion faqs-accordion" id="accordionExample">
+                <div class="accordion-item radius-16">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            Who is Oluwadare Owolabi?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Oluwadare is a public Service provider and reform-driven leader dedicated to inclusive progress, youth empowerment, and grassroots transformation.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item radius-16">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Is Oluwadare affiliated with any political party?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Oluwadare is a public Service provider and reform-driven leader dedicated to inclusive progress, youth empowerment, and grassroots transformation.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item radius-16">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            What are Oluwadare’s main focus areas?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Oluwadare is a public Service provider and reform-driven leader dedicated to inclusive progress, youth empowerment, and grassroots transformation.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="updates-feed sec-space overflow-hidden sm-feeds">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="main_heading">
+                        <h2 class="main-title w-100 mb-0"><i class="pd_italic">Reflections</i> from the Movement<span class="dot-animated text_green"><span class="pulse-animate"><span class="pulse_dot"></span></span></span>
+                        </h2>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="main_heading">
+                        <p class="vision-desc mt-0">Follow the journey, explore the latest updates, and see how the movement is growing—online and on the ground. Stories, statements, and snapshots that shape the movement.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cursor-container">
+
+            <div class="nav nav-tabs main-flex-tabs justify-content-start px-3" id="updates-feed-tab" role="tablist">
+                <button class="tabs-name nav-link active" id="nav-latest-tab" data-bs-toggle="tab" data-bs-target="#nav-latest" type="button" role="tab" aria-controls="nav-latest" aria-selected="true">
+                    <h5>Latest</h5>
+                </button>
+                <button class="tabs-name nav-link" id="nav-news-tab" data-bs-toggle="tab" data-bs-target="#nav-news" type="button" role="tab" aria-controls="nav-news" aria-selected="false">
+                    <h5>News</h5>
+                </button>
+                <button class="tabs-name nav-link" id="nav-blogs-tab" data-bs-toggle="tab" data-bs-target="#nav-blogs" type="button" role="tab" aria-controls="nav-blogs" aria-selected="false">
+                    <h5>Blog</h5>
+                </button>
+                <button class="tabs-name nav-link" id="nav-socials-tab" data-bs-toggle="tab" data-bs-target="#nav-socials" type="button" role="tab" aria-controls="nav-socials" aria-selected="false">
+                    <h5>Socials</h5>
+                </button>
+            </div>
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-latest" role="tabpanel" aria-labelledby="nav-latest-tab" tabindex="0">
+                    <!-- Swiper -->
+                    <div class="swiper UpdateFeeds onSlider">
+                        <div class="swiper-wrapper h-auto">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <a class="update-feed-card hover_card" href="" data-cursor-text="Read Blog">
+                                    <div class="event_card_img">
+                                        <div class="overlay_date_time feed_name">
+                                            <div class="inner-feed-name">
+                                                <h5 class="feed-text mb-0">Blog</h5>
+                                            </div>
+                                        </div>
+                                        <img src="./images/latest-feeds/hope-in-motion.jpg" alt="" class="portrait_size radius-12">
+                                    </div>
+                                    <div class="card_title feed_disc">
+                                        <div class="linebar">
+                                            <p class="mb-0">Hope in Motion: Inside Oluwadare Owolabi’s Grassroots Tour</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="update-feed-card hover_card" href="" data-cursor-text="Read News">
+                                    <div class="event_card_img">
+                                        <div class="overlay_date_time feed_name">
+                                            <div class="inner-feed-name">
+                                                <h5 class="feed-text mb-0">News</h5>
+                                            </div>
+                                        </div>
+                                        <img src="./images/latest-feeds/arise-news-exclusive.jpg" alt="" class="landscap_size radius-12">
+                                    </div>
+                                    <div class="card_title feed_disc">
+                                        <div class="linebar">
+                                            <p class="mb-0">Arise News Exclusive: Oluwadare Owolabi on Reclaiming Nigeria’s Future</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="update-feed-card hover_card" href="" data-cursor-text="Read Blog">
+                                    <div class="event_card_img">
+                                        <div class="overlay_date_time feed_name">
+                                            <div class="inner-feed-name">
+                                                <h5 class="feed-text mb-0">Blog</h5>
+                                            </div>
+                                        </div>
+                                        <img src="./images/latest-feeds/1million-lives-touched.jpg" alt="" class="portrait_size radius-12">
+                                    </div>
+                                    <div class="card_title feed_disc">
+                                        <div class="linebar">
+                                            <p class="mb-0">Over 1 Million Lives Touched: Party’s Grassroots Programs Create Waves Across Nigeria</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="update-feed-card hover_card" href="" data-cursor-text="Read News">
+                                    <div class="event_card_img">
+                                        <div class="overlay_date_time feed_name">
+                                            <div class="inner-feed-name">
+                                                <h5 class="feed-text mb-0">News</h5>
+                                            </div>
+                                        </div>
+                                        <img src="./images/latest-feeds/not-just-politics.jpg" alt="" class="landscap_size radius-12">
+                                    </div>
+                                    <div class="card_title feed_disc">
+                                        <div class="linebar">
+                                            <p class="mb-0">Not Just Politics: How Local Initiatives Are Changing Lives</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="update-feed-card hover_card" href="" data-cursor-text="Read News">
+                                    <div class="event_card_img">
+                                        <div class="overlay_date_time feed_name">
+                                            <div class="inner-feed-name">
+                                                <h5 class="feed-text mb-0">Blog</h5>
+                                            </div>
+                                        </div>
+                                        <img src="./images/latest-feeds/hope-in-motion.jpg" alt="" class="portrait_size radius-12">
+                                    </div>
+                                    <div class="card_title feed_disc">
+                                        <div class="linebar">
+                                            <p class="mb-0">Hope in Motion: Inside Oluwadare Owolabi’s Grassroots Tour</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="nav-news" role="tabpanel" aria-labelledby="nav-news-tab" tabindex="0"></div>
+                <div class="tab-pane fade" id="nav-blogs" role="tabpanel" aria-labelledby="nav-blogs-tab" tabindex="0"></div>
+                <div class="tab-pane fade" id="nav-socials" role="tabpanel" aria-labelledby="nav-socials-tab" tabindex="0"></div>
+            </div>
+        </div>
+        <div class="events_btn main-btn-inner position-relative">
+            <a href="#" class="main-btn position-relative"><span class="btn-text">Read more</span><span class="arrw-btn">
+                    <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
+            </a>
+            <!-- custom navigation in slider -->
+            <div class="slider-arrow">
+                <div class="swiper-button-prev s2 arrow-circle">
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M6.62087 11.7428C6.27798 12.0857 5.72203 12.0857 5.37913 11.7428L0.257174 6.62088C0.0925078 6.45621 -5.04178e-07 6.23287 -5.24537e-07 6C-5.44895e-07 5.76713 0.0925078 5.54379 0.257174 5.37913L5.37913 0.257175C5.72202 -0.0857252 6.27797 -0.0857253 6.62087 0.257175C6.96377 0.600074 6.96377 1.15602 6.62087 1.49892L2.99785 5.12195L11.122 5.12195C11.6069 5.12195 12 5.51507 12 6C12 6.48493 11.6069 6.87805 11.122 6.87805L2.99785 6.87805L6.62087 10.5011C6.96377 10.844 6.96377 11.3999 6.62087 11.7428Z" fill="#3B3B3B" />
+                    </svg>
+
+                </div>
+                <div class="swiper-button-next s2 arrow-circle">
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M5.37913 0.257175C5.72202 -0.0857248 6.27797 -0.0857248 6.62087 0.257174L11.7428 5.37913C11.9075 5.54379 12 5.76713 12 6C12 6.23287 11.9075 6.45621 11.7428 6.62087L6.62087 11.7428C6.27797 12.0857 5.72202 12.0857 5.37913 11.7428C5.03623 11.3999 5.03623 10.844 5.37913 10.5011L9.00215 6.87805H0.878049C0.393116 6.87805 0 6.48493 0 6C0 5.51507 0.393116 5.12195 0.878049 5.12195H9.00215L5.37913 1.49892C5.03623 1.15602 5.03623 0.600074 5.37913 0.257175Z" fill="#3B3B3B" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="voice-wrapper capture-mm position-relative sec-space">
+        <div class="center-heading text-center">
+            <h2 class="main-title text-white">Captured Moments of <i class="pd_italic">Impact</i><span class="dot-animated text_green"><span class="pulse-animate"><span class="pulse_dot"></span></span></span></h2>
+            <p class="vision-desc text-white">A visual journey of change, hope, and community in motion.</p>
+        </div>
+
+        <div class="initiative-main desktop voices-inner overflow-hidden">
+            <div class="capture-images">
+                <div class="capture-img position-relative one">
+                    <img src="images/captures/cap-01.png" class="img-fluid radius-8" alt="user" />
+                    <div class="cap-overlay-content">
+                        <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="capture-images">
+                <div class="capture-img position-relative two">
+                    <img src="images/captures/cap-02.png" class="img-fluid radius-8" alt="user" />
+                    <div class="cap-overlay-content">
+                        <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
+                    </div>
+                </div>
+                <div class="capture-img position-relative three">
+                    <img src="images/captures/cap-03.png" class="img-fluid radius-8" alt="user" />
+                    <div class="cap-overlay-content">
+                        <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
+                    </div>
+                </div>
+                <div class="capture-img position-relative four">
+                    <img src="images/captures/cap-04.png" class="img-fluid radius-8" alt="user" />
+                    <div class="cap-overlay-content">
+                        <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="capture-images">
+                <div class="capture-img position-relative five">
+                    <img src="images/captures/cap-05.png" class="img-fluid radius-8" alt="user" />
+                    <div class="cap-overlay-content">
+                        <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
+                    </div>
+                </div>
+                <div class="capture-img position-relative six">
+                    <img src="images/captures/cap-06.png" class="img-fluid radius-8" alt="user" />
+                    <div class="cap-overlay-content">
+                        <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
+                    </div>
+                </div>
+                <div class="capture-img position-relative seven">
+                    <img src="images/captures/cap-07.png" class="img-fluid radius-8" alt="user" />
+                    <div class="cap-overlay-content">
+                        <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="capture-images">
+                <div class="capture-img position-relative eight">
+                    <img src="images/captures/cap-08.png" class="img-fluid radius-8" alt="user" />
+                    <div class="cap-overlay-content">
+                        <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
+                    </div>
+                </div>
+                <div class="capture-img position-relative nine">
+                    <img src="images/captures/cap-09.png" class="img-fluid radius-8" alt="user" />
+                    <div class="cap-overlay-content">
+                        <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
+                    </div>
+                </div>
+                <div class="capture-img position-relative ten">
+                    <img src="images/captures/cap-10.png" class="img-fluid radius-8" alt="user" />
+                    <div class="cap-overlay-content">
+                        <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
+                    </div>
+                </div>
+                <div class="capture-img position-relative eleven">
+                    <img src="images/captures/cap-11.png" class="img-fluid radius-8" alt="user" />
+                    <div class="cap-overlay-content">
+                        <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="capture-images">
+                <div class="capture-img position-relative twelve">
+                    <img src="images/captures/cap-12.png" class="img-fluid radius-8" alt="user" />
+                    <div class="cap-overlay-content">
+                        <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
+                    </div>
+                </div>
+                <div class="capture-img position-relative thirdteen">
+                    <img src="images/captures/cap-13.png" class="img-fluid radius-8" alt="user" />
+                    <div class="cap-overlay-content">
+                        <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
+                    </div>
+                </div>
+                <div class="capture-img position-relative fortheen">
+                    <img src="images/captures/cap-14.png" class="img-fluid radius-8" alt="user" />
+                    <div class="cap-overlay-content">
+                        <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
+                    </div>
+                </div>
+                <div class="capture-img position-relative fifteen">
+                    <img src="images/captures/cap-15.png" class="img-fluid radius-8" alt="user" />
+                    <div class="cap-overlay-content">
+                        <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="initiative-main mobile voices-inner overflow-hidden">
+            <div class="capture-images">
+                <div class="capture-img position-relative one">
+                    <img src="images/captures/cap-01.png" class="img-fluid radius-8" alt="user" />
+                    <div class="cap-overlay-content">
+                        <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
+                    </div>
+                </div>
+                <div class="capture-img position-relative two">
+                    <img src="images/captures/cap-02.png" class="img-fluid radius-8" alt="user" />
+                    <div class="cap-overlay-content">
+                        <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
+                    </div>
+                </div>
+                <div class="capture-img position-relative three">
+                    <img src="images/captures/cap-03.png" class="img-fluid radius-8" alt="user" />
+                    <div class="cap-overlay-content">
+                        <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
+                    </div>
+                </div>
+                <div class="capture-img position-relative four">
+                    <img src="images/captures/cap-04.png" class="img-fluid radius-8" alt="user" />
+                    <div class="cap-overlay-content">
+                        <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
+                    </div>
+                </div>
+                <div class="capture-img position-relative five">
+                    <img src="images/captures/cap-05.png" class="img-fluid radius-8" alt="user" />
+                    <div class="cap-overlay-content">
+                        <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
+                    </div>
+                </div>
+                <div class="capture-img position-relative six">
+                    <img src="images/captures/cap-06.png" class="img-fluid radius-8" alt="user" />
+                    <div class="cap-overlay-content">
+                        <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
+                    </div>
+                </div>
+                <div class="capture-img position-relative seven">
+                    <img src="images/captures/cap-07.png" class="img-fluid radius-8" alt="user" />
+                    <div class="cap-overlay-content">
+                        <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
+                    </div>
+                </div>
+                <div class="capture-img position-relative eight">
+                    <img src="images/captures/cap-08.png" class="img-fluid radius-8" alt="user" />
+                    <div class="cap-overlay-content">
+                        <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
+                    </div>
+                </div>
+                <div class="capture-img position-relative nine">
+                    <img src="images/captures/cap-09.png" class="img-fluid radius-8" alt="user" />
+                    <div class="cap-overlay-content">
+                        <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
+                    </div>
+                </div>
+                <div class="capture-img position-relative ten">
+                    <img src="images/captures/cap-10.png" class="img-fluid radius-8" alt="user" />
+                    <div class="cap-overlay-content">
+                        <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
+                    </div>
+                </div>
+                <div class="capture-img position-relative eleven">
+                    <img src="images/captures/cap-11.png" class="img-fluid radius-8" alt="user" />
+                    <div class="cap-overlay-content">
+                        <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
+                    </div>
+                </div>
+                <div class="capture-img position-relative twelve">
+                    <img src="images/captures/cap-12.png" class="img-fluid radius-8" alt="user" />
+                    <div class="cap-overlay-content">
+                        <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
+                    </div>
+                </div>
+                <div class="capture-img position-relative thirdteen">
+                    <img src="images/captures/cap-13.png" class="img-fluid radius-8" alt="user" />
+                    <div class="cap-overlay-content">
+                        <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
+                    </div>
+                </div>
+                <div class="capture-img position-relative fortheen">
+                    <img src="images/captures/cap-14.png" class="img-fluid radius-8" alt="user" />
+                    <div class="cap-overlay-content">
+                        <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
+                    </div>
+                </div>
+                <div class="capture-img position-relative fifteen">
+                    <img src="images/captures/cap-15.png" class="img-fluid radius-8" alt="user" />
+                    <div class="cap-overlay-content">
+                        <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- <div class="hideMe">
             <div class="arrow-circle" id="upArrow">
                 <svg width="17" height="22" viewBox="0 0 17 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -411,5 +1074,21 @@
     <script src="https://cdn.jsdelivr.net/npm/inertia-plugin@0.6.0/dist/runtime.iife.min.js"></script>
     <script src="./js/slick.min.js"></script>
     <script src="./js/about.js"></script>
+    <!-- <script>
+        window.onload = function() {
+            let offset = 0;
+
+            function animateText() {
+                offset += 0.1;
+                if (offset > 100) offset = 0;
+                const path = document.getElementById("animatedTextPath");
+                if (path) {
+                    path.setAttribute("startOffset", offset + "%");
+                }
+                requestAnimationFrame(animateText);
+            }
+            animateText();
+        };
+    </script> -->
 
 </body>
