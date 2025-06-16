@@ -16,7 +16,7 @@
                     <div class="hero-title">
                         <h1 class="text-white mb-0">
                             <span class="d-block">
-                                <span>From the<span class="pd_italic"><em>Frontlines</em></span></span>
+                                <span>From the <span class="pd_italic"><em>Frontlines</em></span></span>
                             </span>
                             <span class="d-block">
                                  <span>of <span class="pd_italic"><em>Progress</em></span></span><span class="dot-animated text_green"><span class="pulse-animate"><span class="pulse_dot"></span></span></span></span>
@@ -87,58 +87,47 @@
                 <h2 class="main-title text-white w-100">Fresh from the <i class="pd_italic text_green">Frontlines</i><span class="dot-animated text_green"><span class="pulse-animate"><span class="pulse_dot"></span></span></span></h2>
                 <p class="vision-desc text-white p-0">Sharp takes and timely reflections on our shared path.  Discover content that informs and inspires lasting change.</p>
             </div>
-            <div class="hiring-steps-inner">
-                <div class="h-step s-active position-relative radius-16">
-                    <div class="h-step-top">
-                        <h5 class="d-block h-step-sub-title dm_sbold">Apply</h5>
-                        <div class="step-content">
-                            <h3 class="dm_medium text-white">Submit Your Application</h3>
-                            <p class="text-white  mb-0">Fill in the application form for the job that fits your skills and interests.</p>
+            <div class="hiring-steps-inner frontline-steps">
+                <div class="fr-step one overflow-hidden position-relative">
+                    <img src="images/resourses/res-01.jpg" class="fr-img img-fluid" alt="blog" />
+                    <div class="fr-step-bottom">
+                        <h2 class="f-step-number text-white">1</h2>
+                        <div class="fr-content">
+                            <p class="text-white f-step-desc one mb-0">Oluwadare Calls for Bold Leadership to Shape Nigeria's Future.</p>
+                            <p class="text-white f-step-desc two mb-0">Gone are the days of silent citizens. Oluwadare reflects on his recent town hall visits, sharing the insights gathered from direct conversations with residents.</p>
                         </div>
-                    </div>
-                    <div class="h-step-bottom">
-                        <span class="h-step-number"><span class="dm_sbold">1</span></span>
-                    </div>
-                    <img src="images/job/apply-ic.svg" class="j-icon" alt="apply" />
+                    </div>                    
                 </div>
-                <div class="h-step position-relative radius-16">
-                    <div class="h-step-top">
-                        <h5 class="d-block h-step-sub-title dm_sbold">Review</h5>
-                       <div class="step-content">
-                            <h3 class="dm_medium text-white">Shortlisting & Contact</h3>
-                            <p class="text-white mb-0">If shortlisted, you’ll be contacted via email or SMS for the next steps.</p>
+                <div class="fr-step overflow-hidden position-relative">
+                    <img src="images/resourses/res-02.jpg" class="fr-img img-fluid" alt="blog" />
+                    <div class="fr-step-bottom">
+                        <h2 class="f-step-number text-white">2</h2>
+                        <div class="fr-content">
+                            <p class="text-white f-step-desc one mb-0">2025 Elections Near: The Movement for Change Gains Ground Across Nigeria.</p>
+                            <p class="text-white f-step-desc two mb-0">As the 2025 elections approach, Oluwadare points the need leadership. His call for participatory governance is resonating across states and communities.</p>
                         </div>
-                    </div>
-                    <div class="h-step-bottom">
-                        <span class="h-step-number"><span class="dm_sbold">2</span></span>
-                    </div>
-                    <img src="images/job/apply-ic.svg" class="j-icon" alt="apply" />
+                    </div>                    
                 </div>
-                <div class="h-step position-relative radius-16">
-                    <div class="h-step-top">
-                        <h5 class="d-block h-step-sub-title dm_sbold">Shortlist</h5>
-                       <div class="step-content">
-                            <h3 class="dm_medium text-white">Interview / Screening</h3>
-                            <p class="text-white  mb-0">A short conversation or interview is scheduled to understand your strengths better.</p>
+                <div class="fr-step overflow-hidden position-relative">
+                    <img src="images/resourses/res-03.jpg" class="fr-img img-fluid" alt="blog" />
+                    <div class="fr-step-bottom">
+                        <h2 class="f-step-number text-white">3</h2>
+                        <div class="fr-content">
+                            <p class="text-white f-step-desc one mb-0">From Streets to Strategy: How Grassroots Voices Are Shaping Policy Priorities.</p>
+                            <p class="text-white f-step-desc two mb-0">Oluwadare Calls for Bold Leadership to Shape Nigeria's Future. 
+Gone are the days of silent citizens. Oluwadare reflects on his recent town hall.</p>
                         </div>
-                    </div>
-                    <div class="h-step-bottom">
-                        <span class="h-step-number"><span class="dm_sbold d-inline-block">3</span></span>
-                    </div>
-                    <img src="images/job/apply-ic.svg" class="j-icon" alt="apply" />
+                    </div>                    
                 </div>
-                <div class="h-step position-relative radius-16">
-                    <div class="h-step-top">
-                        <h5 class="d-block h-step-sub-title dm_sbold">Onboarding</h5>
-                        <div class="step-content">
-                            <h3 class="dm_medium text-white">Final Decision</h3>
-                            <p class="text-white  mb-0">If selected, you’ll receive an offer with next steps for onboarding.</p>
+                <div class="fr-step overflow-hidden position-relative">
+                    <img src="images/resourses/res-04.jpg" class="fr-img img-fluid" alt="blog" />
+                    <div class="fr-step-bottom">
+                        <h2 class="f-step-number text-white">4</h2>
+                        <div class="fr-content">
+                            <p class="text-white f-step-desc one mb-0">Bridging Communities and Governance, A New Era of Accountability Begins.</p>
+                            <p class="text-white f-step-desc two mb-0">As the 2025 elections approach, Oluwadare points the need leadership. His call for participatory governance is resonating across states and communities.</p>
                         </div>
-                    </div>
-                    <div class="h-step-bottom">
-                        <span class="h-step-number"><span class="dm_sbold">4</span></span>
-                    </div>
-                    <img src="images/job/apply-ic.svg" class="j-icon" alt="apply" />
+                    </div>                    
                 </div>
             </div>
         </div>

@@ -141,3 +141,22 @@ if (hireSteps) {
           });
      });
 }
+
+//Frontlines Posts hover effect
+if (window.matchMedia("(min-width: 992px)").matches) {
+     const frontSteps = document.querySelectorAll('.fr-step');
+     if (frontSteps) {
+          frontSteps.forEach(function(fsteps) {
+               fsteps.addEventListener('mouseenter', function() {
+                    fsteps.closest('.frontline-steps').classList.add('fr-expand');
+                    frontSteps.forEach(fstep => fstep.classList.remove('fr-expand-width'));
+                    fsteps.classList.add('fr-expand-width');
+               });
+
+               fsteps.addEventListener('mouseleave', function() {
+                    fsteps.closest('.frontline-steps').classList.remove('fr-expand');
+                    fsteps.classList.remove('fr-expand-width');
+               });
+          });
+     }
+}
