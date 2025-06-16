@@ -107,10 +107,10 @@
                 </div>
             </div>
             <div class="verticle-scroll-content">
-                <div class="panel_content">
+                <!-- <div class="panel_title">
                     <h2 class="main-title">Where the <i class="pd_italic text_green">path</i> began, before the<i class="pd_italic text_green">spotlight</i><span class="dot-animated text_green"><span class="pulse-animate"><span class="pulse_dot"></span></span></span>
                     </h2>
-                </div>
+                </div> -->
                 <div class="panel_content">
                     <h3>Strategic Advisor – COVID-19 Relief via Mobile Finance</h3>
                     <p>Collaborated with APC state governments to implement electronic payment systems for
@@ -1072,7 +1072,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/Draggable.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/inertia-plugin@0.6.0/dist/runtime.iife.min.js"></script>
     <script src="./js/slick.min.js"></script>
-    <script src="./js/about.js"></script>
+    <script src="./js/about-02.js"></script>
     <!-- <script>
         window.onload = function() {
             let offset = 0;

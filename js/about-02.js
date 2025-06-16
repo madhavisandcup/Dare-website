@@ -62,80 +62,48 @@
 
 gsap.registerPlugin(ScrollTrigger);
 
-document.querySelectorAll(".verticle-scroll-slider").forEach((slider) => {
-     const imagePanels = slider.querySelectorAll(
-          ".verticle-scroll-img .image_panel"
-     );
-     const contentPanels = slider.querySelectorAll(
-          ".verticle-scroll-content .panel_content"
-     );
-     const contentWrapper = slider.querySelector(".verticle-scroll-content");
+const slider = document.querySelector(".verticle-scroll-slider");
+const panels = gsap.utils.toArray(".panel_content");
+const title = slider.querySelector(".panel_title");
 
-     // Set initial state for images: only first visible, rest hidden and absolutely positioned
-     imagePanels.forEach((panel, i) => {
-          gsap.set(panel, {
-               autoAlpha: i === 0 ? 1 : 0,
-               position: "absolute",
-               top: 0,
-               left: 0,
-               width: "100%",
-               height: "100%",
-          });
-     });
+// Calculate total height to scroll
+const totalScrollHeight = panels.length * (168 + 160); // panel height + margin
 
-     function makeActive(index) {
-          contentPanels.forEach((panel, i) => {
-               panel.classList.toggle("is-active", i === index);
-          });
-          imagePanels.forEach((panel, i) => {
-               panel.classList.toggle("is-active", i === index);
-               gsap.to(panel, {
-                    autoAlpha: i === index ? 1 : 0,
-                    duration: 0.6,
-                    overwrite: "auto",
-               });
-          });
-
-          // Smooth scroll the contentWrapper to vertically center the active panel_content
-          const activePanel = contentPanels[index];
-          if (activePanel) {
-               const wrapperHeight = contentWrapper.clientHeight;
-               const panelOffsetTop = activePanel.offsetTop;
-               const panelHeight = activePanel.offsetHeight;
-
-               // Calculate scrollTop so the active panel is vertically centered
-               const scrollTop = panelOffsetTop - wrapperHeight / 2 + panelHeight / 2;
-
-               contentWrapper.scrollTo({
-                    top: scrollTop,
-                    behavior: "smooth",
-               });
-          }
-     }
-
-     makeActive(0); // initialize first active
-
-     // Pin the entire .verticle-scroll-slider when scrolling through its content length
-     ScrollTrigger.create({
-          trigger: slider,
+// 1. Scroll the content upward during pinning
+gsap.to(".verticle-scroll-content", {
+     y: () => -(totalScrollHeight - window.innerHeight), // scroll up to reveal all panels
+     ease: "none",
+     scrollTrigger: {
+          trigger: ".verticle-scroll-slider",
           start: "top top",
-          end: () => `+=${contentPanels.length * window.innerHeight}`,
-          pin: true,
-          anticipatePin: 1,
+          end: () => `+=${totalScrollHeight}`, // total scroll distance
           scrub: true,
-     });
+          pin: true,
+     }
+});
 
-     // For each content panel, create a ScrollTrigger that activates makeActive on entering viewport center
-     contentPanels.forEach((panel, i) => {
-          ScrollTrigger.create({
-               trigger: panel,
-               start: "top center",
-               end: "bottom center",
-               onEnter: () => makeActive(i),
-               onEnterBack: () => makeActive(i),
-          });
+// 2. Track when each panel reaches the center of the viewport
+panels.forEach((panel) => {
+     ScrollTrigger.create({
+          trigger: panel,
+          start: "center center",
+          end: "bottom center",
+          onEnter: () => {
+               panels.forEach(p => p.classList.remove("is-active"));
+               panel.classList.add("is-active");
+          },
+          onEnterBack: () => {
+               panels.forEach(p => p.classList.remove("is-active"));
+               panel.classList.add("is-active");
+          }
      });
 });
+
+
+
+
+
+
 
 /************************** Timeline slider - GSAP *******************************/
 gsap.registerPlugin(ScrollTrigger);
