@@ -138,14 +138,15 @@ document.querySelectorAll(".verticle-scroll-slider").forEach((slider) => {
 });
 
 /************************** Timeline slider - GSAP *******************************/
-gsap.registerPlugin(ScrollTrigger);
-let mm = gsap.matchMedia();
-const pinnedImageWrappers = document.querySelectorAll(".timeline-scroll");
-if (pinnedImageWrappers) {
-     // Init timeline + ScrollTrigger
-     pinnedImageWrappers.forEach((cWrapper) => {
-          const inner = cWrapper.querySelector(".timeline-inner-content");
-          let cItemP = document.querySelector(".tm-slide.scroll-only");
+if (document.querySelector(".timeline-scroll") != null) {
+  gsap.registerPlugin(ScrollTrigger);
+  let mm = gsap.matchMedia();
+  const pinnedImageWrappers = document.querySelectorAll(".timeline-scroll");
+
+  // Init timeline + ScrollTrigger
+  pinnedImageWrappers.forEach((cWrapper) => {
+    const inner = cWrapper.querySelector(".timeline-inner-content");
+    let cItemP = document.querySelector(".tm-slide.scroll-only");
 
           let tl = gsap.timeline({
                ease: "none",
@@ -174,5 +175,6 @@ if (pinnedImageWrappers) {
           infinite: false,
      });
 }
+
 
 /************************** Text marquee semicircle - GSAP *******************************/

@@ -1765,53 +1765,124 @@ ul.slick-dots button:focus-visible {
      margin-left: 17vw !important;
 }
 
-.semicircle-container {
+.semicircle-marquee {
      position: relative;
+     width: 100%;
+     height: 450px;
+}
+
+.semicircle-container {
+     inset: 0;
+     position: absolute;
      width: 63rem;
-     height: 60rem;
+     height: 63rem;
      margin: 0 auto;
      display: block;
 }
 
+textPath {
+     dominant-baseline: middle;
+     alignment-baseline: middle;
+}
+
+/* .semicircle-container h2 {
+     position: absolute;
+     bottom: 0;
+     right: 0;
+     left: 0;
+     z-index: 1;
+     height: 600px;
+} */
+
 .circle-text {
      position: absolute;
-     top: -25em;
+     /* top: -16em; */
+     top: -36em;
+     /* top:0; */
      width: 100%;
      height: 100%;
-     transform: rotate(180deg);
-     /* overflow: visible; */
-
+     transform: scale(-1);
+     transition: transform 0.5s ease;
 }
 
 .circle-text svg {
      width: 100%;
      height: 100%;
-     /* position: absolute;
-     left: 0;
-     top: 0; */
-
-     animation: rotate 10s infinite linear;
-     -webkit-animation: rotate 10s infinite linear;
-     transform-origin: center center;
+     /* animation: rotate 50s linear 0s infinite;
+     -webkit-animation: rotate 50s linear 0s infinite;
+     transform-origin: center center; */
 }
 
 .circle-text text {
-     font-size: 50px;
-     fill: #00834e;
+     /* font-size: 50px;
+     fill: #00834e; */
      white-space: nowrap;
      transition: fill .2s;
 }
 
-.circle-text text .small-text {
+.circle-text text tspan {
      font-size: 20px;
+     fill: #B0B0B0;
+     transition: all 0.3s ease;
+
 }
 
-@keyframes rotate {
+.svg-wrapper {
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     inset: 0;
+}
+
+.tspan-item {
+     fill: #00834e;
+     font-size: 50px;
+     transition: all 0.4s ease;
+     -webkit-transition: all 0.4s ease;
+     -moz-transition: all 0.4s ease;
+     -ms-transition: all 0.4s ease;
+     -o-transition: all 0.4s ease;
+}
+
+/* .tspan-item.added {
+     fill: #00834e;
+     font-size: 50px;
+} */
+
+/* @keyframes rotate {
      0% {
           transform: rotate(0deg);
      }
 
-     100% {
-          transform: rotate(-360deg);
+     25% {
+          transform: rotate(90deg);
+          -webkit-transform: rotate(90deg);
+          -moz-transform: rotate(90deg);
+          -ms-transform: rotate(90deg);
+          -o-transform: rotate(90deg);
      }
-}
+
+     50% {
+          transform: rotate(180deg);
+          -webkit-transform: rotate(180deg);
+          -moz-transform: rotate(180deg);
+          -ms-transform: rotate(180deg);
+          -o-transform: rotate(180deg);
+     }
+
+     75% {
+          transform: rotate(270deg);
+          -webkit-transform: rotate(270deg);
+          -moz-transform: rotate(270deg);
+          -ms-transform: rotate(270deg);
+          -o-transform: rotate(270deg);
+     }
+
+     100% {
+          transform: rotate(360deg);
+          -webkit-transform: rotate(360deg);
+          -moz-transform: rotate(360deg);
+          -ms-transform: rotate(360deg);
+          -o-transform: rotate(360deg);
+     }
+} */

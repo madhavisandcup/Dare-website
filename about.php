@@ -144,122 +144,128 @@
             <h2 class="mb-0 text-black">He
                 <span class="d-block pd_italic">Envisions</span>
             </h2>
-            <div class="circle-text">
-                <svg width="1008" height="960" viewBox="0 0 1008 960" xmlns="http://www.w3.org/2000/svg">
-                    <defs>
-                        <path d="M500,200 a300,300 0 1,1 -0.1,0" id="textcircle"></path>
-                    </defs>
-                    <text dy="" writing-mode="vertical-rl">
-                        <textPath href="#textcircle">
-                            <tspan class="small-text" style="fill: #B0B0B0;">Progress That Reaches Everyone.</tspan>
-
-                            <tspan style="font-style: italic;">Justice </tspan> that doesn't wait.
-
-                            <tspan class="small-text" style="fill: #B0B0B0;">Unity Without Exception.</tspan>
-
-                            <tspan style="font-style: italic;">Unity </tspan> Without Exception.
-                        </textPath>
-                    </text>
-                </svg>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="marquee-led-driven sec-space">
-        <div class="marquee-block right-marquee">
-            <div class="marquee-inner flex">
-                <div class="marquee-text flex">
-                    <span class="m-item flex m-title">Led By Vision</span>
-
-                    <span class="m-item flex m-dot"><span></span></span>
-                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-01.webp" alt="m-img-01"></span></span>
-                    <span class="m-item flex m-dot"><span></span></span>
-
-                    <span class="m-item flex m-title">Driven By You</span>
-                    <span class="m-item flex m-dot"><span></span></span>
-                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-02.webp" alt="m-img-02"></span></span>
-                    <span class="m-item flex m-dot"><span></span></span>
-
-                    <span class="m-item flex m-title">Led By Vision</span>
-                    <span class="m-item flex m-dot"><span></span></span>
-                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-01.webp" alt="m-img-01"></span></span>
-                    <span class="m-item flex m-dot"><span></span></span>
-
-                    <span class="m-item flex m-title">Driven By You</span>
-                    <span class="m-item flex m-dot"><span></span></span>
-                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-02.webp" alt="m-img-02"></span></span>
-                    <span class="m-item flex m-dot"><span></span></span>
-
-                    <span class="m-item flex m-title">Led By Vision</span>
-                    <span class="m-item flex m-dot"><span></span></span>
-                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-01.webp" alt="m-img-01"></span></span>
-                    <span class="m-item flex m-dot"><span></span></span>
-
-                    <span class="m-item flex m-title">Driven By You</span>
-                    <span class="m-item flex m-dot"><span></span></span>
-                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-02.webp" alt="m-img-02"></span></span>
-                    <span class="m-item flex m-dot"><span></span></span>
-
-                    <span class="m-item flex m-title">Led By Vision</span>
-                    <span class="m-item flex m-dot"><span></span></span>
-                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-01.webp" alt="m-img-01"></span></span>
-                    <span class="m-item flex m-dot"><span></span></span>
-
-                    <span class="m-item flex m-title">Driven By You</span>
-                    <span class="m-item flex m-dot"><span></span></span>
-                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-02.webp" alt="m-img-02"></span></span>
-                    <span class="m-item flex m-dot"><span></span></span>
-
-                </div>
-                <div class="marquee-text flex">
-                    <span class="m-item flex m-title">Led By Vision</span>
-
-                    <span class="m-item flex m-dot"><span></span></span>
-                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-01.webp" alt="m-img-01"></span></span>
-                    <span class="m-item flex m-dot"><span></span></span>
-
-                    <span class="m-item flex m-title">Driven By You</span>
-                    <span class="m-item flex m-dot"><span></span></span>
-                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-02.webp" alt="m-img-02"></span></span>
-                    <span class="m-item flex m-dot"><span></span></span>
-
-                    <span class="m-item flex m-title">Led By Vision</span>
-                    <span class="m-item flex m-dot"><span></span></span>
-                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-01.webp" alt="m-img-01"></span></span>
-                    <span class="m-item flex m-dot"><span></span></span>
-
-                    <span class="m-item flex m-title">Driven By You</span>
-                    <span class="m-item flex m-dot"><span></span></span>
-                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-02.webp" alt="m-img-02"></span></span>
-                    <span class="m-item flex m-dot"><span></span></span>
-
-                    <span class="m-item flex m-title">Led By Vision</span>
-                    <span class="m-item flex m-dot"><span></span></span>
-                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-01.webp" alt="m-img-01"></span></span>
-                    <span class="m-item flex m-dot"><span></span></span>
-
-                    <span class="m-item flex m-title">Driven By You</span>
-                    <span class="m-item flex m-dot"><span></span></span>
-                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-02.webp" alt="m-img-02"></span></span>
-                    <span class="m-item flex m-dot"><span></span></span>
-
-                    <span class="m-item flex m-title">Led By Vision</span>
-                    <span class="m-item flex m-dot"><span></span></span>
-                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-01.webp" alt="m-img-01"></span></span>
-                    <span class="m-item flex m-dot"><span></span></span>
-
-                    <span class="m-item flex m-title">Driven By You</span>
-                    <span class="m-item flex m-dot"><span></span></span>
-                    <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-02.webp" alt="m-img-02"></span></span>
-                    <span class="m-item flex m-dot"><span></span></span>
-
+            <div class="svg-wrapper">
+                <div class="circle-text">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                      width="1000" height="1000" viewBox="0 0 1000 1000" preserveAspectRatio="xMidYMid meet" xml:space="preserve">
+                        <defs>
+                            <!-- Path: bottom arc (sweep from right to left to keep text upright) -->
+                            <path id="textcircle" d="M850,500 a350,350 0 0,0 -700,0"></path>
+                        </defs>
+                        <g class="rotating-group">
+                            <text>
+                                <textPath href="#textcircle" startOffset="0%">
+                                    <tspan class="small-text tspan-item">Justice that doesn't wait. </tspan>&nbsp;
+                                    <tspan class="small-text tspan-item">Unity Without Exception.</tspan>&nbsp;
+                                    <tspan class="small-text tspan-item">Power rooted in purpose.</tspan> &nbsp;
+                                    <tspan class="small-text tspan-item">Growth that lifts communities.</tspan> &nbsp;
+                                    <tspan class="small-text tspan-item">Truth as a standard.</tspan> &nbsp;
+                                    <tspan class="small-text tspan-item">Hope that does'nt fade.</tspan> &nbsp;
+                                </textPath>
+                            </text>
+                        </g>
+                    </svg>
                 </div>
             </div>
         </div>
     </div>
 
-    <section class="wrapper-timeline">
+    <div class="overflow-hidden">
+        <div class="marquee-led-driven sec-space mt-0">
+            <div class="marquee-block right-marquee">
+                <div class="marquee-inner flex">
+                    <div class="marquee-text flex">
+                        <span class="m-item flex m-title">Led By Vision</span>
+
+                        <span class="m-item flex m-dot"><span></span></span>
+                        <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-01.webp" alt="m-img-01"></span></span>
+                        <span class="m-item flex m-dot"><span></span></span>
+
+                        <span class="m-item flex m-title">Driven By You</span>
+                        <span class="m-item flex m-dot"><span></span></span>
+                        <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-02.webp" alt="m-img-02"></span></span>
+                        <span class="m-item flex m-dot"><span></span></span>
+
+                        <span class="m-item flex m-title">Led By Vision</span>
+                        <span class="m-item flex m-dot"><span></span></span>
+                        <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-01.webp" alt="m-img-01"></span></span>
+                        <span class="m-item flex m-dot"><span></span></span>
+
+                        <span class="m-item flex m-title">Driven By You</span>
+                        <span class="m-item flex m-dot"><span></span></span>
+                        <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-02.webp" alt="m-img-02"></span></span>
+                        <span class="m-item flex m-dot"><span></span></span>
+
+                        <span class="m-item flex m-title">Led By Vision</span>
+                        <span class="m-item flex m-dot"><span></span></span>
+                        <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-01.webp" alt="m-img-01"></span></span>
+                        <span class="m-item flex m-dot"><span></span></span>
+
+                        <span class="m-item flex m-title">Driven By You</span>
+                        <span class="m-item flex m-dot"><span></span></span>
+                        <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-02.webp" alt="m-img-02"></span></span>
+                        <span class="m-item flex m-dot"><span></span></span>
+
+                        <span class="m-item flex m-title">Led By Vision</span>
+                        <span class="m-item flex m-dot"><span></span></span>
+                        <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-01.webp" alt="m-img-01"></span></span>
+                        <span class="m-item flex m-dot"><span></span></span>
+
+                        <span class="m-item flex m-title">Driven By You</span>
+                        <span class="m-item flex m-dot"><span></span></span>
+                        <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-02.webp" alt="m-img-02"></span></span>
+                        <span class="m-item flex m-dot"><span></span></span>
+
+                    </div>
+                    <div class="marquee-text flex">
+                        <span class="m-item flex m-title">Led By Vision</span>
+
+                        <span class="m-item flex m-dot"><span></span></span>
+                        <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-01.webp" alt="m-img-01"></span></span>
+                        <span class="m-item flex m-dot"><span></span></span>
+
+                        <span class="m-item flex m-title">Driven By You</span>
+                        <span class="m-item flex m-dot"><span></span></span>
+                        <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-02.webp" alt="m-img-02"></span></span>
+                        <span class="m-item flex m-dot"><span></span></span>
+
+                        <span class="m-item flex m-title">Led By Vision</span>
+                        <span class="m-item flex m-dot"><span></span></span>
+                        <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-01.webp" alt="m-img-01"></span></span>
+                        <span class="m-item flex m-dot"><span></span></span>
+
+                        <span class="m-item flex m-title">Driven By You</span>
+                        <span class="m-item flex m-dot"><span></span></span>
+                        <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-02.webp" alt="m-img-02"></span></span>
+                        <span class="m-item flex m-dot"><span></span></span>
+
+                        <span class="m-item flex m-title">Led By Vision</span>
+                        <span class="m-item flex m-dot"><span></span></span>
+                        <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-01.webp" alt="m-img-01"></span></span>
+                        <span class="m-item flex m-dot"><span></span></span>
+
+                        <span class="m-item flex m-title">Driven By You</span>
+                        <span class="m-item flex m-dot"><span></span></span>
+                        <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-02.webp" alt="m-img-02"></span></span>
+                        <span class="m-item flex m-dot"><span></span></span>
+
+                        <span class="m-item flex m-title">Led By Vision</span>
+                        <span class="m-item flex m-dot"><span></span></span>
+                        <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-01.webp" alt="m-img-01"></span></span>
+                        <span class="m-item flex m-dot"><span></span></span>
+
+                        <span class="m-item flex m-title">Driven By You</span>
+                        <span class="m-item flex m-dot"><span></span></span>
+                        <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-02.webp" alt="m-img-02"></span></span>
+                        <span class="m-item flex m-dot"><span></span></span>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <!-- <section class="wrapper-timeline">
         <div id="timeline-main" class="timeline-scroll">
             <div class="timeline-inner-content">
                 <div class="tm-slide scroll-only">
@@ -484,24 +490,7 @@
                 </div>
             </div>
         </div>
-        <!-- custom navigation in slider -->
-        <!-- <div class="timeline-navigation slider-arrow">
-            <div class="arrow-circle timeline-prev">
-                <svg width="17" height="22" viewBox="0 0 17 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M9.60196 0.364805C9.36831 0.13122 9.05144 0 8.72105 0C8.39067 0 8.0738 0.13122 7.84015 0.364805L0.791638 7.41331C0.672634 7.52825 0.577713 7.66574 0.512412 7.81775C0.447112 7.96977 0.41274 8.13327 0.411302 8.29871C0.409864 8.46415 0.44139 8.62822 0.504039 8.78134C0.566688 8.93447 0.659206 9.07358 0.776194 9.19057C0.893183 9.30756 1.0323 9.40008 1.18542 9.46273C1.33855 9.52538 1.50262 9.5569 1.66806 9.55547C1.8335 9.55403 1.997 9.51966 2.14901 9.45436C2.30103 9.38906 2.43852 9.29413 2.55345 9.17513L7.47507 4.25351L7.47507 20.754C7.47507 21.0845 7.60635 21.4014 7.84001 21.6351C8.07368 21.8687 8.3906 22 8.72105 22C9.05151 22 9.36843 21.8687 9.6021 21.6351C9.83576 21.4014 9.96703 21.0845 9.96703 20.754L9.96703 4.25351L14.8887 9.17513C15.1237 9.40209 15.4384 9.52768 15.7651 9.52484C16.0918 9.522 16.4043 9.39097 16.6353 9.15995C16.8663 8.92894 16.9973 8.61643 17.0002 8.28974C17.003 7.96305 16.8774 7.64831 16.6505 7.41331L9.60196 0.364805Z" fill="#fff" />
-                </svg>
-            </div>
-
-            <div class="arrow-circle timeline-next">
-                <svg width="17" height="22" viewBox="0 0 17 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M7.80929 21.6352C8.04295 21.8688 8.35981 22 8.6902 22C9.02059 22 9.33745 21.8688 9.57111 21.6352L16.6196 14.5867C16.7386 14.4717 16.8335 14.3343 16.8988 14.1822C16.9641 14.0302 16.9985 13.8667 17 13.7013C17.0014 13.5359 16.9699 13.3718 16.9072 13.2187C16.8446 13.0655 16.752 12.9264 16.6351 12.8094C16.5181 12.6924 16.379 12.5999 16.2258 12.5373C16.0727 12.4746 15.9086 12.4431 15.7432 12.4445C15.5778 12.446 15.4143 12.4803 15.2622 12.5456C15.1102 12.6109 14.9727 12.7059 14.8578 12.8249L9.93618 17.7465L9.93618 1.24598C9.93618 0.915525 9.80491 0.598605 9.57124 0.364938C9.33757 0.131272 9.02066 -3.93975e-09 8.6902 0C8.35975 3.94151e-09 8.04283 0.131272 7.80916 0.364938C7.57549 0.598605 7.44422 0.915525 7.44422 1.24598L7.44422 17.7465L2.5226 12.8249C2.2876 12.5979 1.97287 12.4723 1.64618 12.4752C1.31948 12.478 1.00698 12.609 0.775961 12.84C0.544947 13.0711 0.41391 13.3836 0.41107 13.7103C0.408232 14.037 0.533817 14.3517 0.760782 14.5867L7.80929 21.6352Z" fill="white" />
-                </svg>
-
-            </div>
-        </div>
-        <div class="timeline-pagination"></div> -->
-
-    </section>
+    </section> -->
 
     <section class="voice-wrapper">
         <div class="container">
@@ -1044,28 +1033,30 @@
         </div>
     </section>
 
+
+
     <!-- <div class="hideMe">
-            <div class="arrow-circle" id="upArrow">
-                <svg width="17" height="22" viewBox="0 0 17 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M9.60196 0.364805C9.36831 0.13122 9.05144 0 8.72105 0C8.39067 0 8.0738 0.13122 7.84015 0.364805L0.791638 7.41331C0.672634 7.52825 0.577713 7.66574 0.512412 7.81775C0.447112 7.96977 0.41274 8.13327 0.411302 8.29871C0.409864 8.46415 0.44139 8.62822 0.504039 8.78134C0.566688 8.93447 0.659206 9.07358 0.776194 9.19057C0.893183 9.30756 1.0323 9.40008 1.18542 9.46273C1.33855 9.52538 1.50262 9.5569 1.66806 9.55547C1.8335 9.55403 1.997 9.51966 2.14901 9.45436C2.30103 9.38906 2.43852 9.29413 2.55345 9.17513L7.47507 4.25351L7.47507 20.754C7.47507 21.0845 7.60635 21.4014 7.84001 21.6351C8.07368 21.8687 8.3906 22 8.72105 22C9.05151 22 9.36843 21.8687 9.6021 21.6351C9.83576 21.4014 9.96703 21.0845 9.96703 20.754L9.96703 4.25351L14.8887 9.17513C15.1237 9.40209 15.4384 9.52768 15.7651 9.52484C16.0918 9.522 16.4043 9.39097 16.6353 9.15995C16.8663 8.92894 16.9973 8.61643 17.0002 8.28974C17.003 7.96305 16.8774 7.64831 16.6505 7.41331L9.60196 0.364805Z" fill="white" />
-                </svg>
-            </div>
-            <div class="arrow-circle" id="downArrow">
-                <svg width="17" height="22" viewBox="0 0 17 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M7.80929 21.6352C8.04295 21.8688 8.35981 22 8.6902 22C9.02059 22 9.33745 21.8688 9.57111 21.6352L16.6196 14.5867C16.7386 14.4717 16.8335 14.3343 16.8988 14.1822C16.9641 14.0302 16.9985 13.8667 17 13.7013C17.0014 13.5359 16.9699 13.3718 16.9072 13.2187C16.8446 13.0655 16.752 12.9264 16.6351 12.8094C16.5181 12.6924 16.379 12.5999 16.2258 12.5373C16.0727 12.4746 15.9086 12.4431 15.7432 12.4445C15.5778 12.446 15.4143 12.4803 15.2622 12.5456C15.1102 12.6109 14.9727 12.7059 14.8578 12.8249L9.93618 17.7465L9.93618 1.24598C9.93618 0.915525 9.80491 0.598605 9.57124 0.364938C9.33757 0.131272 9.02066 -3.93975e-09 8.6902 0C8.35975 3.94151e-09 8.04283 0.131272 7.80916 0.364938C7.57549 0.598605 7.44422 0.915525 7.44422 1.24598L7.44422 17.7465L2.5226 12.8249C2.2876 12.5979 1.97287 12.4723 1.64618 12.4752C1.31948 12.478 1.00698 12.609 0.775961 12.84C0.544947 13.0711 0.41391 13.3836 0.41107 13.7103C0.408232 14.037 0.533817 14.3517 0.760782 14.5867L7.80929 21.6352Z" fill="white" />
-                </svg>
-            </div>
+                <div class="arrow-circle" id="upArrow">
+                    <svg width="17" height="22" viewBox="0 0 17 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.60196 0.364805C9.36831 0.13122 9.05144 0 8.72105 0C8.39067 0 8.0738 0.13122 7.84015 0.364805L0.791638 7.41331C0.672634 7.52825 0.577713 7.66574 0.512412 7.81775C0.447112 7.96977 0.41274 8.13327 0.411302 8.29871C0.409864 8.46415 0.44139 8.62822 0.504039 8.78134C0.566688 8.93447 0.659206 9.07358 0.776194 9.19057C0.893183 9.30756 1.0323 9.40008 1.18542 9.46273C1.33855 9.52538 1.50262 9.5569 1.66806 9.55547C1.8335 9.55403 1.997 9.51966 2.14901 9.45436C2.30103 9.38906 2.43852 9.29413 2.55345 9.17513L7.47507 4.25351L7.47507 20.754C7.47507 21.0845 7.60635 21.4014 7.84001 21.6351C8.07368 21.8687 8.3906 22 8.72105 22C9.05151 22 9.36843 21.8687 9.6021 21.6351C9.83576 21.4014 9.96703 21.0845 9.96703 20.754L9.96703 4.25351L14.8887 9.17513C15.1237 9.40209 15.4384 9.52768 15.7651 9.52484C16.0918 9.522 16.4043 9.39097 16.6353 9.15995C16.8663 8.92894 16.9973 8.61643 17.0002 8.28974C17.003 7.96305 16.8774 7.64831 16.6505 7.41331L9.60196 0.364805Z" fill="white" />
+                    </svg>
+                </div>
+                <div class="arrow-circle" id="downArrow">
+                    <svg width="17" height="22" viewBox="0 0 17 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.80929 21.6352C8.04295 21.8688 8.35981 22 8.6902 22C9.02059 22 9.33745 21.8688 9.57111 21.6352L16.6196 14.5867C16.7386 14.4717 16.8335 14.3343 16.8988 14.1822C16.9641 14.0302 16.9985 13.8667 17 13.7013C17.0014 13.5359 16.9699 13.3718 16.9072 13.2187C16.8446 13.0655 16.752 12.9264 16.6351 12.8094C16.5181 12.6924 16.379 12.5999 16.2258 12.5373C16.0727 12.4746 15.9086 12.4431 15.7432 12.4445C15.5778 12.446 15.4143 12.4803 15.2622 12.5456C15.1102 12.6109 14.9727 12.7059 14.8578 12.8249L9.93618 17.7465L9.93618 1.24598C9.93618 0.915525 9.80491 0.598605 9.57124 0.364938C9.33757 0.131272 9.02066 -3.93975e-09 8.6902 0C8.35975 3.94151e-09 8.04283 0.131272 7.80916 0.364938C7.57549 0.598605 7.44422 0.915525 7.44422 1.24598L7.44422 17.7465L2.5226 12.8249C2.2876 12.5979 1.97287 12.4723 1.64618 12.4752C1.31948 12.478 1.00698 12.609 0.775961 12.84C0.544947 13.0711 0.41391 13.3836 0.41107 13.7103C0.408232 14.037 0.533817 14.3517 0.760782 14.5867L7.80929 21.6352Z" fill="white" />
+                    </svg>
+                </div>
 
-            <div id="masterWrap">
-                <div id="panelWrap">
-                    <div class="timeline-slide position-relative">
+                <div id="masterWrap">
+                    <div id="panelWrap">
+                        <div class="timeline-slide position-relative">
 
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="dots"></div>
-        </div> -->
+                <div class="dots"></div>
+            </div> -->
 
 
     <?php include 'footer.php'; ?>
@@ -1073,21 +1064,4 @@
     <script src="https://cdn.jsdelivr.net/npm/inertia-plugin@0.6.0/dist/runtime.iife.min.js"></script>
     <script src="./js/slick.min.js"></script>
     <script src="./js/about.js"></script>
-    <!-- <script>
-        window.onload = function() {
-            let offset = 0;
-
-            function animateText() {
-                offset += 0.1;
-                if (offset > 100) offset = 0;
-                const path = document.getElementById("animatedTextPath");
-                if (path) {
-                    path.setAttribute("startOffset", offset + "%");
-                }
-                requestAnimationFrame(animateText);
-            }
-            animateText();
-        };
-    </script> -->
-
 </body>
