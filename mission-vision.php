@@ -1026,4 +1026,5 @@
     </section>
 </div>
     <?php include 'footer.php'; ?>
+    <script src="js/feature.js"></script>
 </body>

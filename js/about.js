@@ -1,152 +1,78 @@
-// gsap.registerPlugin(ScrollTrigger);
-
-// // Main pinning and scroll animation
-// document.querySelectorAll(".verticle-layout-wrap").forEach((slider) => {
-//   const parent = slider.closest(".verticle-scroll-slider");
-//   const imageWrapper = slider.querySelector(".verticle-scroll-img");
-//   const contentWrapper = slider.querySelector(".verticle-scroll-content");
-//   const contents = slider.querySelectorAll(".panel_content");
-//   const images = slider.querySelectorAll(".image_panel");
-
-//   // Set image initial state
-//   images.forEach((img, i) => {
-//     gsap.set(img, {
-//       autoAlpha: i === 0 ? 1 : 0,
-//       position: "absolute",
-//       top: 0,
-//       left: 0,
-//       width: "100%"
-//     });
-//   });
-
-//   // 🔄 Active class & fade control
-//   function makeItemActive(index) {
-//     contents.forEach(el => el.classList.remove("is-active"));
-//     images.forEach(el => el.classList.remove("is-active"));
-
-//     contents[index].classList.add("is-active");
-//     images[index].classList.add("is-active");
-
-//     // Fade logic
-//     images.forEach((img, i) => {
-//       gsap.to(img, {
-//         autoAlpha: i === index ? 1 : 0,
-//         duration: 0.5,
-//         overwrite: "auto"
-//       });
-//     });
-//   }
-
-//   makeItemActive(0); // Initialize first active
-
-//   // 🔒 Pin parent
-//   ScrollTrigger.create({
-//     trigger: parent,
-//     start: "top top",
-//     end: () => `+=${contentWrapper.scrollHeight}`,
-//     pin: true,
-//     anticipatePin: 1
-//   });
-
-//   // 🔄 Scroll-based switching
-//   contents.forEach((content, i) => {
-//     ScrollTrigger.create({
-//       trigger: content,
-//       start: "top center",
-//       end: "bottom center",
-//       onEnter: () => makeItemActive(i),
-//       onEnterBack: () => makeItemActive(i)
-//     });
-//   });
-// });
-
+/************************** Verticle slider - GSAP *******************************/
 gsap.registerPlugin(ScrollTrigger);
 
-document.querySelectorAll(".verticle-scroll-slider").forEach((slider) => {
-     const imagePanels = slider.querySelectorAll(
-          ".verticle-scroll-img .image_panel"
-     );
-     const contentPanels = slider.querySelectorAll(
-          ".verticle-scroll-content .panel_content"
-     );
-     const contentWrapper = slider.querySelector(".verticle-scroll-content");
+const verticleScroll = document.querySelector(".verticle-scroll-slider");
+const contents = gsap.utils.toArray(".panel_content");
+const images = gsap.utils.toArray(".image_panel");
+const totalPanels = contents.length;
+const panelHeight = 168;
+const panelMargin = 160;
+const contentHeight = totalPanels * (panelHeight + panelMargin);
+const extraBuffer = window.innerHeight * 0.8; // extra scroll after last panel
 
-     // Set initial state for images: only first visible, rest hidden and absolutely positioned
-     imagePanels.forEach((panel, i) => {
-          gsap.set(panel, {
-               autoAlpha: i === 0 ? 1 : 0,
-               position: "absolute",
-               top: 0,
-               left: 0,
-               width: "100%",
-               height: "100%",
-          });
+if (verticleScroll) {
+     // Main timeline
+     const tl = gsap.timeline({
+          scrollTrigger: {
+               trigger: verticleScroll,
+               start: "top top",
+               end: () => `+=${contentHeight + extraBuffer}`,
+               scrub: true,
+               pin: true,
+               anticipatePin: 1,
+               onUpdate: () => {
+                    const center = window.innerHeight / 2;
+
+                    let activeIndex = -1;
+
+                    contents.forEach((el, i) => {
+                         const box = el.getBoundingClientRect();
+                         const itemCenter = box.top + box.height / 2;
+
+                         if (itemCenter < center + 84) {
+                              activeIndex = i; // 84 = half of 168 (panel height)
+                         }
+                    });
+
+                    contents.forEach((el, i) => {
+                         const isActive = i === activeIndex;
+                         el.classList.toggle("is-active", isActive);
+                         images[i].classList.toggle("is-active", isActive);
+                    });
+
+                    // Toggle default image visibility
+                    const anyImageActive = images.some(img => img.classList.contains("is-active"));
+                    document.querySelector(".default_panel").classList.toggle("hidden", anyImageActive);
+               },
+          },
      });
 
-     function makeActive(index) {
-          contentPanels.forEach((panel, i) => {
-               panel.classList.toggle("is-active", i === index);
-          });
-          imagePanels.forEach((panel, i) => {
-               panel.classList.toggle("is-active", i === index);
-               gsap.to(panel, {
-                    autoAlpha: i === index ? 1 : 0,
-                    duration: 0.6,
-                    overwrite: "auto",
-               });
-          });
+     // Smoothly move and fade out panel_title as scroll starts
+     tl.to(".panel_title", {
+          y: -180,
+          autoAlpha: 0,
+          ease: "none",
+          duration: 0.15,
+     }, 0);
 
-          // Smooth scroll the contentWrapper to vertically center the active panel_content
-          const activePanel = contentPanels[index];
-          if (activePanel) {
-               const wrapperHeight = contentWrapper.clientHeight;
-               const panelOffsetTop = activePanel.offsetTop;
-               const panelHeight = activePanel.offsetHeight;
-
-               // Calculate scrollTop so the active panel is vertically centered
-               const scrollTop = panelOffsetTop - wrapperHeight / 2 + panelHeight / 2;
-
-               contentWrapper.scrollTo({
-                    top: scrollTop,
-                    behavior: "smooth",
-               });
-          }
-     }
-
-     makeActive(0); // initialize first active
-
-     // Pin the entire .verticle-scroll-slider when scrolling through its content length
-     ScrollTrigger.create({
-          trigger: slider,
-          start: "top top",
-          end: () => `+=${contentPanels.length * window.innerHeight}`,
-          pin: true,
-          anticipatePin: 1,
-          scrub: true,
-     });
-
-     // For each content panel, create a ScrollTrigger that activates makeActive on entering viewport center
-     contentPanels.forEach((panel, i) => {
-          ScrollTrigger.create({
-               trigger: panel,
-               start: "top center",
-               end: "bottom center",
-               onEnter: () => makeActive(i),
-               onEnterBack: () => makeActive(i),
-          });
-     });
-});
+     // Then move the whole content upward to scroll through panels
+     tl.to(".verticle-scroll-content", {
+          y: -contentHeight,
+          ease: "none",
+          duration: 0.8,
+     }, 0);
+}
 
 /************************** Timeline slider - GSAP *******************************/
 if (document.querySelector(".timeline-scroll") != null) {
-  gsap.registerPlugin(ScrollTrigger);
-  let mm = gsap.matchMedia();
-  const pinnedImageWrappers = document.querySelectorAll(".timeline-scroll");
+     gsap.registerPlugin(ScrollTrigger);
+     let mm = gsap.matchMedia();
+     const pinnedImageWrappers = document.querySelectorAll(".timeline-scroll");
 
-  // Init timeline + ScrollTrigger
-  pinnedImageWrappers.forEach((cWrapper) => {
-    const inner = cWrapper.querySelector(".timeline-inner-content");
-    let cItemP = document.querySelector(".tm-slide.scroll-only");
+     // Init timeline + ScrollTrigger
+     pinnedImageWrappers.forEach((cWrapper) => {
+          const inner = cWrapper.querySelector(".timeline-inner-content");
+          let cItemP = document.querySelector(".tm-slide.scroll-only");
 
           let tl = gsap.timeline({
                ease: "none",

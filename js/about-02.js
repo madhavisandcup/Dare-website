@@ -62,7 +62,7 @@
 
 gsap.registerPlugin(ScrollTrigger);
 
-const slider = document.querySelector(".verticle-scroll-slider");
+const vSlider = document.querySelector(".verticle-scroll-slider");
 const contents = gsap.utils.toArray(".panel_content");
 const images = gsap.utils.toArray(".image_panel");
 const totalPanels = contents.length;
@@ -71,56 +71,59 @@ const panelMargin = 160;
 const contentHeight = totalPanels * (panelHeight + panelMargin);
 const extraBuffer = window.innerHeight * 0.8; // extra scroll after last panel
 
-// Main timeline
-const tl = gsap.timeline({
-     scrollTrigger: {
-          trigger: ".verticle-scroll-slider",
-          start: "top top",
-          end: () => `+=${contentHeight + extraBuffer}`,
-          scrub: true,
-          pin: true,
-          anticipatePin: 1,
-          onUpdate: () => {
-               const center = window.innerHeight / 2;
+if (vSlider) {
+     // Main timeline
+     const tl = gsap.timeline({
+          scrollTrigger: {
+               trigger: vSlider,
+               start: "top top",
+               end: () => `+=${contentHeight + extraBuffer}`,
+               scrub: true,
+               pin: true,
+               anticipatePin: 1,
+               onUpdate: () => {
+                    const center = window.innerHeight / 2;
 
-               let activeIndex = -1;
+                    let activeIndex = -1;
 
-               contents.forEach((el, i) => {
-                    const box = el.getBoundingClientRect();
-                    const itemCenter = box.top + box.height / 2;
+                    contents.forEach((el, i) => {
+                         const box = el.getBoundingClientRect();
+                         const itemCenter = box.top + box.height / 2;
 
-                    if (itemCenter < center + 84) {
-                         activeIndex = i; // 84 = half of 168 (panel height)
-                    }
-               });
+                         if (itemCenter < center + 84) {
+                              activeIndex = i; // 84 = half of 168 (panel height)
+                         }
+                    });
 
-               contents.forEach((el, i) => {
-                    const isActive = i === activeIndex;
-                    el.classList.toggle("is-active", isActive);
-                    images[i].classList.toggle("is-active", isActive);
-               });
+                    contents.forEach((el, i) => {
+                         const isActive = i === activeIndex;
+                         el.classList.toggle("is-active", isActive);
+                         images[i].classList.toggle("is-active", isActive);
+                    });
 
-               // Toggle default image visibility
-               const anyImageActive = images.some(img => img.classList.contains("is-active"));
-               document.querySelector(".default_panel").classList.toggle("hidden", anyImageActive);
+                    // Toggle default image visibility
+                    const anyImageActive = images.some(img => img.classList.contains("is-active"));
+                    document.querySelector(".default_panel").classList.toggle("hidden", anyImageActive);
+               },
           },
-     },
-});
+     });
 
-// Smoothly move and fade out panel_title as scroll starts
-tl.to(".panel_title", {
-     y: -180,
-     autoAlpha: 0,
-     ease: "none",
-     duration: 0.15,
-}, 0);
+     // Smoothly move and fade out panel_title as scroll starts
+     tl.to(".panel_title", {
+          y: -180,
+          autoAlpha: 0,
+          ease: "none",
+          duration: 0.15,
+     }, 0);
 
-// Then move the whole content upward to scroll through panels
-tl.to(".verticle-scroll-content", {
-     y: -contentHeight,
-     ease: "none",
-     duration: 0.8,
-}, 0);
+     // Then move the whole content upward to scroll through panels
+     tl.to(".verticle-scroll-content", {
+          y: -contentHeight,
+          ease: "none",
+          duration: 0.8,
+     }, 0);
+}
+
 
 /************************** Timeline slider - GSAP *******************************/
 gsap.registerPlugin(ScrollTrigger);

@@ -883,4 +883,5 @@
     </section>
 </div>
     <?php include 'footer.php'; ?>
+    <script type="module" src="job-feeds/main.js"></script>
 </body>
