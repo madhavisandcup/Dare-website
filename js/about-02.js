@@ -63,47 +63,64 @@
 gsap.registerPlugin(ScrollTrigger);
 
 const slider = document.querySelector(".verticle-scroll-slider");
-const panels = gsap.utils.toArray(".panel_content");
-const title = slider.querySelector(".panel_title");
+const contents = gsap.utils.toArray(".panel_content");
+const images = gsap.utils.toArray(".image_panel");
+const totalPanels = contents.length;
+const panelHeight = 168;
+const panelMargin = 160;
+const contentHeight = totalPanels * (panelHeight + panelMargin);
+const extraBuffer = window.innerHeight * 0.8; // extra scroll after last panel
 
-// Calculate total height to scroll
-const totalScrollHeight = panels.length * (168 + 160); // panel height + margin
-
-// 1. Scroll the content upward during pinning
-gsap.to(".verticle-scroll-content", {
-     y: () => -(totalScrollHeight - window.innerHeight), // scroll up to reveal all panels
-     ease: "none",
+// Main timeline
+const tl = gsap.timeline({
      scrollTrigger: {
           trigger: ".verticle-scroll-slider",
           start: "top top",
-          end: () => `+=${totalScrollHeight}`, // total scroll distance
+          end: () => `+=${contentHeight + extraBuffer}`,
           scrub: true,
           pin: true,
-     }
-});
+          anticipatePin: 1,
+          onUpdate: () => {
+               const center = window.innerHeight / 2;
 
-// 2. Track when each panel reaches the center of the viewport
-panels.forEach((panel) => {
-     ScrollTrigger.create({
-          trigger: panel,
-          start: "center center",
-          end: "bottom center",
-          onEnter: () => {
-               panels.forEach(p => p.classList.remove("is-active"));
-               panel.classList.add("is-active");
+               let activeIndex = -1;
+
+               contents.forEach((el, i) => {
+                    const box = el.getBoundingClientRect();
+                    const itemCenter = box.top + box.height / 2;
+
+                    if (itemCenter < center + 84) {
+                         activeIndex = i; // 84 = half of 168 (panel height)
+                    }
+               });
+
+               contents.forEach((el, i) => {
+                    const isActive = i === activeIndex;
+                    el.classList.toggle("is-active", isActive);
+                    images[i].classList.toggle("is-active", isActive);
+               });
+
+               // Toggle default image visibility
+               const anyImageActive = images.some(img => img.classList.contains("is-active"));
+               document.querySelector(".default_panel").classList.toggle("hidden", anyImageActive);
           },
-          onEnterBack: () => {
-               panels.forEach(p => p.classList.remove("is-active"));
-               panel.classList.add("is-active");
-          }
-     });
+     },
 });
 
+// Smoothly move and fade out panel_title as scroll starts
+tl.to(".panel_title", {
+     y: -180,
+     autoAlpha: 0,
+     ease: "none",
+     duration: 0.15,
+}, 0);
 
-
-
-
-
+// Then move the whole content upward to scroll through panels
+tl.to(".verticle-scroll-content", {
+     y: -contentHeight,
+     ease: "none",
+     duration: 0.8,
+}, 0);
 
 /************************** Timeline slider - GSAP *******************************/
 gsap.registerPlugin(ScrollTrigger);

@@ -85,54 +85,57 @@
     </section>
 
     <div class="verticle-scroll-slider">
-        <div class="verticle-layout-wrap">
-            <div class="verticle-scroll-img">
-                <div class="image_panel">
-                    <img src="./images/about/about-one.svg" alt="" class="img-fluid scroll_img_item">
+        <div class="verticle-inner position-relative">
+                <div class="default_panel">
+                    <img src="./images/about/about-one.svg" alt="" class="img-fluid">
                 </div>
                 <div class="image_panel">
                     <img src="./images/about/about-two.svg" alt="" class="img-fluid scroll_img_item">
                 </div>
                 <div class="image_panel">
-                    <img src="./images/about/about-one.svg" alt="" class="img-fluid scroll_img_item">
+                    <img src="./images/about/about-three.svg" alt="" class="img-fluid scroll_img_item">
+                </div>
+                <div class="image_panel">
+                    <img src="./images/about/about-four.svg" alt="" class="img-fluid scroll_img_item">
                 </div>
                 <div class="image_panel">
                     <img src="./images/about/about-two.svg" alt="" class="img-fluid scroll_img_item">
                 </div>
                 <div class="image_panel">
-                    <img src="./images/about/about-one.svg" alt="" class="img-fluid scroll_img_item">
+                    <img src="./images/about/about-three.svg" alt="" class="img-fluid scroll_img_item">
                 </div>
-                <div class="image_panel">
+                <!-- <div class="image_panel">
                     <img src="./images/about/about-two.svg" alt="" class="img-fluid scroll_img_item">
-                </div>
-            </div>
-            <div class="verticle-scroll-content">
-                <!-- <div class="panel_title">
+                </div> -->
+           
+             <div class="panel_title">
                     <h2 class="main-title">Where the <i class="pd_italic text_green">path</i> began, before the<i class="pd_italic text_green">spotlight</i><span class="dot-animated text_green"><span class="pulse-animate"><span class="pulse_dot"></span></span></span>
                     </h2>
-                </div> -->
+                </div>
+            <div class="verticle-scroll-content">
+               
                 <div class="panel_content">
-                    <h3>Strategic Advisor – COVID-19 Relief via Mobile Finance</h3>
+                    <h3>01. Strategic Advisor – COVID-19 Relief via Mobile Finance</h3>
                     <p>Collaborated with APC state governments to implement electronic payment systems for
                         salary disbursement and public program funding. This helped reduce corruption and improve financial transparency.</p>
                 </div>
                 <div class="panel_content">
-                    <h3>Strategic Advisor – COVID-19 Relief via Mobile Finance</h3>
+                    <h3>02. Strategic Advisor – COVID-19 Relief via Mobile Finance</h3>
                     <p>Collaborated with APC state governments to implement electronic payment systems for
                         salary disbursement and public program funding. This helped reduce corruption and improve financial transparency.</p>
                 </div>
                 <div class="panel_content">
-                    <h3>Strategic Advisor – COVID-19 Relief via Mobile Finance</h3>
+                    <h3>03. Strategic Advisor – COVID-19 Relief via Mobile Finance</h3>
                     <p>Collaborated with APC state governments to implement electronic payment systems for
                         salary disbursement and public program funding. This helped reduce corruption and improve financial transparency.</p>
                 </div>
                 <div class="panel_content">
-                    <h3>Strategic Advisor – COVID-19 Relief via Mobile Finance</h3>
+                    <h3>04. Strategic Advisor – COVID-19 Relief via Mobile Finance</h3>
                     <p>Collaborated with APC state governments to implement electronic payment systems for
                         salary disbursement and public program funding. This helped reduce corruption and improve financial transparency.</p>
                 </div>
                 <div class="panel_content">
-                    <h3>Strategic Advisor – COVID-19 Relief via Mobile Finance</h3>
+                    <h3>05. Strategic Advisor – COVID-19 Relief via Mobile Finance</h3>
                     <p>Collaborated with APC state governments to implement electronic payment systems for
                         salary disbursement and public program funding. This helped reduce corruption and improve financial transparency.</p>
                 </div>
