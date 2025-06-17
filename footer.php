@@ -106,9 +106,9 @@
     <script src="https://unpkg.com/split-type"></script>
     <!-- <script src="./js/circletype.min.js"></script> -->
     <!-- <script src="./js/about.js"></script> -->
-    <script src="js/feature.js"></script>
+    <!-- <script src="js/feature.js"></script> -->
     <script src="./js/custom.js"></script>
-    <script src="./js/custom-02.js"></script>
+    <!-- <script src="./js/custom-02.js"></script> -->
     <script src="./js/cursor-slider.js"></script>
     <!-- <script type="module" src="job-feeds/main.js"></script> -->
 </footer>
