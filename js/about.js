@@ -104,3 +104,87 @@ if (document.querySelector(".timeline-scroll") != null) {
 
 
 /************************** Text marquee semicircle - GSAP *******************************/
+
+/************************** Text marquee semicircle - GSAP *******************************/
+// // Add a class
+// gsap.to(".for-add", {
+//   onStart: () => {
+//     document.querySelector(".for-add").classList.add("highlight");
+//   }
+// });
+
+// // Remove a class
+// gsap.to(".for-remove", {
+//   delay: 0.5,
+//   onStart: () => {
+//     document.querySelector(".for-remove").classList.remove("small-text");
+//   }
+// });
+
+// // Optional: Animate fill color or other SVG styles
+// gsap.to(".for-add", {
+//   fontSize: "50px",
+//   fill: "#00834e", // green highlight, for example
+//   duration: 1
+// });
+
+gsap.registerPlugin(ScrollTrigger);
+
+let rotationTween;
+let intervalID;
+
+// ✅ Start continuous rotation
+function startRotation() {
+  if (!rotationTween) {
+    rotationTween = gsap.to(".circle-text svg", {
+      rotate: "+=360",
+      duration: 40,
+      ease: "linear",
+      repeat: -1,
+      transformOrigin: "50% 50%",
+      transformBox: "fill-box"
+    });
+  }
+}
+
+// ✅ Start looping .added class on tspans
+function startTspanLoop() {
+  const tspans = document.querySelectorAll(".tspan-item");
+  let index = 0;
+
+  intervalID = setInterval(() => {
+    tspans.forEach(t => t.classList.remove("added")); // remove all first
+    tspans[index].classList.add("added");             // add to current
+
+    // Remove after 1.5 seconds
+    setTimeout(() => {
+      tspans[index].classList.remove("added");
+    }, 1500);
+
+    index = (index + 1) % tspans.length; // loop to next
+  }, 3000); // every 2 seconds
+}
+
+function stopTspanLoop() {
+  clearInterval(intervalID);
+}
+
+// ✅ Start everything when .svg-wrapper enters viewport
+ScrollTrigger.create({
+  trigger: ".svg-wrapper",
+  start: "top bottom", // as soon as it enters viewport
+  onEnter: () => {
+    startRotation();     // start rotating forever
+    startTspanLoop();    // start adding/removing .added
+  },
+  onEnterBack: () => {
+    startRotation();
+    startTspanLoop();
+  },
+  onLeave: () => {
+    stopTspanLoop();     // stop only tspan loop
+  },
+  onLeaveBack: () => {
+    stopTspanLoop();
+  }
+});
