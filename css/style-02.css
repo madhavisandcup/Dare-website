@@ -1888,6 +1888,107 @@
           /* width: 100%; */
           animation-delay: 0.4s;
      }
+     /*******Nation Blogs*******/
+     
+     .nation-tabs-wrapper {
+          margin-top: 5vw;
+     }
+     
+     .nation-post-item:not(:last-child) {
+          padding-bottom: 32px;
+          margin-bottom: 32px;
+          border-bottom: 0.5px solid #767676;
+     }
+     
+     .n-meta-tags {
+          display: flex;
+          align-items: center;
+          gap: 35px;
+          margin-bottom: 16px;
+     }
+     
+     .n-meta-tags small {
+          font-size: 16px;
+          color: #B0B0B0;
+     }
+     
+     .nation-tabs {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 40px;
+     }
+     /***Momentum Post******/
+     
+     .mom-item {
+          border: 1px solid #EAEAEB;
+          padding: 32px;
+          margin-bottom: 32px;
+          height: calc(100% - 32px);
+     }
+     
+     .grid-50 {
+          display: flex;
+          gap: 32px;
+     }
+     
+     .mom-item.grid-50>div,
+     .grid-50>figure {
+          width: 50%;
+     }
+     
+     .mom-item.sm .mom-card__content {
+          margin-top: 32px;
+     }
+     
+     .productSlider .swiper-slide,
+     .productSlider .swiper-wrapper {
+          height: auto;
+     }
+     
+     .productSlider .swiper-wrapper {
+          padding-bottom: 30px;
+     }
+     /* Customize the scrollbar container */
+     
+     .productSlider .swiper-scrollbar {
+          height: 6px;
+          width: 60%;
+          left: 50%;
+          bottom: 0;
+          top: auto;
+          background: #e0e0e0;
+          opacity: 1 !important;
+          transform: translateX(-50%);
+          transition: none !important;
+     }
+     
+     .productSlider .swiper-scrollbar-drag {
+          background: #666;
+          border-radius: 10px;
+          /* transition: transform 0.2s ease; */
+          /* transition: none !important; */
+          /* transform-origin: left center;
+          transform: scaleX(0.5);
+          transition: transform 0.2s ease; */
+     }
+     /* .productSlider .swiper-scrollbar {
+          background: #dfdfdf;
+          border-radius: 10px;
+          height: 4px;
+          bottom: 0;
+          transition: opacity .4s;
+          left: 10%;
+          width: 80%;
+     }
+     
+     .productSlider .swiper-scrollbar-drag {
+          height: 100%;
+          width: 100%;
+          position: relative;
+          background: #00000080;
+          left: 0;
+          top: 0;
+     } */
      
      @-moz-keyframes spin {
           100% {

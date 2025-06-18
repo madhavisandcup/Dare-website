@@ -85,6 +85,69 @@ if (titleMask) {
 }
 
 
+const pSwiper = new Swiper(".productSlider", {
+     direction: "horizontal",
+     slidesOffsetBefore: 100,
+     loop: false,
+     // Navigation arrows
+     navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+     },
+     scrollbar: {
+          el: ".swiper-scrollbar",
+          hide: false,
+          draggable: true,
+     },
+
+     breakpoints: {
+          0: {
+               // Small screen
+               slidesPerView: 1.5,
+               spaceBetween: 14,
+               slidesOffsetBefore: 20,
+          },
+          576: {
+               // Small screen
+               slidesPerView: 2.4,
+               spaceBetween: 16,
+               slidesOffsetBefore: 30,
+          },
+          1024: {
+               slidesPerView: 2.8,
+               spaceBetween: 20,
+               slidesOffsetBefore: 60,
+          },
+          1300: {
+               slidesPerView: 3.5,
+               spaceBetween: 24,
+          },
+          1630: {
+               slidesPerView: 4.5,
+               spaceBetween: 24,
+          },
+     },
+     on: {
+          init: function() {
+               scaleSwiperDrag();
+          },
+          resize: function() {
+               scaleSwiperDrag();
+          }
+     }
+});
+
+function scaleSwiperDrag() {
+     const drag = document.querySelector('.productSlider .swiper-scrollbar-drag');
+     if (drag) {
+          let scale = 0.5; // default
+          if (window.innerWidth < 576) scale = 0.4;
+          else if (window.innerWidth > 1600) scale = 0.7;
+
+          drag.style.transformOrigin = 'left center';
+          drag.style.transform = `scaleX(${scale})`;
+     }
+}
 
 
 

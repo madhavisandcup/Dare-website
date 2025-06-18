@@ -131,9 +131,126 @@ Gone are the days of silent citizens. Oluwadare reflects on his recent town hall
                 </div>
             </div>
         </div>
-    </section>    
+    </section>  
 
-    <div class="marquee-led-driven sec-space">
+    <section class="events-wrapper sec-space overflow-hidden sm-events">
+        <div class="container">
+            <div class="center-heading text-center">
+                <h2 class="main-title w-100">Across the  <i class="pd_italic text_green">Nation's</i> Pages<span class="dot-animated text_green"><span class="pulse-animate"><span class="pulse_dot"></span></span></span></h2>
+                <p class="vision-desc m-0">Insightful writings, reflections, and published thoughts by Oluwadare Owolabi on leadership, governance, and the evolving needs of Nigeria’s people.</p>
+            </div>
+       
+            <div class="nation-tabs-wrapper">
+                <div class="nation-tabs">
+                    <div class="position-relative">
+                        <div class="nav nav-tabs border-0 justify-content-start" role="tablist">
+                            <button class="tabs-name nav-link active" id="nav-infrastructure-tab" data-bs-toggle="tab" data-bs-target="#nav-infrastructure" type="button" role="tab" aria-controls="nav-infrastructure" aria-selected="true">
+                                <h5>Infrastructure</h5>
+                            </button>
+                            <button class="tabs-name nav-link" id="nav-security-tab" data-bs-toggle="tab" data-bs-target="#nav-security" type="button" role="tab" aria-controls="nav-security" aria-selected="true">
+                                <h5>Security</h5>
+                            </button>
+                            <button class="tabs-name nav-link" id="nav-education-tab" data-bs-toggle="tab" data-bs-target="#nav-education" type="button" role="tab" aria-controls="nav-education" aria-selected="true">
+                                <h5>Education</h5>
+                            </button>
+                            <button class="tabs-name nav-link" id="nav-technology-tab" data-bs-toggle="tab" data-bs-target="#nav-technology" type="button" role="tab" aria-controls="nav-technology" aria-selected="true">
+                                <h5>Technology</h5>
+                            </button>
+                            <button class="tabs-name nav-link" id="nav-admin-tab" data-bs-toggle="tab" data-bs-target="#nav-admin" type="button" role="tab" aria-controls="nav-admin" aria-selected="true">
+                                <h5>Administration</h5>
+                            </button>
+                            <button class="tabs-name nav-link" id="nav-health-tab" data-bs-toggle="tab" data-bs-target="#nav-health" type="button" role="tab" aria-controls="nav-health" aria-selected="true">
+                                <h5>Health</h5>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="year-dropdown">
+                        <select class="form-select sm year_text" aria-label="select year">
+                            <option selected class="">2025</option>
+                            <option value="1" class="">2024</option>
+                            <option value="2" class="">2023</option>
+                            <option value="3" class="">2022</option>
+                        </select>
+                    </div>                
+                </div>
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-infrastructure" role="tabpanel" aria-labelledby="nav-infrastructure-tab" tabindex="0">
+                        <article class="nation-post-item">
+                            <div class="row">
+                                <div class="col-xl-9">
+                                    <div class="n-meta-tags">
+                                        <small>May 2 , 2025</small>
+                                        <small>Channels TV5</small>
+                                    </div> 
+                                    <div class="n-post-content">
+                                        <h4>Oluwadare Owolabi: A Steady Voice in Nigeria’s Rising Political Tide</h4>
+                                        <p class="extra_light_grey">
+                                            As Nigeria prepares for a new chapter, Oluwadare Owolabi’s grounded leadership is gaining attention. This article highlights his grassroots approach and policy priorities that resonate across generations.
+                                        </p>
+                                    </div>  
+                                </div>
+                                <div class="col-xl-3">
+                                    <figure>
+                                        <img src="images/resourses/n-01.png" class="img-fluid radius-16" alt="channel-tv">
+                                    </figure>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="nation-post-item">
+                            <div class="row">
+                                <div class="col-xl-9">
+                                    <div class="n-meta-tags">
+                                        <small>May 2 , 2025</small>
+                                        <small>Channels TV5</small>
+                                    </div> 
+                                    <div class="n-post-content">
+                                        <h4>Breaking Ground, Building Trust: Oluwadare Begins Statewide Listening Tour</h4>
+                                        <p class="extra_light_grey">
+                                           Oluwadare explores the values behind decisive leadership and how empathy and structure shape policy that puts people first.
+                                        </p>
+                                    </div>  
+                                </div>
+                                <div class="col-xl-3">
+                                    <figure>
+                                        <img src="images/resourses/n-01.png" class="img-fluid radius-16" alt="channel-tv">
+                                    </figure>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="nation-post-item">
+                            <div class="row">
+                                <div class="col-xl-9">
+                                    <div class="n-meta-tags">
+                                        <small>May 2 , 2025</small>
+                                        <small>Channels TV5</small>
+                                    </div> 
+                                    <div class="n-post-content">
+                                        <h4>Bridging Dreams and Duty: Oluwadare’s Path to Policy-Driven Change</h4>
+                                        <p class="extra_light_grey">
+                                            As conversations shift toward sustainable governance, Oluwadare Owolabi remains focused on action over noise. This feature explores his commitment to inclusive development and the quiet reform shaping local communities.
+                                        </p>
+                                    </div>  
+                                </div>
+                                <div class="col-xl-3">
+                                    <figure>
+                                        <img src="images/resourses/n-01.png" class="img-fluid radius-16" alt="channel-tv">
+                                    </figure>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="events_btn main-btn-inner position-relative">
+                    <a href="#" class="main-btn position-relative"><span class="btn-text">Explore more</span><span class="arrw-btn">
+                            <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <div class="marquee-led-driven resources sec-space">
         <div class="marquee-block right-marquee">
             <div class="marquee-inner flex">
                 <div class="marquee-text flex">
@@ -226,77 +343,150 @@ Gone are the days of silent citizens. Oluwadare reflects on his recent town hall
         </div>
     </div>
 
-    <section id="appication-form-wrapper" class="appication-form-wrapper sec-space">
-       <div class="container">
-            <h2>Submit your application</h2>
-            <div id="app-form-main">
-                <!-- <form id="application-form" class="application-form-inner radius-16" action="">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="form-input">
-                                <label for="job-sector" class="form-label">Job Sector*</label>
-                                <select class="form-select" id="job-sector">
-                                <option selected>Education</option>
-                                <option value="1">Security</option>
-                                <option value="2">Infrastructure</option>
-                                <option value="3">Technology</option>
-                                <option value="4">Administration</option>
-                                <option value="5">Health</option>
-                            </select>
+     <section class="events-wrapper sec-space overflow-hidden sm-events">
+        <div class="container">
+            <div class="center-heading text-center">
+                <h2 class="main-title w-100"><i class="pd_italic text_green">Momentum</i> in the Media <span class="dot-animated text_green"><span class="pulse-animate"><span class="pulse_dot"></span></span></span></h2>
+                <p class="vision-desc m-0">Coverage from media outlets and political conversations. Official releases, updates, and documented statements.</p>
+            </div>
+       
+            <div class="nation-tabs-wrapper">
+                <div class="nation-tabs">
+                    <div class="position-relative">
+                        <div class="nav nav-tabs border-0 justify-content-start" role="tablist">
+                            <button class="tabs-name nav-link active" id="nav-highlight-tab" data-bs-toggle="tab" data-bs-target="#nav-highlight" type="button" role="tab" aria-controls="nav-highlight" aria-selected="true">
+                                <h5>Highlight</h5>
+                            </button>
+                            <button class="tabs-name nav-link" id="nav-press-tab" data-bs-toggle="tab" data-bs-target="#nav-press" type="button" role="tab" aria-controls="nav-press" aria-selected="true">
+                                <h5>Press Releases</h5>
+                            </button>
+                            <button class="tabs-name nav-link" id="nav-media-tab" data-bs-toggle="tab" data-bs-target="#nav-media" type="button" role="tab" aria-controls="nav-media" aria-selected="true">
+                                <h5>Social Media Coverage</h5>
+                            </button>                           
+                        </div>
+                    </div>
+                    <div class="year-dropdown">
+                        <select class="form-select sm year_text" aria-label="select year">
+                            <option selected class="">2025</option>
+                            <option value="1" class="">2024</option>
+                            <option value="2" class="">2023</option>
+                            <option value="3" class="">2022</option>
+                        </select>
+                    </div>                
+                </div>
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-highlight" role="tabpanel" aria-labelledby="nav-highlight-tab" tabindex="0">
+                        
+                        <div class="row">
+                            <div class="col-xl-9">
+                                <article class="mom-item grid-50">
+                                    <div class="mom-card__media">
+                                        <figure class="mom-images">
+                                            <img
+                                                    src="images/resourses/mom-lg.jpg"
+                                                    alt="Audience listening at a health conference"
+                                                    loading="lazy"
+                                                    class="mom-card__image radius-16 img-fluid"
+                                                />
+                                        </figure>
+                                        <div class="grid-50 sm">
+                                            <figure class="mom-images">
+                                            <img
+                                                    src="images/resourses/mom-sm.jpg"
+                                                    alt="Audience listening at a health conference"
+                                                    loading="lazy"
+                                                    class="mom-card__image radius-16  img-fluid"
+                                                />
+                                        </figure>
+                                        <figure class="mom-images">
+                                            <img
+                                                    src="images/resourses/mom-sm-02.jpg"
+                                                    alt="Audience listening at a health conference"
+                                                    loading="lazy"
+                                                    class="mom-card__image radius-16  img-fluid"
+                                                />
+                                        </figure>
+                                        </div>
+                                    </div>
+                                    <div class="mom-card__content">
+                                    <h3>Digital Youth Labs</h3>
+                                    <p>Launched free digital skills training programs in 4 public secondary schools, equipping students with hands-on experience in coding, design, and basic tech tools. The initiative was designed to bridge the opportunity gap for young minds in underserved communities.</p>
+                                    </div>
+                                </article>                                                           
+                            </div>
+                            <div class="col-xl-3">
+                                <article class="mom-item sm">
+                                    <figure>
+                                        <img src="images/resourses/n-01.png" class="img-fluid radius-16" alt="channel-tv">
+                                        <figcaption class="mom-card__content">
+                                        <h3>Wellness on the Move</h3>
+                                        <p>Launched free digital skills training programs in 4 public secondary schools, equipping students.</p>
+                                    </figcaption>
+                                    </figure>
+                                </article>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="form-input">
-                                <label for="position" class="form-label">Position*</label>
-                                <select class="form-select" id="position">
-                                    <option selected>Site Supervisor</option>
-                                    <option value="1">Civil Engineer</option>
-                                    <option value="2">Public Works Coordinator</option>
-                                    <option value="3">Field Surveyor</option>
-                                </select>
+                       
+                       <div class="row">
+                            <div class="col-xl-9">
+                                <article class="mom-item grid-50">
+                                    <div class="mom-card__media">
+                                        <figure class="mom-images">
+                                            <img
+                                                    src="images/resourses/mom-lg.jpg"
+                                                    alt="Audience listening at a health conference"
+                                                    loading="lazy"
+                                                    class="mom-card__image radius-16 img-fluid"
+                                                />
+                                        </figure>
+                                        <div class="grid-50 sm">
+                                            <figure class="mom-images">
+                                            <img
+                                                    src="images/resourses/mom-sm.jpg"
+                                                    alt="Audience listening at a health conference"
+                                                    loading="lazy"
+                                                    class="mom-card__image radius-16  img-fluid"
+                                                />
+                                        </figure>
+                                        <figure class="mom-images">
+                                            <img
+                                                    src="images/resourses/mom-sm-02.jpg"
+                                                    alt="Audience listening at a health conference"
+                                                    loading="lazy"
+                                                    class="mom-card__image radius-16  img-fluid"
+                                                />
+                                        </figure>
+                                        </div>
+                                    </div>
+                                    <div class="mom-card__content">
+                                    <h3>Digital Youth Labs</h3>
+                                    <p>Launched free digital skills training programs in 4 public secondary schools, equipping students with hands-on experience in coding, design, and basic tech tools. The initiative was designed to bridge the opportunity gap for young minds in underserved communities.</p>
+                                    </div>
+                                </article>                               
                             </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-input">
-                                <label for="applicant-name" class="form-label">Name*</label>
-                                <input type="text" class="form-control" id="applicant-name" placeholder="Enter your full name">
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-input">
-                                <label for="email" class="form-label">Email*</label>
-                                <input type="email" class="form-control" id="email" placeholder="hello@gmail.com">
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="form-input">
-                                <label for="message" class="form-label">Description</label>
-                                <textarea  type="text" class="form-control" id="message" rows="3" placeholder="why you want to apply"></textarea>
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="form-input">
-                                <label for="uploadResume" class="form-label">Upload your resume*</label>
-                                <div class="custom-file-uploader position-relative">
-                                    <span class="choose-file-button">Choose files</span>
-                                    <span class="choose-text"><img src="images/job/add-ic.svg" alt="svg"><span>Files supported: PDF, Docx, PNG</span></span>
-                                    <input type="file" class="file-input" placeholder="" id="uploadResume">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                        <div class="main-btn-inner mt-0 position-relative">
-                                <a href="#" class="main-btn position-relative"><span class="btn-text">Apply Now</span><span class="arrw-btn">
-                                    <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
-                                </a>
+                            <div class="col-xl-3">
+                                <article class="mom-item sm">
+                                    <figure>
+                                        <img src="images/resourses/n-01.png" class="img-fluid radius-16" alt="channel-tv">
+                                        <figcaption class="mom-card__content">
+                                        <h3>Wellness on the Move</h3>
+                                        <p>Launched free digital skills training programs in 4 public secondary schools, equipping students.</p>
+                                    </figcaption>
+                                    </figure>
+                                </article>
                             </div>
                         </div>
                     </div>
-                </form> -->
+                </div>
+
+                <div class="events_btn main-btn-inner position-relative">
+                    <a href="#" class="main-btn position-relative"><span class="btn-text">Explore more</span><span class="arrw-btn">
+                            <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
+                    </a>
+                </div>
             </div>
         </div>
     </section>
-
    
     <section class="faqs-wrapper overflow-hidden sec-space sm-events">
             <div class="container">
@@ -478,6 +668,64 @@ Gone are the days of silent citizens. Oluwadare reflects on his recent town hall
                     </div>
                 </div>
             </div>
+    </section>
+
+    <section class="events-wrapper sec-space overflow-hidden sm-events">
+        <div class="container">
+            <div class="center-heading text-center">
+                <h2 class="main-title w-100">Be Part of the <i class="pd_italic text_green">Movement</i><span class="dot-animated text_green"><span class="pulse-animate"><span class="pulse_dot"></span></span></span></h2>
+                <p class="vision-desc m-0">See where we’ll be next rallies, town halls, and moments that matter.</p>
+            </div>
+        </div>
+        <div class="event-tabs-wrapper product">
+            <div class="swiper productSlider">
+                <div class="swiper-wrapper h-auto">
+                    <!-- Slides -->
+                    <div class="swiper-slide">                             
+                        <div class="event_card_img">                                        
+                            <img src="./images/events-image/culture-center.webp" alt="culture-center" class="card_img_size img-fluid">
+                            <div class="card_title">
+                                <h5 class="text-black">Cultural Centre, <i class="pd_italic">Ibadan</i></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">                             
+                        <div class="event_card_img">                                        
+                            <img src="./images/events-image/culture-center.webp" alt="culture-center" class="card_img_size img-fluid">
+                            <div class="card_title">
+                                <h5 class="text-black">Cultural Centre, <i class="pd_italic">Ibadan</i></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">                             
+                        <div class="event_card_img">                                        
+                            <img src="./images/events-image/culture-center.webp" alt="culture-center" class="card_img_size img-fluid">
+                            <div class="card_title">
+                                <h5 class="text-black">Cultural Centre, <i class="pd_italic">Ibadan</i></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">                             
+                        <div class="event_card_img">                                        
+                            <img src="./images/events-image/culture-center.webp" alt="culture-center" class="card_img_size img-fluid">
+                            <div class="card_title">
+                                <h5 class="text-black">Cultural Centre, <i class="pd_italic">Ibadan</i></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">                             
+                        <div class="event_card_img">                                        
+                            <img src="./images/events-image/culture-center.webp" alt="culture-center" class="card_img_size img-fluid">
+                            <div class="card_title">
+                                <h5 class="text-black">Cultural Centre, <i class="pd_italic">Ibadan</i></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-scrollbar">
+                </div>
+            </div>
+        </div>
     </section>
 
     <section class="voice-wrapper capture-mm position-relative">
