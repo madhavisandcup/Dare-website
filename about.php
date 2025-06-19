@@ -146,14 +146,14 @@
             <div class="svg-wrapper">
                 <div class="circle-text">
                     <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                      width="1000" height="1000" viewBox="0 0 1000 1000" preserveAspectRatio="xMidYMid meet" xml:space="preserve">
+                      width="950" height="950" viewBox="0 0 950 950" xml:space="preserve">
                         <defs>
                             <!-- Path: bottom arc (sweep from right to left to keep text upright) -->
-                            <path id="textcircle" d="M850,500 a350,350 0 0,0 -700,0"></path>
+                            <path id="textcircle" d="M900,500 a400,400 0 0,0 -800,0"></path>
                         </defs>
                         <g class="rotating-group">
                             <text>
-                                <textPath href="#textcircle" startOffset="0%">
+                                <textPath href="#textcircle">
                                     <tspan class="small-text tspan-item">Justice that doesn't wait. </tspan>&nbsp;
                                     <tspan class="small-text tspan-item">Unity Without Exception.</tspan>&nbsp;
                                     <tspan class="small-text tspan-item">Power rooted in purpose.</tspan> &nbsp;

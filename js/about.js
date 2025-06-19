@@ -162,7 +162,7 @@ function startTspanLoop() {
     }, 1500);
 
     index = (index + 1) % tspans.length; // loop to next
-  }, 3000); // every 2 seconds
+  }, 2000); // every 2 seconds
 }
 
 function stopTspanLoop() {
