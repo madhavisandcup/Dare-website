@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
     <title>Dare - Mission and Vision</title>
 
     <!-- <link rel='icon' type='image/png' sizes='16x16' href='./images/favicon.svg'> -->
@@ -12,7 +15,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="css/typography.css" rel="stylesheet" type="text/css" />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
-    
+
     <!-- <link href="css/style-panel.css" rel="stylesheet" type="text/css" /> -->
     <link href="css/style-02.css" rel="stylesheet" type="text/css" />
     <link href="css/res-02.css" rel="stylesheet" type="text/css" />

@@ -86,29 +86,30 @@
 
     <div class="verticle-scroll-slider">
         <div class="verticle-inner position-relative">
-                <div class="default_panel">
-                    <img src="./images/about/about-one.svg" alt="" class="img-fluid">
-                </div>
-                <div class="image_panel">
-                    <img src="./images/about/about-two.svg" alt="" class="img-fluid scroll_img_item">
-                </div>
-                <div class="image_panel">
-                    <img src="./images/about/about-three.svg" alt="" class="img-fluid scroll_img_item">
-                </div>
-                <div class="image_panel">
-                    <img src="./images/about/about-four.svg" alt="" class="img-fluid scroll_img_item">
-                </div>
-                <div class="image_panel">
-                    <img src="./images/about/about-two.svg" alt="" class="img-fluid scroll_img_item">
-                </div>
-                <div class="image_panel">
-                    <img src="./images/about/about-three.svg" alt="" class="img-fluid scroll_img_item">
-                </div>
-           
-             <div class="panel_title">
-                    <h2 class="main-title">Where the <i class="pd_italic text_green">path</i> began, before the<i class="pd_italic text_green">spotlight</i><span class="dot-animated text_green"><span class="pulse-animate"><span class="pulse_dot"></span></span></span>
-                    </h2>
-                </div>
+            <div class="default_panel">
+                <div class="gradient-layer"></div>
+                <img src="./images/about/about-one.svg" alt="" class="img-fluid">
+            </div>
+            <div class="image_panel">
+                <img src="./images/about/about-two.svg" alt="" class="img-fluid scroll_img_item">
+            </div>
+            <div class="image_panel">
+                <img src="./images/about/about-three.svg" alt="" class="img-fluid scroll_img_item">
+            </div>
+            <div class="image_panel">
+                <img src="./images/about/about-four.svg" alt="" class="img-fluid scroll_img_item">
+            </div>
+            <div class="image_panel">
+                <img src="./images/about/about-two.svg" alt="" class="img-fluid scroll_img_item">
+            </div>
+            <div class="image_panel">
+                <img src="./images/about/about-three.svg" alt="" class="img-fluid scroll_img_item">
+            </div>
+
+            <div class="panel_title">
+                <h2 class="main-title text-white mb-0">Where the <i class="pd_italic text_green">path</i> began, before the <i class="pd_italic text_green">spotlight</i><span class="dot-animated text_green"><span class="pulse-animate"><span class="pulse_dot"></span></span></span>
+                </h2>
+            </div>
             <div class="verticle-scroll-content">
                 <div class="panel_content">
                     <h3>01. Strategic Advisor – COVID-19 Relief via Mobile Finance</h3>
@@ -138,6 +139,7 @@
             </div>
         </div>
     </div>
+
     <div class="semicircle-marquee overflow-hidden text-center">
         <div class="semicircle-container animate">
             <h2 class="mb-0 text-black">He
@@ -145,14 +147,33 @@
             </h2>
             <div class="svg-wrapper">
                 <div class="circle-text">
-                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                    <!-- <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                       width="950" height="950" viewBox="0 0 950 950" xml:space="preserve">
                         <defs>
-                            <!-- Path: bottom arc (sweep from right to left to keep text upright) -->
                             <path id="textcircle" d="M900,500 a400,400 0 0,0 -800,0"></path>
                         </defs>
-                        <g class="rotating-group">
-                            <text>
+                        <text>
+                            <textPath href="#textcircle" textLength="1500">
+                                <tspan class="small-text tspan-item">Justice that doesn't wait. </tspan>&nbsp;
+                                <tspan class="small-text tspan-item">Unity Without Exception.</tspan>&nbsp;
+                                <tspan class="small-text tspan-item">Power rooted in purpose.</tspan> &nbsp;
+                                <tspan class="small-text tspan-item">Growth that lifts communities.</tspan> &nbsp;
+                                <tspan class="small-text tspan-item">Truth as a standard.</tspan> &nbsp;
+                                <tspan class="small-text tspan-item">Hope that does'nt fade.</tspan> &nbsp;
+                            </textPath>
+                        </text>
+                      
+                    </svg> -->
+                   
+                    <svg width="950" height="950" viewBox="0 0 950 950" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <path id="textcircle" d="M170,500 A300,300 0 0,0 775,500" />
+                            <clipPath id="clipHalfCircle">
+                                <path d="M175,450 A300,300 0 0,0 775,700 L775,800 L800,0 Z" />
+                            </clipPath>
+                        </defs>
+                        <g id="textGroup">
+                            <text font-size="" clip-path="url(#clipHalfCircle)" text-anchor="middle">
                                 <textPath href="#textcircle">
                                     <tspan class="small-text tspan-item">Justice that doesn't wait. </tspan>&nbsp;
                                     <tspan class="small-text tspan-item">Unity Without Exception.</tspan>&nbsp;
@@ -163,6 +184,7 @@
                                 </textPath>
                             </text>
                         </g>
+                        
                     </svg>
                 </div>
             </div>
@@ -264,35 +286,36 @@
         </div>
     </div>
     <br>
-    <!-- <section class="wrapper-timeline">
+    <section class="wrapper-timeline">
         <div id="timeline-main" class="timeline-scroll">
             <div class="timeline-inner-content">
                 <div class="tm-slide scroll-only">
                     <div class="center-heading text-center">
-                        <h2 class="text-black text_70">
-                            <span class="">
-                                <span class="">A T<span class="wrap_in"><span class="pulse-animate"><span class="pulse_dot"></span><span class="d-inline-block overflow-hidden">
-                                                <svg width="7" height="41" class="object_i" viewBox="0 0 7 41" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M0.240234 40.9997V0.679688H6.96023V40.9997H0.240234Z" fill="black" />
-                                                </svg></span></span></span>mel<span class="wrap_in"><span class="pulse-animate"><span class="pulse_dot"></span><span class="d-inline-block overflow-hidden">
-                                                <svg width="7" height="41" class="object_i" viewBox="0 0 7 41" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M0.240234 40.9997V0.679688H6.96023V40.9997H0.240234Z" fill="black" />
-                                                </svg></span></span></span>ne of
+                        <div>
+                            <h2 class="text-black text_70">
+                                <span class="">
+                                    <span class="">A T<span class="wrap_in"><span class="pulse-animate"><span class="pulse_dot"></span><span class="d-inline-block overflow-hidden">
+                                                    <svg width="7" height="41" class="object_i" viewBox="0 0 7 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M0.240234 40.9997V0.679688H6.96023V40.9997H0.240234Z" fill="black" />
+                                                    </svg></span></span></span>mel<span class="wrap_in"><span class="pulse-animate"><span class="pulse_dot"></span><span class="d-inline-block overflow-hidden">
+                                                    <svg width="7" height="41" class="object_i" viewBox="0 0 7 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M0.240234 40.9997V0.679688H6.96023V40.9997H0.240234Z" fill="black" />
+                                                    </svg></span></span></span>ne of
+                                    </span>
+                                    <span class="pd_italic text_green"><em>Leadership</em><span class="dot-animated text_green"><span class="pulse-animate"><span class="pulse_dot"></span></span></span>
+                                    </span>
                                 </span>
-                                <span class="pd_italic"><em>Leadership</em><span class="dot-animated text_green"><span class="pulse-animate"><span class="pulse_dot"></span></span></span>
-                                </span>
-                            </span>
-                        </h2>
-                        <p class="w-auto">Key moments that shaped his path,<span class="d-block">
-                                From leadership in fintech to public service rooted in purpose.</span>
-                        </p>
-
-                        <a class="jouney-btn" href="">
+                            </h2>
+                            <p class="w-auto">Key moments that shaped his path,<span class="d-block">
+                                    From leadership in fintech to public service rooted in purpose.</span>
+                            </p>
+                        </div>
+                        <a class="jouney-btn" href="#slickslider"> 
                             Start the journey
                         </a>
                     </div>
                 </div>
-                <div class="tm-slide white-bg">
+                <div class="tm-slide white-bg" id="slickslider">
                     <div class="slickSlider">
                         <div class="tm-slick-item img1">
                             <div class="tm-main container">
@@ -489,7 +512,7 @@
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
 
     <section class="voice-wrapper">
         <div class="container">

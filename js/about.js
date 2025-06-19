@@ -1,3 +1,14 @@
+// clears all keys
+if ('caches' in window) {
+     caches.keys().then(function (names) {
+          for (let name of names) {
+               caches.delete(name);
+          }
+          console.log('cache cleared!');
+     });
+}
+
+
 /************************** Verticle slider - GSAP *******************************/
 gsap.registerPlugin(ScrollTrigger);
 
@@ -49,7 +60,7 @@ if (verticleScroll) {
 
      // Smoothly move and fade out panel_title as scroll starts
      tl.to(".panel_title", {
-          y: -180,
+          y: -400,
           autoAlpha: 0,
           ease: "none",
           duration: 0.15,
@@ -78,6 +89,7 @@ if (document.querySelector(".timeline-scroll") != null) {
                ease: "none",
                scrollTrigger: {
                     trigger: cWrapper,
+                    start: "top-=100 top",
                     pin: true,
                     scrub: 1,
                     invalidateOnRefresh: true,
@@ -100,10 +112,33 @@ if (document.querySelector(".timeline-scroll") != null) {
           verticalSwiping: true,
           infinite: false,
      });
+
+     // // 🚀 Scroll to slickslider on button click
+     // document.querySelector(".jouney-btn")?.addEventListener("click", function (e) {
+     //      e.preventDefault();
+     //      const target = document.querySelector("#slickslider");
+     //      if (target) {
+     //           target.scrollIntoView({ behavior: "smooth", block: "start" });
+     //      }
+     // });
+
+     // // 🔁 Scroll back to scroll-only on scroll up
+     // ScrollTrigger.create({
+     //      trigger: "#slickslider",
+     //      start: "top top",
+     //      onLeaveBack: () => {
+     //           gsap.set(".tm-slide.white-bg", { yPercent: 0 });
+
+     //           // Scroll back to scroll-only
+     //           const backTarget = document.querySelector(".tm-slide.scroll-only");
+     //           if (backTarget) {
+     //                backTarget.scrollIntoView({ behavior: "smooth", block: "start" });
+     //           }
+     //      }
+     // });
 }
 
 
-/************************** Text marquee semicircle - GSAP *******************************/
 
 /************************** Text marquee semicircle - GSAP *******************************/
 // // Add a class
@@ -135,56 +170,65 @@ let intervalID;
 
 // ✅ Start continuous rotation
 function startRotation() {
-  if (!rotationTween) {
-    rotationTween = gsap.to(".circle-text svg", {
-      rotate: "+=360",
-      duration: 40,
-      ease: "linear",
-      repeat: -1,
-      transformOrigin: "50% 50%",
-      transformBox: "fill-box"
-    });
-  }
+     if (!rotationTween) {
+          rotationTween = gsap.to(".circle-text svg", {
+               rotate: "+=360",
+               duration: 40,
+               ease: "linear",
+               repeat: -1,
+               transformOrigin: "50% 50%",
+               transformBox: "fill-box"
+          });
+     }
 }
 
 // ✅ Start looping .added class on tspans
 function startTspanLoop() {
-  const tspans = document.querySelectorAll(".tspan-item");
-  let index = 0;
+     const tspans = document.querySelectorAll(".tspan-item");
+     let index = 0;
 
-  intervalID = setInterval(() => {
-    tspans.forEach(t => t.classList.remove("added")); // remove all first
-    tspans[index].classList.add("added");             // add to current
+     intervalID = setInterval(() => {
+          tspans.forEach(t => t.classList.remove("added")); // remove all first
+          tspans[index].classList.add("added");             // add to current
 
-    // Remove after 1.5 seconds
-    setTimeout(() => {
-      tspans[index].classList.remove("added");
-    }, 1500);
+          // Remove after 1.5 seconds
+          setTimeout(() => {
+               tspans[index].classList.remove("added");
+          }, 1500);
 
-    index = (index + 1) % tspans.length; // loop to next
-  }, 2000); // every 2 seconds
+          index = (index + 1) % tspans.length; // loop to next
+     }, 2000); // every 2 seconds
 }
 
 function stopTspanLoop() {
-  clearInterval(intervalID);
+     clearInterval(intervalID);
 }
 
 // ✅ Start everything when .svg-wrapper enters viewport
 ScrollTrigger.create({
-  trigger: ".svg-wrapper",
-  start: "top bottom", // as soon as it enters viewport
-  onEnter: () => {
-    startRotation();     // start rotating forever
-    startTspanLoop();    // start adding/removing .added
-  },
-  onEnterBack: () => {
-    startRotation();
-    startTspanLoop();
-  },
-  onLeave: () => {
-    stopTspanLoop();     // stop only tspan loop
-  },
-  onLeaveBack: () => {
-    stopTspanLoop();
-  }
+     trigger: ".svg-wrapper",
+     start: "top bottom", // as soon as it enters viewport
+     onEnter: () => {
+          startRotation();     // start rotating forever
+          startTspanLoop();    // start adding/removing .added
+     },
+     onEnterBack: () => {
+          startRotation();
+          startTspanLoop();
+     },
+     onLeave: () => {
+          stopTspanLoop();     // stop only tspan loop
+     },
+     onLeaveBack: () => {
+          stopTspanLoop();
+     }
 });
+
+
+//   gsap.to(".circle-text svg", {
+//     rotate: 360,
+//     transformOrigin: "center center",
+//     duration: 40,
+//     repeat: -1,
+//     ease: ""
+//   });

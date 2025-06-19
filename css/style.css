@@ -1306,6 +1306,16 @@ span.pulse-animate {
      object-fit: cover;
 }
 
+.gradient-layer {
+     position: absolute;
+     bottom: 0;
+     right: 0;
+     left: 0;
+     height: 100%;
+     width: 100%;
+     background: linear-gradient(to top, rgba(17, 15, 14, 1) 22%, rgba(17, 15, 14, 0) 100%);
+}
+
 .verticle-scroll-content {
      position: relative;
      left: 100px;
@@ -1346,14 +1356,15 @@ span.pulse-animate {
 .panel_title {
      position: absolute;
      left: 100px;
-     top: 12vw;
+     /*top: 12vw;
+     */bottom: 35vh;
      z-index: 9;
      opacity: 1;
      display: flex;
 }
 
 .panel_title .main-title {
-     width: 40%;
+     width: 56%;
 }
 
 .panel_content {
@@ -1420,6 +1431,13 @@ span.pulse-animate {
      align-items: center;
 }
 
+.tm-slide.scroll-only .center-heading {
+     height: calc(100svh - 200px);
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+}
+
 .tm-main {
      height: 100%;
      width: 100%;
@@ -1433,7 +1451,9 @@ span.pulse-animate {
      font-size: clamp(16px, 1.39vw, 27px);
      color: #2B2B2B;
      display: inline-block;
-     margin: 200px 0 0;
+     cursor: pointer;
+     margin: 0 auto 40px;
+     width: fit-content;
 }
 
 .tm-year {
@@ -1807,7 +1827,7 @@ ul.slick-dots button:focus-visible {
 }
 
 textPath {
-     dominant-baseline: middle;
+     /* dominant-baseline: middle; */
      alignment-baseline: middle;
 }
 
@@ -1818,19 +1838,19 @@ textPath {
 .circle-text {
      position: absolute;
      /* top: -16em; */
-     top: -36em;
+     top: -35em;
      /* top:0; */
      width: 100%;
      height: 100%;
-     transform: scale(-1);
+     /* transform: scale(-1); */
      transition: transform 0.5s ease;
 }
 
 .circle-text svg {
      width: 100%;
      height: 100%;
-     /* animation: rotate 50s linear 0s infinite;
-     -webkit-animation: rotate 50s linear 0s infinite;
+     /* animation: rotate 50s linear 0s infinite; */
+     /* -webkit-animation: rotate 50s linear 0s infinite;
      transform-origin: center center; */
 }
 
@@ -1864,14 +1884,14 @@ textPath {
      -o-transition: all 0.4s ease;
 }
 
-
+/* 
 .tspan-item.added {
      fill: #00834e;
      font-size: 50px;
 }
+ */
 
-
-/* @keyframes rotate {
+@keyframes rotate {
      0% {
           transform: rotate(0deg);
      }
@@ -1907,4 +1927,4 @@ textPath {
           -ms-transform: rotate(360deg);
           -o-transform: rotate(360deg);
      }
-} */
+}
