@@ -23,7 +23,7 @@ let panelMargin;
 
 if (window.innerWidth <= 768) {
      // Mobile
-     panelHeight = 120;
+     panelHeight = 140;
      panelMargin = 80;
 }
 else if (window.innerWidth <= 1024) {
@@ -31,7 +31,7 @@ else if (window.innerWidth <= 1024) {
      panelHeight = 180;
      panelMargin = 120;
 }
-else if (window.innerWidth <= 1400) {
+else if (window.innerWidth <= 1200) {
      // mini desktop
      panelHeight = 195;
      panelMargin = 124;

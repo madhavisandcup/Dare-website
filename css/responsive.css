@@ -297,6 +297,14 @@
 }
 
 @media (max-width: 1500px) {
+    .panel_title {
+        left: 80px;
+    }
+
+    .verticle-scroll-content {
+        left: 80px;
+    }
+
     .dot-animated .pulse_dot {
         right: -19px;
     }
@@ -417,6 +425,10 @@
 }
 
 @media (max-width: 1399px) {
+    .verticle-scroll-content {
+        top: 93%;
+    }
+
     .pulse_dot {
         width: 10px;
         height: 10px;
@@ -525,6 +537,33 @@
 }
 
 @media (max-width: 1199px) {
+    .gradient-layer {
+        background: linear-gradient(to top, rgba(17, 15, 14, 1) 0, rgba(17, 15, 14, 0) 100%);
+    }
+
+    .image_panel,
+    .default_panel {
+        height: 100%;
+    }
+
+    .panel_content {
+        margin-bottom: 120px;
+        height: 180px;
+        width: 80%;
+    }
+
+    .panel_title {
+        bottom: 38vh;
+    }
+
+    .panel_title {
+        left: 60px;
+    }
+
+    .verticle-scroll-content {
+        left: 60px;
+    }
+
     @keyframes pulse {
         0% {
             transform: scale(0.98);
@@ -694,6 +733,10 @@
 }
 
 @media (max-width: 1024px) {
+    .panel_content {
+        height: 160px;
+    }
+
     .sec-bottom {
         margin-bottom: 100px;
     }
@@ -780,6 +823,25 @@
 }
 
 @media (max-width: 991px) {
+    .panel_title {
+        left: 30px;
+    }
+
+    .verticle-scroll-content {
+        left: 30px;
+    }
+
+    .panel_content {
+        margin-bottom: 80px;
+        height: 140px;
+        width: 100%;
+    }
+
+    .image_panel img,
+    .default_panel img {
+        object-position: 70%;
+    }
+
     .h-circular .circular-box-main {
         width: 110px;
         height: 110px;
@@ -1018,17 +1080,47 @@
 }
 
 @media (max-width: 575px) {
+
+    .about-banner .hero-layout {
+        margin-top: auto;
+        padding: 0 0 80px;
+    }
+
+    .sm-pb {
+        padding: 0 0 60px;
+    }
+
+    .sm-margin {
+        margin-top: 80px;
+    }
+
+    .about-banner.homepage {
+        height: calc(100svh - 80px);
+        background-position: inherit;
+        background-image: url(../images/about-img-mobile.svg);
+    }
+
+    .about-banner .hero-banner {
+        height: 100%;
+        z-index: 1;
+    }
+
     .sec-bottom {
         margin-bottom: 60px;
     }
 
     .homepage::before {
         z-index: 1;
+        height: 60%;
     }
 
     .h-circular .circular-box-main {
         width: 100px;
         height: 100px;
+    }
+
+    .sm-d-none-marquee {
+        display: none;
     }
 
     @keyframes pulse {
@@ -1204,6 +1296,7 @@
 
     .hero-title p {
         width: 92%;
+        padding: 8px 0 0;
     }
 
     .navbar .navbar-mobile {

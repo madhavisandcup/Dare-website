@@ -42,7 +42,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="down-arrow h-circular">
+                <div class="down-arrow h-circular sm-d-none-marquee">
                     <div class="circular-box-main">
                         <div class="c-box">
                             <svg viewBox="0 0 216 216" width="216" height="216">

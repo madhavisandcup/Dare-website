@@ -7,7 +7,7 @@ header {
      left: 0;
      width: 100%;
      z-index: 9;
-     background-color: rgba(0, 3, 3, 0.85);
+     background-color: rgb(29 27 26);
      overflow: hidden;
 }
 
@@ -1360,7 +1360,7 @@ span.pulse-animate {
 .panel_title {
      position: absolute;
      left: 100px;
-     bottom: 35vh;
+     bottom: 32vh;
      z-index: 9;
      opacity: 1;
      display: flex;
