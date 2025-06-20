@@ -1491,6 +1491,9 @@ span.pulse-animate {
      z-index: 2;
 }
 
+.pt-top {
+     padding-top: 150px;
+}
 
 /* 
 .bg_blur {

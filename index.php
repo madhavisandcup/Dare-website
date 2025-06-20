@@ -11,7 +11,7 @@
 
     <div class="homepage sm_h_banner">
         <section class="container">
-            <div class="hero-banner">
+            <div class="hero-banner main-sm-layout">
                 <div class="hero-layout">
                     <div class="hero-title">
                         <h1 class="text-white mb-0">
