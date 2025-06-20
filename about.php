@@ -112,27 +112,25 @@
             </div>
             <div class="verticle-scroll-content">
                 <div class="panel_content">
-                    <h3>01. Strategic Advisor – COVID-19 Relief via Mobile Finance</h3>
+                    <h3 class="pd_sbold">Strategic Advisor – COVID-19 Relief via Mobile Finance</h3>
+                    <p>Collaborated with APC state governments to implement electronic payment systems for salary disbursement and public program funding. This helped reduce corruption and improve financial transparency.</p>
+                </div>
+                <div class="panel_content">
+                    <h3 class="pd_sbold">Tech Collaborator – Partnering with APC-Led States</h3>
+                    <p>Collaborated with APC state governments to implement electronic payment systems for salary disbursement and public program funding. This helped reduce corruption and improve financial transparency.</p>
+                </div>
+                <div class="panel_content">
+                    <h3 class="pd_sbold">Strategic Advisor – COVID-19 Relief via Mobile Finance</h3>
                     <p>Collaborated with APC state governments to implement electronic payment systems for
                         salary disbursement and public program funding. This helped reduce corruption and improve financial transparency.</p>
                 </div>
                 <div class="panel_content">
-                    <h3>02. Strategic Advisor – COVID-19 Relief via Mobile Finance</h3>
+                    <h3 class="pd_sbold">Strategic Advisor – COVID-19 Relief via Mobile Finance</h3>
                     <p>Collaborated with APC state governments to implement electronic payment systems for
                         salary disbursement and public program funding. This helped reduce corruption and improve financial transparency.</p>
                 </div>
                 <div class="panel_content">
-                    <h3>03. Strategic Advisor – COVID-19 Relief via Mobile Finance</h3>
-                    <p>Collaborated with APC state governments to implement electronic payment systems for
-                        salary disbursement and public program funding. This helped reduce corruption and improve financial transparency.</p>
-                </div>
-                <div class="panel_content">
-                    <h3>04. Strategic Advisor – COVID-19 Relief via Mobile Finance</h3>
-                    <p>Collaborated with APC state governments to implement electronic payment systems for
-                        salary disbursement and public program funding. This helped reduce corruption and improve financial transparency.</p>
-                </div>
-                <div class="panel_content">
-                    <h3>05. Strategic Advisor – COVID-19 Relief via Mobile Finance</h3>
+                    <h3 class="pd_sbold">Strategic Advisor – COVID-19 Relief via Mobile Finance</h3>
                     <p>Collaborated with APC state governments to implement electronic payment systems for
                         salary disbursement and public program funding. This helped reduce corruption and improve financial transparency.</p>
                 </div>
@@ -164,7 +162,7 @@
                         </text>
                       
                     </svg> -->
-                   
+
                     <svg width="950" height="950" viewBox="0 0 950 950" xmlns="http://www.w3.org/2000/svg">
                         <defs>
                             <path id="textcircle" d="M170,500 A300,300 0 0,0 775,500" />
@@ -184,7 +182,7 @@
                                 </textPath>
                             </text>
                         </g>
-                        
+
                     </svg>
                 </div>
             </div>
@@ -310,7 +308,7 @@
                                     From leadership in fintech to public service rooted in purpose.</span>
                             </p>
                         </div>
-                        <a class="jouney-btn" href="#slickslider"> 
+                        <a class="jouney-btn" href="#slickslider">
                             Start the journey
                         </a>
                     </div>

@@ -702,6 +702,8 @@ body.navbar-open {
      font-size: 26px;
      font-family: 'DM Sans Medium';
      color: #000;
+     padding: 6px 36px 6px 12px;
+     height: auto;
 }
 
 .events-wrapper .form-select {
@@ -1357,7 +1359,8 @@ span.pulse-animate {
      position: absolute;
      left: 100px;
      /*top: 12vw;
-     */bottom: 35vh;
+     */
+     bottom: 35vh;
      z-index: 9;
      opacity: 1;
      display: flex;
