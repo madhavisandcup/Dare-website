@@ -91,18 +91,23 @@
                 <img src="./images/about/about-one.svg" alt="" class="img-fluid">
             </div>
             <div class="image_panel">
+                <div class="gradient-layer"></div>
                 <img src="./images/about/about-two.svg" alt="" class="img-fluid scroll_img_item">
             </div>
             <div class="image_panel">
+                <div class="gradient-layer"></div>
                 <img src="./images/about/about-three.svg" alt="" class="img-fluid scroll_img_item">
             </div>
             <div class="image_panel">
+                <div class="gradient-layer"></div>
                 <img src="./images/about/about-four.svg" alt="" class="img-fluid scroll_img_item">
             </div>
             <div class="image_panel">
+                <div class="gradient-layer"></div>
                 <img src="./images/about/about-two.svg" alt="" class="img-fluid scroll_img_item">
             </div>
             <div class="image_panel">
+                <div class="gradient-layer"></div>
                 <img src="./images/about/about-three.svg" alt="" class="img-fluid scroll_img_item">
             </div>
 

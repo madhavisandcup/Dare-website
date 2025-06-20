@@ -1341,10 +1341,12 @@ span.pulse-animate {
      -moz-transition: opacity 300ms ease;
      -ms-transition: opacity 300ms ease;
      -o-transition: opacity 300ms ease;
+     height: 18.4vh;
+     width: 37vw;
 }
 
 .panel_content p {
-     color: #fff;
+     color: #C5C5C5;
 }
 
 .image_panel.is-active {
@@ -1358,8 +1360,6 @@ span.pulse-animate {
 .panel_title {
      position: absolute;
      left: 100px;
-     /*top: 12vw;
-     */
      bottom: 35vh;
      z-index: 9;
      opacity: 1;
@@ -1370,12 +1370,11 @@ span.pulse-animate {
      width: 56%;
 }
 
-.panel_content {
-     height: 168px;
-}
-
 .panel_content .main-title {
      width: 100%;
+}
+.image_panel .gradient-layer{
+     background: linear-gradient(to top, rgba(17, 15, 14, 1) 0, rgba(17, 15, 14, 0) 100%);    
 }
 
 
