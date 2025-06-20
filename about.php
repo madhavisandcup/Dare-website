@@ -32,11 +32,6 @@
                             </a>
                         </div>
                     </div>
-                    <!-- <div class="mobile-view-img">
-                        <div class="m-hero-img">
-                            <img src="./images/about-img-mobile.svg" alt="about-img-mobile" class="img-fluid">
-                        </div>
-                    </div> -->
                 </div>
                 <div class="down-arrow h-circular sm-d-none-marquee">
                     <div class="circular-box-main">
@@ -71,8 +66,8 @@
             <div class="row">
                 <div class="col-md-7">
                     <h2 class="main-title apc-anim">A Legacy of
-                        <i class="pd_italic text_green">Leadership </i>with<span class="apc-img-animate overflow-hidden position-relative d-inline-block me-0"><span class="apc-imgs"><img src="images/apc-lg.svg" class="ap-01" alt="apc"><img src="images/apc-lg.svg" class="ap-02" alt="apc"></span></span>
-                        <span class="dot-animated text_green"><span class="pulse-animate"><span class="pulse_dot"></span></span></span>
+                        <span class="sm-block"><i class="pd_italic text_green">Leadership </i>with<span class="apc-img-animate overflow-hidden position-relative d-inline-block me-0"><span class="apc-imgs"><img src="images/apc-lg.svg" class="ap-01" alt="apc"><img src="images/apc-lg.svg" class="ap-02" alt="apc"></span></span>
+                        <span class="dot-animated text_green"><span class="pulse-animate"><span class="pulse_dot"></span></span></span></span>
                     </h2>
                 </div>
                 <div class="col-md-5">

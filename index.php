@@ -9,7 +9,7 @@
         </div>
     </div>
 
-    <div class="homepage">
+    <div class="homepage sm_h_banner">
         <section class="container">
             <div class="hero-banner">
                 <div class="hero-layout">

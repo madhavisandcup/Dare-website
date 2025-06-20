@@ -1080,6 +1080,38 @@
 }
 
 @media (max-width: 575px) {
+    .panel_content {
+        height: 130px;
+        margin-bottom: 106px;
+    }
+
+    .panel_content h3 {
+        font-size: 20px;
+    }
+
+    .verticle-scroll-content {
+        top: 90%;
+        max-width: 80vw;
+    }
+
+    .panel_title .main-title {
+        width: 90%;
+    }
+
+    .image_panel img,
+    .default_panel img {
+        object-position: 64% center;
+        height: 100svh;
+    }
+
+    .sm-block {
+        display: block;
+    }
+
+    .apc-img-animate {
+        width: 40px;
+        height: 40px;
+    }
 
     .about-banner .hero-layout {
         margin-top: auto;
@@ -1097,6 +1129,7 @@
     .about-banner.homepage {
         height: calc(100svh - 80px);
         background-position: inherit;
+        background-repeat: no-repeat;
         background-image: url(../images/about-img-mobile.svg);
     }
 
@@ -1272,8 +1305,11 @@
 
     .homepage {
         height: auto;
-        background: #000;
         overflow: hidden;
+    }
+
+    .sm_h_banner {
+        background: #000;
     }
 
     .m-hero-img img {
@@ -1437,6 +1473,34 @@
 }
 
 @media (max-width: 380px) {
+    .about-banner .hero-layout {
+        padding: 0 0 50px;
+    }
+
+    .sm-pb {
+        padding: 0 0 40px;
+    }
+
+    .panel_content h3 {
+        font-size: 18px;
+    }
+
+    .panel_title {
+        left: 20px;
+    }
+
+    .verticle-scroll-content {
+        left: 20px;
+    }
+
+    .verticle-scroll-content {
+        max-width: 86vw;
+    }
+
+    .panel_content {
+        height: 140px;
+    }
+
     .navbar-right {
         gap: 8px;
     }
@@ -1492,5 +1556,15 @@
     .h-circular .circular-box-main {
         width: 86px;
         height: 86px;
+    }
+}
+
+@media (max-width: 375px) {
+    .verticle-scroll-content {
+        max-width: 88vw;
+    }
+
+    .panel_content p {
+        font-size: 14px;
     }
 }
