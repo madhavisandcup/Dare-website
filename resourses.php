@@ -88,7 +88,7 @@
                 <p class="vision-desc text-white p-0">Sharp takes and timely reflections on our shared path.  Discover content that informs and inspires lasting change.</p>
             </div>
             <div class="hiring-steps-inner frontline-steps">
-                <div class="fr-step one overflow-hidden position-relative">
+                <div class="fr-step overflow-hidden one position-relative">
                     <img src="images/resourses/res-01.jpg" class="fr-img img-fluid" alt="blog" />
                     <div class="fr-step-bottom">
                         <h2 class="f-step-number text-white">1</h2>
@@ -379,7 +379,7 @@ Gone are the days of silent citizens. Oluwadare reflects on his recent town hall
                         
                         <div class="row">
                             <div class="col-xl-9">
-                                <article class="mom-item grid-50">
+                                <article class="mom-item radius-16 grid-50">
                                     <div class="mom-card__media">
                                         <figure class="mom-images">
                                             <img
@@ -409,18 +409,31 @@ Gone are the days of silent citizens. Oluwadare reflects on his recent town hall
                                         </div>
                                     </div>
                                     <div class="mom-card__content">
-                                    <h3>Digital Youth Labs</h3>
-                                    <p>Launched free digital skills training programs in 4 public secondary schools, equipping students with hands-on experience in coding, design, and basic tech tools. The initiative was designed to bridge the opportunity gap for young minds in underserved communities.</p>
+                                        <span class="text_green">Your Empowerment</span>
+                                        <div class="mom-meta">
+                                            <div>
+                                                <h3 class="mom-title mb-0">Digital Youth Labs</h3>
+                                                <small class="extra_light_grey">@oluwadare_owolabi</small>
+                                            </div>
+                                            <ul class="list-unstyled">
+                                                <li></li>
+                                            </ul>
+                                        </div>
+                                       
+                                        <p class="mom-card-desc">Launched free digital skills training programs in 4 public secondary schools, equipping students with hands-on experience in coding, design, and basic tech tools. The initiative was designed to bridge the opportunity gap for young minds in underserved communities.</p>
+                                        <p class="mom-highlight-desc">Reached over <mark class="text_green">300+</mark> students across 3 LGAs</p>
                                     </div>
                                 </article>                                                           
                             </div>
                             <div class="col-xl-3">
-                                <article class="mom-item sm">
+                                <article class="mom-item sm radius-16">
                                     <figure>
                                         <img src="images/resourses/n-01.png" class="img-fluid radius-16" alt="channel-tv">
                                         <figcaption class="mom-card__content">
-                                        <h3>Wellness on the Move</h3>
-                                        <p>Launched free digital skills training programs in 4 public secondary schools, equipping students.</p>
+                                            <span class="text_green">Education</span>
+                                            <h3 class="mom-title">Wellness on the Move</h3>
+                                            <small class="extra_light_grey">@oluwadare_owolabi</small>
+                                            <p class="mom-card-desc">Launched free digital skills training programs in 4 public secondary schools, equipping students.</p>
                                     </figcaption>
                                     </figure>
                                 </article>
@@ -428,8 +441,21 @@ Gone are the days of silent citizens. Oluwadare reflects on his recent town hall
                         </div>
                        
                        <div class="row">
+                            <div class="col-xl-3">
+                                <article class="mom-item sm radius-16">
+                                    <figure>
+                                        <img src="images/resourses/n-01.png" class="img-fluid radius-16" alt="channel-tv">
+                                        <figcaption class="mom-card__content">
+                                            <span class="text_green">Education</span>
+                                            <h3 class="mom-title">Wellness on the Move</h3>
+                                            <small class="extra_light_grey">@oluwadare_owolabi</small>
+                                            <p class="mom-card-desc">Launched free digital skills training programs in 4 public secondary schools, equipping students.</p>
+                                    </figcaption>
+                                    </figure>
+                                </article>
+                            </div>
                             <div class="col-xl-9">
-                                <article class="mom-item grid-50">
+                                <article class="mom-item radius-16 grid-50">
                                     <div class="mom-card__media">
                                         <figure class="mom-images">
                                             <img
@@ -459,22 +485,22 @@ Gone are the days of silent citizens. Oluwadare reflects on his recent town hall
                                         </div>
                                     </div>
                                     <div class="mom-card__content">
-                                    <h3>Digital Youth Labs</h3>
-                                    <p>Launched free digital skills training programs in 4 public secondary schools, equipping students with hands-on experience in coding, design, and basic tech tools. The initiative was designed to bridge the opportunity gap for young minds in underserved communities.</p>
+                                        <span class="text_green">Your Empowerment</span>
+                                        <div class="mom-meta">
+                                            <div>
+                                                <h3 class="mom-title mb-0">Digital Youth Labs</h3>
+                                                <small class="extra_light_grey">@oluwadare_owolabi</small>
+                                            </div>
+                                            <ul class="list-unstyled">
+                                                <li></li>
+                                            </ul>
+                                        </div>
+                                       
+                                        <p class="mom-card-desc">Launched free digital skills training programs in 4 public secondary schools, equipping students with hands-on experience in coding, design, and basic tech tools. The initiative was designed to bridge the opportunity gap for young minds in underserved communities.</p>
+                                        <p class="mom-highlight-desc">Reached over <mark class="text_green">300+</mark> students across 3 LGAs</p>
                                     </div>
-                                </article>                               
-                            </div>
-                            <div class="col-xl-3">
-                                <article class="mom-item sm">
-                                    <figure>
-                                        <img src="images/resourses/n-01.png" class="img-fluid radius-16" alt="channel-tv">
-                                        <figcaption class="mom-card__content">
-                                        <h3>Wellness on the Move</h3>
-                                        <p>Launched free digital skills training programs in 4 public secondary schools, equipping students.</p>
-                                    </figcaption>
-                                    </figure>
-                                </article>
-                            </div>
+                                </article>                                                           
+                            </div>                            
                         </div>
                     </div>
                 </div>

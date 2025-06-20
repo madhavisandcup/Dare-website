@@ -1,6 +1,6 @@
 // clears all keys
 if ('caches' in window) {
-     caches.keys().then(function (names) {
+     caches.keys().then(function(names) {
           for (let name of names) {
                caches.delete(name);
           }
@@ -189,7 +189,7 @@ function startTspanLoop() {
 
      intervalID = setInterval(() => {
           tspans.forEach(t => t.classList.remove("added")); // remove all first
-          tspans[index].classList.add("added");             // add to current
+          tspans[index].classList.add("added"); // add to current
 
           // Remove after 1.5 seconds
           setTimeout(() => {
@@ -209,15 +209,15 @@ ScrollTrigger.create({
      trigger: ".svg-wrapper",
      start: "top bottom", // as soon as it enters viewport
      onEnter: () => {
-          startRotation();     // start rotating forever
-          startTspanLoop();    // start adding/removing .added
+          startRotation(); // start rotating forever
+          startTspanLoop(); // start adding/removing .added
      },
      onEnterBack: () => {
           startRotation();
           startTspanLoop();
      },
      onLeave: () => {
-          stopTspanLoop();     // stop only tspan loop
+          stopTspanLoop(); // stop only tspan loop
      },
      onLeaveBack: () => {
           stopTspanLoop();

@@ -14,9 +14,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="css/typography.css" rel="stylesheet" type="text/css" />
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <!-- <link href="css/style.css" rel="stylesheet" type="text/css" /> -->
 
-    <!-- <link href="css/style-panel.css" rel="stylesheet" type="text/css" /> -->
+    <link href="css/style-panel.css" rel="stylesheet" type="text/css" />
     <link href="css/style-02.css" rel="stylesheet" type="text/css" />
     <link href="css/res-02.css" rel="stylesheet" type="text/css" />
     <link href="css/responsive.css" rel="stylesheet" type="text/css" />

@@ -1352,7 +1352,8 @@ span.pulse-animate {
 }
 
 .panel_content {
-     height: 168px;
+     height: 244px;
+     width: 80%;
 }
 
 .panel_content .main-title {

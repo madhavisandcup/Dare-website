@@ -206,10 +206,11 @@ if (hireSteps) {
 }
 
 //Frontlines Posts hover effect
-if (window.matchMedia("(min-width: 992px)").matches) {
-     const frontSteps = document.querySelectorAll('.fr-step');
-     if (frontSteps) {
-          frontSteps.forEach(function(fsteps) {
+
+const frontSteps = document.querySelectorAll('.fr-step');
+if (frontSteps) {
+     frontSteps.forEach(function(fsteps) {
+          if (window.matchMedia("(min-width: 992px)").matches) {
                fsteps.addEventListener('mouseenter', function() {
                     fsteps.closest('.frontline-steps').classList.add('fr-expand');
                     frontSteps.forEach(fstep => fstep.classList.remove('fr-expand-width'));
@@ -220,6 +221,19 @@ if (window.matchMedia("(min-width: 992px)").matches) {
                     fsteps.closest('.frontline-steps').classList.remove('fr-expand');
                     fsteps.classList.remove('fr-expand-width');
                });
-          });
-     }
+          }
+          if (window.matchMedia("(max-width: 991px)").matches) {
+               frontSteps[0].classList.add('fr-expand-width');
+               fsteps.closest('.frontline-steps').classList.add('fr-expand');
+               fsteps.addEventListener('click', function() {
+                    fsteps.closest('.frontline-steps').classList.add('fr-expand');
+                    frontSteps.forEach(fstep => fstep.classList.remove('fr-expand-width'));
+                    fsteps.classList.add('fr-expand-width');
+               });
+               // document.addEventListener('click', function() {
+               //      fsteps.closest('.frontline-steps').classList.remove('fr-expand');
+               //      fsteps.classList.remove('fr-expand-width');
+               // });
+          }
+     });
 }

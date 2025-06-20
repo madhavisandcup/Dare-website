@@ -66,10 +66,10 @@ const vSlider = document.querySelector(".verticle-scroll-slider");
 const contents = gsap.utils.toArray(".panel_content");
 const images = gsap.utils.toArray(".image_panel");
 const totalPanels = contents.length;
-const panelHeight = 168;
+const panelHeight = 244;
 const panelMargin = 160;
 const contentHeight = totalPanels * (panelHeight + panelMargin);
-const extraBuffer = window.innerHeight * 0.8; // extra scroll after last panel
+const extraBuffer = window.innerHeight; // extra scroll after last panel
 
 if (vSlider) {
      // Main timeline
