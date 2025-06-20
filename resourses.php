@@ -36,12 +36,7 @@
                                               class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
                                 </a>
                             </div>
-                        </div>
-                        <div class="mobile-view-img">
-                            <div class="m-hero-img">
-                                <img src="./images/hero-img-mobile.webp" alt="hero-img-mobile" class="img-fluid">
-                            </div>
-                        </div>
+                        </div>                        
                     </div>
                     <div class="down-arrow h-circular sm-d-none-marquee">
                         <div class="circular-box-main">
@@ -321,7 +316,7 @@
         </section>
 
         <div class="marquee-led-driven resources sec-space">
-            <div class="marquee-block right-marquee">
+            <div class="marquee-block">
                 <div class="marquee-inner flex">
                     <div class="marquee-text flex">
                         <span class="m-item flex m-title">Led By Vision</span>
@@ -442,7 +437,7 @@
                 <div class="nation-tabs-wrapper">
                     <div class="nation-tabs">
                         <div class="n-tab-main position-relative">
-                            <div class="nav nav-tabs border-0 justify-content-start" role="tablist">
+                            <div class="nav nav-tabs border-0" role="tablist">
                                 <button class="tabs-name nav-link active" id="nav-highlight-tab" data-bs-toggle="tab"
                                   data-bs-target="#nav-highlight" type="button" role="tab" aria-controls="nav-highlight"
                                   aria-selected="true">
@@ -474,7 +469,7 @@
                           aria-labelledby="nav-highlight-tab" tabindex="0">
 
                             <div class="row">
-                                <div class="col-xl-8">
+                                <div class="col-lg-8">
                                     <article class="mom-item radius-16 grid-50">
                                         <div class="mom-card__media">
                                             <figure class="mom-images">
@@ -483,7 +478,7 @@
                                                   class="mom-card__image radius-16 img-fluid" />
                                             </figure>
                                             <div class="grid-50 sm">
-                                                <figure class="mom-images">
+                                                <figure class="mom-images mb-0">
                                                     <img src="images/resourses/mom-sm.jpg"
                                                       alt="Audience listening at a health conference" loading="lazy"
                                                       class="mom-card__image radius-16  img-fluid" />
@@ -498,9 +493,11 @@
                                         <div class="mom-card__content">
                                             <span class="text_green">Your Empowerment</span>
                                             <div class="mom-meta">
-                                                <div>
-                                                    <h3 class="mom-title mb-0">Digital Youth Labs</h3>
-                                                    <small class="extra_light_grey">@oluwadare_owolabi</small>
+                                                <div class="mom-meta-title">
+                                                    <a href="#" class='mom-title d-block'>
+                                                        <h3 class="title-truncate mb-0">Digital Youth Labs</h3>
+                                                    </a>
+                                                    <small class="extra_light_grey d-block mt-1">@oluwadare_owolabi</small>
                                                 </div>
                                                 <ul class="list-unstyled mom-social-icons mb-0">
                                                     <li><a href="#"><img src="images/resourses/twitter.svg"
@@ -519,17 +516,19 @@
                                         </div>
                                     </article>
                                 </div>
-                                <div class="col-xl-4">
+                                <div class="col-lg-4">
                                     <article class="mom-item sm radius-16">
-                                        <figure class="mb-0">
-                                            <img src="images/resourses/n-01.png" class="img-fluid radius-16"
+                                        <figure class="mom-sm-post mb-0">
+                                            <img src="images/resourses/n-01.png" class="img-fluid mom-sm-img radius-16"
                                               alt="channel-tv">
                                             <figcaption class="mom-card__content">
                                                 <span class="text_green">Education</span>
                                                 <div class="mom-meta">
-                                                    <div>
-                                                        <h3 class="mom-title mb-0">Wellness on the Move</h3>
-                                                        <small class="extra_light_grey">@oluwadare_owolabi</small>
+                                                    <div class="mom-meta-title">
+                                                        <a href="#" class='mom-title d-block'>
+                                                             <h3 class="title-truncate mb-0">Wellness on the Move</h3>
+                                                        </a>
+                                                        <small class="extra_light_grey d-block mt-1">@oluwadare_owolabi</small>
                                                     </div>
                                                     <ul class="list-unstyled mom-social-icons mb-0">
                                                         <li><a href="#"><img src="images/resourses/twitter.svg"
@@ -537,8 +536,8 @@
                                                         <li><a href="#"><img src="images/resourses/linkedin.svg"
                                                                   alt="linkedin"></a></li>
                                                     </ul>
-                                                </div>
-                                                <p class="mom-card-desc mb-0">Launched free digital skills training
+                                                    </div>
+                                                 <p class="mom-card-desc mb-0">Launched free digital skills training
                                                     programs in 4 public secondary schools, equipping students.</p>
                                             </figcaption>
                                         </figure>
@@ -546,63 +545,20 @@
                                 </div>
                             </div>
 
-                            <div class="row">
-                                <div class="col-xl-8">
-                                    <article class="mom-item radius-16 grid-50">
-                                        <div class="mom-card__media">
-                                            <figure class="mom-images">
-                                                <img src="images/resourses/mom-lg.jpg"
-                                                  alt="Audience listening at a health conference" loading="lazy"
-                                                  class="mom-card__image radius-16 img-fluid" />
-                                            </figure>
-                                            <div class="grid-50 sm">
-                                                <figure class="mom-images">
-                                                    <img src="images/resourses/mom-sm.jpg"
-                                                      alt="Audience listening at a health conference" loading="lazy"
-                                                      class="mom-card__image radius-16  img-fluid" />
-                                                </figure>
-                                                <figure class="mom-images mb-0">
-                                                    <img src="images/resourses/mom-sm-02.jpg"
-                                                      alt="Audience listening at a health conference" loading="lazy"
-                                                      class="mom-card__image radius-16  img-fluid" />
-                                                </figure>
-                                            </div>
-                                        </div>
-                                        <div class="mom-card__content">
-                                            <span class="text_green">Your Empowerment</span>
-                                            <div class="mom-meta">
-                                                <div>
-                                                    <h3 class="mom-title mb-0">Digital Youth Labs</h3>
-                                                    <small class="extra_light_grey">@oluwadare_owolabi</small>
-                                                </div>
-                                                <ul class="list-unstyled mom-social-icons mb-0">
-                                                    <li><a href="#"><img src="images/resourses/twitter.svg"
-                                                              alt="twiiter"></a></li>
-                                                    <li><a href="#"><img src="images/resourses/linkedin.svg"
-                                                              alt="linkedin"></a></li>
-                                                </ul>
-                                            </div>
-                                            <p class="mom-card-desc">Launched free digital skills training programs in 4
-                                                public secondary schools, equipping students with hands-on experience in
-                                                coding, design, and basic tech tools. The initiative was designed to
-                                                bridge the opportunity gap for young minds in underserved communities.
-                                            </p>
-                                            <p class="mom-highlight-desc mb-0">Reached over <mark
-                                                  class="text_green">300+</mark> students across 3 LGAs</p>
-                                        </div>
-                                    </article>
-                                </div>
-                                <div class="col-xl-4">
+                            <div class="row mom-r-two">
+                                <div class="col-lg-4">
                                     <article class="mom-item sm radius-16">
-                                        <figure class="mb-0">
-                                            <img src="images/resourses/n-01.png" class="img-fluid radius-16"
+                                        <figure class="mom-sm-post mb-0">
+                                            <img src="images/resourses/n-01.png" class="img-fluid mom-sm-img radius-16"
                                               alt="channel-tv">
                                             <figcaption class="mom-card__content">
-                                                <span class="text_green">Education</span>
+                                                <span class="text_green">Your Empowerment</span>
                                                 <div class="mom-meta">
-                                                    <div>
-                                                        <h3 class="mom-title mb-0">Wellness on the Move</h3>
-                                                        <small class="extra_light_grey">@oluwadare_owolabi</small>
+                                                    <div class="mom-meta-title">
+                                                        <a href="#" class='mom-title d-block'>
+                                                            <h3 class="title-truncate mb-0">Bright Futures Drive</h3>
+                                                        </a>
+                                                        <small class="extra_light_grey d-block mt-1">@oluwadare_owolabi</small>
                                                     </div>
                                                     <ul class="list-unstyled mom-social-icons mb-0">
                                                         <li><a href="#"><img src="images/resourses/twitter.svg"
@@ -617,11 +573,55 @@
                                         </figure>
                                     </article>
                                 </div>
+                                <div class="col-lg-8">
+                                    <article class="mom-item radius-16 grid-50">
+                                        <div class="mom-card__media">
+                                            <figure class="mom-images">
+                                                <img src="images/resourses/mom-lg.jpg"
+                                                  alt="Audience listening at a health conference" loading="lazy"
+                                                  class="mom-card__image radius-16 img-fluid" />
+                                            </figure>
+                                            <div class="grid-50 sm">
+                                                <figure class="mom-images mb-0">
+                                                    <img src="images/resourses/mom-sm.jpg"
+                                                      alt="Audience listening at a health conference" loading="lazy"
+                                                      class="mom-card__image radius-16  img-fluid" />
+                                                </figure>
+                                                <figure class="mom-images mb-0">
+                                                    <img src="images/resourses/mom-sm-02.jpg"
+                                                      alt="Audience listening at a health conference" loading="lazy"
+                                                      class="mom-card__image radius-16  img-fluid" />
+                                                </figure>
+                                            </div>
+                                        </div>
+                                        <div class="mom-card__content">
+                                            <span class="text_green">Infrastructure</span>
+                                            <div class="mom-meta">
+                                                <div class="mom-meta-title">
+                                                     <a href="#" class='mom-title d-block'>
+                                                        <h3 class="title-truncate mb-0">Built for Tomorrow</h3>
+                                                    </a>
+                                                    <small class="extra_light_grey d-block mt-1">@oluwadare_owolabi</small>
+                                                </div>
+                                                <ul class="list-unstyled mom-social-icons mb-0">
+                                                    <li><a href="#"><img src="images/resourses/twitter.svg"
+                                                              alt="twiiter"></a></li>
+                                                    <li><a href="#"><img src="images/resourses/linkedin.svg"
+                                                              alt="linkedin"></a></li>
+                                                </ul>
+                                            </div>
+                                            <p class="mom-card-desc">Visited three rural clinics this week where power cuts interrupt patient care. We’ve now installed solar backups in each one — ensuring that no child is delivered by torchlight again. It's a small infrastructure shift with life-saving impact.
+                                            </p>
+                                            <p class="mom-highlight-desc mb-0">Over <mark
+                                                  class="text_green">2500+</mark> patients served in mobile medical camps.</p>
+                                        </div>
+                                    </article>
+                                </div>                                
                             </div>
                         </div>
                     </div>
 
-                    <div class="events_btn main-btn-inner position-relative">
+                    <div class="main-btn-inner text-center position-relative">
                         <a href="#" class="main-btn position-relative"><span class="btn-text">Explore more</span><span
                               class="arrw-btn">
                                 <span class="arrws-inner d-block overflow-hidden"><i
@@ -633,61 +633,26 @@
             </div>
         </section>
 
-        <section class="faqs-wrapper overflow-hidden sec-space sm-events">
-            <div class="container">
-                <div class="center-heading text-center">
-                    <h2 class="main-title w-100 text-white">Frequently asked <i class="pd_italic text_green"><i
-                              class="bask_font">Q</i>uestions</i></h2>
-                    <p class="vision-desc m-0 text-white">Our FAQ section gives you quick solutions to frequent
-                        questions, simplifying your search for information</p>
-                </div>
-
-                <div class="accordion faqs-accordion" id="accordionExample">
-                    <div class="accordion-item radius-16">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                              data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                Who is Oluwadare Owolabi?
-                            </button>
-                        </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                Oluwadare is a public Service provider and reform-driven leader dedicated to inclusive
-                                progress, youth empowerment, and grassroots transformation.
-                            </div>
-                        </div>
+        <div class="marquee-led-driven resources m-leader sec-space">
+            <div class="marquee-block">
+                <div class="marquee-inner flex">
+                    <div class="marquee-text flex">
+                        <span class="m-item flex m-title">#Leadership</span>
+                        <span class="m-item flex m-title">#Communityvoice</span>
+                        <span class="m-item flex m-title">#Voiceofmany</span>
+                        <span class="m-item flex m-title">#Grassroots</span>
+                        <span class="m-item flex m-title">#APC</span>
                     </div>
-                    <div class="accordion-item radius-16">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                Is Oluwadare affiliated with any political party?
-                            </button>
-                        </h2>
-                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                Oluwadare is a public Service provider and reform-driven leader dedicated to inclusive
-                                progress, youth empowerment, and grassroots transformation.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item radius-16">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                What are Oluwadare’s main focus areas?
-                            </button>
-                        </h2>
-                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                Oluwadare is a public Service provider and reform-driven leader dedicated to inclusive
-                                progress, youth empowerment, and grassroots transformation.
-                            </div>
-                        </div>
+                   <div class="marquee-text flex">
+                        <span class="m-item flex m-title">#Leadership</span>
+                        <span class="m-item flex m-title">#Communityvoice</span>
+                        <span class="m-item flex m-title">#Voiceofmany</span>
+                        <span class="m-item flex m-title">#Grassroots</span>
+                        <span class="m-item flex m-title">#APC</span>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
 
         <section class="voice-wrapper">
             <div class="container">
@@ -841,6 +806,64 @@
                 </div>
             </div>
         </section>
+
+        <section class="faqs-wrapper overflow-hidden sm-events">
+            <div class="container">
+                <div class="center-heading text-center">
+                    <h2 class="main-title w-100 text-white">Frequently asked <i class="pd_italic text_green"><i
+                              class="bask_font">Q</i>uestions</i></h2>
+                    <p class="vision-desc m-0 text-white">Our FAQ section gives you quick solutions to frequent
+                        questions, simplifying your search for information</p>
+                </div>
+
+                <div class="accordion faqs-accordion" id="accordionExample">
+                    <div class="accordion-item radius-16">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                              data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                Who is Oluwadare Owolabi?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Oluwadare is a public Service provider and reform-driven leader dedicated to inclusive
+                                progress, youth empowerment, and grassroots transformation.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item radius-16">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Is Oluwadare affiliated with any political party?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Oluwadare is a public Service provider and reform-driven leader dedicated to inclusive
+                                progress, youth empowerment, and grassroots transformation.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item radius-16">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                What are Oluwadare’s main focus areas?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Oluwadare is a public Service provider and reform-driven leader dedicated to inclusive
+                                progress, youth empowerment, and grassroots transformation.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
 
         <section class="events-wrapper sec-space overflow-hidden sm-events">
             <div class="container">

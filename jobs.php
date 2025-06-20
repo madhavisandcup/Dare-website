@@ -30,12 +30,7 @@
                                     <span class="arrws-inner d-block overflow-hidden"><i class="icon-Vector-Strokearrow arrw-icon one"></i><i class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
                             </a>
                         </div>
-                    </div>
-                    <div class="mobile-view-img">
-                        <div class="m-hero-img">
-                            <img src="./images/hero-img-mobile.webp" alt="hero-img-mobile" class="img-fluid">
-                        </div>
-                    </div>
+                    </div>                    
                 </div>
                 <div class="down-arrow h-circular">
                     <div class="circular-box-main">

@@ -1896,7 +1896,7 @@
      }
      /*******Nation Blogs*******/
      
-     .nation-main .container {
+     .nation-main:not(.m-full) .container {
           width: clamp(1025px, 71.2vw, 1366px);
      }
      
@@ -1937,12 +1937,14 @@
           font-size: clamp(14px, 1.11vw, 21px);
      }
      
-     .n-post-title {
+     .n-post-title,
+     .mom-title {
           color: #2b2b2b;
           transition: all 0.5s ease-in-out;
      }
      
-     a.n-post-title:hover {
+     a.n-post-title:hover,
+     a.mom-title:hover {
           color: #008751;
      }
      
@@ -2005,18 +2007,29 @@
           margin-top: 32px;
      }
      
-     .productSlider .swiper-slide,
-     .productSlider .swiper-wrapper {
-          height: auto;
-     }
-     
-     .productSlider .swiper-wrapper {
-          padding-bottom: 30px;
-     }
-     
      .mom-social-icons {
           display: flex;
           gap: 10px;
+     }
+     
+     .mom-meta-title {
+          width: 80%;
+     }
+     
+     .m-leader .m-item {
+          font-size: clamp(18px, 1.67vw, 32px);
+     }
+     
+     .m-leader.marquee-led-driven .marquee-block {
+          padding: 38px 0;
+     }
+     
+     .resourses-main .voice-wrapper {
+          padding: 60px 0 0;
+     }
+     
+     .nation-tabs-wrapper .main-btn-inner {
+          margin-top: 50px;
      }
      
      @-moz-keyframes spin {
