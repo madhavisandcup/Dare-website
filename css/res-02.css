@@ -1317,7 +1317,6 @@
           .homepage.resourses,
           .homepage.job {
                background-position: 60% top;
-               height: 100vh;
           }
           .homepage.mission .mobile-view-img {
                display: none;
