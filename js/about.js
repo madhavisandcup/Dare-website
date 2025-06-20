@@ -1,13 +1,12 @@
 // clears all keys
-if ('caches' in window) {
-     caches.keys().then(function(names) {
+if ("caches" in window) {
+     caches.keys().then(function (names) {
           for (let name of names) {
                caches.delete(name);
           }
-          console.log('cache cleared!');
+          console.log("cache cleared!");
      });
 }
-
 
 /************************** Verticle slider - GSAP *******************************/
 gsap.registerPlugin(ScrollTrigger);
@@ -20,23 +19,23 @@ const totalPanels = contents.length;
 // ✅ Set panelHeight and panelMargin based on screen width
 let panelHeight;
 let panelMargin;
-
-if (window.innerWidth <= 768) {
+if (window.innerWidth <= 575) {
+     // SM Mobile
+     panelHeight = 150;
+     panelMargin = 106;
+} else if (window.innerWidth <= 768) {
      // Mobile
-     panelHeight = 120;
+     panelHeight = 140;
      panelMargin = 80;
-}
-else if (window.innerWidth <= 1024) {
+} else if (window.innerWidth <= 1024) {
      // Tablet
      panelHeight = 180;
      panelMargin = 120;
-}
-else if (window.innerWidth <= 1400) {
+} else if (window.innerWidth <= 1200) {
      // mini desktop
      panelHeight = 195;
      panelMargin = 124;
-}
-else {
+} else {
      // Desktop
      panelHeight = 244;
      panelMargin = 160;
@@ -76,26 +75,38 @@ if (verticleScroll) {
                     });
 
                     // Toggle default image visibility
-                    const anyImageActive = images.some(img => img.classList.contains("is-active"));
-                    document.querySelector(".default_panel").classList.toggle("hidden", anyImageActive);
+                    const anyImageActive = images.some((img) =>
+                         img.classList.contains("is-active")
+                    );
+                    document
+                         .querySelector(".default_panel")
+                         .classList.toggle("hidden", anyImageActive);
                },
           },
      });
 
      // Smoothly move and fade out panel_title as scroll starts
-     tl.to(".panel_title", {
-          y: -400,
-          autoAlpha: 0,
-          ease: "none",
-          duration: 0.15,
-     }, 0);
+     tl.to(
+          ".panel_title",
+          {
+               y: -400,
+               autoAlpha: 0,
+               ease: "none",
+               duration: 0.15,
+          },
+          0
+     );
 
      // Then move the whole content upward to scroll through panels
-     tl.to(".verticle-scroll-content", {
-          y: -contentHeight,
-          ease: "none",
-          duration: 0.8,
-     }, 0);
+     tl.to(
+          ".verticle-scroll-content",
+          {
+               y: -contentHeight,
+               ease: "none",
+               duration: 0.8,
+          },
+          0
+     );
 }
 
 /************************** Timeline slider - GSAP *******************************/
@@ -162,8 +173,6 @@ if (document.querySelector(".timeline-scroll") != null) {
      // });
 }
 
-
-
 /************************** Text marquee semicircle - GSAP *******************************/
 // // Add a class
 // gsap.to(".for-add", {
@@ -201,7 +210,7 @@ function startRotation() {
                ease: "linear",
                repeat: -1,
                transformOrigin: "50% 50%",
-               transformBox: "fill-box"
+               transformBox: "fill-box",
           });
      }
 }
@@ -212,7 +221,7 @@ function startTspanLoop() {
      let index = 0;
 
      intervalID = setInterval(() => {
-          tspans.forEach(t => t.classList.remove("added")); // remove all first
+          tspans.forEach((t) => t.classList.remove("added")); // remove all first
           tspans[index].classList.add("added"); // add to current
 
           // Remove after 1.5 seconds
@@ -245,9 +254,8 @@ ScrollTrigger.create({
      },
      onLeaveBack: () => {
           stopTspanLoop();
-     }
+     },
 });
-
 
 //   gsap.to(".circle-text svg", {
 //     rotate: 360,

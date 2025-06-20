@@ -8,11 +8,11 @@
         </div>
     </div>
 
-    <div class="about-banner homepage">
+    <div class="about-banner homepage sm-margin">
         <section class="container">
             <div class="hero-banner">
                 <div class="hero-layout">
-                    <div class="hero-title">
+                    <div class="hero-title sm-pb">
                         <h1 class="text-white mb-0">
                             <span class="">
                                 <span class="">Rooted <span class="wrap_in"><span class="pulse-animate"><span class="pulse_dot"></span><span class="d-inline-block overflow-hidden"><img src="./images/object-i-img.svg" alt="I-img" class="object_i"></span></span>n</span></span>
@@ -32,13 +32,8 @@
                             </a>
                         </div>
                     </div>
-                    <div class="mobile-view-img">
-                        <div class="m-hero-img">
-                            <img src="./images/hero-img-mobile.webp" alt="hero-img-mobile" class="img-fluid">
-                        </div>
-                    </div>
                 </div>
-                <div class="down-arrow h-circular">
+                <div class="down-arrow h-circular sm-d-none-marquee">
                     <div class="circular-box-main">
                         <div class="c-box">
                             <svg viewBox="0 0 216 216" width="216" height="216">
@@ -71,8 +66,8 @@
             <div class="row">
                 <div class="col-md-7">
                     <h2 class="main-title apc-anim">A Legacy of
-                        <i class="pd_italic text_green">Leadership </i>with<span class="apc-img-animate overflow-hidden position-relative d-inline-block me-0"><span class="apc-imgs"><img src="images/apc-lg.svg" class="ap-01" alt="apc"><img src="images/apc-lg.svg" class="ap-02" alt="apc"></span></span>
-                        <span class="dot-animated text_green"><span class="pulse-animate"><span class="pulse_dot"></span></span></span>
+                        <span class="sm-block"><i class="pd_italic text_green">Leadership </i>with<span class="apc-img-animate overflow-hidden position-relative d-inline-block me-0"><span class="apc-imgs"><img src="images/apc-lg.svg" class="ap-01" alt="apc"><img src="images/apc-lg.svg" class="ap-02" alt="apc"></span></span>
+                        <span class="dot-animated text_green"><span class="pulse-animate"><span class="pulse_dot"></span></span></span></span>
                     </h2>
                 </div>
                 <div class="col-md-5">
