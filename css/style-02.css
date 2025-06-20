@@ -1429,7 +1429,8 @@
           width: 100%;
      }
      
-     .features-timeline-main::-webkit-scrollbar {
+     .features-timeline-main::-webkit-scrollbar,
+     .nation-tabs .nav-tabs::-webkit-scrollbar {
           display: none;
      }
      
@@ -1857,7 +1858,6 @@
      
      .f-step-desc {
           font-size: 21px;
-          /* width: 100%; */
           transition: all 0.5s ease-in-out;
      }
      
@@ -1896,14 +1896,18 @@
      }
      /*******Nation Blogs*******/
      
+     .nation-main .container {
+          width: clamp(1025px, 71.2vw, 1366px);
+     }
+     
      .nation-tabs-wrapper {
           margin-top: 5vw;
      }
      
      .nation-post-item:not(:last-child) {
           padding-bottom: 32px;
-          margin-bottom: 32px;
-          border-bottom: 0.5px solid #767676;
+          margin-bottom: 52px;
+          border-bottom: 0.5px solid #B0B0B0;
      }
      
      .n-meta-tags {
@@ -1920,8 +1924,43 @@
      
      .nation-tabs {
           display: flex;
+          align-items: center;
           justify-content: space-between;
-          margin-bottom: 40px;
+          margin-bottom: 70px;
+     }
+     
+     .n-post-content {
+          width: 90%;
+     }
+     
+     .n-post-content p {
+          font-size: clamp(14px, 1.11vw, 21px);
+     }
+     
+     .n-post-title {
+          color: #2b2b2b;
+          transition: all 0.5s ease-in-out;
+     }
+     
+     a.n-post-title:hover {
+          color: #008751;
+     }
+     
+     .title-truncate {
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+     }
+     
+     .nation-main .year-dropdown .year_text {
+          color: #767676;
+          padding: 8px 36px 8px 12px;
+          background: #F9F9FA;
+          border-radius: 16px;
+     }
+     
+     .nation-main select.year_text option {
+          background: #F9F9FA;
      }
      /***Momentum Post******/
      
@@ -1974,47 +2013,11 @@
      .productSlider .swiper-wrapper {
           padding-bottom: 30px;
      }
-     /* Customize the scrollbar container */
      
-     .productSlider .swiper-scrollbar {
-          height: 6px;
-          width: 60%;
-          left: 50%;
-          bottom: 0;
-          top: auto;
-          background: #e0e0e0;
-          opacity: 1 !important;
-          transform: translateX(-50%);
-          transition: none !important;
+     .mom-social-icons {
+          display: flex;
+          gap: 10px;
      }
-     
-     .productSlider .swiper-scrollbar-drag {
-          background: #666;
-          border-radius: 10px;
-          /* transition: transform 0.2s ease; */
-          /* transition: none !important; */
-          /* transform-origin: left center;
-          transform: scaleX(0.5);
-          transition: transform 0.2s ease; */
-     }
-     /* .productSlider .swiper-scrollbar {
-          background: #dfdfdf;
-          border-radius: 10px;
-          height: 4px;
-          bottom: 0;
-          transition: opacity .4s;
-          left: 10%;
-          width: 80%;
-     }
-     
-     .productSlider .swiper-scrollbar-drag {
-          height: 100%;
-          width: 100%;
-          position: relative;
-          background: #00000080;
-          left: 0;
-          top: 0;
-     } */
      
      @-moz-keyframes spin {
           100% {
