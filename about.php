@@ -288,7 +288,7 @@
             <div class="timeline-inner-content">
                 <div class="tm-slide scroll-only">
                     <div class="center-heading text-center">
-                        <div>
+                        <div class="pt-top">
                             <h2 class="text-black text_70">
                                 <span class="">
                                     <span class="">A T<span class="wrap_in"><span class="pulse-animate"><span class="pulse_dot"></span><span class="d-inline-block overflow-hidden">

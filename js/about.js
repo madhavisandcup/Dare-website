@@ -31,11 +31,11 @@ if (window.innerWidth <= 575) {
      // Tablet
      panelHeight = 180;
      panelMargin = 120;
-} else if (window.innerWidth <= 1200) {
-     // mini desktop
+} else if (window.innerWidth <= 1600) {
      panelHeight = 195;
      panelMargin = 124;
-} else {
+} 
+else {
      // Desktop
      panelHeight = 244;
      panelMargin = 160;
