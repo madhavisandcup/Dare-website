@@ -16,10 +16,34 @@ const verticleScroll = document.querySelector(".verticle-scroll-slider");
 const contents = gsap.utils.toArray(".panel_content");
 const images = gsap.utils.toArray(".image_panel");
 const totalPanels = contents.length;
-const panelHeight = 168;
-const panelMargin = 160;
+
+// ✅ Set panelHeight and panelMargin based on screen width
+let panelHeight;
+let panelMargin;
+
+if (window.innerWidth <= 768) {
+     // Mobile
+     panelHeight = 120;
+     panelMargin = 80;
+}
+else if (window.innerWidth <= 1024) {
+     // Tablet
+     panelHeight = 180;
+     panelMargin = 120;
+}
+else if (window.innerWidth <= 1400) {
+     // mini desktop
+     panelHeight = 195;
+     panelMargin = 124;
+}
+else {
+     // Desktop
+     panelHeight = 244;
+     panelMargin = 160;
+}
+
 const contentHeight = totalPanels * (panelHeight + panelMargin);
-const extraBuffer = window.innerHeight * 0.8; // extra scroll after last panel
+const extraBuffer = window.innerHeight; // extra scroll after last panel
 
 if (verticleScroll) {
      // Main timeline

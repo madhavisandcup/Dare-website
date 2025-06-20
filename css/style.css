@@ -702,6 +702,8 @@ body.navbar-open {
      font-size: 26px;
      font-family: 'DM Sans Medium';
      color: #000;
+     padding: 6px 36px 6px 12px;
+     height: auto;
 }
 
 .events-wrapper .form-select {
@@ -1339,10 +1341,12 @@ span.pulse-animate {
      -moz-transition: opacity 300ms ease;
      -ms-transition: opacity 300ms ease;
      -o-transition: opacity 300ms ease;
+     height: 244px;
+     width: 70%;
 }
 
 .panel_content p {
-     color: #fff;
+     color: #C5C5C5;
 }
 
 .image_panel.is-active {
@@ -1356,8 +1360,7 @@ span.pulse-animate {
 .panel_title {
      position: absolute;
      left: 100px;
-     /*top: 12vw;
-     */bottom: 35vh;
+     bottom: 35vh;
      z-index: 9;
      opacity: 1;
      display: flex;
@@ -1367,12 +1370,12 @@ span.pulse-animate {
      width: 56%;
 }
 
-.panel_content {
-     height: 168px;
-}
-
 .panel_content .main-title {
      width: 100%;
+}
+
+.image_panel .gradient-layer {
+     background: linear-gradient(to top, rgba(17, 15, 14, 0.8) 0, rgba(17, 15, 14, 0) 100%);
 }
 
 
