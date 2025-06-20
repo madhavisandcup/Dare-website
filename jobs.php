@@ -9,11 +9,11 @@
         </div>
     </div> -->
     <div class="job-main">
-    <div class="homepage job">
+    <div class="homepage sm-margin job">
         <section class="container">
             <div class="hero-banner">
                 <div class="hero-layout">
-                    <div class="hero-title">
+                    <div class="hero-title sm-pb">
                         <h1 class="text-white mb-0">
                             <span class="d-block">
                                 <span><span class="pd_italic"><em>Work</em></span> that Matters,</span>

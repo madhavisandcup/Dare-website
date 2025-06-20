@@ -9,11 +9,11 @@
         </div>
     </div> -->
     <div class="resourses-main">
-        <div class="homepage resourses">
+        <div class="homepage sm-margin resourses">
             <section class="container">
                 <div class="hero-banner">
                     <div class="hero-layout">
-                        <div class="hero-title">
+                        <div class="hero-title sm-pb">
                             <h1 class="text-white mb-0">
                                 <span class="d-block">
                                     <span>From the <span class="pd_italic"><em>Frontlines</em></span></span>

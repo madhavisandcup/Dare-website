@@ -9,11 +9,11 @@
         </div>
     </div> -->
     <div class="mission-main">
-    <div class="homepage mission">
+    <div class="homepage sm-margin mission">
         <section class="container">
             <div class="hero-banner">
                 <div class="hero-layout">
-                    <div class="hero-title">
+                    <div class="hero-title sm-pb">
                         <h1 class="text-white mb-0">
                             <span class="">
                                 <span class="">Gu<span class="wrap_in"><span class="pulse-animate"><span class="pulse_dot"></span><span class="d-inline-block overflow-hidden"><img src="./images/object-i-img.svg" alt="I-img" class="object_i"></span></span>ded</span></span><span> By</span>
