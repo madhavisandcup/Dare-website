@@ -1130,6 +1130,10 @@
         margin-top: 80px;
     }
 
+    .homepage:not(.sm_h_banner) {
+        height: calc(100svh - 80px);
+    }
+
     .about-banner.homepage {
         height: calc(100svh - 80px);
         background-position: inherit;
