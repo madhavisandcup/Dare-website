@@ -1341,8 +1341,8 @@ span.pulse-animate {
      -moz-transition: opacity 300ms ease;
      -ms-transition: opacity 300ms ease;
      -o-transition: opacity 300ms ease;
-     height: 18.4vh;
-     width: 37vw;
+     height: 244px;
+     width: 70%;
 }
 
 .panel_content p {
@@ -1373,8 +1373,9 @@ span.pulse-animate {
 .panel_content .main-title {
      width: 100%;
 }
-.image_panel .gradient-layer{
-     background: linear-gradient(to top, rgba(17, 15, 14, 1) 0, rgba(17, 15, 14, 0) 100%);    
+
+.image_panel .gradient-layer {
+     background: linear-gradient(to top, rgba(17, 15, 14, 0.8) 0, rgba(17, 15, 14, 0) 100%);
 }
 
 

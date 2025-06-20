@@ -2,7 +2,6 @@
 
     <?php include 'header.php'; ?>
 
-    <!-- Custom Cursor -->
     <div class="cursor">
         <div class="custom_cursor">
             <span class="cursor_text"></span>
