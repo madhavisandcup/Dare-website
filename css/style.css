@@ -1759,6 +1759,7 @@ ul.slick-dots {
      height: fit-content;
      transform: translateY(-50%);
      margin: 40px 0;
+     padding: 0;
 }
 
 ul.slick-dots button {

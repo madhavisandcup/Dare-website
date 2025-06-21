@@ -429,6 +429,42 @@
 }
 
 @media (max-width: 1399px) {
+    .tm_grid3 {
+        width: auto;
+        height: 27vh;
+    }
+
+    .tm_grid1 {
+        width: auto;
+        height: 34vh;
+    }
+
+    .tm_grid2 {
+        width: auto;
+        height: 28vh;
+    }
+
+    .tm-main.container {
+        padding: 0 20px;
+    }
+
+    ul.slick-dots button {
+        padding: 4px;
+        margin: 6px 0;
+    }
+
+    .pt-top {
+        padding-top: 120px;
+    }
+
+    .slick-next.slick-arrow {
+        bottom: 22vh;
+    }
+
+    .slick-prev.slick-arrow {
+        top: 33vh;
+    }
+
     .verticle-scroll-content {
         top: 93%;
     }
@@ -541,6 +577,34 @@
 }
 
 @media (max-width: 1199px) {
+    .child-content {
+        height: 76vh;
+    }
+
+    .timeline-info-text {
+        gap: 16px;
+    }
+
+    ul.slick-dots {
+        right: 58px;
+    }
+
+    .slick-arrow {
+        right: 40px;
+    }
+
+    .tm_grid1 {
+        height: 30vh;
+    }
+
+    .tm_grid2 {
+        height: 25vh;
+    }
+
+    .tm_grid3 {
+        height: 24vh;
+    }
+
     .gradient-layer {
         background: linear-gradient(to top, rgba(17, 15, 14, 1) 0, rgba(17, 15, 14, 0) 100%);
     }
@@ -737,6 +801,41 @@
 }
 
 @media (max-width: 1024px) {
+    .tm-slick-item .radius-16 {
+        border-radius: 12px;
+    }
+
+    .tm_grid1 {
+        height: 25vh;
+    }
+
+    .tm_grid2 {
+        height: 20vh;
+    }
+
+    .tm_grid3 {
+        height: 21vh;
+    }
+
+    .timeline-photo-grid img {
+        margin: 4px;
+    }
+
+    .tm-main.container {
+        padding: 0 50px;
+    }
+
+    .slick-arrow {
+        width: 40px;
+        height: 40px;
+        background-size: 30%;
+    }
+
+    .tm-heading-text h2 {
+        padding: 0 0 8px 0;
+        margin: 0 0 16px;
+    }
+
     .panel_content {
         height: 160px;
     }
@@ -827,6 +926,37 @@
 }
 
 @media (max-width: 991px) {
+
+    .slick-next.slick-arrow,
+    .slick-prev.slick-arrow {
+        bottom: 80px;
+        top: auto !important;
+    }
+
+    .slick-prev.slick-arrow {
+        right: 15vw;
+        transform: rotate(-90deg);
+    }
+
+    .slick-next.slick-arrow {
+        right: 7vw;
+        transform: rotate(-90deg);
+    }
+
+    ul.slick-dots {
+        display: flex;
+        margin: 0;
+        gap: 10px;
+        top: 80px;
+        right: 0;
+        left: 0;
+        justify-content: center;
+    }
+
+    .tm-main.container {
+        padding: 0 30px;
+    }
+
     .panel_title {
         left: 30px;
     }
