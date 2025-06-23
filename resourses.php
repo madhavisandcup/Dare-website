@@ -3,11 +3,11 @@
     <?php include 'header.php'; ?>
 
     <!-- Custom Cursor -->
-    <!-- <div class="cursor">
+    <div class="cursor">
         <div class="custom_cursor">
             <span class="cursor_text"></span>
         </div>
-    </div> -->
+    </div>
     <div class="resourses-main">
         <div class="homepage sm-margin resourses">
             <section class="container">
@@ -36,7 +36,7 @@
                                               class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
                                 </a>
                             </div>
-                        </div>                        
+                        </div>
                     </div>
                     <div class="down-arrow h-circular sm-d-none-marquee">
                         <div class="circular-box-main">
@@ -220,59 +220,63 @@
                         <div class="tab-pane fade show active" id="nav-infrastructure" role="tabpanel"
                           aria-labelledby="nav-infrastructure-tab" tabindex="0">
                             <article class="nation-post-item">
-                                <div class="row">
-                                    <div class="col-lg-9 col-sm-8">
-                                        <div class="n-meta-tags">
-                                            <small>May 2 , 2025</small>
-                                            <small>Channels TV5</small>
-                                        </div>
-                                        <div class="n-post-content">
-                                            <a href="#" class='n-post-title'>
+                                <a href="#" class='n-post-title' data-cursor-text="Read Blog">
+                                    <div class="row">
+                                        <div class="col-lg-9 col-sm-8">
+                                            <div class="n-meta-tags">
+                                                <small>May 2 , 2025</small>
+                                                <small>Channels TV5</small>
+                                            </div>
+                                            <div class="n-post-content">
                                                 <h4 class="title-truncate">Oluwadare Owolabi: A Steady Voice in
                                                     Nigeria’s Rising Political Tide</h4>
-                                            </a>
-                                            <p class="extra_light_grey mb-0">
-                                                As Nigeria prepares for a new chapter, Oluwadare Owolabi’s grounded
-                                                leadership is gaining attention. This article highlights his grassroots
-                                                approach and policy priorities that resonate across generations.
-                                            </p>
+                                                <p class="extra_light_grey mb-0">
+                                                    As Nigeria prepares for a new chapter, Oluwadare Owolabi’s grounded
+                                                    leadership is gaining attention. This article highlights his
+                                                    grassroots
+                                                    approach and policy priorities that resonate across generations.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-sm-4">
+                                            <figure>
+                                                <img src="images/resourses/n-01.png" class="img-fluid radius-16"
+                                                  alt="channel-tv">
+                                            </figure>
                                         </div>
                                     </div>
-                                    <div class="col-lg-3 col-sm-4">
-                                        <figure>
-                                            <img src="images/resourses/n-01.png" class="img-fluid radius-16"
-                                              alt="channel-tv">
-                                        </figure>
-                                    </div>
-                                </div>
+                                </a>
                             </article>
                             <article class="nation-post-item">
-                                <div class="row">
-                                    <div class="col-lg-9 col-sm-8">
-                                        <div class="n-meta-tags">
-                                            <small>May 2 , 2025</small>
-                                            <small>Channels TV5</small>
+                                <a href="#" class='n-post-title' data-cursor-text="Read Blog">
+                                    <div class="row">
+                                        <div class="col-lg-9 col-sm-8">
+                                            <div class="n-meta-tags">
+                                                <small>May 2 , 2025</small>
+                                                <small>Channels TV5</small>
+                                            </div>
+                                            <div class="n-post-content">
+                                                <a href="#" class='n-post-title'>
+                                                    <h4 class='title-truncate'>Breaking Ground, Building Trust: Oluwadare
+                                                        Begins Statewide Listening Tour</h4>
+                                                </a>
+                                                <p class="extra_light_grey mb-0">
+                                                    Oluwadare explores the values behind decisive leadership and how empathy
+                                                    and structure shape policy that puts people first.
+                                                </p>
+                                            </div>
                                         </div>
-                                        <div class="n-post-content">
-                                            <a href="#" class='n-post-title'>
-                                                <h4 class='title-truncate'>Breaking Ground, Building Trust: Oluwadare
-                                                    Begins Statewide Listening Tour</h4>
-                                            </a>
-                                            <p class="extra_light_grey mb-0">
-                                                Oluwadare explores the values behind decisive leadership and how empathy
-                                                and structure shape policy that puts people first.
-                                            </p>
+                                        <div class="col-lg-3 col-sm-4">
+                                            <figure>
+                                                <img src="images/resourses/n-01.png" class="img-fluid radius-16"
+                                                alt="channel-tv">
+                                            </figure>
                                         </div>
                                     </div>
-                                    <div class="col-lg-3 col-sm-4">
-                                        <figure>
-                                            <img src="images/resourses/n-01.png" class="img-fluid radius-16"
-                                              alt="channel-tv">
-                                        </figure>
-                                    </div>
-                                </div>
+                                </a>
                             </article>
                             <article class="nation-post-item">
+                                <a href="#" class='n-post-title' data-cursor-text="Read Blog">
                                 <div class="row">
                                     <div class="col-lg-9 col-sm-8">
                                         <div class="n-meta-tags">
@@ -299,6 +303,7 @@
                                         </figure>
                                     </div>
                                 </div>
+                                </a>
                             </article>
                         </div>
                     </div>
@@ -434,7 +439,7 @@
                         releases, updates, and documented statements.</p>
                 </div>
 
-                <div class="nation-tabs-wrapper">
+                <div class="nation-tabs-wrapper tab-news">
                     <div class="nation-tabs">
                         <div class="n-tab-main position-relative">
                             <div class="nav nav-tabs border-0" role="tablist">
@@ -472,32 +477,35 @@
                                 <div class="col-lg-8">
                                     <article class="mom-item radius-16 grid-50">
                                         <div class="mom-card__media">
-                                            <figure class="mom-images">
-                                                <img src="images/resourses/mom-lg.jpg"
-                                                  alt="Audience listening at a health conference" loading="lazy"
-                                                  class="mom-card__image radius-16 img-fluid" />
-                                            </figure>
-                                            <div class="grid-50 sm">
-                                                <figure class="mom-images mb-0">
-                                                    <img src="images/resourses/mom-sm.jpg"
-                                                      alt="Audience listening at a health conference" loading="lazy"
-                                                      class="mom-card__image radius-16  img-fluid" />
+                                            <a href="#" class='d-block' data-cursor-text="Read News">
+                                                <figure class="mom-images">
+                                                    <img src="images/resourses/mom-lg.jpg"
+                                                    alt="Audience listening at a health conference" loading="lazy"
+                                                    class="mom-card__image radius-16 img-fluid" />
                                                 </figure>
-                                                <figure class="mom-images mb-0">
-                                                    <img src="images/resourses/mom-sm-02.jpg"
-                                                      alt="Audience listening at a health conference" loading="lazy"
-                                                      class="mom-card__image radius-16  img-fluid" />
-                                                </figure>
-                                            </div>
+                                                <div class="grid-50 sm">
+                                                    <figure class="mom-images mb-0">
+                                                        <img src="images/resourses/mom-sm.jpg"
+                                                        alt="Audience listening at a health conference" loading="lazy"
+                                                        class="mom-card__image radius-16  img-fluid" />
+                                                    </figure>
+                                                    <figure class="mom-images mb-0">
+                                                        <img src="images/resourses/mom-sm-02.jpg"
+                                                        alt="Audience listening at a health conference" loading="lazy"
+                                                        class="mom-card__image radius-16  img-fluid" />
+                                                    </figure>
+                                                </div>
+                                            </a>
                                         </div>
                                         <div class="mom-card__content">
                                             <span class="text_green">Your Empowerment</span>
                                             <div class="mom-meta">
                                                 <div class="mom-meta-title">
-                                                    <a href="#" class='mom-title d-block'>
+                                                    <a href="#" class='mom-title d-block' data-cursor-text="Read News">
                                                         <h3 class="title-truncate mb-0">Digital Youth Labs</h3>
-                                                    </a>
-                                                    <small class="extra_light_grey d-block mt-1">@oluwadare_owolabi</small>
+                                                    <small
+                                                      class="extra_light_grey d-block mt-1">@oluwadare_owolabi</small>
+                                                       </a>
                                                 </div>
                                                 <ul class="list-unstyled mom-social-icons mb-0">
                                                     <li><a href="#"><img src="images/resourses/twitter.svg"
@@ -526,9 +534,10 @@
                                                 <div class="mom-meta">
                                                     <div class="mom-meta-title">
                                                         <a href="#" class='mom-title d-block'>
-                                                             <h3 class="title-truncate mb-0">Wellness on the Move</h3>
+                                                            <h3 class="title-truncate mb-0">Wellness on the Move</h3>
                                                         </a>
-                                                        <small class="extra_light_grey d-block mt-1">@oluwadare_owolabi</small>
+                                                        <small
+                                                          class="extra_light_grey d-block mt-1">@oluwadare_owolabi</small>
                                                     </div>
                                                     <ul class="list-unstyled mom-social-icons mb-0">
                                                         <li><a href="#"><img src="images/resourses/twitter.svg"
@@ -536,8 +545,8 @@
                                                         <li><a href="#"><img src="images/resourses/linkedin.svg"
                                                                   alt="linkedin"></a></li>
                                                     </ul>
-                                                    </div>
-                                                 <p class="mom-card-desc mb-0">Launched free digital skills training
+                                                </div>
+                                                <p class="mom-card-desc mb-0">Launched free digital skills training
                                                     programs in 4 public secondary schools, equipping students.</p>
                                             </figcaption>
                                         </figure>
@@ -558,7 +567,8 @@
                                                         <a href="#" class='mom-title d-block'>
                                                             <h3 class="title-truncate mb-0">Bright Futures Drive</h3>
                                                         </a>
-                                                        <small class="extra_light_grey d-block mt-1">@oluwadare_owolabi</small>
+                                                        <small
+                                                          class="extra_light_grey d-block mt-1">@oluwadare_owolabi</small>
                                                     </div>
                                                     <ul class="list-unstyled mom-social-icons mb-0">
                                                         <li><a href="#"><img src="images/resourses/twitter.svg"
@@ -598,10 +608,11 @@
                                             <span class="text_green">Infrastructure</span>
                                             <div class="mom-meta">
                                                 <div class="mom-meta-title">
-                                                     <a href="#" class='mom-title d-block'>
+                                                    <a href="#" class='mom-title d-block'>
                                                         <h3 class="title-truncate mb-0">Built for Tomorrow</h3>
                                                     </a>
-                                                    <small class="extra_light_grey d-block mt-1">@oluwadare_owolabi</small>
+                                                    <small
+                                                      class="extra_light_grey d-block mt-1">@oluwadare_owolabi</small>
                                                 </div>
                                                 <ul class="list-unstyled mom-social-icons mb-0">
                                                     <li><a href="#"><img src="images/resourses/twitter.svg"
@@ -610,13 +621,17 @@
                                                               alt="linkedin"></a></li>
                                                 </ul>
                                             </div>
-                                            <p class="mom-card-desc">Visited three rural clinics this week where power cuts interrupt patient care. We’ve now installed solar backups in each one — ensuring that no child is delivered by torchlight again. It's a small infrastructure shift with life-saving impact.
+                                            <p class="mom-card-desc">Visited three rural clinics this week where power
+                                                cuts interrupt patient care. We’ve now installed solar backups in each
+                                                one — ensuring that no child is delivered by torchlight again. It's a
+                                                small infrastructure shift with life-saving impact.
                                             </p>
                                             <p class="mom-highlight-desc mb-0">Over <mark
-                                                  class="text_green">2500+</mark> patients served in mobile medical camps.</p>
+                                                  class="text_green">2500+</mark> patients served in mobile medical
+                                                camps.</p>
                                         </div>
                                     </article>
-                                </div>                                
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -643,7 +658,7 @@
                         <span class="m-item flex m-title">#Grassroots</span>
                         <span class="m-item flex m-title">#APC</span>
                     </div>
-                   <div class="marquee-text flex">
+                    <div class="marquee-text flex">
                         <span class="m-item flex m-title">#Leadership</span>
                         <span class="m-item flex m-title">#Communityvoice</span>
                         <span class="m-item flex m-title">#Voiceofmany</span>
@@ -863,7 +878,7 @@
             </div>
         </section>
 
-        
+
 
         <section class="events-wrapper sec-space overflow-hidden sm-events">
             <div class="container">

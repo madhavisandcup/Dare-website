@@ -107,6 +107,6 @@
     <!-- <script src="./js/circletype.min.js"></script> -->
     <script src="./js/custom.js"></script>
     <script src="./js/custom-02.js"></script>
-    <script src="./js/cursor-slider.js"></script>
+    <script src="./js/cursor.js"></script>
 
 </footer>
