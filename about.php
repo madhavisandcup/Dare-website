@@ -1,5 +1,5 @@
-<body>
-
+<body class="about">
+    <script src="timeline.js"></script>
     <?php include 'header.php'; ?>
 
     <div class="cursor">
@@ -64,13 +64,13 @@
     <section class="vision-wrapper purpose sec-space sec-bottom ">
         <div class="container">
             <div class="row">
-                <div class="col-md-7">
+                <div class="col-lg-7 col-md-6">
                     <h2 class="main-title apc-anim">A Legacy of
                         <span class="sm-block"><i class="pd_italic text_green">Leadership </i>with<span class="apc-img-animate overflow-hidden position-relative d-inline-block me-0"><span class="apc-imgs"><img src="images/apc-lg.svg" class="ap-01" alt="apc"><img src="images/apc-lg.svg" class="ap-02" alt="apc"></span></span>
-                        <span class="dot-animated text_green"><span class="pulse-animate"><span class="pulse_dot"></span></span></span></span>
+                            <span class="dot-animated text_green"><span class="pulse-animate"><span class="pulse_dot"></span></span></span></span>
                     </h2>
                 </div>
-                <div class="col-md-5">
+                <div class="col-lg-5 col-md-6">
                     <p class="vision-desc">As a proud member of APC, Oluwadare has played an active role in shaping youth initiatives, community outreach programs, and electoral strategy.</p>
                     <p class="vision-desc mb-0">This partnership has enabled broader platforms for advocacy, and has connected local missions to national-level impact.</p>
                 </div>
@@ -144,8 +144,8 @@
             </h2>
             <div class="svg-wrapper">
                 <div class="circle-text">
-                    <!-- <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                      width="950" height="950" viewBox="0 0 950 950" xml:space="preserve">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                        width="950" height="950" viewBox="0 0 950 950" xml:space="preserve">
                         <defs>
                             <path id="textcircle" d="M900,500 a400,400 0 0,0 -800,0"></path>
                         </defs>
@@ -159,8 +159,8 @@
                                 <tspan class="small-text tspan-item">Hope that does'nt fade.</tspan> &nbsp;
                             </textPath>
                         </text>
-                      
-                    </svg> -->
+
+                    </svg>
 
                     <svg width="950" height="950" viewBox="0 0 950 950" xmlns="http://www.w3.org/2000/svg">
                         <defs>
@@ -313,199 +313,14 @@
                     </div>
                 </div>
                 <div class="tm-slide white-bg" id="slickslider">
-                    <div class="slickSlider">
-                        <div class="tm-slick-item img1">
-                            <div class="tm-main container">
-                                <div class="child-content">
-                                    <div class="timeline-info-text">
-                                        <span class="dm_sbold d-inline-block tm-year">2012</span>
-                                        <div class="tm-heading-text">
-                                            <h2 class="text-white dm_medium">The beginning</h2>
-                                        </div>
-                                        <h3 class="text-white dm_medium mb-0">Early Corporate Exposure</h3>
-                                        <p class="mb-0 text-white">Entered the corporate world as a strategy analyst, building a foundation in systems thinking and organizational leadership.This phase sharpened his understanding of systems, structure, and leadership grounded in impact.</p>
-                                    </div>
-                                </div>
-                                <div class="child-image">
-                                    <div class="timeline-photo-grid">
-                                        <img src="./images/about/tm-grid-1.svg" alt="" class="radius-16 tm_grid1">
-                                        <img src="./images/about/tm-grid-2.svg" alt="" class="radius-16 tm_grid2">
-                                        <img src="./images/about/tm-grid-3.svg" alt="" class="radius-16 tm_grid3">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tm-slick-item img2">
-                            <div class="tm-main container">
-                                <div class="child-content">
-                                    <div class="timeline-info-text">
-                                        <span class="dm_sbold d-inline-block tm-year">2013</span>
-                                        <div class="tm-heading-text">
-                                            <h2 class="text-white dm_medium">Early exposure</h2>
-                                        </div>
-                                        <h3 class="text-white dm_medium mb-0">Strategy in the Real World</h3>
-                                        <p class="mb-0 text-white">Oluwadare began his professional journey in corporate strategy roles, working closely with teams in finance and operations. This phase helped him understand how structured thinking and decision-making impact real outcomes, forming the base of his leadership mindset.</p>
-                                    </div>
-                                </div>
-                                <div class="child-image">
-                                    <div class="timeline-photo-grid">
-                                        <img src="./images/about/tm-grid-4.svg" alt="" class="radius-16 tm_grid4">
-                                        <div class="inner-flex-img lg-align-start m-left">
-                                            <img src="./images/about/tm-grid-6.svg" alt="" class="radius-16 tm_grid6">
-                                            <img src="./images/about/tm-grid-5.svg" alt="" class="radius-16 tm_grid5">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tm-slick-item img3">
-                            <div class="tm-main container">
-                                <div class="child-content">
-                                    <div class="timeline-info-text">
-                                        <span class="dm_sbold d-inline-block tm-year">2014</span>
-                                        <div class="tm-heading-text">
-                                            <h2 class="text-white dm_medium">Finance</h2>
-                                        </div>
-                                        <h3 class="text-white dm_medium mb-0">Learning How Systems Move</h3>
-                                        <p class="mb-0 text-white">Expanding into the financial sector, he participated in high level analysis and planning, seeing firsthand how policy, funding, and execution intersect especially when applied to national infrastructure and economic reform.</p>
-                                    </div>
-                                </div>
-                                <div class="child-image">
-                                    <div class="timeline-photo-grid lg-align-start">
-                                        <img src="./images/about/tm-grid-7.svg" alt="" class="radius-16 tm_grid5">
-                                        <img src="./images/about/tm-grid-8.svg" alt="" class="radius-16 tm_grid6">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tm-slick-item img4">
-                            <div class="tm-main container">
-                                <div class="child-content">
-                                    <div class="timeline-info-text">
-                                        <span class="dm_sbold d-inline-block tm-year">2016</span>
-                                        <div class="tm-heading-text">
-                                            <h2 class="text-white dm_medium">Leadership role</h2>
-                                        </div>
-                                        <h3 class="text-white dm_medium mb-0">From Team Member to Team Leader</h3>
-                                        <p class="mb-0 text-white">He began advising emerging political figures, translating data and grassroots insights into actionable policy input. This marked the start of his deeper engagement with governance and public reform, bridging private insights with civic outcomes.</p>
-                                    </div>
-                                </div>
-                                <div class="child-image">
-                                    <div class="timeline-photo-grid">
-                                        <img src="./images/about/tm-grid-9.svg" alt="" class="radius-16 tm_grid2">
-                                        <div class="timeline-photo-grid lg-align-start m-left">
-                                            <img src="./images/about/tm-grid-10.svg" alt="" class="radius-16 tm_grid10">
-                                            <img src="./images/about/tm-grid-11.svg" alt="" class="radius-16 tm_grid11">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tm-slick-item img5">
-                            <div class="tm-main container">
-                                <div class="child-content">
-                                    <div class="timeline-info-text">
-                                        <span class="dm_sbold d-inline-block tm-year">2018</span>
-                                        <div class="tm-heading-text">
-                                            <h2 class="text-white dm_medium">Community roots</h2>
-                                        </div>
-                                        <h3 class="text-white dm_medium mb-0">Bridging Boardroom and Community</h3>
-                                        <p class="mb-0 text-white">With growing recognition, Dare contributed to youth and education policy panels. His proposals focused on inclusive learning, vocational pathways, and the digital divide bringing structural thinking and equity into the same conversation.</p>
-                                    </div>
-                                </div>
-                                <div class="child-image">
-                                    <div class="timeline-photo-grid">
-                                        <img src="./images/about/tm-grid-12.svg" alt="" class="ml_3 radius-16 tm_grid12">
-                                        <img src="./images/about/tm-grid-13.svg" alt="" class="radius-16 tm_grid13">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tm-slick-item img6">
-                            <div class="tm-main container">
-                                <div class="child-content">
-                                    <div class="timeline-info-text">
-                                        <span class="dm_sbold d-inline-block tm-year">2020</span>
-                                        <div class="tm-heading-text">
-                                            <h2 class="text-white dm_medium">Civic engagement</h2>
-                                        </div>
-                                        <h3 class="text-white dm_medium mb-0">Beyond Business: Into Advocacy</h3>
-                                        <p class="mb-0 text-white">Oluwadare launched Digital Youth Labs, a free skills program across secondary schools, impacting over 300 students. It was a direct manifestation of his belief that leadership should create access, not just ambition.</p>
-                                    </div>
-                                </div>
-                                <div class="child-image">
-                                    <div class="timeline-photo-grid">
-                                        <img src="./images/about/tm-grid-1.svg" alt="" class="radius-16 tm_grid1">
-                                        <img src="./images/about/tm-grid-2.svg" alt="" class="radius-16 tm_grid2">
-                                        <img src="./images/about/tm-grid-3.svg" alt="" class="radius-16 tm_grid3">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tm-slick-item img7">
-                            <div class="tm-main container">
-                                <div class="child-content">
-                                    <div class="timeline-info-text">
-                                        <span class="dm_sbold d-inline-block tm-year">2022</span>
-                                        <div class="tm-heading-text">
-                                            <h2 class="text-white dm_medium">Policy making</h2>
-                                        </div>
-                                        <h3 class="text-white dm_medium mb-0">Vision meets structure</h3>
-                                        <p class="mb-0 text-white">He officially aligned with the All Progressives Congress (APC), strengthening his platform and gaining national visibility. This year was marked by clarity in purpose and the beginning of formal political planning.</p>
-                                    </div>
-                                </div>
-                                <div class="child-image">
-                                    <div class="timeline-photo-grid">
-                                        <img src="./images/about/tm-grid-1.svg" alt="" class="radius-16 tm_grid1">
-                                        <img src="./images/about/tm-grid-2.svg" alt="" class="radius-16 tm_grid2">
-                                        <img src="./images/about/tm-grid-3.svg" alt="" class="radius-16 tm_grid3">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tm-slick-item img8">
-                            <div class="tm-main container">
-                                <div class="child-content">
-                                    <div class="timeline-info-text">
-                                        <span class="dm_sbold d-inline-block tm-year">2023</span>
-                                        <div class="tm-heading-text">
-                                            <h2 class="text-white dm_medium">Youth initiatives</h2>
-                                        </div>
-                                        <h3 class="text-white dm_medium mb-0">Ideas in action</h3>
-                                        <p class="mb-0 text-white">Grassroots support deepened. His team grew into a volunteer-driven movement, rolling out water access pilot projects and creating platforms for youth voices to directly influence policy ideas.</p>
-                                    </div>
-                                </div>
-                                <div class="child-image">
-                                    <div class="timeline-photo-grid">
-                                        <img src="./images/about/tm-grid-1.svg" alt="" class="radius-16 tm_grid1">
-                                        <img src="./images/about/tm-grid-2.svg" alt="" class="radius-16 tm_grid2">
-                                        <img src="./images/about/tm-grid-3.svg" alt="" class="radius-16 tm_grid3">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tm-slick-item img9">
-                            <div class="tm-main container">
-                                <div class="child-content">
-                                    <div class="timeline-info-text">
-                                        <span class="dm_sbold d-inline-block tm-year">2024</span>
-                                        <div class="tm-heading-text">
-                                            <h2 class="text-white dm_medium">Political network</h2>
-                                        </div>
-                                        <h3 class="text-white dm_medium mb-0">From voice to platform</h3>
-                                        <p class="mb-0 text-white">With a clear vision and proven groundwork, Dare stepped fully into public leadership. His campaign now carries the values of trust, dignity, and future readiness rooted in communities, rising for all.</p>
-                                    </div>
-                                </div>
-                                <div class="child-image">
-                                    <div class="timeline-photo-grid">
-                                        <img src="./images/about/tm-grid-1.svg" alt="" class="radius-16 tm_grid1">
-                                        <img src="./images/about/tm-grid-2.svg" alt="" class="radius-16 tm_grid2">
-                                        <img src="./images/about/tm-grid-3.svg" alt="" class="radius-16 tm_grid3">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <!-- Desktop Layout -->
+
+                    <div class="slickSlider desktop-layout"></div>
+
+                    <!-- Mobile Layout -->
+
+                    <div class="slickSlider mobile-layout"></div>
+
                 </div>
             </div>
         </div>

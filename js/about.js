@@ -34,7 +34,7 @@ if (window.innerWidth <= 575) {
 } else if (window.innerWidth <= 1600) {
      panelHeight = 195;
      panelMargin = 124;
-} 
+}
 else {
      // Desktop
      panelHeight = 244;
@@ -138,14 +138,38 @@ if (document.querySelector(".timeline-scroll") != null) {
           });
      });
      // Slick slider //
-     $(".slickSlider").slick({
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          arrows: true,
-          dots: true,
-          vertical: true,
-          verticalSwiping: true,
-          infinite: false,
+     $(document).ready(function () {
+          const isMobile = window.innerWidth <= 768;
+          const sliderClass = isMobile ? '.mobile-layout' : '.desktop-layout';
+
+          $(".slickSlider").slick({
+               slidesToShow: 1,
+               slidesToScroll: 1,
+               arrows: true,
+               dots: true,
+               infinite: false,
+               speed: 500,
+               autoplay: false,
+               adaptiveHeight: true,
+               // Default (desktop) settings
+               vertical: true,
+               verticalSwiping: true,
+               cssEase: 'ease',
+
+               responsive: [
+                    {
+                         breakpoint: 769, // applies to screen widths <= 768
+                         settings: {
+                              vertical: false,
+                              verticalSwiping: false,
+                              fade: true,
+                              speed: 600,  
+                              cssEase: 'cubic-bezier(0.4, 0, 0.2, 1)'
+                         }
+                    }
+               ]
+
+          });
      });
 
      // // 🚀 Scroll to slickslider on button click

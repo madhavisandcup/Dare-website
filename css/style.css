@@ -1705,6 +1705,14 @@ span.pulse-animate {
      position: relative;
 }
 
+.mobile-layout {
+     display: none;
+}
+
+.desc-mobile {
+     display: none;
+}
+
 .slick-vertical .slick-slide {
      border: none;
 }
