@@ -14,6 +14,8 @@ export function applicationForm(formContainerId, selectedCategory = null, select
      //  if (selectedJobIndex === -1) selectedJobIndex = 0;
 
      applicationMain.innerHTML = `
+        <div class="m-sec-bottom">
+            <h2>Submit your application</h2>
             <form id="application-form" class="application-form-inner radius-16" action="">
                 <div class="row">
                     <div class="col-md-6">
@@ -77,6 +79,7 @@ export function applicationForm(formContainerId, selectedCategory = null, select
                     </div>
                 </div>
             </form>
+            </div>
      `
 
 

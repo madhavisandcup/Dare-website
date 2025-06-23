@@ -915,7 +915,6 @@ footer {
           -ms-transform: translateX(calc(-50% - 2px));
           -o-transform: translateX(calc(-50% - 2px));
      }
-
      100% {
           transform: translateX(0%);
           -webkit-transform: translateX(0%);
@@ -1083,7 +1082,6 @@ span.pulse-animate {
           -ms-transform: scale(0.95);
           -o-transform: scale(0.95);
      }
-
      70% {
           transform: scale(1);
           box-shadow: 0 0 0 15px rgba(0, 135, 81, 0);
@@ -1092,7 +1090,6 @@ span.pulse-animate {
           -ms-transform: scale(1);
           -o-transform: scale(1);
      }
-
      100% {
           transform: scale(1);
           box-shadow: 0 0 0 0 rgba(0, 135, 81, 0);
@@ -1112,7 +1109,6 @@ span.pulse-animate {
           -ms-transform: scale(0.95);
           -o-transform: scale(0.95);
      }
-
      70% {
           transform: scale(1);
           box-shadow: 0 0 0 15px rgba(0, 135, 81, 0);
@@ -1121,7 +1117,6 @@ span.pulse-animate {
           -ms-transform: scale(1);
           -o-transform: scale(1);
      }
-
      100% {
           transform: scale(1);
           box-shadow: 0 0 0 0 rgba(0, 135, 81, 0);
@@ -1494,6 +1489,7 @@ span.pulse-animate {
 .pt-top {
      padding-top: 150px;
 }
+
 
 /* 
 .bg_blur {
@@ -1891,6 +1887,7 @@ textPath {
      -o-transition: all 0.4s ease;
 }
 
+
 /* 
 .tspan-item.added {
      fill: #00834e;
@@ -1902,7 +1899,6 @@ textPath {
      0% {
           transform: rotate(0deg);
      }
-
      25% {
           transform: rotate(90deg);
           -webkit-transform: rotate(90deg);
@@ -1910,7 +1906,6 @@ textPath {
           -ms-transform: rotate(90deg);
           -o-transform: rotate(90deg);
      }
-
      50% {
           transform: rotate(180deg);
           -webkit-transform: rotate(180deg);
@@ -1918,7 +1913,6 @@ textPath {
           -ms-transform: rotate(180deg);
           -o-transform: rotate(180deg);
      }
-
      75% {
           transform: rotate(270deg);
           -webkit-transform: rotate(270deg);
@@ -1926,7 +1920,6 @@ textPath {
           -ms-transform: rotate(270deg);
           -o-transform: rotate(270deg);
      }
-
      100% {
           transform: rotate(360deg);
           -webkit-transform: rotate(360deg);

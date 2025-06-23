@@ -417,6 +417,9 @@
           .sec-space {
                margin-top: 100px;
           }
+          .m-sec-bottom {
+               margin-bottom: 100px;
+          }
           .v-play {
                width: 108px;
                height: 108px;
@@ -936,6 +939,9 @@
           .sec-space {
                margin-top: 70px;
           }
+          .m-sec-bottom {
+               margin-bottom: 70px;
+          }
           .video-img {
                text-align: center;
           }
@@ -1232,6 +1238,9 @@
           }
           .sec-space {
                margin-top: 60px;
+          }
+          .m-sec-bottom {
+               margin-bottom: 60px;
           }
           .p-sec-top {
                padding-top: 60px;

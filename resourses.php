@@ -257,11 +257,13 @@
                                             </div>
                                             <div class="n-post-content">
                                                 <a href="#" class='n-post-title'>
-                                                    <h4 class='title-truncate'>Breaking Ground, Building Trust: Oluwadare
+                                                    <h4 class='title-truncate'>Breaking Ground, Building Trust:
+                                                        Oluwadare
                                                         Begins Statewide Listening Tour</h4>
                                                 </a>
                                                 <p class="extra_light_grey mb-0">
-                                                    Oluwadare explores the values behind decisive leadership and how empathy
+                                                    Oluwadare explores the values behind decisive leadership and how
+                                                    empathy
                                                     and structure shape policy that puts people first.
                                                 </p>
                                             </div>
@@ -269,7 +271,7 @@
                                         <div class="col-lg-3 col-sm-4">
                                             <figure>
                                                 <img src="images/resourses/n-01.png" class="img-fluid radius-16"
-                                                alt="channel-tv">
+                                                  alt="channel-tv">
                                             </figure>
                                         </div>
                                     </div>
@@ -277,32 +279,35 @@
                             </article>
                             <article class="nation-post-item">
                                 <a href="#" class='n-post-title' data-cursor-text="Read Blog">
-                                <div class="row">
-                                    <div class="col-lg-9 col-sm-8">
-                                        <div class="n-meta-tags">
-                                            <small>May 2 , 2025</small>
-                                            <small>Channels TV5</small>
+                                    <div class="row">
+                                        <div class="col-lg-9 col-sm-8">
+                                            <div class="n-meta-tags">
+                                                <small>May 2 , 2025</small>
+                                                <small>Channels TV5</small>
+                                            </div>
+                                            <div class="n-post-content">
+                                                <a href="#" class='n-post-title'>
+                                                    <h4 class='title-truncate'>Bridging Dreams and Duty: Oluwadare’s
+                                                        Path to
+                                                        Policy-Driven Change</h4>
+                                                </a>
+                                                <p class="extra_light_grey mb-0">
+                                                    As conversations shift toward sustainable governance, Oluwadare
+                                                    Owolabi
+                                                    remains focused on action over noise. This feature explores his
+                                                    commitment to inclusive development and the quiet reform shaping
+                                                    local
+                                                    communities.
+                                                </p>
+                                            </div>
                                         </div>
-                                        <div class="n-post-content">
-                                            <a href="#" class='n-post-title'>
-                                                <h4 class='title-truncate'>Bridging Dreams and Duty: Oluwadare’s Path to
-                                                    Policy-Driven Change</h4>
-                                            </a>
-                                            <p class="extra_light_grey mb-0">
-                                                As conversations shift toward sustainable governance, Oluwadare Owolabi
-                                                remains focused on action over noise. This feature explores his
-                                                commitment to inclusive development and the quiet reform shaping local
-                                                communities.
-                                            </p>
+                                        <div class="col-lg-3 col-sm-4">
+                                            <figure>
+                                                <img src="images/resourses/n-01.png" class="img-fluid radius-16"
+                                                  alt="channel-tv">
+                                            </figure>
                                         </div>
                                     </div>
-                                    <div class="col-lg-3 col-sm-4">
-                                        <figure>
-                                            <img src="images/resourses/n-01.png" class="img-fluid radius-16"
-                                              alt="channel-tv">
-                                        </figure>
-                                    </div>
-                                </div>
                                 </a>
                             </article>
                         </div>
@@ -480,33 +485,36 @@
                                             <a href="#" class='d-block' data-cursor-text="Read News">
                                                 <figure class="mom-images">
                                                     <img src="images/resourses/mom-lg.jpg"
-                                                    alt="Audience listening at a health conference" loading="lazy"
-                                                    class="mom-card__image radius-16 img-fluid" />
+                                                      alt="Audience listening at a health conference" loading="lazy"
+                                                      class="mom-card__image radius-16 img-fluid" />
                                                 </figure>
                                                 <div class="grid-50 sm">
                                                     <figure class="mom-images mb-0">
                                                         <img src="images/resourses/mom-sm.jpg"
-                                                        alt="Audience listening at a health conference" loading="lazy"
-                                                        class="mom-card__image radius-16  img-fluid" />
+                                                          alt="Audience listening at a health conference" loading="lazy"
+                                                          class="mom-card__image radius-16  img-fluid" />
                                                     </figure>
                                                     <figure class="mom-images mb-0">
                                                         <img src="images/resourses/mom-sm-02.jpg"
-                                                        alt="Audience listening at a health conference" loading="lazy"
-                                                        class="mom-card__image radius-16  img-fluid" />
+                                                          alt="Audience listening at a health conference" loading="lazy"
+                                                          class="mom-card__image radius-16  img-fluid" />
                                                     </figure>
                                                 </div>
                                             </a>
                                         </div>
                                         <div class="mom-card__content">
-                                            <span class="text_green">Your Empowerment</span>
+                                            <a href="#" class='d-block' data-cursor-text="Read News">
+                                                <span class="text_green">Your Empowerment</span>
+                                            </a>
                                             <div class="mom-meta">
                                                 <div class="mom-meta-title">
                                                     <a href="#" class='mom-title d-block' data-cursor-text="Read News">
                                                         <h3 class="title-truncate mb-0">Digital Youth Labs</h3>
-                                                    <small
-                                                      class="extra_light_grey d-block mt-1">@oluwadare_owolabi</small>
-                                                       </a>
+                                                        <small
+                                                          class="extra_light_grey d-block mt-1">@oluwadare_owolabi</small>
+                                                    </a>
                                                 </div>
+
                                                 <ul class="list-unstyled mom-social-icons mb-0">
                                                     <li><a href="#"><img src="images/resourses/twitter.svg"
                                                               alt="twiiter"></a></li>
@@ -527,18 +535,22 @@
                                 <div class="col-lg-4">
                                     <article class="mom-item sm radius-16">
                                         <figure class="mom-sm-post mb-0">
-                                            <img src="images/resourses/n-01.png" class="img-fluid mom-sm-img radius-16"
-                                              alt="channel-tv">
+                                            <a href="#" class='d-block' data-cursor-text="Read News">
+                                                <img src="images/resourses/n-01.png"
+                                                  class="img-fluid mom-sm-img radius-16" alt="channel-tv">
+                                            </a>
                                             <figcaption class="mom-card__content">
-                                                <span class="text_green">Education</span>
+                                                <a href="#" class='d-block' data-cursor-text="Read News">
+                                                    <span class="text_green">Education</span>
+                                                </a>
                                                 <div class="mom-meta">
-                                                    <div class="mom-meta-title">
-                                                        <a href="#" class='mom-title d-block'>
+                                                    <a href="#" class='mom-title d-block' data-cursor-text="Read News">
+                                                        <div class="mom-meta-title">
                                                             <h3 class="title-truncate mb-0">Wellness on the Move</h3>
-                                                        </a>
-                                                        <small
-                                                          class="extra_light_grey d-block mt-1">@oluwadare_owolabi</small>
-                                                    </div>
+                                                            <small
+                                                              class="extra_light_grey d-block mt-1">@oluwadare_owolabi</small>
+                                                        </div>
+                                                    </a>
                                                     <ul class="list-unstyled mom-social-icons mb-0">
                                                         <li><a href="#"><img src="images/resourses/twitter.svg"
                                                                   alt="twiiter"></a></li>
@@ -554,22 +566,26 @@
                                 </div>
                             </div>
 
-                            <div class="row mom-r-two">
+                            <div class="row mom-r-row">
                                 <div class="col-lg-4">
                                     <article class="mom-item sm radius-16">
                                         <figure class="mom-sm-post mb-0">
-                                            <img src="images/resourses/n-01.png" class="img-fluid mom-sm-img radius-16"
-                                              alt="channel-tv">
+                                            <a href="#" class='d-block' data-cursor-text="Read News">
+                                                <img src="images/resourses/n-01.png"
+                                                  class="img-fluid mom-sm-img radius-16" alt="channel-tv">
+                                            </a>
                                             <figcaption class="mom-card__content">
-                                                <span class="text_green">Your Empowerment</span>
+                                                <a href="#" class='d-block' data-cursor-text="Read News">
+                                                    <span class="text_green">Education</span>
+                                                </a>
                                                 <div class="mom-meta">
-                                                    <div class="mom-meta-title">
-                                                        <a href="#" class='mom-title d-block'>
-                                                            <h3 class="title-truncate mb-0">Bright Futures Drive</h3>
-                                                        </a>
-                                                        <small
-                                                          class="extra_light_grey d-block mt-1">@oluwadare_owolabi</small>
-                                                    </div>
+                                                    <a href="#" class='mom-title d-block' data-cursor-text="Read News">
+                                                        <div class="mom-meta-title">
+                                                            <h3 class="title-truncate mb-0">Wellness on the Move</h3>
+                                                            <small
+                                                              class="extra_light_grey d-block mt-1">@oluwadare_owolabi</small>
+                                                        </div>
+                                                    </a>
                                                     <ul class="list-unstyled mom-social-icons mb-0">
                                                         <li><a href="#"><img src="images/resourses/twitter.svg"
                                                                   alt="twiiter"></a></li>
@@ -586,34 +602,39 @@
                                 <div class="col-lg-8">
                                     <article class="mom-item radius-16 grid-50">
                                         <div class="mom-card__media">
-                                            <figure class="mom-images">
-                                                <img src="images/resourses/mom-lg.jpg"
-                                                  alt="Audience listening at a health conference" loading="lazy"
-                                                  class="mom-card__image radius-16 img-fluid" />
-                                            </figure>
-                                            <div class="grid-50 sm">
-                                                <figure class="mom-images mb-0">
-                                                    <img src="images/resourses/mom-sm.jpg"
+                                            <a href="#" class='d-block' data-cursor-text="Read News">
+                                                <figure class="mom-images">
+                                                    <img src="images/resourses/mom-lg.jpg"
                                                       alt="Audience listening at a health conference" loading="lazy"
-                                                      class="mom-card__image radius-16  img-fluid" />
+                                                      class="mom-card__image radius-16 img-fluid" />
                                                 </figure>
-                                                <figure class="mom-images mb-0">
-                                                    <img src="images/resourses/mom-sm-02.jpg"
-                                                      alt="Audience listening at a health conference" loading="lazy"
-                                                      class="mom-card__image radius-16  img-fluid" />
-                                                </figure>
-                                            </div>
+                                                <div class="grid-50 sm">
+                                                    <figure class="mom-images mb-0">
+                                                        <img src="images/resourses/mom-sm.jpg"
+                                                          alt="Audience listening at a health conference" loading="lazy"
+                                                          class="mom-card__image radius-16  img-fluid" />
+                                                    </figure>
+                                                    <figure class="mom-images mb-0">
+                                                        <img src="images/resourses/mom-sm-02.jpg"
+                                                          alt="Audience listening at a health conference" loading="lazy"
+                                                          class="mom-card__image radius-16  img-fluid" />
+                                                    </figure>
+                                                </div>
+                                            </a>
                                         </div>
                                         <div class="mom-card__content">
-                                            <span class="text_green">Infrastructure</span>
+                                            <a href="#" class='d-block' data-cursor-text="Read News">
+                                                <span class="text_green">Your Empowerment</span>
+                                            </a>
                                             <div class="mom-meta">
                                                 <div class="mom-meta-title">
-                                                    <a href="#" class='mom-title d-block'>
-                                                        <h3 class="title-truncate mb-0">Built for Tomorrow</h3>
+                                                    <a href="#" class='mom-title d-block' data-cursor-text="Read News">
+                                                        <h3 class="title-truncate mb-0">Digital Youth Labs</h3>
+                                                        <small
+                                                          class="extra_light_grey d-block mt-1">@oluwadare_owolabi</small>
                                                     </a>
-                                                    <small
-                                                      class="extra_light_grey d-block mt-1">@oluwadare_owolabi</small>
                                                 </div>
+
                                                 <ul class="list-unstyled mom-social-icons mb-0">
                                                     <li><a href="#"><img src="images/resourses/twitter.svg"
                                                               alt="twiiter"></a></li>
@@ -621,17 +642,17 @@
                                                               alt="linkedin"></a></li>
                                                 </ul>
                                             </div>
-                                            <p class="mom-card-desc">Visited three rural clinics this week where power
-                                                cuts interrupt patient care. We’ve now installed solar backups in each
-                                                one — ensuring that no child is delivered by torchlight again. It's a
-                                                small infrastructure shift with life-saving impact.
+                                            <p class="mom-card-desc">Launched free digital skills training programs in 4
+                                                public secondary schools, equipping students with hands-on experience in
+                                                coding, design, and basic tech tools. The initiative was designed to
+                                                bridge the opportunity gap for young minds in underserved communities.
                                             </p>
-                                            <p class="mom-highlight-desc mb-0">Over <mark
-                                                  class="text_green">2500+</mark> patients served in mobile medical
-                                                camps.</p>
+                                            <p class="mom-highlight-desc mb-0">Reached over <mark
+                                                  class="text_green">300+</mark> students across 3 LGAs</p>
                                         </div>
                                     </article>
                                 </div>
+
                             </div>
                         </div>
                     </div>
@@ -669,487 +690,11 @@
             </div>
         </div>
 
-        <section class="voice-wrapper">
-            <div class="container">
-                <div class="center-heading text-center">
-                    <h2 class="main-title text-white w-100">Voices that <i class="pd_italic text_green">Believe</i><span
-                          class="dot-animated text_green"><span class="pulse-animate"><span
-                                  class="pulse_dot"></span></span></span></h2>
-                    <p class="vision-desc text-white p-0">Real words from real people stories of impact, trust, and
-                        shared vision.</p>
-                </div>
+        <?php include 'testimonial-grid.php'; ?>
 
-                <div class="initiative-main voices-inner">
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <div class="voice-item lg">
-                                <div class="v-pr-inner">
-                                    <div class="voice-profile">
-                                        <div class="voice-p-img">
-                                            <img src="images/voices/v-p-01.png" class="img-fluid radius-50"
-                                              alt="user" />
-                                        </div>
-                                        <div class="voice-p-content">
-                                            <h3 class="text-white dm_medium">Ify Okeke</h3>
-                                            <h5 class="mb-0">Senior Lecturer</h5>
-                                        </div>
-                                    </div>
-                                    <div class="voice-content">
-                                        <p class="voice-highlight-text">Lagos State University</p>
-                                        <p class="extra_light_grey mb-0">"A statesman of substance and strategy. His
-                                            speeches are not just words—they're a call to action and unity. Truly
-                                            inspiring on a global platform. he listens, understands, and acts"</p>
-                                    </div>
-                                </div>
-                                <div class="voice-img">
-                                    <img src="images/voices/v-01.jpg" class="img-fluid radius-8" alt="user" />
-                                </div>
-                            </div>
-                            <div class="voice-item content-only sm last">
-                                <div class="voice-profile">
-                                    <div class="voice-p-img">
-                                        <img src="images/voices/v-p-01.png" class="img-fluid radius-50" alt="user" />
-                                    </div>
-                                    <div class="voice-p-content">
-                                        <h3 class="text-white dm_medium">Tunde Adebayo</h3>
-                                        <h5 class="mb-0">Founder & Director</h5>
-                                    </div>
-                                </div>
-                                <div class="voice-content">
-                                    <p class="voice-highlight-text">NextGen Leaders Foundation</p>
-                                    <p class="extra_light_grey mb-0">"His policies have directly uplifted marginalized
-                                        voices, giving hope to many. What sets him apart is his empathy—he listens,
-                                        understands, and acts."</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="voice-item border-gradient content-only sm">
+        <?php include 'faq.php'; ?>
 
-                                <div class="voice-profile">
-                                    <div class="voice-p-img">
-                                        <img src="images/voices/v-p-01.png" class="img-fluid radius-50" alt="user" />
-                                    </div>
-                                    <div class="voice-p-content">
-                                        <h3 class="text-white dm_medium">Tunde Adebayo</h3>
-                                        <h5 class="mb-0">Founder & Director</h5>
-                                    </div>
-                                </div>
-
-                                <div class="voice-content">
-                                    <p class="voice-highlight-text">NextGen Leaders Foundation</p>
-                                    <p class="extra_light_grey mb-0">"His policies have directly uplifted marginalized
-                                        voices, giving hope to many. What sets him apart is his empathy—he listens,
-                                        understands, and acts."</p>
-                                </div>
-                            </div>
-
-                            <div class="voice-item md">
-                                <div class="v-pr-inner">
-                                    <div class="voice-profile">
-                                        <div class="voice-p-img">
-                                            <img src="images/voices/v-p-01.png" class="img-fluid radius-50"
-                                              alt="user" />
-                                        </div>
-                                        <div class="voice-p-content">
-                                            <h3 class="text-white dm_medium">Ify Okeke</h3>
-                                            <h5 class="mb-0">Senior Lecturer</h5>
-                                        </div>
-                                    </div>
-                                    <div class="voice-content">
-                                        <p class="voice-highlight-text">Lagos State University</p>
-                                        <p class="extra_light_grey mb-0">"A statesman of substance and strategy. His
-                                            speeches are not just words—they're a call to action and unity. Truly
-                                            inspiring on a global platform. he listens, understands, and acts"</p>
-                                    </div>
-                                </div>
-                                <div class="voice-img">
-                                    <img src="images/voices/v-02-md.jpg" class="img-fluid radius-8" alt="user" />
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="voice-item sm">
-                                <div class="v-pr-inner">
-                                    <div class="voice-profile">
-                                        <div class="voice-p-img">
-                                            <img src="images/voices/v-p-01.png" class="img-fluid radius-50"
-                                              alt="user" />
-                                        </div>
-                                        <div class="voice-p-content">
-                                            <h3 class="text-white dm_medium">Ify Okeke</h3>
-                                            <h5 class="mb-0">Senior Lecturer</h5>
-                                        </div>
-                                    </div>
-                                    <div class="voice-content">
-                                        <p class="voice-highlight-text">Lagos State University</p>
-                                        <p class="extra_light_grey mb-0">"A statesman of substance and strategy. His
-                                            speeches are not just words—they're a call to action and unity. Truly
-                                            inspiring on a global platform. he listens, understands, and acts"</p>
-                                    </div>
-                                </div>
-                                <div class="voice-img">
-                                    <img src="images/voices/v-03-sm.jpg" class="img-fluid radius-8" alt="user" />
-                                </div>
-                            </div>
-                            <div class="voice-item xs">
-                                <div class="v-pr-inner">
-                                    <div class="voice-profile">
-                                        <div class="voice-p-img">
-                                            <img src="images/voices/v-p-01.png" class="img-fluid radius-50"
-                                              alt="user" />
-                                        </div>
-                                        <div class="voice-p-content">
-                                            <h3 class="text-white dm_medium">Tunde Adebayo</h3>
-                                            <h5 class="mb-0">Founder & Director</h5>
-                                        </div>
-                                    </div>
-                                    <div class="voice-content">
-                                        <p class="voice-highlight-text">NextGen Leaders Foundation</p>
-                                        <p class="extra_light_grey mb-0">"His policies have directly uplifted
-                                            marginalized voices, giving hope to many. What sets him apart is his
-                                            empathy—he listens, understands, and acts."</p>
-                                    </div>
-                                </div>
-                                <div class="voice-img">
-                                    <img src="images/voices/v-04-xs.jpg" class="img-fluid radius-8" alt="user" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="faqs-wrapper overflow-hidden sm-events">
-            <div class="container">
-                <div class="center-heading text-center">
-                    <h2 class="main-title w-100 text-white">Frequently asked <i class="pd_italic text_green"><i
-                              class="bask_font">Q</i>uestions</i></h2>
-                    <p class="vision-desc m-0 text-white">Our FAQ section gives you quick solutions to frequent
-                        questions, simplifying your search for information</p>
-                </div>
-
-                <div class="accordion faqs-accordion" id="accordionExample">
-                    <div class="accordion-item radius-16">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                              data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                Who is Oluwadare Owolabi?
-                            </button>
-                        </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                Oluwadare is a public Service provider and reform-driven leader dedicated to inclusive
-                                progress, youth empowerment, and grassroots transformation.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item radius-16">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                Is Oluwadare affiliated with any political party?
-                            </button>
-                        </h2>
-                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                Oluwadare is a public Service provider and reform-driven leader dedicated to inclusive
-                                progress, youth empowerment, and grassroots transformation.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item radius-16">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                What are Oluwadare’s main focus areas?
-                            </button>
-                        </h2>
-                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                Oluwadare is a public Service provider and reform-driven leader dedicated to inclusive
-                                progress, youth empowerment, and grassroots transformation.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-
-        <section class="events-wrapper sec-space overflow-hidden sm-events">
-            <div class="container">
-                <div class="center-heading text-center">
-                    <h2 class="main-title w-100">Be Part of the <i class="pd_italic text_green">Movement</i><span
-                          class="dot-animated text_green"><span class="pulse-animate"><span
-                                  class="pulse_dot"></span></span></span></h2>
-                    <p class="vision-desc m-0">See where we’ll be next rallies, town halls, and moments that matter.</p>
-                </div>
-            </div>
-            <div class="event-tabs-wrapper product">
-                <div class="swiper productSlider">
-                    <div class="swiper-wrapper h-auto">
-                        <!-- Slides -->
-                        <div class="swiper-slide">
-                            <div class="event_card_img">
-                                <img src="./images/events-image/culture-center.webp" alt="culture-center"
-                                  class="card_img_size img-fluid">
-                                <div class="card_title">
-                                    <h5 class="text-black">Cultural Centre, <i class="pd_italic">Ibadan</i></h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="event_card_img">
-                                <img src="./images/events-image/culture-center.webp" alt="culture-center"
-                                  class="card_img_size img-fluid">
-                                <div class="card_title">
-                                    <h5 class="text-black">Cultural Centre, <i class="pd_italic">Ibadan</i></h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="event_card_img">
-                                <img src="./images/events-image/culture-center.webp" alt="culture-center"
-                                  class="card_img_size img-fluid">
-                                <div class="card_title">
-                                    <h5 class="text-black">Cultural Centre, <i class="pd_italic">Ibadan</i></h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="event_card_img">
-                                <img src="./images/events-image/culture-center.webp" alt="culture-center"
-                                  class="card_img_size img-fluid">
-                                <div class="card_title">
-                                    <h5 class="text-black">Cultural Centre, <i class="pd_italic">Ibadan</i></h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="event_card_img">
-                                <img src="./images/events-image/culture-center.webp" alt="culture-center"
-                                  class="card_img_size img-fluid">
-                                <div class="card_title">
-                                    <h5 class="text-black">Cultural Centre, <i class="pd_italic">Ibadan</i></h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-scrollbar">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="voice-wrapper capture-mm position-relative">
-            <div class="center-heading text-center">
-                <h2 class="main-title text-white">Captured Moments of <i class="pd_italic">Impact</i><span
-                      class="dot-animated text_green"><span class="pulse-animate"><span
-                              class="pulse_dot"></span></span></span></h2>
-                <p class="vision-desc text-white">A visual journey of change, hope, and community in motion.</p>
-            </div>
-
-            <div class="initiative-main desktop voices-inner overflow-hidden">
-                <div class="capture-images">
-                    <div class="capture-img position-relative one">
-                        <img src="images/captures/cap-01.png" class="img-fluid radius-8" alt="user" />
-                        <div class="cap-overlay-content">
-                            <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="capture-images">
-                    <div class="capture-img position-relative two">
-                        <img src="images/captures/cap-02.png" class="img-fluid radius-8" alt="user" />
-                        <div class="cap-overlay-content">
-                            <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
-                        </div>
-                    </div>
-                    <div class="capture-img position-relative three">
-                        <img src="images/captures/cap-03.png" class="img-fluid radius-8" alt="user" />
-                        <div class="cap-overlay-content">
-                            <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
-                        </div>
-                    </div>
-                    <div class="capture-img position-relative four">
-                        <img src="images/captures/cap-04.png" class="img-fluid radius-8" alt="user" />
-                        <div class="cap-overlay-content">
-                            <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="capture-images">
-                    <div class="capture-img position-relative five">
-                        <img src="images/captures/cap-05.png" class="img-fluid radius-8" alt="user" />
-                        <div class="cap-overlay-content">
-                            <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
-                        </div>
-                    </div>
-                    <div class="capture-img position-relative six">
-                        <img src="images/captures/cap-06.png" class="img-fluid radius-8" alt="user" />
-                        <div class="cap-overlay-content">
-                            <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
-                        </div>
-                    </div>
-                    <div class="capture-img position-relative seven">
-                        <img src="images/captures/cap-07.png" class="img-fluid radius-8" alt="user" />
-                        <div class="cap-overlay-content">
-                            <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="capture-images">
-                    <div class="capture-img position-relative eight">
-                        <img src="images/captures/cap-08.png" class="img-fluid radius-8" alt="user" />
-                        <div class="cap-overlay-content">
-                            <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
-                        </div>
-                    </div>
-                    <div class="capture-img position-relative nine">
-                        <img src="images/captures/cap-09.png" class="img-fluid radius-8" alt="user" />
-                        <div class="cap-overlay-content">
-                            <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
-                        </div>
-                    </div>
-                    <div class="capture-img position-relative ten">
-                        <img src="images/captures/cap-10.png" class="img-fluid radius-8" alt="user" />
-                        <div class="cap-overlay-content">
-                            <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
-                        </div>
-                    </div>
-                    <div class="capture-img position-relative eleven">
-                        <img src="images/captures/cap-11.png" class="img-fluid radius-8" alt="user" />
-                        <div class="cap-overlay-content">
-                            <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="capture-images">
-                    <div class="capture-img position-relative twelve">
-                        <img src="images/captures/cap-12.png" class="img-fluid radius-8" alt="user" />
-                        <div class="cap-overlay-content">
-                            <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
-                        </div>
-                    </div>
-                    <div class="capture-img position-relative thirdteen">
-                        <img src="images/captures/cap-13.png" class="img-fluid radius-8" alt="user" />
-                        <div class="cap-overlay-content">
-                            <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
-                        </div>
-                    </div>
-                    <div class="capture-img position-relative fortheen">
-                        <img src="images/captures/cap-14.png" class="img-fluid radius-8" alt="user" />
-                        <div class="cap-overlay-content">
-                            <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
-                        </div>
-                    </div>
-                    <div class="capture-img position-relative fifteen">
-                        <img src="images/captures/cap-15.png" class="img-fluid radius-8" alt="user" />
-                        <div class="cap-overlay-content">
-                            <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="initiative-main mobile voices-inner overflow-hidden">
-                <div class="capture-images">
-                    <div class="capture-img position-relative one">
-                        <img src="images/captures/cap-01.png" class="img-fluid radius-8" alt="user" />
-                        <div class="cap-overlay-content">
-                            <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
-                        </div>
-                    </div>
-                    <div class="capture-img position-relative two">
-                        <img src="images/captures/cap-02.png" class="img-fluid radius-8" alt="user" />
-                        <div class="cap-overlay-content">
-                            <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
-                        </div>
-                    </div>
-                    <div class="capture-img position-relative three">
-                        <img src="images/captures/cap-03.png" class="img-fluid radius-8" alt="user" />
-                        <div class="cap-overlay-content">
-                            <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
-                        </div>
-                    </div>
-                    <div class="capture-img position-relative four">
-                        <img src="images/captures/cap-04.png" class="img-fluid radius-8" alt="user" />
-                        <div class="cap-overlay-content">
-                            <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
-                        </div>
-                    </div>
-                    <div class="capture-img position-relative five">
-                        <img src="images/captures/cap-05.png" class="img-fluid radius-8" alt="user" />
-                        <div class="cap-overlay-content">
-                            <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
-                        </div>
-                    </div>
-                    <div class="capture-img position-relative six">
-                        <img src="images/captures/cap-06.png" class="img-fluid radius-8" alt="user" />
-                        <div class="cap-overlay-content">
-                            <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
-                        </div>
-                    </div>
-                    <div class="capture-img position-relative seven">
-                        <img src="images/captures/cap-07.png" class="img-fluid radius-8" alt="user" />
-                        <div class="cap-overlay-content">
-                            <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
-                        </div>
-                    </div>
-                    <div class="capture-img position-relative eight">
-                        <img src="images/captures/cap-08.png" class="img-fluid radius-8" alt="user" />
-                        <div class="cap-overlay-content">
-                            <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
-                        </div>
-                    </div>
-                    <div class="capture-img position-relative nine">
-                        <img src="images/captures/cap-09.png" class="img-fluid radius-8" alt="user" />
-                        <div class="cap-overlay-content">
-                            <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
-                        </div>
-                    </div>
-                    <div class="capture-img position-relative ten">
-                        <img src="images/captures/cap-10.png" class="img-fluid radius-8" alt="user" />
-                        <div class="cap-overlay-content">
-                            <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
-                        </div>
-                    </div>
-                    <div class="capture-img position-relative eleven">
-                        <img src="images/captures/cap-11.png" class="img-fluid radius-8" alt="user" />
-                        <div class="cap-overlay-content">
-                            <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
-                        </div>
-                    </div>
-                    <div class="capture-img position-relative twelve">
-                        <img src="images/captures/cap-12.png" class="img-fluid radius-8" alt="user" />
-                        <div class="cap-overlay-content">
-                            <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
-                        </div>
-                    </div>
-                    <div class="capture-img position-relative thirdteen">
-                        <img src="images/captures/cap-13.png" class="img-fluid radius-8" alt="user" />
-                        <div class="cap-overlay-content">
-                            <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
-                        </div>
-                    </div>
-                    <div class="capture-img position-relative fortheen">
-                        <img src="images/captures/cap-14.png" class="img-fluid radius-8" alt="user" />
-                        <div class="cap-overlay-content">
-                            <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
-                        </div>
-                    </div>
-                    <div class="capture-img position-relative fifteen">
-                        <img src="images/captures/cap-15.png" class="img-fluid radius-8" alt="user" />
-                        <div class="cap-overlay-content">
-                            <h5 class="dm_medium text-white">Discussing ideas with young people</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <?php include 'capture-mesanory-grid.php'; ?>
     </div>
     <?php include 'footer.php'; ?>
 </body>
