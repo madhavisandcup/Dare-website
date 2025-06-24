@@ -1,5 +1,5 @@
-<?php include 'header.php'; ?>
 <body class="about">
+    <?php include 'header.php'; ?>
     <script src="timeline.js"></script>
 
     <div class="cursor">

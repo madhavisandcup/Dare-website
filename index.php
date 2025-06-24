@@ -1,5 +1,6 @@
-<?php include 'header.php'; ?>
 <body>
+
+    <?php include 'header.php'; ?>
 
     <!-- Custom Cursor -->
     <div class="cursor">
@@ -747,7 +748,7 @@
  
     <?php include 'testimonial-grid.php'; ?>
 
-   <?php include 'faq.php'; ?>
+    <?php include 'faq.php'; ?>
 
     <section class="updates-feed sec-space m-sec-bottom overflow-hidden sm-feeds">
         <div class="container">
@@ -930,4 +931,5 @@
             }
         });
     </script>
+    
 </body>

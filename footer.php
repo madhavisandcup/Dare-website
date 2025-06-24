@@ -58,7 +58,7 @@
                                 <li><a href="index" class="d-inline-block f-link position-relative">Home</a></li>
                                 <li><a href="about" class="d-inline-block f-link position-relative">About him</a></li>
                                 <li><a href="resourses" class="d-inline-block f-link position-relative">News & articles</a></li>
-                                <li><a href="https://apc.com.ng/" target="_blank" class="d-inline-block f-link position-relative">Join APC</a></li>
+                                <li><a href="https://apc.com.ng/" target="blank" class="d-inline-block f-link position-relative">Join APC</a></li>
                                 <li><a href="jobs" class="d-inline-block f-link position-relative">Job opportunities</a></li>
                             </ul>
                             <ul class="f-socials list-unstyled">
