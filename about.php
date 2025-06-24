@@ -136,7 +136,9 @@
             </div>
         </div>
     </div>
-
+    <br>
+    <br>
+<!-- 
     <div class="semicircle-marquee overflow-hidden text-center">
         <div class="semicircle-container animate">
             <h2 class="mb-0 text-black">He
@@ -186,9 +188,9 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
-    <div class="overflow-hidden">
+    <!-- <div class="overflow-hidden">
         <div class="marquee-led-driven sec-space mt-0">
             <div class="marquee-block right-marquee">
                 <div class="marquee-inner flex">
@@ -281,8 +283,7 @@
                 </div>
             </div>
         </div>
-    </div>
-    <br>
+    </div> -->
     <section class="wrapper-timeline">
         <div id="timeline-main" class="timeline-scroll">
             <div class="timeline-inner-content">
