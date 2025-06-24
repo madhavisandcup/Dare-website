@@ -9,7 +9,7 @@
     <meta http-equiv="Expires" content="0">
     <title>Dare - Mission and Vision</title>
 
-    <link rel='icon' type='image/png' sizes='32x32' href='./images/favicon.png'>
+    <link rel='icon' type='image/svg' sizes='32x32' href='./images/favicon.svg'>
 
     <link href="css/slick.min.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />

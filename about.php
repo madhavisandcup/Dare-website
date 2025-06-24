@@ -1,6 +1,6 @@
+<?php include 'header.php'; ?>
 <body class="about">
     <script src="timeline.js"></script>
-    <?php include 'header.php'; ?>
 
     <div class="cursor">
         <div class="custom_cursor">
