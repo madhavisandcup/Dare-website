@@ -1,8 +1,8 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
      // ✅ Toggle navbar menu
      const navbarOpen = document.getElementById("navbar-toggler");
      if (navbarOpen) {
-          navbarOpen.addEventListener("click", function() {
+          navbarOpen.addEventListener("click", function () {
                document.body.classList.toggle("navbar-open");
           });
      }
@@ -10,8 +10,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
 //Initiative interactions
 if (window.matchMedia("(min-width: 992px)").matches) {
-     document.querySelectorAll('.in-key.width-sm').forEach(function(elem) {
-          elem.addEventListener('mouseenter', function() {
+     document.querySelectorAll('.in-key.width-sm').forEach(function (elem) {
+          elem.addEventListener('mouseenter', function () {
                const container = elem.closest('.initiative-item');
                const fadeText = elem.querySelector('.in-key-content');
                if (container && fadeText) {
@@ -21,7 +21,7 @@ if (window.matchMedia("(min-width: 992px)").matches) {
 
           });
 
-          elem.addEventListener('mouseleave', function() {
+          elem.addEventListener('mouseleave', function () {
                const container = elem.closest('.initiative-item');
                if (container) {
                     container.classList.remove('key-sm-hover');
@@ -30,8 +30,8 @@ if (window.matchMedia("(min-width: 992px)").matches) {
           });
      });
 
-     document.querySelectorAll('.in-key.width-lg').forEach(function(elem) {
-          elem.addEventListener('mouseenter', function() {
+     document.querySelectorAll('.in-key.width-lg').forEach(function (elem) {
+          elem.addEventListener('mouseenter', function () {
                const container = elem.closest('.initiative-item');
                const fadeTextLg = elem.querySelector('.in-key-content');
                if (container && fadeTextLg) {
@@ -39,15 +39,15 @@ if (window.matchMedia("(min-width: 992px)").matches) {
                }
           });
 
-          elem.addEventListener('mouseleave', function() {
+          elem.addEventListener('mouseleave', function () {
                const container = elem.closest('.initiative-item');
                if (container) container.classList.remove('key-lg-hover');
           });
      });
 }
 if (window.matchMedia("(max-width: 991px)").matches) {
-     document.querySelectorAll('.in-key').forEach(function(elem) {
-          elem.addEventListener('click', function() {
+     document.querySelectorAll('.in-key').forEach(function (elem) {
+          elem.addEventListener('click', function () {
                const container = elem.closest('.initiative-item');
                if (!container) return;
 
@@ -259,11 +259,11 @@ const UpdatesFeed = new Swiper(".UpdateFeeds", {
 /******************* TabSelector with Dropdown js ******************/
 const tabSelector = document.getElementById("tabSelector");
 if (tabSelector) {
-     tabSelector.addEventListener("change", function() {
+     tabSelector.addEventListener("change", function () {
           var targetId = this.value;
 
           // Remove active classes from all panes
-          document.querySelectorAll(".tab-pane").forEach(function(pane) {
+          document.querySelectorAll(".tab-pane").forEach(function (pane) {
                pane.classList.remove("show", "active");
           });
 
@@ -297,7 +297,7 @@ if (tabSelector) {
 
 
 //gallery images interactions
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
      if (window.matchMedia("(min-width: 992px)").matches) {
           let lastScrollTop = window.pageYOffset || document.documentElement.scrollTop;
           const items = document.querySelectorAll(".capture-img");
@@ -392,4 +392,23 @@ const initiativeSlider = new Swiper(".iniitative-slider", {
                slidesOffsetBefore: 30,
           },
      },
+});
+
+
+/******************* onViewport scale-out image -Blog Detail ******************/
+document.addEventListener("DOMContentLoaded", function () {
+     const targets = document.querySelectorAll(".b-img-block ");
+
+     const observer = new IntersectionObserver(
+          (entries, observer) => {
+               entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                         entry.target.classList.add("active");
+                         observer.unobserve(entry.target); // Only trigger once
+                    }
+               });
+          },
+          { threshold: 0.4 } // 40% visible triggers the animation
+     );
+     targets.forEach(target => observer.observe(target));
 });
