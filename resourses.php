@@ -314,7 +314,7 @@
                     </div>
 
                     <div class="events_btn main-btn-inner position-relative">
-                        <a href="#" class="main-btn position-relative"><span class="btn-text">Explore more</span><span
+                        <a href="blog-detail" class="main-btn position-relative"><span class="btn-text">Explore more</span><span
                               class="arrw-btn">
                                 <span class="arrws-inner d-block overflow-hidden"><i
                                       class="icon-Vector-Strokearrow arrw-icon one"></i><i

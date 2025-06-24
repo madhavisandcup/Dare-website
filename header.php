@@ -141,10 +141,10 @@
                                         </div>
                                     </h3>
                                     <div class="nav-itemlist collapse" id="menuItem1">
-                                        <a class="nav-link px-0" href=""><span>The Leader’s Story</span></a>
-                                        <a class="nav-link px-0" href=""><span>Mission & Vision</span></a>
-                                        <a class="nav-link px-0" href=""><span>APC Team</span></a>
-                                        <a class="nav-link px-0" href=""><span>Community Roots</span></a>
+                                        <a class="nav-link px-0" href="about"><span>The Leader’s Story</span></a>
+                                        <!-- <a class="nav-link px-0" href=""><span>Mission & Vision</span></a> -->
+                                        <a class="nav-link px-0" href="https://apc.com.ng/" target="_blank"><span>APC Team</span></a>
+                                        <!-- <a class="nav-link px-0" href=""><span>Community Roots</span></a> -->
                                     </div>
                                 </li>
                             </ul>
@@ -158,10 +158,10 @@
                                         </div>
                                     </h3>
                                     <div class="nav-itemlist collapse" id="menuItem2">
-                                        <a class="nav-link px-0" href=""><span>Pillars of Progress</span></a>
-                                        <a class="nav-link px-0" href=""><span>Track Record</span></a>
-                                        <a class="nav-link px-0" href=""><span>Policy Priorities</span></a>
-                                        <a class="nav-link px-0" href=""><span>Our Vision</span></a>
+                                        <a class="nav-link px-0" href="mission-vision"><span>Pillars of Progress</span></a>
+                                        <!-- <a class="nav-link px-0" href=""><span>Track Record</span></a> -->
+                                        <!-- <a class="nav-link px-0" href=""><span>Policy Priorities</span></a> -->
+                                        <!-- <a class="nav-link px-0" href=""><span>Our Vision</span></a> -->
                                     </div>
                                 </li>
                             </ul>
@@ -175,10 +175,10 @@
                                         </div>
                                     </h3>
                                     <div class="nav-itemlist collapse" id="menuItem3">
-                                        <a class="nav-link px-0" href=""><span>Ongoing Initiatives</span></a>
-                                        <a class="nav-link px-0" href=""><span>Events & Rallies</span></a>
-                                        <a class="nav-link px-0" href=""><span>Volunteer with Us</span></a>
-                                        <a class="nav-link px-0" href=""><span>Join the Movement</span></a>
+                                        <!-- <a class="nav-link px-0" href=""><span>Ongoing Initiatives</span></a> -->
+                                        <!-- <a class="nav-link px-0" href=""><span>Events & Rallies</span></a> -->
+                                        <a class="nav-link px-0" href="jobs"><span>Join the Movement</span></a>
+                                        <a class="nav-link px-0" href="jobs"><span>Apply for Jobs</span></a>
                                     </div>
                                 </li>
                             </ul>
@@ -192,10 +192,10 @@
                                         </div>
                                     </h3>
                                     <div class="nav-itemlist collapse" id="menuItem4">
-                                        <a class="nav-link px-0" href=""><span>News & Announcements</span></a>
-                                        <a class="nav-link px-0" href=""><span>Monthly Highlights</span></a>
-                                        <a class="nav-link px-0" href=""><span>Impact Stories</span></a>
-                                        <a class="nav-link px-0" href=""><span>Social Media Highlights</span></a>
+                                        <a class="nav-link px-0" href="resourses"><span>Resources</span></a>
+                                        <!-- <a class="nav-link px-0" href=""><span>Monthly Highlights</span></a> -->
+                                        <!-- <a class="nav-link px-0" href=""><span>Impact Stories</span></a> -->
+                                        <a class="nav-link px-0" href="#"><span>Social Media Highlights</span></a>
                                     </div>
                                 </li>
                             </ul>
@@ -209,8 +209,8 @@
                                         </div>
                                     </h3>
                                     <div class="nav-itemlist join-us collapse" id="menuItem5">
-                                        <a class="nav-link px-0" href=""><span>Sign Up - For newsletter, volunteering, etc</span></a>
-                                        <a class="nav-link px-0" href=""><span>Donate - Support the mission financially</span></a>
+                                        <a class="nav-link px-0" href="#"><span>Sign Up - For newsletter, volunteering, etc</span></a>
+                                        <a class="nav-link px-0" href="#"><span>Donate - Support the mission financially</span></a>
                                     </div>
                                 </li>
                             </ul>
