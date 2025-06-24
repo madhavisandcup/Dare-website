@@ -25,10 +25,16 @@
     <header>
         <nav class="navbar navbar-expand-lg container py-0">
             <div class="navbar-mobile">
-                <a class="navbar-brand p-0" href="index"><img src="./images/main-logo.svg" alt="main-logo" class="img-fluid" /></a>
+                <a class="navbar-brand p-0" href="index">
+                    <img src="./images/main-logo.svg" alt="main-logo" class="img-fluid d-logo" />
+                    <img src="./images/main-mobile-logo.svg"  alt="main-logo" class="img-fluid m-logo">
+
+                </a>
                 <div class="navbar-right">
                     <div class="hero-apc">
-                        <a href=""><img src="./images/apc-logo.svg" class="apc-logo" alt="apc-logo"></a>
+                        <a href="">
+                            <img src="./images/apc-logo.svg" class="apc-logo" alt="apc-logo">
+                        </a>
                     </div>
                     <button id="navbar-toggler" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span></span>

@@ -1501,6 +1501,21 @@
 }
 
 @media (max-width: 575px) {
+    .d-logo {
+        display: none;
+    }
+
+    .m-logo {
+        display: block;
+    }
+
+    .navbar-brand img {
+        width: 40px;
+    }
+
+    .navbar-brand {
+        margin-bottom: 0;
+    }
 
     .f-links,
     .f-socials {
@@ -1915,7 +1930,7 @@
     }
 
     .navbar .navbar-mobile {
-        padding: 16px 0;
+        padding: 14px 0;
     }
 
     .inner-down-arrow {
