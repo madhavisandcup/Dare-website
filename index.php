@@ -748,10 +748,10 @@
     <div class="white-block"></div>
     <!-- <div class="grain"> </div> -->
     <!-- <img src="https://cdn.prod.website-files.com/6405fcf125150a174dce6e85/6408b7e068e95e64bc1d1c58_Grain.gif" alt=""> -->
-    <!-- <div class="transition-flaps">
+    <div class="transition-flaps">
         <div class="transition_sticky">
             <div class="transition_wrapper">
-                <div class="transition-bands _12">
+                <!-- <div class="transition-bands _12">
                     <div class="band"></div>
                 </div>
                 <div class="transition-bands _11">
@@ -765,7 +765,7 @@
                 </div>
                 <div class="transition-bands _8">
                     <div class="band"></div>
-                </div>
+                </div> -->
                 <div class="transition-bands _7">
                     <div class="band"></div>
                 </div>
@@ -789,7 +789,7 @@
                 </div>
             </div>
         </div>
-    </div>  -->
+    </div> 
 
 
     <?php include 'testimonial-grid.php'; ?>
