@@ -112,8 +112,8 @@
                     </div>
                 </div>
                 <!-- <div class="circular-text-main centered-block">
-                    <h5 id="circular-text"></h5>
-                </div> -->
+                        <h5 id="circular-text"></h5>
+                    </div> -->
             </div>
         </div>
     </section>
@@ -249,9 +249,9 @@
                                     <p class="mb-0">Increased banditry, terrorism, and kidnappings have left communities in fear and disrupted livelihoods. State security forces are often overstretched or under-resourced.</p>
                                 </div>
                                 <!-- <div class="in-key-desc">
-                                    <p>Ensuring safe public spaces through targeted lighting, community patrols, and a dignity-first approach to local security.</p>
-                                    <p class="key-desc-two">Increased banditry, terrorism, and kidnappings have left communities in fear and disrupted livelihoods. State security forces are often overstretched or under-resourced.</p>
-                                </div> -->
+                                        <p>Ensuring safe public spaces through targeted lighting, community patrols, and a dignity-first approach to local security.</p>
+                                        <p class="key-desc-two">Increased banditry, terrorism, and kidnappings have left communities in fear and disrupted livelihoods. State security forces are often overstretched or under-resourced.</p>
+                                    </div> -->
                             </div>
                             <div class="main-btn-inner">
                                 <a href="#" class="main-btn position-relative"><span class="btn-text">Know his vision</span><span class="arrw-btn">
@@ -745,11 +745,55 @@
             </div>
         </div>
     </section>
- 
+    <div class="white-block"></div>
+    <!-- <div class="grain"> </div> -->
+    <!-- <img src="https://cdn.prod.website-files.com/6405fcf125150a174dce6e85/6408b7e068e95e64bc1d1c58_Grain.gif" alt=""> -->
+    <div class="transition-flaps">
+        <div class="transition_sticky">
+            <div class="transition_wrapper">
+                <!-- <div class="transition-bands _12">
+                    <div class="band"></div>
+                </div>
+                <div class="transition-bands _11">
+                    <div class="band"></div>
+                </div>
+                <div class="transition-bands _10">
+                    <div class="band"></div>
+                </div>
+                <div class="transition-bands _9">
+                    <div class="band"></div>
+                </div>
+                <div class="transition-bands _8">
+                    <div class="band"></div>
+                </div> -->
+                <div class="transition-bands _7">
+                    <div class="band"></div>
+                </div>
+                <div class="transition-bands _6">
+                    <div class="band"></div>
+                </div>
+                <div class="transition-bands _5">
+                    <div class="band"></div>
+                </div>
+                <div class="transition-bands _4">
+                    <div class="band"></div>
+                </div>
+                <div class="transition-bands _3">
+                    <div class="band"></div>
+                </div>
+                <div class="transition-bands _2">
+                    <div class="band"></div>
+                </div>
+                <div class="transition-bands _1">
+                    <div class="band"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <?php include 'testimonial-grid.php'; ?>
-
     <?php include 'faq.php'; ?>
-
     <section class="updates-feed sec-space m-sec-bottom overflow-hidden sm-feeds">
         <div class="container">
             <div class="row">
@@ -903,11 +947,10 @@
             </div>
         </div>
     </section>
-
     <?php include 'capture-mesanory-grid.php'; ?>
-  
 
     <?php include 'footer.php'; ?>
+
     <script>
         window.addEventListener("DOMContentLoaded", () => {
             const circularText = document.getElementById("circular-text");
@@ -931,5 +974,52 @@
             }
         });
     </script>
-    
+    <script>
+        gsap.registerPlugin(ScrollTrigger);
+        // animation start
+        document.querySelectorAll(".transition-flaps").forEach((flap) => {
+            // Step 1: Flip logic — if section is white, animate white bands upward to reveal black
+            const fromColor = flap.getAttribute("data-color") === "white" ? "#ffffff" : "#110F0E";
+            const bands = flap.querySelectorAll(".band");
+
+            // Step 2: Initial state — bands are pushed down, same as before
+            gsap.set(bands, {
+                backgroundColor: fromColor,
+                willChange: "transform",
+                transformStyle: "preserve-3d",
+                transform: "translate3d(0px, 101%, 0px)"
+            });
+
+            // Step 3: Animate UP from 101% to 0%
+            gsap.to(bands, {
+                transform: "translate3d(0px, 0%, 0px)",
+                ease: "power2.out",
+                stagger: 0.05,
+                scrollTrigger: {
+                    trigger: flap,
+                    start: "top bottom",
+                    end: "bottom top",
+                    scrub: true,
+                    markers: false
+                }
+            });
+
+            // // ✅ Parallax effect on inner wrapper
+            // const wrapper = flap.querySelector(".transition-flaps");
+            // if (wrapper) {
+            //     gsap.fromTo(wrapper, {
+            //         y: "-5%"
+            //     }, {
+            //         y: "5%",
+            //         ease: "power2.out",
+            //         scrollTrigger: {
+            //             trigger: flap,
+            //             start: "top bottom",
+            //             end: "bottom top",
+            //             scrub: true
+            //         }
+            //     });
+            // }
+        });
+    </script>
 </body>

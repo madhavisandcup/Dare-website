@@ -6,7 +6,7 @@ header {
      right: 0;
      left: 0;
      width: 100%;
-     z-index: 9;
+     z-index: 99;
      background-color: rgb(29 27 26);
      overflow: hidden;
 }

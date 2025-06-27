@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="css/typography.css" rel="stylesheet" type="text/css" />
+    <link href="css/flips.css" rel="stylesheet" type="text/css" />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     <link href="css/style-02.css" rel="stylesheet" type="text/css" />
     <link href="css/res-02.css" rel="stylesheet" type="text/css" />
@@ -22,7 +23,7 @@
 
 </head>
 
-<body>
+<body class="lenis lenis-smooth">
     <header>
         <nav class="navbar navbar-expand-lg container py-0">
             <div class="navbar-mobile">
@@ -241,6 +242,6 @@
             </div>
         </nav>
     </header>
-</body>
+    </div>
 
 </html>
