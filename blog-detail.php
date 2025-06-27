@@ -5,7 +5,13 @@
 
     <div class="blog-detail-main">
         <section class="blog-detail-banner">
-            <div class="container">
+            <div class="container flex">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb blog">
+                        <li class="breadcrumb-item"><a href="resourses">Resources </a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Blog</li>
+                    </ol>
+                </nav>
                 <div class="hero-title text-center">
                     <h1 class="mb-0">
                         Bridging the Gap: Youth Inclusion in Nigerian Politics

@@ -2179,7 +2179,8 @@ mark {
 }
 
 .blog-detail-banner {
-     padding: 250px 0 230px;
+     /* padding: 250px 0 230px; */
+     padding: 200px 0 200px;
 }
 
 .blog-detail-meta {

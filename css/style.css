@@ -1903,14 +1903,6 @@ textPath {
      -o-transition: all 0.4s ease;
 }
 
-
-/* 
-.tspan-item.added {
-     fill: #00834e;
-     font-size: 50px;
-}
- */
-
 @keyframes rotate {
      0% {
           transform: rotate(0deg);
@@ -1947,4 +1939,23 @@ textPath {
           -ms-transform: rotate(360deg);
           -o-transform: rotate(360deg);
      }
+}
+
+/* breadcrumbs */
+.breadcrumb-item {
+     color: #767676;
+     font-size: clamp(18px, 1.67vw, 32px);
+}
+
+.breadcrumb-item.active {
+     color: #fff;
+}
+
+.blog .breadcrumb-item.active,
+.breadcrumb-item a {
+     color: #767676;
+}
+.blog-detail-banner .flex{
+     flex-direction: column;
+     gap: 100px;
 }

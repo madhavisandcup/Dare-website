@@ -12,6 +12,11 @@
     <div class="homepage sm_h_banner">
         <section class="container">
             <div class="hero-banner main-sm-layout">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item active" aria-current="page">Homepage /</li>
+                    </ol>
+                </nav>
                 <div class="hero-layout">
                     <div class="hero-title">
                         <h1 class="text-white mb-0">
@@ -789,7 +794,7 @@
                 </div>
             </div>
         </div>
-    </div> 
+    </div>
 
 
     <?php include 'testimonial-grid.php'; ?>

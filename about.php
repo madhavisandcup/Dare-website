@@ -11,6 +11,11 @@
     <div class="about-banner homepage sm-margin">
         <section class="container">
             <div class="hero-banner">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item active" aria-current="page">About Him /</li>
+                    </ol>
+                </nav>
                 <div class="hero-layout">
                     <div class="hero-title sm-pb">
                         <h1 class="text-white mb-0">

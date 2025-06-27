@@ -12,6 +12,11 @@
         <div class="homepage sm-margin resourses">
             <section class="container">
                 <div class="hero-banner">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item active" aria-current="page">Resources /</li>
+                        </ol>
+                    </nav>
                     <div class="hero-layout">
                         <div class="hero-title sm-pb">
                             <h1 class="text-white mb-0">
@@ -20,8 +25,8 @@
                                 </span>
                                 <span class="d-block">
                                     <span>of <span class="pd_italic"><em>Progress</em></span></span><span
-                                      class="dot-animated text_green"><span class="pulse-animate"><span
-                                              class="pulse_dot"></span></span></span></span>
+                                        class="dot-animated text_green"><span class="pulse-animate"><span
+                                                class="pulse_dot"></span></span></span></span>
                                 </span>
                             </h1>
                             <p class="text-white mb-0">Explore curated documents, insights, and tools that bring
@@ -32,8 +37,8 @@
                                 <a href="#" class="main-btn position-relative"><span class="btn-text">Let's discuss an
                                         idea</span><span class="arrw-btn">
                                         <span class="arrws-inner d-block overflow-hidden"><i
-                                              class="icon-Vector-Strokearrow arrw-icon one"></i><i
-                                              class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
+                                                class="icon-Vector-Strokearrow arrw-icon one"></i><i
+                                                class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
                                 </a>
                             </div>
                         </div>
@@ -44,7 +49,7 @@
                                 <svg viewBox="0 0 216 216" width="216" height="216">
                                     <defs>
                                         <path id="circlePath"
-                                          d="M108,108 m-90,0 a90,90 0 1,1 180,0 a90,90 0 1,1 -180,0" />
+                                            d="M108,108 m-90,0 a90,90 0 1,1 180,0 a90,90 0 1,1 -180,0" />
                                     </defs>
                                     <text fill="#ffffff" textLength="560">
                                         <textPath href="#circlePath" startOffset="0">
@@ -72,12 +77,12 @@
                 <div class="row">
                     <div class="col-md-7">
                         <h2 class="main-title apc-anim">Oluwadare &<span
-                              class="apc-img-animate overflow-hidden position-relative d-inline-block"><span
-                                  class="apc-imgs"><img src="images/apc-lg.svg" class="ap-01" alt="apc"><img
-                                      src="images/apc-lg.svg" class="ap-02" alt="apc"></span></span><span
-                              class="d-block">A Shared <i class="pd_italic text_green">Vision</i><span
-                                  class="dot-animated text_green"><span class="pulse-animate"><span
-                                          class="pulse_dot"></span></span></span></span></span></h2>
+                                class="apc-img-animate overflow-hidden position-relative d-inline-block"><span
+                                    class="apc-imgs"><img src="images/apc-lg.svg" class="ap-01" alt="apc"><img
+                                        src="images/apc-lg.svg" class="ap-02" alt="apc"></span></span><span
+                                class="d-block">A Shared <i class="pd_italic text_green">Vision</i><span
+                                    class="dot-animated text_green"><span class="pulse-animate"><span
+                                            class="pulse_dot"></span></span></span></span></span></h2>
                     </div>
                     <div class="col-md-5">
                         <p class="vision-desc">Oluwadare Owolabi’s political path is grounded in purpose and shaped by
@@ -98,8 +103,8 @@
             <div class="container">
                 <div class="center-heading j-mi-title text-center">
                     <h2 class="main-title text-white w-100">Fresh from the <i
-                          class="pd_italic text_green">Frontlines</i><span class="dot-animated text_green"><span
-                              class="pulse-animate"><span class="pulse_dot"></span></span></span></h2>
+                            class="pd_italic text_green">Frontlines</i><span class="dot-animated text_green"><span
+                                class="pulse-animate"><span class="pulse_dot"></span></span></span></h2>
                     <p class="vision-desc text-white p-0">Sharp takes and timely reflections on our shared path.
                         Discover content that informs and inspires lasting change.</p>
                 </div>
@@ -165,8 +170,8 @@
             <div class="container">
                 <div class="center-heading text-center">
                     <h2 class="main-title w-100">Across the <i class="pd_italic text_green">Nation's</i> Pages<span
-                          class="dot-animated text_green"><span class="pulse-animate"><span
-                                  class="pulse_dot"></span></span></span></h2>
+                            class="dot-animated text_green"><span class="pulse-animate"><span
+                                    class="pulse_dot"></span></span></span></h2>
                     <p class="vision-desc m-0">Insightful writings, reflections, and published thoughts by Oluwadare
                         Owolabi on leadership, governance, and the evolving needs of Nigeria’s people.</p>
                 </div>
@@ -176,33 +181,33 @@
                         <div class="n-tab-main position-relative">
                             <div class="nav nav-tabs border-0 justify-content-start" role="tablist">
                                 <button class="tabs-name nav-link active" id="nav-infrastructure-tab"
-                                  data-bs-toggle="tab" data-bs-target="#nav-infrastructure" type="button" role="tab"
-                                  aria-controls="nav-infrastructure" aria-selected="true">
+                                    data-bs-toggle="tab" data-bs-target="#nav-infrastructure" type="button" role="tab"
+                                    aria-controls="nav-infrastructure" aria-selected="true">
                                     <h5>Infrastructure</h5>
                                 </button>
                                 <button class="tabs-name nav-link" id="nav-security-tab" data-bs-toggle="tab"
-                                  data-bs-target="#nav-security" type="button" role="tab" aria-controls="nav-security"
-                                  aria-selected="true">
+                                    data-bs-target="#nav-security" type="button" role="tab" aria-controls="nav-security"
+                                    aria-selected="true">
                                     <h5>Security</h5>
                                 </button>
                                 <button class="tabs-name nav-link" id="nav-education-tab" data-bs-toggle="tab"
-                                  data-bs-target="#nav-education" type="button" role="tab" aria-controls="nav-education"
-                                  aria-selected="true">
+                                    data-bs-target="#nav-education" type="button" role="tab" aria-controls="nav-education"
+                                    aria-selected="true">
                                     <h5>Education</h5>
                                 </button>
                                 <button class="tabs-name nav-link" id="nav-technology-tab" data-bs-toggle="tab"
-                                  data-bs-target="#nav-technology" type="button" role="tab"
-                                  aria-controls="nav-technology" aria-selected="true">
+                                    data-bs-target="#nav-technology" type="button" role="tab"
+                                    aria-controls="nav-technology" aria-selected="true">
                                     <h5>Technology</h5>
                                 </button>
                                 <button class="tabs-name nav-link" id="nav-admin-tab" data-bs-toggle="tab"
-                                  data-bs-target="#nav-admin" type="button" role="tab" aria-controls="nav-admin"
-                                  aria-selected="true">
+                                    data-bs-target="#nav-admin" type="button" role="tab" aria-controls="nav-admin"
+                                    aria-selected="true">
                                     <h5>Administration</h5>
                                 </button>
                                 <button class="tabs-name nav-link" id="nav-health-tab" data-bs-toggle="tab"
-                                  data-bs-target="#nav-health" type="button" role="tab" aria-controls="nav-health"
-                                  aria-selected="true">
+                                    data-bs-target="#nav-health" type="button" role="tab" aria-controls="nav-health"
+                                    aria-selected="true">
                                     <h5>Health</h5>
                                 </button>
                             </div>
@@ -218,7 +223,7 @@
                     </div>
                     <div class="tab-content" id="nav-tabContent">
                         <div class="tab-pane fade show active" id="nav-infrastructure" role="tabpanel"
-                          aria-labelledby="nav-infrastructure-tab" tabindex="0">
+                            aria-labelledby="nav-infrastructure-tab" tabindex="0">
                             <article class="nation-post-item">
                                 <a href="#" class='n-post-title' data-cursor-text="Read Blog">
                                     <div class="row">
@@ -241,7 +246,7 @@
                                         <div class="col-lg-3 col-sm-4">
                                             <figure>
                                                 <img src="images/resourses/n-01.png" class="img-fluid radius-16"
-                                                  alt="channel-tv">
+                                                    alt="channel-tv">
                                             </figure>
                                         </div>
                                     </div>
@@ -271,7 +276,7 @@
                                         <div class="col-lg-3 col-sm-4">
                                             <figure>
                                                 <img src="images/resourses/n-01.png" class="img-fluid radius-16"
-                                                  alt="channel-tv">
+                                                    alt="channel-tv">
                                             </figure>
                                         </div>
                                     </div>
@@ -304,7 +309,7 @@
                                         <div class="col-lg-3 col-sm-4">
                                             <figure>
                                                 <img src="images/resourses/n-01.png" class="img-fluid radius-16"
-                                                  alt="channel-tv">
+                                                    alt="channel-tv">
                                             </figure>
                                         </div>
                                     </div>
@@ -315,10 +320,10 @@
 
                     <div class="events_btn main-btn-inner position-relative">
                         <a href="blog-detail" class="main-btn position-relative"><span class="btn-text">Explore more</span><span
-                              class="arrw-btn">
+                                class="arrw-btn">
                                 <span class="arrws-inner d-block overflow-hidden"><i
-                                      class="icon-Vector-Strokearrow arrw-icon one"></i><i
-                                      class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
+                                        class="icon-Vector-Strokearrow arrw-icon one"></i><i
+                                        class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
                         </a>
                     </div>
                 </div>
@@ -333,49 +338,49 @@
 
                         <span class="m-item flex m-dot"><span></span></span>
                         <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-01.webp"
-                                  alt="m-img-01"></span></span>
+                                    alt="m-img-01"></span></span>
                         <span class="m-item flex m-dot"><span></span></span>
 
                         <span class="m-item flex m-title">Driven By You</span>
                         <span class="m-item flex m-dot"><span></span></span>
                         <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-02.webp"
-                                  alt="m-img-02"></span></span>
+                                    alt="m-img-02"></span></span>
                         <span class="m-item flex m-dot"><span></span></span>
 
                         <span class="m-item flex m-title">Led By Vision</span>
                         <span class="m-item flex m-dot"><span></span></span>
                         <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-01.webp"
-                                  alt="m-img-01"></span></span>
+                                    alt="m-img-01"></span></span>
                         <span class="m-item flex m-dot"><span></span></span>
 
                         <span class="m-item flex m-title">Driven By You</span>
                         <span class="m-item flex m-dot"><span></span></span>
                         <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-02.webp"
-                                  alt="m-img-02"></span></span>
+                                    alt="m-img-02"></span></span>
                         <span class="m-item flex m-dot"><span></span></span>
 
                         <span class="m-item flex m-title">Led By Vision</span>
                         <span class="m-item flex m-dot"><span></span></span>
                         <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-01.webp"
-                                  alt="m-img-01"></span></span>
+                                    alt="m-img-01"></span></span>
                         <span class="m-item flex m-dot"><span></span></span>
 
                         <span class="m-item flex m-title">Driven By You</span>
                         <span class="m-item flex m-dot"><span></span></span>
                         <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-02.webp"
-                                  alt="m-img-02"></span></span>
+                                    alt="m-img-02"></span></span>
                         <span class="m-item flex m-dot"><span></span></span>
 
                         <span class="m-item flex m-title">Led By Vision</span>
                         <span class="m-item flex m-dot"><span></span></span>
                         <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-01.webp"
-                                  alt="m-img-01"></span></span>
+                                    alt="m-img-01"></span></span>
                         <span class="m-item flex m-dot"><span></span></span>
 
                         <span class="m-item flex m-title">Driven By You</span>
                         <span class="m-item flex m-dot"><span></span></span>
                         <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-02.webp"
-                                  alt="m-img-02"></span></span>
+                                    alt="m-img-02"></span></span>
                         <span class="m-item flex m-dot"><span></span></span>
 
                     </div>
@@ -384,49 +389,49 @@
 
                         <span class="m-item flex m-dot"><span></span></span>
                         <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-01.webp"
-                                  alt="m-img-01"></span></span>
+                                    alt="m-img-01"></span></span>
                         <span class="m-item flex m-dot"><span></span></span>
 
                         <span class="m-item flex m-title">Driven By You</span>
                         <span class="m-item flex m-dot"><span></span></span>
                         <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-02.webp"
-                                  alt="m-img-02"></span></span>
+                                    alt="m-img-02"></span></span>
                         <span class="m-item flex m-dot"><span></span></span>
 
                         <span class="m-item flex m-title">Led By Vision</span>
                         <span class="m-item flex m-dot"><span></span></span>
                         <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-01.webp"
-                                  alt="m-img-01"></span></span>
+                                    alt="m-img-01"></span></span>
                         <span class="m-item flex m-dot"><span></span></span>
 
                         <span class="m-item flex m-title">Driven By You</span>
                         <span class="m-item flex m-dot"><span></span></span>
                         <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-02.webp"
-                                  alt="m-img-02"></span></span>
+                                    alt="m-img-02"></span></span>
                         <span class="m-item flex m-dot"><span></span></span>
 
                         <span class="m-item flex m-title">Led By Vision</span>
                         <span class="m-item flex m-dot"><span></span></span>
                         <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-01.webp"
-                                  alt="m-img-01"></span></span>
+                                    alt="m-img-01"></span></span>
                         <span class="m-item flex m-dot"><span></span></span>
 
                         <span class="m-item flex m-title">Driven By You</span>
                         <span class="m-item flex m-dot"><span></span></span>
                         <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-02.webp"
-                                  alt="m-img-02"></span></span>
+                                    alt="m-img-02"></span></span>
                         <span class="m-item flex m-dot"><span></span></span>
 
                         <span class="m-item flex m-title">Led By Vision</span>
                         <span class="m-item flex m-dot"><span></span></span>
                         <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-01.webp"
-                                  alt="m-img-01"></span></span>
+                                    alt="m-img-01"></span></span>
                         <span class="m-item flex m-dot"><span></span></span>
 
                         <span class="m-item flex m-title">Driven By You</span>
                         <span class="m-item flex m-dot"><span></span></span>
                         <span class="m-item flex m-img"><span class="d-inline-block"><img src="./images/m-img-02.webp"
-                                  alt="m-img-02"></span></span>
+                                    alt="m-img-02"></span></span>
                         <span class="m-item flex m-dot"><span></span></span>
 
                     </div>
@@ -438,8 +443,8 @@
             <div class="container">
                 <div class="center-heading text-center">
                     <h2 class="main-title w-100"><i class="pd_italic text_green">Momentum</i> in the Media <span
-                          class="dot-animated text_green"><span class="pulse-animate"><span
-                                  class="pulse_dot"></span></span></span></h2>
+                            class="dot-animated text_green"><span class="pulse-animate"><span
+                                    class="pulse_dot"></span></span></span></h2>
                     <p class="vision-desc m-0">Coverage from media outlets and political conversations. Official
                         releases, updates, and documented statements.</p>
                 </div>
@@ -449,18 +454,18 @@
                         <div class="n-tab-main position-relative">
                             <div class="nav nav-tabs border-0" role="tablist">
                                 <button class="tabs-name nav-link active" id="nav-highlight-tab" data-bs-toggle="tab"
-                                  data-bs-target="#nav-highlight" type="button" role="tab" aria-controls="nav-highlight"
-                                  aria-selected="true">
+                                    data-bs-target="#nav-highlight" type="button" role="tab" aria-controls="nav-highlight"
+                                    aria-selected="true">
                                     <h5>Highlight</h5>
                                 </button>
                                 <button class="tabs-name nav-link" id="nav-press-tab" data-bs-toggle="tab"
-                                  data-bs-target="#nav-press" type="button" role="tab" aria-controls="nav-press"
-                                  aria-selected="true">
+                                    data-bs-target="#nav-press" type="button" role="tab" aria-controls="nav-press"
+                                    aria-selected="true">
                                     <h5>Press Releases</h5>
                                 </button>
                                 <button class="tabs-name nav-link" id="nav-media-tab" data-bs-toggle="tab"
-                                  data-bs-target="#nav-media" type="button" role="tab" aria-controls="nav-media"
-                                  aria-selected="true">
+                                    data-bs-target="#nav-media" type="button" role="tab" aria-controls="nav-media"
+                                    aria-selected="true">
                                     <h5>Social Media Coverage</h5>
                                 </button>
                             </div>
@@ -476,7 +481,7 @@
                     </div>
                     <div class="tab-content" id="nav-tabContent">
                         <div class="tab-pane fade show active" id="nav-highlight" role="tabpanel"
-                          aria-labelledby="nav-highlight-tab" tabindex="0">
+                            aria-labelledby="nav-highlight-tab" tabindex="0">
 
                             <div class="row">
                                 <div class="col-lg-8">
@@ -485,19 +490,19 @@
                                             <a href="#" class='d-block' data-cursor-text="Read News">
                                                 <figure class="mom-images">
                                                     <img src="images/resourses/mom-lg.jpg"
-                                                      alt="Audience listening at a health conference" loading="lazy"
-                                                      class="mom-card__image radius-16 img-fluid" />
+                                                        alt="Audience listening at a health conference" loading="lazy"
+                                                        class="mom-card__image radius-16 img-fluid" />
                                                 </figure>
                                                 <div class="grid-50 sm">
                                                     <figure class="mom-images mb-0">
                                                         <img src="images/resourses/mom-sm.jpg"
-                                                          alt="Audience listening at a health conference" loading="lazy"
-                                                          class="mom-card__image radius-16  img-fluid" />
+                                                            alt="Audience listening at a health conference" loading="lazy"
+                                                            class="mom-card__image radius-16  img-fluid" />
                                                     </figure>
                                                     <figure class="mom-images mb-0">
                                                         <img src="images/resourses/mom-sm-02.jpg"
-                                                          alt="Audience listening at a health conference" loading="lazy"
-                                                          class="mom-card__image radius-16  img-fluid" />
+                                                            alt="Audience listening at a health conference" loading="lazy"
+                                                            class="mom-card__image radius-16  img-fluid" />
                                                     </figure>
                                                 </div>
                                             </a>
@@ -511,15 +516,15 @@
                                                     <a href="#" class='mom-title d-block' data-cursor-text="Read News">
                                                         <h3 class="title-truncate mb-0">Digital Youth Labs</h3>
                                                         <small
-                                                          class="extra_light_grey d-block mt-1">@oluwadare_owolabi</small>
+                                                            class="extra_light_grey d-block mt-1">@oluwadare_owolabi</small>
                                                     </a>
                                                 </div>
 
                                                 <ul class="list-unstyled mom-social-icons mb-0">
                                                     <li><a href="#"><img src="images/resourses/twitter.svg"
-                                                              alt="twiiter"></a></li>
+                                                                alt="twiiter"></a></li>
                                                     <li><a href="#"><img src="images/resourses/linkedin.svg"
-                                                              alt="linkedin"></a></li>
+                                                                alt="linkedin"></a></li>
                                                 </ul>
                                             </div>
                                             <p class="mom-card-desc">Launched free digital skills training programs in 4
@@ -528,7 +533,7 @@
                                                 bridge the opportunity gap for young minds in underserved communities.
                                             </p>
                                             <p class="mom-highlight-desc mb-0">Reached over <mark
-                                                  class="text_green">300+</mark> students across 3 LGAs</p>
+                                                    class="text_green">300+</mark> students across 3 LGAs</p>
                                         </div>
                                     </article>
                                 </div>
@@ -537,7 +542,7 @@
                                         <figure class="mom-sm-post mb-0">
                                             <a href="#" class='d-block' data-cursor-text="Read News">
                                                 <img src="images/resourses/n-01.png"
-                                                  class="img-fluid mom-sm-img radius-16" alt="channel-tv">
+                                                    class="img-fluid mom-sm-img radius-16" alt="channel-tv">
                                             </a>
                                             <figcaption class="mom-card__content">
                                                 <a href="#" class='d-block' data-cursor-text="Read News">
@@ -548,14 +553,14 @@
                                                         <div class="mom-meta-title">
                                                             <h3 class="title-truncate mb-0">Wellness on the Move</h3>
                                                             <small
-                                                              class="extra_light_grey d-block mt-1">@oluwadare_owolabi</small>
+                                                                class="extra_light_grey d-block mt-1">@oluwadare_owolabi</small>
                                                         </div>
                                                     </a>
                                                     <ul class="list-unstyled mom-social-icons mb-0">
                                                         <li><a href="#"><img src="images/resourses/twitter.svg"
-                                                                  alt="twiiter"></a></li>
+                                                                    alt="twiiter"></a></li>
                                                         <li><a href="#"><img src="images/resourses/linkedin.svg"
-                                                                  alt="linkedin"></a></li>
+                                                                    alt="linkedin"></a></li>
                                                     </ul>
                                                 </div>
                                                 <p class="mom-card-desc mb-0">Launched free digital skills training
@@ -572,7 +577,7 @@
                                         <figure class="mom-sm-post mb-0">
                                             <a href="#" class='d-block' data-cursor-text="Read News">
                                                 <img src="images/resourses/n-01.png"
-                                                  class="img-fluid mom-sm-img radius-16" alt="channel-tv">
+                                                    class="img-fluid mom-sm-img radius-16" alt="channel-tv">
                                             </a>
                                             <figcaption class="mom-card__content">
                                                 <a href="#" class='d-block' data-cursor-text="Read News">
@@ -583,14 +588,14 @@
                                                         <div class="mom-meta-title">
                                                             <h3 class="title-truncate mb-0">Wellness on the Move</h3>
                                                             <small
-                                                              class="extra_light_grey d-block mt-1">@oluwadare_owolabi</small>
+                                                                class="extra_light_grey d-block mt-1">@oluwadare_owolabi</small>
                                                         </div>
                                                     </a>
                                                     <ul class="list-unstyled mom-social-icons mb-0">
                                                         <li><a href="#"><img src="images/resourses/twitter.svg"
-                                                                  alt="twiiter"></a></li>
+                                                                    alt="twiiter"></a></li>
                                                         <li><a href="#"><img src="images/resourses/linkedin.svg"
-                                                                  alt="linkedin"></a></li>
+                                                                    alt="linkedin"></a></li>
                                                     </ul>
                                                 </div>
                                                 <p class="mom-card-desc mb-0">Launched free digital skills training
@@ -605,19 +610,19 @@
                                             <a href="#" class='d-block' data-cursor-text="Read News">
                                                 <figure class="mom-images">
                                                     <img src="images/resourses/mom-lg.jpg"
-                                                      alt="Audience listening at a health conference" loading="lazy"
-                                                      class="mom-card__image radius-16 img-fluid" />
+                                                        alt="Audience listening at a health conference" loading="lazy"
+                                                        class="mom-card__image radius-16 img-fluid" />
                                                 </figure>
                                                 <div class="grid-50 sm">
                                                     <figure class="mom-images mb-0">
                                                         <img src="images/resourses/mom-sm.jpg"
-                                                          alt="Audience listening at a health conference" loading="lazy"
-                                                          class="mom-card__image radius-16  img-fluid" />
+                                                            alt="Audience listening at a health conference" loading="lazy"
+                                                            class="mom-card__image radius-16  img-fluid" />
                                                     </figure>
                                                     <figure class="mom-images mb-0">
                                                         <img src="images/resourses/mom-sm-02.jpg"
-                                                          alt="Audience listening at a health conference" loading="lazy"
-                                                          class="mom-card__image radius-16  img-fluid" />
+                                                            alt="Audience listening at a health conference" loading="lazy"
+                                                            class="mom-card__image radius-16  img-fluid" />
                                                     </figure>
                                                 </div>
                                             </a>
@@ -631,15 +636,15 @@
                                                     <a href="#" class='mom-title d-block' data-cursor-text="Read News">
                                                         <h3 class="title-truncate mb-0">Digital Youth Labs</h3>
                                                         <small
-                                                          class="extra_light_grey d-block mt-1">@oluwadare_owolabi</small>
+                                                            class="extra_light_grey d-block mt-1">@oluwadare_owolabi</small>
                                                     </a>
                                                 </div>
 
                                                 <ul class="list-unstyled mom-social-icons mb-0">
                                                     <li><a href="#"><img src="images/resourses/twitter.svg"
-                                                              alt="twiiter"></a></li>
+                                                                alt="twiiter"></a></li>
                                                     <li><a href="#"><img src="images/resourses/linkedin.svg"
-                                                              alt="linkedin"></a></li>
+                                                                alt="linkedin"></a></li>
                                                 </ul>
                                             </div>
                                             <p class="mom-card-desc">Launched free digital skills training programs in 4
@@ -648,7 +653,7 @@
                                                 bridge the opportunity gap for young minds in underserved communities.
                                             </p>
                                             <p class="mom-highlight-desc mb-0">Reached over <mark
-                                                  class="text_green">300+</mark> students across 3 LGAs</p>
+                                                    class="text_green">300+</mark> students across 3 LGAs</p>
                                         </div>
                                     </article>
                                 </div>
@@ -659,10 +664,10 @@
 
                     <div class="main-btn-inner text-center position-relative">
                         <a href="#" class="main-btn position-relative"><span class="btn-text">Explore more</span><span
-                              class="arrw-btn">
+                                class="arrw-btn">
                                 <span class="arrws-inner d-block overflow-hidden"><i
-                                      class="icon-Vector-Strokearrow arrw-icon one"></i><i
-                                      class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
+                                        class="icon-Vector-Strokearrow arrw-icon one"></i><i
+                                        class="icon-Vector-Strokearrow arrw-icon two"></i></span></span>
                         </a>
                     </div>
                 </div>
