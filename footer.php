@@ -78,7 +78,7 @@
             <div class="f-copyright">
                 <div class="row">
                     <div class="col-md-6">
-                        <h5 class="text-white d-flex justify-content-center justify-content-md-start mb-0">© 2025 Oluwadare Owulabi. All Rights Reserved.</h5>
+                        <h5 class="text-white d-flex justify-content-center justify-content-md-start mb-0">© 2025 Oluwadare Owolabi. All Rights Reserved.</h5>
                     </div>
                     <div class="col-md-6">
                         <div class="c-logo d-flex align-items-center justify-content-center justify-content-md-end">
