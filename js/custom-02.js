@@ -28,10 +28,11 @@ const principlesSlider = new Swiper(".principles-slider", {
      slidesPerView: 3,
      speed: 1000,
      effect: 'slide',
-     // autoplay: {
-     //      delay: 2500,
-     //      disableOnInteraction: false,
-     // },
+     allowTouchMove: false,  // disable drag/swipe
+     autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+     },
      breakpoints: {
           0: {
                // Small screen
