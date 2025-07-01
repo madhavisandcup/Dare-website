@@ -903,5 +903,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/Draggable.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/inertia-plugin@0.6.0/dist/runtime.iife.min.js"></script>
     <script src="./js/slick.min.js"></script>
-    <script src="./js/about.js"></script>
+    <script src="./js/about.js" defer></script>
 </body>

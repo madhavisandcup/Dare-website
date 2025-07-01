@@ -110,131 +110,134 @@ if (verticleScroll) {
 }
 
 /************************** Timeline slider - GSAP *******************************/
-if (document.querySelector(".timeline-scroll") != null) {
-     gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
-     let mm = gsap.matchMedia();
-     const pinnedImageWrappers = document.querySelectorAll(".timeline-scroll");
+document.addEventListener("DOMContentLoaded", function () {
+     const TimelineScript = document.querySelector(".timeline-scroll") 
+     if (TimelineScript) {
+          gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
+          let mm = gsap.matchMedia();
+          const pinnedImageWrappers = document.querySelectorAll(".timeline-scroll");
 
-     // Init timeline + ScrollTrigger
-     pinnedImageWrappers.forEach((cWrapper) => {
-          const inner = cWrapper.querySelector(".timeline-inner-content");
-          let cItemP = document.querySelector(".tm-slide.scroll-only");
+          // Init timeline + ScrollTrigger
+          pinnedImageWrappers.forEach((cWrapper) => {
+               const inner = cWrapper.querySelector(".timeline-inner-content");
+               let cItemP = document.querySelector(".tm-slide.scroll-only");
 
-          let tl = gsap.timeline({
-               ease: "none",
-               scrollTrigger: {
-                    trigger: cWrapper,
-                    start: "top-=100 top",
-                    pin: true,
-                    scrub: 1,
-                    invalidateOnRefresh: true,
-                    end: () => `+=${cItemP.offsetHeight}`,
-               },
-          });
-
-          tl.to(".tm-slide.white-bg", {
-               yPercent: "-=100",
-               ease: "power1.out",
-          });
-     });
-     // ✅ Scroll to #slickslider on .jouney-btn click
-     const journeyBtn = document.querySelector(".jouney-btn");
-     if (journeyBtn) {
-          journeyBtn.addEventListener("click", (e) => {
-               e.preventDefault();
-               gsap.to(window, {
-                    // duration: 1,
-                    scrollTo: {
-                         y: "#slickslider",
-                         offsetY: 50, // adjust as needed
+               let tl = gsap.timeline({
+                    ease: "none",
+                    scrollTrigger: {
+                         trigger: cWrapper,
+                         start: "top-=100 top",
+                         pin: true,
+                         scrub: 1,
+                         invalidateOnRefresh: true,
+                         end: () => `+=${cItemP.offsetHeight}`,
                     },
-                    ease: "power2.out",
+               });
+
+               tl.to(".tm-slide.white-bg", {
+                    yPercent: "-=100",
+                    ease: "power1.out",
                });
           });
-     }
-
-     // ✅ Scroll back to .scroll-only when scrolling up
-     ScrollTrigger.create({
-          trigger: "#slickslider",
-          start: "top top",
-          onLeaveBack: () => {
-               gsap.to(".tm-slide.white-bg", {
-                    yPercent: 0,
-                    duration: 0.6,
-                    ease: "power2.out",
-                    onComplete: () => {
-                         gsap.to(window, {
-                              duration: 1,
-                              scrollTo: {
-                                   y: ".tm-slide.scroll-only",
-                                   offsetY: 50,
-                              },
-                              ease: "power2.inOut"
-                         });
-                    }
+          // ✅ Scroll to #slickslider on .jouney-btn click
+          const journeyBtn = document.querySelector(".jouney-btn");
+          if (journeyBtn) {
+               journeyBtn.addEventListener("click", (e) => {
+                    e.preventDefault();
+                    gsap.to(window, {
+                         // duration: 1,
+                         scrollTo: {
+                              y: "#slickslider",
+                              offsetY: 50, // adjust as needed
+                         },
+                         ease: "power2.out",
+                    });
                });
           }
-     });
 
-     // Slick slider //
-     $(document).ready(function () {
-          const isMobile = window.innerWidth <= 768;
-          const sliderClass = isMobile ? '.mobile-layout' : '.desktop-layout';
-
-          $(".slickSlider").slick({
-               slidesToShow: 1,
-               slidesToScroll: 1,
-               arrows: true,
-               dots: true,
-               infinite: false,
-               speed: 500,
-               autoplay: false,
-               adaptiveHeight: true,
-               // Default (desktop) settings
-               vertical: true,
-               verticalSwiping: true,
-               cssEase: 'ease',
-
-               responsive: [
-                    {
-                         breakpoint: 769, // applies to screen widths <= 768
-                         settings: {
-                              vertical: false,
-                              verticalSwiping: false,
-                              fade: true,
-                              speed: 600,  
-                              cssEase: 'cubic-bezier(0.4, 0, 0.2, 1)'
+          // ✅ Scroll back to .scroll-only when scrolling up
+          ScrollTrigger.create({
+               trigger: "#slickslider",
+               start: "top top",
+               onLeaveBack: () => {
+                    gsap.to(".tm-slide.white-bg", {
+                         yPercent: 0,
+                         duration: 0.6,
+                         ease: "power2.out",
+                         onComplete: () => {
+                              gsap.to(window, {
+                                   duration: 1,
+                                   scrollTo: {
+                                        y: ".tm-slide.scroll-only",
+                                        offsetY: 50,
+                                   },
+                                   ease: "power2.inOut"
+                              });
                          }
-                    }
-               ]
-
+                    });
+               }
           });
-     });
 
-     // // 🚀 Scroll to slickslider on button click
-     // document.querySelector(".jouney-btn")?.addEventListener("click", function (e) {
-     //      e.preventDefault();
-     //      const target = document.querySelector("#slickslider");
-     //      if (target) {
-     //           target.scrollIntoView({ behavior: "smooth", block: "start" });
-     //      }
-     // });
+          // Slick slider //
+          $(document).ready(function () {
+               const isMobile = window.innerWidth <= 768;
+               const sliderClass = isMobile ? '.mobile-layout' : '.desktop-layout';
 
-     // // 🔁 Scroll back to scroll-only on scroll up
-     // ScrollTrigger.create({
-     //      trigger: "#slickslider",
-     //      start: "top top",
-     //      onLeaveBack: () => {
-     //           gsap.set(".tm-slide.white-bg", { yPercent: 0 });
+               $(".slickSlider").slick({
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    arrows: true,
+                    dots: true,
+                    infinite: false,
+                    speed: 500,
+                    autoplay: false,
+                    adaptiveHeight: true,
+                    // Default (desktop) settings
+                    vertical: true,
+                    verticalSwiping: true,
+                    cssEase: 'ease',
 
-     //           // Scroll back to scroll-only
-     //           const backTarget = document.querySelector(".tm-slide.scroll-only");
-     //           if (backTarget) {
-     //                backTarget.scrollIntoView({ behavior: "smooth", block: "start" });
-     //           }
-     //      }
-     // });
-}
+                    responsive: [
+                         {
+                              breakpoint: 769, // applies to screen widths <= 768
+                              settings: {
+                                   vertical: false,
+                                   verticalSwiping: false,
+                                   fade: true,
+                                   speed: 600,  
+                                   cssEase: 'cubic-bezier(0.4, 0, 0.2, 1)'
+                              }
+                         }
+                    ]
+
+               });
+          });
+
+          // // 🚀 Scroll to slickslider on button click
+          // document.querySelector(".jouney-btn")?.addEventListener("click", function (e) {
+          //      e.preventDefault();
+          //      const target = document.querySelector("#slickslider");
+          //      if (target) {
+          //           target.scrollIntoView({ behavior: "smooth", block: "start" });
+          //      }
+          // });
+
+          // // 🔁 Scroll back to scroll-only on scroll up
+          // ScrollTrigger.create({
+          //      trigger: "#slickslider",
+          //      start: "top top",
+          //      onLeaveBack: () => {
+          //           gsap.set(".tm-slide.white-bg", { yPercent: 0 });
+
+          //           // Scroll back to scroll-only
+          //           const backTarget = document.querySelector(".tm-slide.scroll-only");
+          //           if (backTarget) {
+          //                backTarget.scrollIntoView({ behavior: "smooth", block: "start" });
+          //           }
+          //      }
+          // });
+     }
+});
 
 /************************** Text marquee semicircle - GSAP *******************************/
 // // Add a class
@@ -285,20 +288,25 @@ function startTspanLoop() {
 
      intervalID = setInterval(() => {
           tspans.forEach((t) => t.classList.remove("added")); // remove all first
-          tspans[index].classList.add("added"); // add to current
 
-          // Remove after 1.5 seconds
-          setTimeout(() => {
-               tspans[index].classList.remove("added");
-          }, 1500);
+          const currentIndex = index; // capture the current index
+          if (tspans[currentIndex]) {
+               tspans[currentIndex].classList.add("added");
 
-          index = (index + 1) % tspans.length; // loop to next
-     }, 2000); // every 2 seconds
+               // Remove after 1.5 seconds
+               setTimeout(() => {
+                    tspans[currentIndex]?.classList.remove("added");
+               }, 1500);
+          }
+
+          index = (index + 1) % tspans.length;
+     }, 2000);
 }
 
 function stopTspanLoop() {
      clearInterval(intervalID);
 }
+
 
 // ✅ Start everything when .svg-wrapper enters viewport
 ScrollTrigger.create({
