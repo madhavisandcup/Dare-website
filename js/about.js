@@ -111,7 +111,7 @@ if (verticleScroll) {
 
 /************************** Timeline slider - GSAP *******************************/
 if (document.querySelector(".timeline-scroll") != null) {
-     gsap.registerPlugin(ScrollTrigger);
+     gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
      let mm = gsap.matchMedia();
      const pinnedImageWrappers = document.querySelectorAll(".timeline-scroll");
 
@@ -137,6 +137,45 @@ if (document.querySelector(".timeline-scroll") != null) {
                ease: "power1.out",
           });
      });
+     // ✅ Scroll to #slickslider on .jouney-btn click
+     const journeyBtn = document.querySelector(".jouney-btn");
+     if (journeyBtn) {
+          journeyBtn.addEventListener("click", (e) => {
+               e.preventDefault();
+               gsap.to(window, {
+                    // duration: 1,
+                    scrollTo: {
+                         y: "#slickslider",
+                         offsetY: 50, // adjust as needed
+                    },
+                    ease: "power2.out",
+               });
+          });
+     }
+
+     // ✅ Scroll back to .scroll-only when scrolling up
+     ScrollTrigger.create({
+          trigger: "#slickslider",
+          start: "top top",
+          onLeaveBack: () => {
+               gsap.to(".tm-slide.white-bg", {
+                    yPercent: 0,
+                    duration: 0.6,
+                    ease: "power2.out",
+                    onComplete: () => {
+                         gsap.to(window, {
+                              duration: 1,
+                              scrollTo: {
+                                   y: ".tm-slide.scroll-only",
+                                   offsetY: 50,
+                              },
+                              ease: "power2.inOut"
+                         });
+                    }
+               });
+          }
+     });
+
      // Slick slider //
      $(document).ready(function () {
           const isMobile = window.innerWidth <= 768;

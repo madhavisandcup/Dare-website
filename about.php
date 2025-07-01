@@ -313,7 +313,7 @@
                                     From leadership in fintech to public service rooted in purpose.</span>
                             </p>
                         </div>
-                        <a class="jouney-btn" href="#slickslider">
+                        <a class="jouney-btn" href="">
                             Start the journey
                         </a>
                     </div>
