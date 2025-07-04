@@ -185,7 +185,7 @@
     <section class="title-mask-wrapper dark-bg-color p-sec-top p-sec-bottom">
         <div class="container">
             <div class="masking-title-scroll text-center">                   
-                <h2 class="light-text position-relative">Oluwadare’s vision is supported by SIX core Sectors that define the path forward
+                <h2 class="light-text position-relative">Oluwadare’s vision is supported by SIX core sectors that define the path forward
                 </h2>
             </div>
         </div>
@@ -495,7 +495,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="main_heading">
-                        <h2 class="main-title w-100 mb-0">Already in<i class="pd_italic text_green"> Motions</i><span class="dot-animated text_green"><span class="pulse-animate"><span class="pulse_dot"></span></span></span>
+                        <h2 class="main-title w-100 mb-0">Already in<i class="pd_italic text_green"> Motion</i><span class="dot-animated text_green"><span class="pulse-animate"><span class="pulse_dot"></span></span></span>
                         </h2>
                     </div>
                 </div>
