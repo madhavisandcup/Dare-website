@@ -1953,6 +1953,7 @@ textPath {
 
 .breadcrumb-item.active {
      color: #fff;
+     font-weight: 600;
 }
 
 .blog .breadcrumb-item.active,
