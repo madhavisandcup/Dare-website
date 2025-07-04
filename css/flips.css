@@ -1,0 +1,97 @@
+.transition_wrapper {
+    width: 100%;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+}
+
+.transition-flaps {
+    margin-top: -30vh;
+}
+
+.transition_sticky {
+    height: 160vh;
+}
+
+.transition-bands {
+    width: 100%;
+    height: 8.333vh;
+    position: absolute;
+    overflow: hidden;
+}
+
+/* .transition-bands._12 {
+    top: 0.004vh;
+}
+
+.transition-bands._11 {
+    top: 8.337vh;
+}
+
+.transition-bands._10 {
+    top: 16.67vh;
+}
+
+.transition-bands._9 {
+    top: 25.003vh;
+}
+
+.transition-bands._8 {
+    top: 33.336vh;
+} */
+
+.transition-bands._7 {
+    top: 41.669vh;
+}
+
+.transition-bands._6 {
+    top: 50.002vh;
+}
+
+.transition-bands._5 {
+    top: 58.335vh;
+}
+
+.transition-bands._4 {
+    top: 66.668vh;
+}
+
+.transition-bands._3 {
+    top: 75.001vh;
+}
+
+.transition-bands._2 {
+    top: 83.334vh;
+}
+
+.transition-bands._1 {
+    top: 91.667vh;
+}
+
+.band {
+    height: 101%;
+    width: 100%;
+    position: relative;
+    /* top: -0.5%; */
+    background: #110F0E;
+}
+
+.grain {
+    z-index: 1;
+    opacity: .04;
+    background-image: url(https://cdn.prod.website-files.com/6405fcf125150a174dce6e85/6408b7e068e95e64bc1d1c58_Grain.gif);
+    background-position: 50%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    position: fixed;
+    inset: 0%;
+}
+
+/* .voice-wrapper {
+    margin-top: -80vh;
+} */
+
+.white-block {
+    background-color: #fff;
+    height: 100px;
+}

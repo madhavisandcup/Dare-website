@@ -1,0 +1,248 @@
+/* DM Sans Font */
+
+@font-face {
+     font-family: 'DM Sans ExtraLight';
+     src: url('../fonts/DMSans-ExtraLight.woff2') format('woff2'), url('../fonts/DMSans-ExtraLight.woff') format('woff');
+     font-weight: 200;
+     font-style: normal;
+     font-display: swap;
+}
+
+@font-face {
+     font-family: 'DM Sans Light';
+     src: url('../fonts/DMSans-Light.woff2') format('woff2'), url('../fonts/DMSans-Light.woff') format('woff');
+     font-weight: 300;
+     font-style: normal;
+     font-display: swap;
+}
+
+@font-face {
+     font-family: 'DM Sans Medium';
+     src: url('../fonts/DMSans-Medium.woff2') format('woff2'), url('../fonts/DMSans-Medium.woff') format('woff');
+     font-weight: 500;
+     font-style: normal;
+     font-display: swap;
+}
+
+@font-face {
+     font-family: 'DM Sans SemiBold';
+     src: url('../fonts/DMSans-SemiBold.woff2') format('woff2'), url('../fonts/DMSans-SemiBold.woff') format('woff');
+     font-weight: 600;
+     font-style: normal;
+     font-display: swap;
+}
+
+@font-face {
+     font-family: 'DM Sans Regular';
+     src: url('../fonts/DMSans-Regular.woff2') format('woff2'), url('../fonts/DMSans-Regular.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+     font-display: swap;
+}
+
+
+/* Playfair Display Font */
+
+@font-face {
+     font-family: 'Playfair Display Bold';
+     src: url('../fonts/PlayfairDisplay-Bold.woff2') format('woff2'), url('../fonts/PlayfairDisplay-Bold.woff') format('woff');
+     font-weight: bold;
+     font-style: normal;
+     font-display: swap;
+}
+
+@font-face {
+     font-family: 'Playfair Display Medium';
+     src: url('../fonts/PlayfairDisplay-Medium.woff2') format('woff2'), url('../fonts/PlayfairDisplay-Medium.woff') format('woff');
+     font-weight: 500;
+     font-style: normal;
+     font-display: swap;
+}
+
+@font-face {
+     font-family: 'Playfair Display Italic';
+     src: url('../fonts/PlayfairDisplay-Italic.woff2') format('woff2'), url('../fonts/PlayfairDisplay-Italic.woff') format('woff');
+     font-weight: normal;
+     font-style: italic;
+     font-display: swap;
+}
+
+@font-face {
+     font-family: 'Playfair Display Regular';
+     src: url('../fonts/PlayfairDisplay-Regular.woff2') format('woff2'), url('../fonts/PlayfairDisplay-Regular.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+     font-display: swap;
+}
+
+@font-face {
+     font-family: 'Playfair Display SemiBold';
+     src: url('../fonts/PlayfairDisplay-SemiBold.woff2') format('woff2'), url('../fonts/PlayfairDisplay-SemiBold.woff') format('woff');
+     font-weight: 600;
+     font-style: normal;
+     font-display: swap;
+}
+
+
+/* Lato font */
+
+@font-face {
+     font-family: 'Lato Bold';
+     src: url('../fonts/Lato-Bold.woff2') format('woff2'), url('../fonts/Lato-Bold.woff') format('woff');
+     font-weight: bold;
+     font-style: normal;
+     font-display: swap;
+}
+
+
+/* Baskervville font */
+
+@font-face {
+     font-family: 'Baskervville';
+     src: url('../fonts/Baskervville-Italic.woff2') format('woff2'), url('../fonts/Baskervville-Italic.woff') format('woff');
+     font-weight: normal;
+     font-style: italic;
+     font-display: swap;
+}
+
+html {
+     scrollbar-gutter: stable;
+       scroll-behavior: auto; 
+}
+
+body {
+     font-family: 'DM Sans Regular';
+     font-weight: 300;
+     font-size: 16px;
+     line-height: 1.3;
+     color: #110F0E;
+     background: #fff;
+     padding: 0;
+     margin: 0;
+}
+
+a,
+a:hover {
+     text-decoration: none;
+}
+
+h1 {
+     font-size: clamp(36px, 5.56vw, 106px);
+     /* 80px on figma */
+     line-height: 1;
+}
+
+h2 {
+     font-size: clamp(28px, 4.44vw, 85px);
+     /* 64px on figma */
+     line-height: 1;
+}
+
+h3 {
+     font-size: clamp(18px, 1.67vw, 32px);
+     /* 24px on figma */
+}
+
+h4 {
+     font-size: clamp(16px, 1.39vw, 27px);
+     /* 20px on figma */
+}
+
+h5 {
+     font-size: clamp(14px, 1.11vw, 21px);
+     /* 16px on figma */
+}
+
+p {
+     font-size: clamp(16px, 1.39vw, 27px);
+     /* 20px on figma */
+     color: #2B2B2B;
+     line-height: 1.5;
+}
+
+.text_70 {
+     font-size: clamp(50px, 4.86vw, 93px);
+}
+
+.dm_light {
+     font-family: 'DM Sans Light';
+}
+
+.dm_medium {
+     font-family: 'DM Sans Medium';
+}
+
+.dm_sbold {
+     font-family: 'DM Sans SemiBold';
+}
+
+.pd_bold {
+     font-family: 'Playfair Display Bold';
+}
+
+.pd_medium {
+     font-family: 'Playfair Display Medium';
+}
+
+.pd_italic {
+     font-family: 'Playfair Display Italic';
+}
+
+.pd_sbold {
+     font-family: 'Playfair Display SemiBold';
+}
+
+.pd_regular {
+     font-family: 'Playfair Display Regular';
+}
+
+.lato_bold {
+     font-family: 'Lato Bold';
+}
+
+.bask_font {
+     font-family: 'Baskervville';
+}
+
+.text_green {
+     color: #008751;
+}
+
+.light_grey {
+     color: #444444;
+}
+
+.extra_light_grey {
+     color: #767676;
+}
+
+.dark-bg-color {
+     background-color: #110F0E;
+}
+
+
+/* custom scrollbar css */
+
+::-webkit-scrollbar {
+     width: 8px;
+     background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+     background: #2B2B2B;
+     border-radius: 8px;
+     -webkit-border-radius: 8px;
+     -moz-border-radius: 8px;
+     -ms-border-radius: 8px;
+     -o-border-radius: 8px;
+}
+
+
+/* ::selection {
+    background: #2B2B2B;
+    color: #fff;
+}
+
+.menu-wrapper::-webkit-scrollbar {
+    display: none;
+} */
