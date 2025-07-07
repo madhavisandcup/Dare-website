@@ -1217,6 +1217,26 @@ span.pulse-animate {
      border-color: #008751;
 }
 
+.events_btn .arrow-circle {
+     transition: background-color 0.3s ease;
+}
+
+.events_btn .arrow-circle svg path {
+     transition: fill 0.3s ease;
+     -webkit-transition: fill 0.3s ease;
+     -moz-transition: fill 0.3s ease;
+     -ms-transition: fill 0.3s ease;
+     -o-transition: fill 0.3s ease;
+}
+
+.events_btn .arrow-circle:hover {
+     background-color: #008751;
+}
+
+.events_btn .arrow-circle:hover svg path {
+     fill: #fff;
+}
+
 .swiper-button-prev.s2,
 .swiper-button-prev.s1 {
      left: auto;
