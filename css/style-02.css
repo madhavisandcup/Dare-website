@@ -203,6 +203,10 @@
      justify-content: center;
      cursor: pointer;
      transition: all 0.5s ease-in-out;
+     -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+     -ms-border-radius: 50%;
+     -o-border-radius: 50%;
 }
 
 .video-play-btn:hover .v-play {
@@ -2116,8 +2120,6 @@ mark {
 /******Momentum Post******/
 .blog-detail-img {
      margin: 40px 0 0;
-     border-top: 1px solid #bbbbbb;
-     border-bottom: 1px solid #bbbbbb;
 }
 
 .b-img-block {

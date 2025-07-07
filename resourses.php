@@ -225,7 +225,7 @@
                         <div class="tab-pane fade show active" id="nav-infrastructure" role="tabpanel"
                             aria-labelledby="nav-infrastructure-tab" tabindex="0">
                             <article class="nation-post-item">
-                                <a href="#" class='n-post-title' data-cursor-text="Read Blog">
+                                <a href="blog-detail" class='n-post-title' data-cursor-text="Read Blog">
                                     <div class="row">
                                         <div class="col-lg-9 col-sm-8">
                                             <div class="n-meta-tags">
@@ -253,7 +253,7 @@
                                 </a>
                             </article>
                             <article class="nation-post-item">
-                                <a href="#" class='n-post-title' data-cursor-text="Read Blog">
+                                <a href="blog-detail" class='n-post-title' data-cursor-text="Read Blog">
                                     <div class="row">
                                         <div class="col-lg-9 col-sm-8">
                                             <div class="n-meta-tags">
@@ -283,7 +283,7 @@
                                 </a>
                             </article>
                             <article class="nation-post-item">
-                                <a href="#" class='n-post-title' data-cursor-text="Read Blog">
+                                <a href="blog-detail" class='n-post-title' data-cursor-text="Read Blog">
                                     <div class="row">
                                         <div class="col-lg-9 col-sm-8">
                                             <div class="n-meta-tags">
@@ -442,7 +442,7 @@
         <section class="events-wrapper nation-main m-full sec-space overflow-hidden">
             <div class="container">
                 <div class="center-heading text-center">
-                    <h2 class="main-title w-100"><i class="pd_italic text_green">Momentum</i> in the Media <span
+                    <h2 class="main-title w-100"><i class="pd_italic text_green">Momentum</i> in the Media<span
                             class="dot-animated text_green"><span class="pulse-animate"><span
                                     class="pulse_dot"></span></span></span></h2>
                     <p class="vision-desc m-0">Coverage from media outlets and political conversations. Official

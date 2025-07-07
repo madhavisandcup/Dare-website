@@ -76,7 +76,7 @@
                 <div class="blog-detail-meta">
                     <div class="b-social-tags">
                         <div class="author-img">
-                            <img src="images/resourses/author-img" alt="author" />
+                            <img src="./images/resourses/author-img" alt="author" />
                         </div>
                         <div>
                             <ul class="list-unstyled mom-social-icons mb-0">
