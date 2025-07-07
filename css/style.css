@@ -1960,7 +1960,22 @@ textPath {
 .breadcrumb-item a {
      color: #767676;
 }
-.blog-detail-banner .flex{
+
+.blog-detail-banner .flex {
      flex-direction: column;
      gap: 100px;
+}
+
+/* 07-07 */
+.step-content {
+     opacity: 0;
+     transition: .1s ease-in-out;
+     -webkit-transition: .1s ease-in-out;
+     -moz-transition: .1s ease-in-out;
+     -ms-transition: .1s ease-in-out;
+     -o-transition: .1s ease-in-out;
+}
+
+.h-step.s-active .step-content {
+     opacity: 1;
 }
