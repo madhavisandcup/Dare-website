@@ -1999,3 +1999,14 @@ textPath {
 .h-step.s-active .step-content {
      opacity: 1;
 }
+
+.slickSlider button[aria-disabled="true"] {
+     opacity: 0.5;
+     pointer-events: auto;
+     cursor: not-allowed;
+}
+
+.slickSlider button[aria-disabled="true"]:hover {
+     background-color: initial;
+     border: 1px solid #fff;
+}
